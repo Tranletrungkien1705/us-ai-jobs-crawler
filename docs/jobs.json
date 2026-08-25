@@ -1,7 +1,7 @@
 {
- "updated": "2026-08-25T04:42:09.790056+00:00",
- "count": 6,
- "salaried": 4,
+ "updated": "2026-08-25T04:43:19.852983+00:00",
+ "count": 21,
+ "salaried": 5,
  "jobs": [
   {
    "title": "Content Reviewer - English US",
@@ -9,7 +9,7 @@
    "region": "USA",
    "salary": "$14/hour",
    "has_salary": true,
-   "repl_kw": "content",
+   "repl_kw": "content,reviewer",
    "ai_skill_kw": "ai,ml",
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-english-us-2091105"
@@ -20,7 +20,7 @@
    "region": "USA",
    "salary": "$17/hr",
    "has_salary": true,
-   "repl_kw": "data label",
+   "repl_kw": "data label,labeling",
    "ai_skill_kw": "",
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/data/data-labeling-specialists-2090903"
@@ -48,6 +48,127 @@
    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979"
   },
   {
+   "title": "Head of Marketing & Communications",
+   "company": "garden3d",
+   "region": "Worldwide",
+   "salary": "$150k - $230k",
+   "has_salary": true,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "ai,ml",
+   "source": "remotive",
+   "url": "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068"
+  },
+  {
+   "title": "Account Executive, Affiliate Marketing",
+   "company": "Accelerationpartners",
+   "region": "(unspecified)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/accelerationpartners/account-executive-affiliate-marketing-291146"
+  },
+  {
+   "title": "Account Manager, SMB",
+   "company": "Dutchie",
+   "region": "USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "account manager",
+   "ai_skill_kw": "",
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/151528-account-manager-smb"
+  },
+  {
+   "title": "Business Intelligence Lead, Performance Marketing",
+   "company": "Launch Potato",
+   "region": "USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/151514-business-intelligence-lead-performance-marketing-2"
+  },
+  {
+   "title": "Clinical Transcript Reviewer",
+   "company": "Limbic",
+   "region": "USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "reviewer,transcri",
+   "ai_skill_kw": "",
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/151488-clinical-transcript-reviewer"
+  },
+  {
+   "title": "Freelance SEO & GEO Content Writer (German Market) (m/w/d)",
+   "company": "reolink",
+   "region": "(unspecified)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content,seo,writer",
+   "ai_skill_kw": "",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/reolink/freelance-seo-geo-content-writer-german-market-365607"
+  },
+  {
+   "title": "Head of Editorial + Platforms, Mozilla Ecosystem",
+   "company": "Mozilla",
+   "region": "USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "editor",
+   "ai_skill_kw": "",
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/151506-head-of-editorial-platforms-mozilla-ecosystem"
+  },
+  {
+   "title": "Head of Marketing",
+   "company": "Anagram",
+   "region": "USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/151526-head-of-marketing-3"
+  },
+  {
+   "title": "Marketing Operations Specialist",
+   "company": "Engine",
+   "region": "Remote - US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "remoteok",
+   "url": "https://remoteOK.com/remote-jobs/remote-marketing-operations-specialist-engine-1136950"
+  },
+  {
+   "title": "Product Marketing Manager",
+   "company": "Dataiku",
+   "region": "USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/151480-product-marketing-manager-2"
+  },
+  {
+   "title": "Senior Account Manager (Healthcare PR & Comms)",
+   "company": "Realchemistry",
+   "region": "(unspecified)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "account manager",
+   "ai_skill_kw": "",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/realchemistry/senior-account-manager-healthcare-pr-comms-345155"
+  },
+  {
    "title": "Senior Graphic Designer",
    "company": "Lemon.io",
    "region": "Americas, Europe, Asia, Africa, Oceania",
@@ -59,15 +180,59 @@
    "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081"
   },
   {
+   "title": "Senior Product Marketing Manager",
+   "company": "DataGrail",
+   "region": "USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/151531-senior-product-marketing-manager-3"
+  },
+  {
    "title": "Web3 Marketing Manager (Content-Focused)",
    "company": "Manta Network",
    "region": "United States",
    "salary": null,
    "has_salary": false,
-   "repl_kw": "content",
+   "repl_kw": "content,marketing",
    "ai_skill_kw": "",
    "source": "himalayas",
    "url": "https://himalayas.app/companies/manta-network/jobs/web3-marketing-manager-content-focused-9542745140"
+  },
+  {
+   "title": "Werkstudent / Praktikant (m/w/d) für Social Media",
+   "company": "Ritter von Gral GmbH",
+   "region": "Cottbus, Brandenburg, Deutschland",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "social media",
+   "ai_skill_kw": "",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/ritter-von-gral-gmbh/werkstudent-praktikant-fur-social-media-cottbus-30222"
+  },
+  {
+   "title": "Werkstudent:in Vertrieb / Sales Development Representative (m/w/d)",
+   "company": "Pink University Gmbh",
+   "region": "Hamburg & Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "sales development",
+   "ai_skill_kw": "",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/pink-university-gmbh/remote-werkstudentin-vertrieb-sales-development-representative-67291"
+  },
+  {
+   "title": "Working Student Customer Success (all genders)",
+   "company": "Envelio",
+   "region": "Cologne / Remote from Germany",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/envelio/remote-working-student-customer-success-all-genders-316422"
   }
  ]
 }
