@@ -1,9 +1,25 @@
 {
- "updated": "2026-08-25T15:06:31.383813+00:00",
- "count": 333,
+ "updated": "2026-08-25T15:51:42.103726+00:00",
+ "count": 334,
  "salaried": 10,
  "low_english": 178,
+ "fit": 139,
  "jobs": [
+  {
+   "job_id": "himalayas:https://himalayas.app/companies/gainwell-technologies/jobs/medical-reviewer-speech-and-audiology-specialist-remote-ca-west-sacramento",
+   "title": "Medical Reviewer (Speech and Audiology Specialist) - Remote CA (West Sacramento,",
+   "company": "Gainwell Technologies",
+   "region": "United States",
+   "salary": "100000",
+   "has_salary": true,
+   "repl_kw": "reviewer",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/gainwell-technologies/jobs/medical-reviewer-speech-and-audiology-specialist-remote-ca-west-sacramento",
+   "crawled_at": "2026-08-25T15:51:41.795968+00:00"
+  },
   {
    "job_id": "remotive:2090903",
    "title": "Data Labeling Specialists",
@@ -14,9 +30,10 @@
    "repl_kw": "data label,labeling",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/data/data-labeling-specialists-2090903",
-   "crawled_at": "2026-08-25T15:06:31.069077+00:00"
+   "crawled_at": "2026-08-25T15:51:41.747095+00:00"
   },
   {
    "job_id": "remotive:1749306",
@@ -28,9 +45,10 @@
    "repl_kw": "copywrit,writer",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
-   "crawled_at": "2026-08-25T15:06:31.068311+00:00"
+   "crawled_at": "2026-08-25T15:51:41.746133+00:00"
   },
   {
    "job_id": "remotive:1185979",
@@ -42,23 +60,10 @@
    "repl_kw": "writer",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
-   "crawled_at": "2026-08-25T15:06:31.067977+00:00"
-  },
-  {
-   "job_id": "remotive:2091068",
-   "title": "Head of Marketing & Communications",
-   "company": "garden3d",
-   "region": "Worldwide",
-   "salary": "$150k - $230k",
-   "has_salary": true,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "ai,ml",
-   "needs_speaking": false,
-   "source": "remotive",
-   "url": "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068",
-   "crawled_at": "2026-08-25T15:06:31.067498+00:00"
+   "crawled_at": "2026-08-25T15:51:41.745704+00:00"
   },
   {
    "title": "Church Recruitment Manager (TX)",
@@ -94,17 +99,6 @@
    "url": "https://himalayas.app/companies/gainwell-technologies/jobs/medical-reviewer-radiologist-remote-ca-west-sacramento-ca-us-95605-1630"
   },
   {
-   "title": "Medical Reviewer (Speech and Audiology Specialist) - Remote CA (West Sacramento,",
-   "company": "Gainwell Technologies",
-   "region": "United States",
-   "salary": "100000",
-   "has_salary": true,
-   "repl_kw": "reviewer",
-   "ai_skill_kw": "",
-   "source": "himalayas",
-   "url": "https://himalayas.app/companies/gainwell-technologies/jobs/medical-reviewer-speech-and-audiology-specialist-remote-ca-west-sacramento"
-  },
-  {
    "title": "National Account Manager",
    "company": "SharkNinja",
    "region": "United States",
@@ -116,20 +110,6 @@
    "url": "https://himalayas.app/companies/sharkninja/jobs/national-account-manager-1094579661"
   },
   {
-   "job_id": "remotive:2091105",
-   "title": "Content Reviewer - English US",
-   "company": "TELUS Digital",
-   "region": "USA",
-   "salary": "$14/hour",
-   "has_salary": true,
-   "repl_kw": "content,reviewer",
-   "ai_skill_kw": "ai,ml",
-   "needs_speaking": true,
-   "source": "remotive",
-   "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-english-us-2091105",
-   "crawled_at": "2026-08-25T15:06:31.066657+00:00"
-  },
-  {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/prismfly-product-data-analyst-internship",
    "title": "Product Data Analyst Internship",
    "company": "Prismfly",
@@ -139,9 +119,10 @@
    "repl_kw": "data analyst",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/prismfly-product-data-analyst-internship",
-   "crawled_at": "2026-08-25T15:06:31.382243+00:00"
+   "crawled_at": "2026-08-25T15:51:42.101062+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/jobgether-freelance-graphic-designer-signage-designer",
@@ -153,23 +134,10 @@
    "repl_kw": "graphic design",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/jobgether-freelance-graphic-designer-signage-designer",
-   "crawled_at": "2026-08-25T15:06:31.381494+00:00"
-  },
-  {
-   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/ischool-graphic-design-instructor-project-based",
-   "title": "Graphic Design instructor - Project Based",
-   "company": "Ischool",
-   "region": "Anywhere in the World",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "graphic design",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "weworkremotely",
-   "url": "https://weworkremotely.com/remote-jobs/ischool-graphic-design-instructor-project-based",
-   "crawled_at": "2026-08-25T15:06:31.379235+00:00"
+   "crawled_at": "2026-08-25T15:51:42.100143+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/new-law-business-model-marketing-automation-saas-services-line-of-business-owner",
@@ -181,9 +149,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/new-law-business-model-marketing-automation-saas-services-line-of-business-owner",
-   "crawled_at": "2026-08-25T15:06:31.378824+00:00"
+   "crawled_at": "2026-08-25T15:51:42.096759+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/prowritersites-freelance-writer",
@@ -195,51 +164,10 @@
    "repl_kw": "writer",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/prowritersites-freelance-writer",
-   "crawled_at": "2026-08-25T15:06:31.378626+00:00"
-  },
-  {
-   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/egear-senior-google-ads-media-buyer-performance-marketing-lead",
-   "title": "Senior Google Ads Media Buyer / Performance Marketing Lead",
-   "company": "Egear",
-   "region": "Anywhere in the World",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "weworkremotely",
-   "url": "https://weworkremotely.com/remote-jobs/egear-senior-google-ads-media-buyer-performance-marketing-lead",
-   "crawled_at": "2026-08-25T15:06:31.378383+00:00"
-  },
-  {
-   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/great-minds-principal-product-manager-content-authoring-delivery-cms",
-   "title": "Principal Product Manager (Content Authoring, Delivery & CMS)",
-   "company": "Great Minds",
-   "region": "Anywhere in the World",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "weworkremotely",
-   "url": "https://weworkremotely.com/remote-jobs/great-minds-principal-product-manager-content-authoring-delivery-cms",
-   "crawled_at": "2026-08-25T15:06:31.376699+00:00"
-  },
-  {
-   "job_id": "ashby:9a2a69a5-cba1-47e5-ac4a-9fa5b78b7da7",
-   "title": "Field Marketer - North America",
-   "company": "ElevenLabs",
-   "region": "United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketer",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/ElevenLabs/9a2a69a5-cba1-47e5-ac4a-9fa5b78b7da7",
-   "crawled_at": "2026-08-25T15:06:31.364120+00:00"
+   "crawled_at": "2026-08-25T15:51:42.096498+00:00"
   },
   {
    "job_id": "ashby:a21ec926-88d3-4f95-98be-c551fe1ec49f",
@@ -251,9 +179,10 @@
    "repl_kw": "seo",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/a21ec926-88d3-4f95-98be-c551fe1ec49f",
-   "crawled_at": "2026-08-25T15:06:31.361562+00:00"
+   "crawled_at": "2026-08-25T15:51:42.075679+00:00"
   },
   {
    "job_id": "ashby:b0a0fdb7-f202-4d58-b2e2-38e847b96e49",
@@ -265,9 +194,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/b0a0fdb7-f202-4d58-b2e2-38e847b96e49",
-   "crawled_at": "2026-08-25T15:06:31.357488+00:00"
+   "crawled_at": "2026-08-25T15:51:42.070713+00:00"
   },
   {
    "job_id": "ashby:13fcee94-512f-4229-b7ab-f91d3fdd24e3",
@@ -279,9 +209,10 @@
    "repl_kw": "content",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/13fcee94-512f-4229-b7ab-f91d3fdd24e3",
-   "crawled_at": "2026-08-25T15:06:31.356921+00:00"
+   "crawled_at": "2026-08-25T15:51:42.070022+00:00"
   },
   {
    "job_id": "ashby:1c1f4cc9-08f7-4fbb-867f-7e87e7fa19d9",
@@ -293,23 +224,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/1c1f4cc9-08f7-4fbb-867f-7e87e7fa19d9",
-   "crawled_at": "2026-08-25T15:06:31.356135+00:00"
-  },
-  {
-   "job_id": "ashby:5ae34b0f-8f60-4762-9e54-d2eada3acc76",
-   "title": "Growth Marketing - Consumer App Channels",
-   "company": "ElevenLabs",
-   "region": "United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/ElevenLabs/5ae34b0f-8f60-4762-9e54-d2eada3acc76",
-   "crawled_at": "2026-08-25T15:06:31.355591+00:00"
+   "crawled_at": "2026-08-25T15:51:42.069111+00:00"
   },
   {
    "job_id": "ashby:65f83bd7-70da-4a31-a364-28fd0f361ea9",
@@ -321,9 +239,10 @@
    "repl_kw": "lead gen",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/65f83bd7-70da-4a31-a364-28fd0f361ea9",
-   "crawled_at": "2026-08-25T15:06:31.350175+00:00"
+   "crawled_at": "2026-08-25T15:51:42.061365+00:00"
   },
   {
    "job_id": "ashby:89f01b9a-be26-4fe4-8a06-e5a65b85fcdc",
@@ -335,23 +254,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/89f01b9a-be26-4fe4-8a06-e5a65b85fcdc",
-   "crawled_at": "2026-08-25T15:06:31.348670+00:00"
-  },
-  {
-   "job_id": "ashby:0b61d6ac-14a1-4cbf-9613-a8b69bd126e2",
-   "title": "Senior Growth Marketing Campaigns Manager",
-   "company": "Vanta",
-   "region": "Remote U.S.",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/Vanta/0b61d6ac-14a1-4cbf-9613-a8b69bd126e2",
-   "crawled_at": "2026-08-25T15:06:31.286591+00:00"
+   "crawled_at": "2026-08-25T15:51:42.059019+00:00"
   },
   {
    "job_id": "ashby:2ef60eea-7cff-45c2-abf2-eaedc4ea89bd",
@@ -363,9 +269,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/Linear/2ef60eea-7cff-45c2-abf2-eaedc4ea89bd",
-   "crawled_at": "2026-08-25T15:06:31.277165+00:00"
+   "crawled_at": "2026-08-25T15:51:41.969885+00:00"
   },
   {
    "job_id": "ashby:d062065e-05bb-42ce-a430-ec205695cc2e",
@@ -377,9 +284,10 @@
    "repl_kw": "support specialist",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/Linear/d062065e-05bb-42ce-a430-ec205695cc2e",
-   "crawled_at": "2026-08-25T15:06:31.276172+00:00"
+   "crawled_at": "2026-08-25T15:51:41.968450+00:00"
   },
   {
    "job_id": "greenhouse:8054644",
@@ -391,9 +299,10 @@
    "repl_kw": "content,social media",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
-   "crawled_at": "2026-08-25T15:06:31.266934+00:00"
+   "crawled_at": "2026-08-25T15:51:41.957465+00:00"
   },
   {
    "job_id": "greenhouse:8044163",
@@ -405,9 +314,10 @@
    "repl_kw": "content,social media",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
-   "crawled_at": "2026-08-25T15:06:31.266906+00:00"
+   "crawled_at": "2026-08-25T15:51:41.957434+00:00"
   },
   {
    "job_id": "greenhouse:8054645",
@@ -419,23 +329,10 @@
    "repl_kw": "content,social media",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
-   "crawled_at": "2026-08-25T15:06:31.266875+00:00"
-  },
-  {
-   "job_id": "greenhouse:7921649",
-   "title": "Staff Data Analyst",
-   "company": "Stripe",
-   "region": "US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "data analyst",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://stripe.com/jobs/search?gh_jid=7921649",
-   "crawled_at": "2026-08-25T15:06:31.261140+00:00"
+   "crawled_at": "2026-08-25T15:51:41.957402+00:00"
   },
   {
    "job_id": "greenhouse:8097731",
@@ -447,9 +344,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8097731",
-   "crawled_at": "2026-08-25T15:06:31.258128+00:00"
+   "crawled_at": "2026-08-25T15:51:41.948462+00:00"
   },
   {
    "job_id": "greenhouse:7832098",
@@ -461,9 +359,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7832098",
-   "crawled_at": "2026-08-25T15:06:31.258097+00:00"
+   "crawled_at": "2026-08-25T15:51:41.948428+00:00"
   },
   {
    "job_id": "greenhouse:8014761",
@@ -475,9 +374,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8014761",
-   "crawled_at": "2026-08-25T15:06:31.258065+00:00"
+   "crawled_at": "2026-08-25T15:51:41.948394+00:00"
   },
   {
    "job_id": "greenhouse:8013981",
@@ -489,9 +389,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8013981",
-   "crawled_at": "2026-08-25T15:06:31.258032+00:00"
+   "crawled_at": "2026-08-25T15:51:41.948358+00:00"
   },
   {
    "job_id": "greenhouse:6348471",
@@ -503,9 +404,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=6348471",
-   "crawled_at": "2026-08-25T15:06:31.257963+00:00"
+   "crawled_at": "2026-08-25T15:51:41.948288+00:00"
   },
   {
    "job_id": "greenhouse:8090203",
@@ -517,9 +419,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8090203",
-   "crawled_at": "2026-08-25T15:06:31.257933+00:00"
+   "crawled_at": "2026-08-25T15:51:41.948255+00:00"
   },
   {
    "job_id": "greenhouse:7773461",
@@ -531,9 +434,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7773461",
-   "crawled_at": "2026-08-25T15:06:31.257903+00:00"
+   "crawled_at": "2026-08-25T15:51:41.948223+00:00"
   },
   {
    "job_id": "greenhouse:8082149",
@@ -545,51 +449,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8082149",
-   "crawled_at": "2026-08-25T15:06:31.255168+00:00"
-  },
-  {
-   "job_id": "greenhouse:8036235",
-   "title": "Head of Market Intelligence, Product Marketing",
-   "company": "Stripe",
-   "region": "SF, Seattle, NYC, Chicago, Remote in the US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://stripe.com/jobs/search?gh_jid=8036235",
-   "crawled_at": "2026-08-25T15:06:31.254330+00:00"
-  },
-  {
-   "job_id": "greenhouse:8065643",
-   "title": "Head of Marketing Operations",
-   "company": "Stripe",
-   "region": "San Francisco, New York, Seattle, Chicago, Atlanta, Toronto, Remote in the US, Remote in Canada",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://stripe.com/jobs/search?gh_jid=8065643",
-   "crawled_at": "2026-08-25T15:06:31.254264+00:00"
-  },
-  {
-   "job_id": "greenhouse:8128634",
-   "title": "Head of AEO & SEO",
-   "company": "Stripe",
-   "region": "US Remote; Chicago, Atlanta, Canada",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "seo",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://stripe.com/jobs/search?gh_jid=8128634",
-   "crawled_at": "2026-08-25T15:06:31.254099+00:00"
+   "crawled_at": "2026-08-25T15:51:41.945446+00:00"
   },
   {
    "job_id": "greenhouse:7990812",
@@ -601,9 +464,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7990812",
-   "crawled_at": "2026-08-25T15:06:31.253959+00:00"
+   "crawled_at": "2026-08-25T15:51:41.944191+00:00"
   },
   {
    "job_id": "greenhouse:8055930",
@@ -615,9 +479,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "ai",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8055930",
-   "crawled_at": "2026-08-25T15:06:31.252952+00:00"
+   "crawled_at": "2026-08-25T15:51:41.943180+00:00"
   },
   {
    "job_id": "greenhouse:7617049",
@@ -629,9 +494,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7617049",
-   "crawled_at": "2026-08-25T15:06:31.252624+00:00"
+   "crawled_at": "2026-08-25T15:51:41.942813+00:00"
   },
   {
    "job_id": "greenhouse:7612192",
@@ -643,9 +509,10 @@
    "repl_kw": "writer",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7612192",
-   "crawled_at": "2026-08-25T15:06:31.251343+00:00"
+   "crawled_at": "2026-08-25T15:51:41.941494+00:00"
   },
   {
    "job_id": "greenhouse:7540441",
@@ -657,9 +524,10 @@
    "repl_kw": "writer",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7540441",
-   "crawled_at": "2026-08-25T15:06:31.251281+00:00"
+   "crawled_at": "2026-08-25T15:51:41.941417+00:00"
   },
   {
    "job_id": "greenhouse:7844214",
@@ -671,9 +539,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7844214",
-   "crawled_at": "2026-08-25T15:06:31.249949+00:00"
+   "crawled_at": "2026-08-25T15:51:41.940074+00:00"
   },
   {
    "job_id": "greenhouse:8148547",
@@ -685,23 +554,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gusto/jobs/8148547",
-   "crawled_at": "2026-08-25T15:06:31.242935+00:00"
-  },
-  {
-   "job_id": "greenhouse:8072861",
-   "title": "Staff Product Marketing Manager",
-   "company": "MongoDB",
-   "region": "United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://www.mongodb.com/careers/job/?gh_jid=8072861",
-   "crawled_at": "2026-08-25T15:06:31.240816+00:00"
+   "crawled_at": "2026-08-25T15:51:41.932839+00:00"
   },
   {
    "job_id": "greenhouse:8035641",
@@ -713,9 +569,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8035641",
-   "crawled_at": "2026-08-25T15:06:31.237638+00:00"
+   "crawled_at": "2026-08-25T15:51:41.927397+00:00"
   },
   {
    "job_id": "greenhouse:8130589",
@@ -727,9 +584,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8130589",
-   "crawled_at": "2026-08-25T15:06:31.237605+00:00"
+   "crawled_at": "2026-08-25T15:51:41.927361+00:00"
   },
   {
    "job_id": "greenhouse:7696633",
@@ -741,51 +599,10 @@
    "repl_kw": "data analyst",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=7696633",
-   "crawled_at": "2026-08-25T15:06:31.236575+00:00"
-  },
-  {
-   "job_id": "greenhouse:8037179",
-   "title": "VP, Product Marketing, Observability",
-   "company": "Elastic",
-   "region": "United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://jobs.elastic.co/jobs?gh_jid=8037179&gh_jid=8037179",
-   "crawled_at": "2026-08-25T15:06:31.231476+00:00"
-  },
-  {
-   "job_id": "greenhouse:8013219",
-   "title": "Sr. Director, Global Public Sector Marketing",
-   "company": "Elastic",
-   "region": "United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://jobs.elastic.co/jobs?gh_jid=8013219&gh_jid=8013219",
-   "crawled_at": "2026-08-25T15:06:31.231111+00:00"
-  },
-  {
-   "job_id": "greenhouse:8110185",
-   "title": "Sr. Director, Demand and Digital Marketing",
-   "company": "Elastic",
-   "region": "United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://jobs.elastic.co/jobs?gh_jid=8110185&gh_jid=8110185",
-   "crawled_at": "2026-08-25T15:06:31.231025+00:00"
+   "crawled_at": "2026-08-25T15:51:41.926302+00:00"
   },
   {
    "job_id": "greenhouse:8093273",
@@ -797,9 +614,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8093273&gh_jid=8093273",
-   "crawled_at": "2026-08-25T15:06:31.224177+00:00"
+   "crawled_at": "2026-08-25T15:51:41.913518+00:00"
   },
   {
    "job_id": "greenhouse:8138870",
@@ -811,9 +629,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8138870",
-   "crawled_at": "2026-08-25T15:06:31.222320+00:00"
+   "crawled_at": "2026-08-25T15:51:41.911600+00:00"
   },
   {
    "job_id": "greenhouse:8104438",
@@ -825,9 +644,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8104438",
-   "crawled_at": "2026-08-25T15:06:31.221213+00:00"
+   "crawled_at": "2026-08-25T15:51:41.910454+00:00"
   },
   {
    "job_id": "greenhouse:8056278",
@@ -839,9 +659,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8056278",
-   "crawled_at": "2026-08-25T15:06:31.220987+00:00"
+   "crawled_at": "2026-08-25T15:51:41.910236+00:00"
   },
   {
    "job_id": "greenhouse:8045297",
@@ -853,9 +674,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8045297",
-   "crawled_at": "2026-08-25T15:06:31.220933+00:00"
+   "crawled_at": "2026-08-25T15:51:41.910180+00:00"
   },
   {
    "job_id": "greenhouse:8694719002",
@@ -867,9 +689,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8694719002?gh_jid=8694719002",
-   "crawled_at": "2026-08-25T15:06:31.217298+00:00"
+   "crawled_at": "2026-08-25T15:51:41.906462+00:00"
   },
   {
    "job_id": "greenhouse:8684361002",
@@ -881,9 +704,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8684361002?gh_jid=8684361002",
-   "crawled_at": "2026-08-25T15:06:31.217264+00:00"
+   "crawled_at": "2026-08-25T15:51:41.906426+00:00"
   },
   {
    "job_id": "greenhouse:8609485002",
@@ -895,9 +719,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8609485002?gh_jid=8609485002",
-   "crawled_at": "2026-08-25T15:06:31.216786+00:00"
+   "crawled_at": "2026-08-25T15:51:41.905949+00:00"
   },
   {
    "job_id": "greenhouse:8637295002",
@@ -909,9 +734,10 @@
    "repl_kw": "content",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8637295002?gh_jid=8637295002",
-   "crawled_at": "2026-08-25T15:06:31.216600+00:00"
+   "crawled_at": "2026-08-25T15:51:41.905757+00:00"
   },
   {
    "job_id": "greenhouse:8672245002",
@@ -923,9 +749,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8672245002?gh_jid=8672245002",
-   "crawled_at": "2026-08-25T15:06:31.216308+00:00"
+   "crawled_at": "2026-08-25T15:51:41.905448+00:00"
   },
   {
    "job_id": "greenhouse:8576707002",
@@ -937,9 +764,10 @@
    "repl_kw": "data analyst",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8576707002?gh_jid=8576707002",
-   "crawled_at": "2026-08-25T15:06:31.216223+00:00"
+   "crawled_at": "2026-08-25T15:51:41.905359+00:00"
   },
   {
    "job_id": "greenhouse:8731186002",
@@ -951,9 +779,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8731186002?gh_jid=8731186002",
-   "crawled_at": "2026-08-25T15:06:31.216180+00:00"
+   "crawled_at": "2026-08-25T15:51:41.905326+00:00"
   },
   {
    "job_id": "greenhouse:7773695003",
@@ -965,9 +794,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7773695003",
-   "crawled_at": "2026-08-25T15:06:31.212246+00:00"
+   "crawled_at": "2026-08-25T15:51:41.901274+00:00"
   },
   {
    "job_id": "greenhouse:7819571003",
@@ -979,9 +809,10 @@
    "repl_kw": "copywrit",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7819571003",
-   "crawled_at": "2026-08-25T15:06:31.210990+00:00"
+   "crawled_at": "2026-08-25T15:51:41.900111+00:00"
   },
   {
    "job_id": "greenhouse:7872406003",
@@ -993,9 +824,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7872406003",
-   "crawled_at": "2026-08-25T15:06:31.210785+00:00"
+   "crawled_at": "2026-08-25T15:51:41.899902+00:00"
   },
   {
    "job_id": "greenhouse:7872408003",
@@ -1007,9 +839,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7872408003",
-   "crawled_at": "2026-08-25T15:06:31.210757+00:00"
+   "crawled_at": "2026-08-25T15:51:41.899872+00:00"
   },
   {
    "job_id": "greenhouse:7850544003",
@@ -1021,9 +854,10 @@
    "repl_kw": "administrative assistant",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7850544003",
-   "crawled_at": "2026-08-25T15:06:31.210493+00:00"
+   "crawled_at": "2026-08-25T15:51:41.899603+00:00"
   },
   {
    "job_id": "greenhouse:8119683",
@@ -1035,9 +869,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8119683",
-   "crawled_at": "2026-08-25T15:06:31.210089+00:00"
+   "crawled_at": "2026-08-25T15:51:41.899190+00:00"
   },
   {
    "job_id": "greenhouse:8089322",
@@ -1049,9 +884,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8089322",
-   "crawled_at": "2026-08-25T15:06:31.210055+00:00"
+   "crawled_at": "2026-08-25T15:51:41.899153+00:00"
   },
   {
    "job_id": "greenhouse:8141533",
@@ -1063,9 +899,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8141533",
-   "crawled_at": "2026-08-25T15:06:31.210019+00:00"
+   "crawled_at": "2026-08-25T15:51:41.899114+00:00"
   },
   {
    "job_id": "greenhouse:8141535",
@@ -1077,9 +914,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8141535",
-   "crawled_at": "2026-08-25T15:06:31.209986+00:00"
+   "crawled_at": "2026-08-25T15:51:41.899077+00:00"
   },
   {
    "job_id": "greenhouse:7963780",
@@ -1091,9 +929,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=7963780",
-   "crawled_at": "2026-08-25T15:06:31.209317+00:00"
+   "crawled_at": "2026-08-25T15:51:41.898381+00:00"
   },
   {
    "job_id": "greenhouse:7963779",
@@ -1105,9 +944,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=7963779",
-   "crawled_at": "2026-08-25T15:06:31.209286+00:00"
+   "crawled_at": "2026-08-25T15:51:41.898348+00:00"
   },
   {
    "job_id": "greenhouse:8142172",
@@ -1119,9 +959,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8142172",
-   "crawled_at": "2026-08-25T15:06:31.208238+00:00"
+   "crawled_at": "2026-08-25T15:51:41.897252+00:00"
   },
   {
    "job_id": "greenhouse:8142143",
@@ -1133,37 +974,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8142143",
-   "crawled_at": "2026-08-25T15:06:31.208206+00:00"
-  },
-  {
-   "job_id": "greenhouse:7991597",
-   "title": "Director, Enterprise Product Marketing",
-   "company": "Instacart",
-   "region": "United States - Remote",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://instacart.careers/job/?gh_jid=7991597",
-   "crawled_at": "2026-08-25T15:06:31.207625+00:00"
-  },
-  {
-   "job_id": "greenhouse:7991599",
-   "title": "Director, Enterprise Product Marketing",
-   "company": "Instacart",
-   "region": "Canada - Remote (ON, AB, BC, or NS Only)",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://instacart.careers/job/?gh_jid=7991599",
-   "crawled_at": "2026-08-25T15:06:31.207595+00:00"
+   "crawled_at": "2026-08-25T15:51:41.897219+00:00"
   },
   {
    "job_id": "greenhouse:8145998",
@@ -1175,9 +989,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "ai",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8145998",
-   "crawled_at": "2026-08-25T15:06:31.207492+00:00"
+   "crawled_at": "2026-08-25T15:51:41.896490+00:00"
   },
   {
    "job_id": "greenhouse:8146070",
@@ -1189,9 +1004,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "ai",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8146070",
-   "crawled_at": "2026-08-25T15:06:31.207464+00:00"
+   "crawled_at": "2026-08-25T15:51:41.896447+00:00"
   },
   {
    "job_id": "greenhouse:8656548002",
@@ -1203,9 +1019,10 @@
    "repl_kw": "support specialist",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8656548002?gh_jid=8656548002",
-   "crawled_at": "2026-08-25T15:06:31.203354+00:00"
+   "crawled_at": "2026-08-25T15:51:41.892221+00:00"
   },
   {
    "job_id": "greenhouse:8578101002",
@@ -1217,9 +1034,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8578101002?gh_jid=8578101002",
-   "crawled_at": "2026-08-25T15:06:31.201488+00:00"
+   "crawled_at": "2026-08-25T15:51:41.890298+00:00"
   },
   {
    "job_id": "greenhouse:8578102002",
@@ -1231,9 +1049,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8578102002?gh_jid=8578102002",
-   "crawled_at": "2026-08-25T15:06:31.201460+00:00"
+   "crawled_at": "2026-08-25T15:51:41.890268+00:00"
   },
   {
    "job_id": "greenhouse:8578103002",
@@ -1245,9 +1064,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8578103002?gh_jid=8578103002",
-   "crawled_at": "2026-08-25T15:06:31.201431+00:00"
+   "crawled_at": "2026-08-25T15:51:41.890237+00:00"
   },
   {
    "job_id": "greenhouse:8434443002",
@@ -1259,9 +1079,10 @@
    "repl_kw": "sourcer",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8434443002?gh_jid=8434443002",
-   "crawled_at": "2026-08-25T15:06:31.201016+00:00"
+   "crawled_at": "2026-08-25T15:51:41.889819+00:00"
   },
   {
    "job_id": "greenhouse:8434442002",
@@ -1273,9 +1094,10 @@
    "repl_kw": "sourcer",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8434442002?gh_jid=8434442002",
-   "crawled_at": "2026-08-25T15:06:31.200990+00:00"
+   "crawled_at": "2026-08-25T15:51:41.889791+00:00"
   },
   {
    "job_id": "greenhouse:8434432002",
@@ -1287,9 +1109,10 @@
    "repl_kw": "sourcer",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8434432002?gh_jid=8434432002",
-   "crawled_at": "2026-08-25T15:06:31.200963+00:00"
+   "crawled_at": "2026-08-25T15:51:41.889763+00:00"
   },
   {
    "job_id": "greenhouse:8079278002",
@@ -1301,9 +1124,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8079278002?gh_jid=8079278002",
-   "crawled_at": "2026-08-25T15:06:31.200464+00:00"
+   "crawled_at": "2026-08-25T15:51:41.889229+00:00"
   },
   {
    "job_id": "greenhouse:8402259002",
@@ -1315,9 +1139,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8402259002?gh_jid=8402259002",
-   "crawled_at": "2026-08-25T15:06:31.200436+00:00"
+   "crawled_at": "2026-08-25T15:51:41.889200+00:00"
   },
   {
    "job_id": "greenhouse:8590271002",
@@ -1329,9 +1154,10 @@
    "repl_kw": "social media",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8590271002?gh_jid=8590271002",
-   "crawled_at": "2026-08-25T15:06:31.199535+00:00"
+   "crawled_at": "2026-08-25T15:51:41.888259+00:00"
   },
   {
    "job_id": "greenhouse:8645962002",
@@ -1343,9 +1169,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8645962002?gh_jid=8645962002",
-   "crawled_at": "2026-08-25T15:06:31.198852+00:00"
+   "crawled_at": "2026-08-25T15:51:41.887580+00:00"
   },
   {
    "job_id": "greenhouse:8645769002",
@@ -1357,9 +1184,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8645769002?gh_jid=8645769002",
-   "crawled_at": "2026-08-25T15:06:31.198825+00:00"
+   "crawled_at": "2026-08-25T15:51:41.887551+00:00"
   },
   {
    "job_id": "greenhouse:8645963002",
@@ -1371,9 +1199,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8645963002?gh_jid=8645963002",
-   "crawled_at": "2026-08-25T15:06:31.198798+00:00"
+   "crawled_at": "2026-08-25T15:51:41.887522+00:00"
   },
   {
    "job_id": "greenhouse:8645961002",
@@ -1385,37 +1214,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8645961002?gh_jid=8645961002",
-   "crawled_at": "2026-08-25T15:06:31.198744+00:00"
-  },
-  {
-   "job_id": "greenhouse:8446669002",
-   "title": "Director, Product Marketing",
-   "company": "Brex",
-   "region": "San Francisco, California, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://www.brex.com/careers/8446669002?gh_jid=8446669002",
-   "crawled_at": "2026-08-25T15:06:31.197676+00:00"
-  },
-  {
-   "job_id": "greenhouse:8447171002",
-   "title": "Director, Product Marketing",
-   "company": "Brex",
-   "region": "New York, New York, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://www.brex.com/careers/8447171002?gh_jid=8447171002",
-   "crawled_at": "2026-08-25T15:06:31.197648+00:00"
+   "crawled_at": "2026-08-25T15:51:41.887450+00:00"
   },
   {
    "job_id": "greenhouse:8463702002",
@@ -1427,9 +1229,10 @@
    "repl_kw": "data analyst",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8463702002?gh_jid=8463702002",
-   "crawled_at": "2026-08-25T15:06:31.197307+00:00"
+   "crawled_at": "2026-08-25T15:51:41.885968+00:00"
   },
   {
    "job_id": "greenhouse:8463696002",
@@ -1441,9 +1244,10 @@
    "repl_kw": "data analyst",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8463696002?gh_jid=8463696002",
-   "crawled_at": "2026-08-25T15:06:31.197252+00:00"
+   "crawled_at": "2026-08-25T15:51:41.885910+00:00"
   },
   {
    "job_id": "greenhouse:8544882002",
@@ -1455,9 +1259,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8544882002?gh_jid=8544882002",
-   "crawled_at": "2026-08-25T15:06:31.197125+00:00"
+   "crawled_at": "2026-08-25T15:51:41.885797+00:00"
   },
   {
    "job_id": "greenhouse:8742343002",
@@ -1469,9 +1274,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8742343002?gh_jid=8742343002",
-   "crawled_at": "2026-08-25T15:06:31.197097+00:00"
+   "crawled_at": "2026-08-25T15:51:41.885767+00:00"
   },
   {
    "job_id": "greenhouse:8544881002",
@@ -1483,9 +1289,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8544881002?gh_jid=8544881002",
-   "crawled_at": "2026-08-25T15:06:31.197069+00:00"
+   "crawled_at": "2026-08-25T15:51:41.885737+00:00"
   },
   {
    "job_id": "greenhouse:8544757002",
@@ -1497,9 +1304,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8544757002?gh_jid=8544757002",
-   "crawled_at": "2026-08-25T15:06:31.197039+00:00"
+   "crawled_at": "2026-08-25T15:51:41.885705+00:00"
   },
   {
    "job_id": "greenhouse:8493152002",
@@ -1511,9 +1319,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8493152002",
-   "crawled_at": "2026-08-25T15:06:31.190572+00:00"
+   "crawled_at": "2026-08-25T15:51:41.879090+00:00"
   },
   {
    "job_id": "greenhouse:8638648002",
@@ -1525,23 +1334,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8638648002",
-   "crawled_at": "2026-08-25T15:06:31.187999+00:00"
-  },
-  {
-   "job_id": "greenhouse:8638646002",
-   "title": "Principal Event Marketing Manager, Data + AI World Tour",
-   "company": "Databricks",
-   "region": "United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "ai",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8638646002",
-   "crawled_at": "2026-08-25T15:06:31.182053+00:00"
+   "crawled_at": "2026-08-25T15:51:41.876438+00:00"
   },
   {
    "job_id": "greenhouse:8638637002",
@@ -1553,51 +1349,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8638637002",
-   "crawled_at": "2026-08-25T15:06:31.178841+00:00"
-  },
-  {
-   "job_id": "greenhouse:8638642002",
-   "title": "Director, Web Marketing",
-   "company": "Databricks",
-   "region": "United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8638642002",
-   "crawled_at": "2026-08-25T15:06:31.177608+00:00"
-  },
-  {
-   "job_id": "greenhouse:8636157002",
-   "title": "Director, Americas Field Marketing at Databricks",
-   "company": "Databricks",
-   "region": "United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8636157002",
-   "crawled_at": "2026-08-25T15:06:31.176782+00:00"
-  },
-  {
-   "job_id": "greenhouse:7874931",
-   "title": "Staff Software Engineer- Growth Performance Marketing",
-   "company": "Pinterest",
-   "region": "San Francisco, CA, US; Remote, US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7874931",
-   "crawled_at": "2026-08-25T15:06:31.158545+00:00"
+   "crawled_at": "2026-08-25T15:51:41.867065+00:00"
   },
   {
    "job_id": "greenhouse:8011573",
@@ -1609,9 +1364,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8011573",
-   "crawled_at": "2026-08-25T15:06:31.157874+00:00"
+   "crawled_at": "2026-08-25T15:51:41.845700+00:00"
   },
   {
    "job_id": "greenhouse:8082169",
@@ -1623,23 +1379,10 @@
    "repl_kw": "content",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8082169",
-   "crawled_at": "2026-08-25T15:06:31.157826+00:00"
-  },
-  {
-   "job_id": "greenhouse:7724254",
-   "title": "Sr. Staff Machine Learning Engineer, Content Quality",
-   "company": "Pinterest",
-   "region": "San Francisco, CA, US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "machine learning",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7724254",
-   "crawled_at": "2026-08-25T15:06:31.157606+00:00"
+   "crawled_at": "2026-08-25T15:51:41.845664+00:00"
   },
   {
    "job_id": "greenhouse:8011376",
@@ -1651,9 +1394,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8011376",
-   "crawled_at": "2026-08-25T15:06:31.156596+00:00"
+   "crawled_at": "2026-08-25T15:51:41.844379+00:00"
   },
   {
    "job_id": "greenhouse:8082503",
@@ -1665,9 +1409,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8082503",
-   "crawled_at": "2026-08-25T15:06:31.155653+00:00"
+   "crawled_at": "2026-08-25T15:51:41.843381+00:00"
   },
   {
    "job_id": "greenhouse:7901910",
@@ -1679,9 +1424,10 @@
    "repl_kw": "content",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7901910",
-   "crawled_at": "2026-08-25T15:06:31.155081+00:00"
+   "crawled_at": "2026-08-25T15:51:41.842807+00:00"
   },
   {
    "job_id": "greenhouse:7194568",
@@ -1693,93 +1439,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7194568",
-   "crawled_at": "2026-08-25T15:06:31.153931+00:00"
-  },
-  {
-   "job_id": "greenhouse:7648650",
-   "title": "Director, Marketing Technology & Innovation",
-   "company": "Pinterest",
-   "region": "San Francisco, CA, US; Remote, US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7648650",
-   "crawled_at": "2026-08-25T15:06:31.153590+00:00"
-  },
-  {
-   "job_id": "greenhouse:8022402",
-   "title": "Director, Integrated Marketing- Mid Market",
-   "company": "Pinterest",
-   "region": "San Francisco, CA, US; Remote, US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8022402",
-   "crawled_at": "2026-08-25T15:06:31.153558+00:00"
-  },
-  {
-   "job_id": "greenhouse:8018513",
-   "title": "Staff Machine Learning Engineer, Ads Foundational Representations",
-   "company": "Reddit",
-   "region": "Remote - United Kingdom",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "presentation",
-   "ai_skill_kw": "machine learning",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8018513",
-   "crawled_at": "2026-08-25T15:06:31.152511+00:00"
-  },
-  {
-   "job_id": "greenhouse:8018517",
-   "title": "Staff Machine Learning Engineer, Ads Foundational Representations",
-   "company": "Reddit",
-   "region": "Remote - The Netherlands",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "presentation",
-   "ai_skill_kw": "machine learning",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8018517",
-   "crawled_at": "2026-08-25T15:06:31.152478+00:00"
-  },
-  {
-   "job_id": "greenhouse:7931000",
-   "title": "Staff Data Scientist, Marketing",
-   "company": "Reddit",
-   "region": "Remote - Ontario, Canada",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/7931000",
-   "crawled_at": "2026-08-25T15:06:31.152365+00:00"
-  },
-  {
-   "job_id": "greenhouse:7445240",
-   "title": "Staff Data Scientist, Marketing",
-   "company": "Reddit",
-   "region": "Remote - United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/7445240",
-   "crawled_at": "2026-08-25T15:06:31.152335+00:00"
+   "crawled_at": "2026-08-25T15:51:41.841619+00:00"
   },
   {
    "job_id": "greenhouse:8139781",
@@ -1791,9 +1454,10 @@
    "repl_kw": "content",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781",
-   "crawled_at": "2026-08-25T15:06:31.152013+00:00"
+   "crawled_at": "2026-08-25T15:51:41.839631+00:00"
   },
   {
    "job_id": "greenhouse:6037719004",
@@ -1805,9 +1469,10 @@
    "repl_kw": "content",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/figma/jobs/6037719004?gh_jid=6037719004",
-   "crawled_at": "2026-08-25T15:06:31.148873+00:00"
+   "crawled_at": "2026-08-25T15:51:41.836401+00:00"
   },
   {
    "job_id": "greenhouse:6013495004",
@@ -1819,9 +1484,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/figma/jobs/6013495004?gh_jid=6013495004",
-   "crawled_at": "2026-08-25T15:06:31.147274+00:00"
+   "crawled_at": "2026-08-25T15:51:41.834749+00:00"
   },
   {
    "job_id": "greenhouse:6141213004",
@@ -1833,9 +1499,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/figma/jobs/6141213004?gh_jid=6141213004",
-   "crawled_at": "2026-08-25T15:06:31.146519+00:00"
+   "crawled_at": "2026-08-25T15:51:41.833968+00:00"
   },
   {
    "job_id": "greenhouse:6115082004",
@@ -1847,9 +1514,10 @@
    "repl_kw": "executive assistant",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/figma/jobs/6115082004?gh_jid=6115082004",
-   "crawled_at": "2026-08-25T15:06:31.146403+00:00"
+   "crawled_at": "2026-08-25T15:51:41.833842+00:00"
   },
   {
    "job_id": "greenhouse:7765105",
@@ -1861,9 +1529,10 @@
    "repl_kw": "content",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/khanacademy/jobs/7765105",
-   "crawled_at": "2026-08-25T15:06:31.144649+00:00"
+   "crawled_at": "2026-08-25T15:51:41.832032+00:00"
   },
   {
    "job_id": "greenhouse:7156991",
@@ -1875,9 +1544,10 @@
    "repl_kw": "content",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/khanacademy/jobs/7156991",
-   "crawled_at": "2026-08-25T15:06:31.144374+00:00"
+   "crawled_at": "2026-08-25T15:51:41.831744+00:00"
   },
   {
    "job_id": "greenhouse:6123880004",
@@ -1889,9 +1559,10 @@
    "repl_kw": "executive assistant",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/turing/jobs/6123880004",
-   "crawled_at": "2026-08-25T15:06:31.143440+00:00"
+   "crawled_at": "2026-08-25T15:51:41.830782+00:00"
   },
   {
    "job_id": "greenhouse:5179646007",
@@ -1903,9 +1574,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/labelbox/jobs/5179646007",
-   "crawled_at": "2026-08-25T15:06:31.143277+00:00"
+   "crawled_at": "2026-08-25T15:51:41.830613+00:00"
   },
   {
    "job_id": "greenhouse:8077090",
@@ -1917,23 +1589,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.coinbase.com/careers/positions/8077090?gh_jid=8077090",
-   "crawled_at": "2026-08-25T15:06:31.127499+00:00"
-  },
-  {
-   "job_id": "greenhouse:8051630",
-   "title": "Senior Manager, Recruiting",
-   "company": "Coinbase",
-   "region": "Remote - USA",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "recruit",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://www.coinbase.com/careers/positions/8051630?gh_jid=8051630",
-   "crawled_at": "2026-08-25T15:06:31.127339+00:00"
+   "crawled_at": "2026-08-25T15:51:41.814296+00:00"
   },
   {
    "job_id": "greenhouse:8084049",
@@ -1945,9 +1604,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.coinbase.com/careers/positions/8084049?gh_jid=8084049",
-   "crawled_at": "2026-08-25T15:06:31.127093+00:00"
+   "crawled_at": "2026-08-25T15:51:41.813901+00:00"
   },
   {
    "job_id": "greenhouse:7982771",
@@ -1959,9 +1619,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.coinbase.com/careers/positions/7982771?gh_jid=7982771",
-   "crawled_at": "2026-08-25T15:06:31.126540+00:00"
+   "crawled_at": "2026-08-25T15:51:41.813327+00:00"
   },
   {
    "job_id": "greenhouse:8008372",
@@ -1973,9 +1634,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.coinbase.com/careers/positions/8008372?gh_jid=8008372",
-   "crawled_at": "2026-08-25T15:06:31.126367+00:00"
+   "crawled_at": "2026-08-25T15:51:41.813157+00:00"
   },
   {
    "job_id": "greenhouse:8030591",
@@ -1987,9 +1649,10 @@
    "repl_kw": "paralegal",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.coinbase.com/careers/positions/8030591?gh_jid=8030591",
-   "crawled_at": "2026-08-25T15:06:31.125971+00:00"
+   "crawled_at": "2026-08-25T15:51:41.812858+00:00"
   },
   {
    "job_id": "greenhouse:8070685",
@@ -2001,9 +1664,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://jobs.dropbox.com/listing/8070685?gh_jid=8070685",
-   "crawled_at": "2026-08-25T15:06:31.124703+00:00"
+   "crawled_at": "2026-08-25T15:51:41.811572+00:00"
   },
   {
    "job_id": "greenhouse:8070686",
@@ -2015,9 +1679,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://jobs.dropbox.com/listing/8070686?gh_jid=8070686",
-   "crawled_at": "2026-08-25T15:06:31.124671+00:00"
+   "crawled_at": "2026-08-25T15:51:41.811540+00:00"
   },
   {
    "job_id": "greenhouse:8096470",
@@ -2029,9 +1694,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://jobs.dropbox.com/listing/8096470?gh_jid=8096470",
-   "crawled_at": "2026-08-25T15:06:31.124493+00:00"
+   "crawled_at": "2026-08-25T15:51:41.811345+00:00"
   },
   {
    "job_id": "greenhouse:8096471",
@@ -2043,37 +1709,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://jobs.dropbox.com/listing/8096471?gh_jid=8096471",
-   "crawled_at": "2026-08-25T15:06:31.124461+00:00"
-  },
-  {
-   "job_id": "greenhouse:8038750",
-   "title": "Head of Field and Partner Marketing",
-   "company": "Dropbox",
-   "region": "Remote - US: Select locations",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://jobs.dropbox.com/listing/8038750?gh_jid=8038750",
-   "crawled_at": "2026-08-25T15:06:31.124084+00:00"
-  },
-  {
-   "job_id": "greenhouse:8142720",
-   "title": "Director of Marketing Strategy",
-   "company": "Dropbox",
-   "region": "Remote - US: Select locations",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://jobs.dropbox.com/listing/8142720?gh_jid=8142720",
-   "crawled_at": "2026-08-25T15:06:31.123889+00:00"
+   "crawled_at": "2026-08-25T15:51:41.811314+00:00"
   },
   {
    "job_id": "greenhouse:8023197",
@@ -2085,23 +1724,10 @@
    "repl_kw": "translat",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8023197",
-   "crawled_at": "2026-08-25T15:06:31.123362+00:00"
-  },
-  {
-   "job_id": "greenhouse:8127761",
-   "title": "Head of Marketing",
-   "company": "Wikimedia Foundation",
-   "region": "Remote",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8127761",
-   "crawled_at": "2026-08-25T15:06:31.123329+00:00"
+   "crawled_at": "2026-08-25T15:51:41.810201+00:00"
   },
   {
    "job_id": "greenhouse:8105376",
@@ -2113,9 +1739,10 @@
    "repl_kw": "support specialist",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8105376",
-   "crawled_at": "2026-08-25T15:06:31.123301+00:00"
+   "crawled_at": "2026-08-25T15:51:41.810136+00:00"
   },
   {
    "job_id": "greenhouse:8114963",
@@ -2127,9 +1754,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8114963",
-   "crawled_at": "2026-08-25T15:06:31.121316+00:00"
+   "crawled_at": "2026-08-25T15:51:41.808115+00:00"
   },
   {
    "job_id": "greenhouse:8115026",
@@ -2141,9 +1769,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8115026",
-   "crawled_at": "2026-08-25T15:06:31.121284+00:00"
+   "crawled_at": "2026-08-25T15:51:41.808081+00:00"
   },
   {
    "job_id": "greenhouse:8139354",
@@ -2155,37 +1784,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8139354",
-   "crawled_at": "2026-08-25T15:06:31.121251+00:00"
-  },
-  {
-   "job_id": "greenhouse:7901861",
-   "title": "Head of Editorial + Platforms, Mozilla Ecosystem",
-   "company": "Mozilla",
-   "region": "Remote US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "editor",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/mozilla/jobs/7901861",
-   "crawled_at": "2026-08-25T15:06:31.121215+00:00"
-  },
-  {
-   "job_id": "greenhouse:8610952002",
-   "title": "Staff Lifecycle Marketing Manager",
-   "company": "GitLab",
-   "region": "Remote, Canada; Remote, US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8610952002",
-   "crawled_at": "2026-08-25T15:06:31.120539+00:00"
+   "crawled_at": "2026-08-25T15:51:41.808046+00:00"
   },
   {
    "job_id": "greenhouse:8617848002",
@@ -2197,9 +1799,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617848002",
-   "crawled_at": "2026-08-25T15:06:31.119400+00:00"
+   "crawled_at": "2026-08-25T15:51:41.806168+00:00"
   },
   {
    "job_id": "greenhouse:8637075002",
@@ -2211,9 +1814,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637075002",
-   "crawled_at": "2026-08-25T15:06:31.119141+00:00"
+   "crawled_at": "2026-08-25T15:51:41.805927+00:00"
   },
   {
    "job_id": "greenhouse:8697493002",
@@ -2225,9 +1829,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8697493002",
-   "crawled_at": "2026-08-25T15:06:31.119084+00:00"
+   "crawled_at": "2026-08-25T15:51:41.805869+00:00"
   },
   {
    "job_id": "greenhouse:8635277002",
@@ -2239,9 +1844,55 @@
    "repl_kw": "content",
    "ai_skill_kw": "",
    "needs_speaking": false,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8635277002",
-   "crawled_at": "2026-08-25T15:06:31.116528+00:00"
+   "crawled_at": "2026-08-25T15:51:41.803266+00:00"
+  },
+  {
+   "job_id": "greenhouse:8097897",
+   "title": "Senior Marketing Manager, Website Growth",
+   "company": "Webflow",
+   "region": "U.S. Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/webflow/jobs/8097897",
+   "crawled_at": "2026-08-25T15:51:41.801250+00:00"
+  },
+  {
+   "job_id": "arbeitnow:werkstudent-praktikant-fur-social-media-cottbus-30222",
+   "title": "Werkstudent / Praktikant (m/w/d) für Social Media",
+   "company": "Ritter von Gral GmbH",
+   "region": "Cottbus, Brandenburg, Deutschland",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "social media",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/ritter-von-gral-gmbh/werkstudent-praktikant-fur-social-media-cottbus-30222",
+   "crawled_at": "2026-08-25T15:51:41.793763+00:00"
+  },
+  {
+   "job_id": "remoteok:1136950",
+   "title": "Marketing Operations Specialist",
+   "company": "Engine",
+   "region": "Remote - US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "remoteok",
+   "url": "https://remoteOK.com/remote-jobs/remote-marketing-operations-specialist-engine-1136950",
+   "crawled_at": "2026-08-25T15:51:41.743119+00:00"
   },
   {
    "job_id": "greenhouse:6144683004",
@@ -2256,90 +1907,6 @@
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/coursera/jobs/6144683004",
    "crawled_at": "2026-08-25T15:06:31.114934+00:00"
-  },
-  {
-   "job_id": "greenhouse:8097897",
-   "title": "Senior Marketing Manager, Website Growth",
-   "company": "Webflow",
-   "region": "U.S. Remote",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/webflow/jobs/8097897",
-   "crawled_at": "2026-08-25T15:06:31.114500+00:00"
-  },
-  {
-   "job_id": "jobicy:151526",
-   "title": "Head of Marketing",
-   "company": "Anagram",
-   "region": "USA",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "jobicy",
-   "url": "https://jobicy.com/jobs/151526-head-of-marketing-3",
-   "crawled_at": "2026-08-25T15:06:31.111997+00:00"
-  },
-  {
-   "job_id": "arbeitnow:werkstudent-praktikant-fur-social-media-cottbus-30222",
-   "title": "Werkstudent / Praktikant (m/w/d) für Social Media",
-   "company": "Ritter von Gral GmbH",
-   "region": "Cottbus, Brandenburg, Deutschland",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "social media",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "arbeitnow",
-   "url": "https://www.arbeitnow.com/jobs/companies/ritter-von-gral-gmbh/werkstudent-praktikant-fur-social-media-cottbus-30222",
-   "crawled_at": "2026-08-25T15:06:31.108294+00:00"
-  },
-  {
-   "job_id": "arbeitnow:chief-marketing-officer-dach-331964",
-   "title": "Chief Marketing Officer - DACH",
-   "company": "hellofresh",
-   "region": "(unspecified)",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "arbeitnow",
-   "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/chief-marketing-officer-dach-331964",
-   "crawled_at": "2026-08-25T15:06:31.071519+00:00"
-  },
-  {
-   "job_id": "remotive:2091081",
-   "title": "Senior Graphic Designer",
-   "company": "Lemon.io",
-   "region": "Americas, Europe, Asia, Africa, Oceania",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "graphic design",
-   "ai_skill_kw": "ai,ml",
-   "needs_speaking": false,
-   "source": "remotive",
-   "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081",
-   "crawled_at": "2026-08-25T15:06:31.068789+00:00"
-  },
-  {
-   "job_id": "remoteok:1136950",
-   "title": "Marketing Operations Specialist",
-   "company": "Engine",
-   "region": "Remote - US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "source": "remoteok",
-   "url": "https://remoteOK.com/remote-jobs/remote-marketing-operations-specialist-engine-1136950",
-   "crawled_at": "2026-08-25T15:06:31.065483+00:00"
   },
   {
    "title": "Account Executive, Affiliate Marketing",
@@ -2463,6 +2030,21 @@
    "url": "https://www.arbeitnow.com/jobs/companies/envelio/remote-working-student-customer-success-all-genders-316422"
   },
   {
+   "job_id": "remotive:2091105",
+   "title": "Content Reviewer - English US",
+   "company": "TELUS Digital",
+   "region": "USA",
+   "salary": "$14/hour",
+   "has_salary": true,
+   "repl_kw": "content,reviewer",
+   "ai_skill_kw": "ai,ml",
+   "needs_speaking": true,
+   "senior": false,
+   "source": "remotive",
+   "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-english-us-2091105",
+   "crawled_at": "2026-08-25T15:51:41.744293+00:00"
+  },
+  {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
    "title": "Customer Support Agent (Remote)",
    "company": "CRAE GROUP LTD",
@@ -2472,9 +2054,10 @@
    "repl_kw": "customer support",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
-   "crawled_at": "2026-08-25T15:06:31.383813+00:00"
+   "crawled_at": "2026-08-25T15:51:42.103726+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/nogigiddy-entry-level-account-manager-4",
@@ -2486,9 +2069,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/nogigiddy-entry-level-account-manager-4",
-   "crawled_at": "2026-08-25T15:06:31.383783+00:00"
+   "crawled_at": "2026-08-25T15:51:42.103628+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/joby-customer-support-product-demo-specialist",
@@ -2500,9 +2084,10 @@
    "repl_kw": "customer support",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/joby-customer-support-product-demo-specialist",
-   "crawled_at": "2026-08-25T15:06:31.383753+00:00"
+   "crawled_at": "2026-08-25T15:51:42.103513+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/customer-io-customer-success-manager-emea",
@@ -2514,23 +2099,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/customer-io-customer-success-manager-emea",
-   "crawled_at": "2026-08-25T15:06:31.383721+00:00"
-  },
-  {
-   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/mercury-customer-support-systems-analytics-architect",
-   "title": "Customer Support Systems & Analytics Architect",
-   "company": "Mercury",
-   "region": "Anywhere in the World",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "customer support",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "weworkremotely",
-   "url": "https://weworkremotely.com/remote-jobs/mercury-customer-support-systems-analytics-architect",
-   "crawled_at": "2026-08-25T15:06:31.383584+00:00"
+   "crawled_at": "2026-08-25T15:51:42.103420+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/typeform-customer-success-manager",
@@ -2542,9 +2114,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/typeform-customer-success-manager",
-   "crawled_at": "2026-08-25T15:06:31.383526+00:00"
+   "crawled_at": "2026-08-25T15:51:42.103095+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/hightouch-customer-success-engineer",
@@ -2556,23 +2129,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/hightouch-customer-success-engineer",
-   "crawled_at": "2026-08-25T15:06:31.383499+00:00"
-  },
-  {
-   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/braze-customer-success-manager-ii",
-   "title": "Customer Success Manager II",
-   "company": "Braze",
-   "region": "Anywhere in the World",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "customer success",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "weworkremotely",
-   "url": "https://weworkremotely.com/remote-jobs/braze-customer-success-manager-ii",
-   "crawled_at": "2026-08-25T15:06:31.383469+00:00"
+   "crawled_at": "2026-08-25T15:51:42.102947+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/destination-knot-customer-support-reservation-services-remote",
@@ -2584,9 +2144,10 @@
    "repl_kw": "customer support",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/destination-knot-customer-support-reservation-services-remote",
-   "crawled_at": "2026-08-25T15:06:31.383440+00:00"
+   "crawled_at": "2026-08-25T15:51:42.102657+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/integrated-hire-account-manager-client-services",
@@ -2598,9 +2159,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/integrated-hire-account-manager-client-services",
-   "crawled_at": "2026-08-25T15:06:31.383404+00:00"
+   "crawled_at": "2026-08-25T15:51:42.102554+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor",
@@ -2612,9 +2174,10 @@
    "repl_kw": "editor",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor",
-   "crawled_at": "2026-08-25T15:06:31.382613+00:00"
+   "crawled_at": "2026-08-25T15:51:42.101592+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor-1",
@@ -2626,9 +2189,10 @@
    "repl_kw": "editor",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor-1",
-   "crawled_at": "2026-08-25T15:06:31.380889+00:00"
+   "crawled_at": "2026-08-25T15:51:42.099380+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/koin-limited-graphic-design-executive",
@@ -2640,9 +2204,10 @@
    "repl_kw": "graphic design",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/koin-limited-graphic-design-executive",
-   "crawled_at": "2026-08-25T15:06:31.380293+00:00"
+   "crawled_at": "2026-08-25T15:51:42.098575+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor-2",
@@ -2654,9 +2219,10 @@
    "repl_kw": "editor",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor-2",
-   "crawled_at": "2026-08-25T15:06:31.379985+00:00"
+   "crawled_at": "2026-08-25T15:51:42.098180+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/keeper-security-account-manager",
@@ -2668,9 +2234,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/keeper-security-account-manager",
-   "crawled_at": "2026-08-25T15:06:31.377985+00:00"
+   "crawled_at": "2026-08-25T15:51:42.095630+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/e-breuninger-co-product-owner-m-w-d-tools-systeme-customer-service-remote-moglich",
@@ -2682,9 +2249,10 @@
    "repl_kw": "customer service",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/e-breuninger-co-product-owner-m-w-d-tools-systeme-customer-service-remote-moglich",
-   "crawled_at": "2026-08-25T15:06:31.376207+00:00"
+   "crawled_at": "2026-08-25T15:51:42.092945+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/blue-whale-lending-llc-graphic-design-assistant",
@@ -2696,9 +2264,10 @@
    "repl_kw": "graphic design",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/blue-whale-lending-llc-graphic-design-assistant",
-   "crawled_at": "2026-08-25T15:06:31.375941+00:00"
+   "crawled_at": "2026-08-25T15:51:42.092579+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/tractian-product-content-specialist",
@@ -2710,9 +2279,10 @@
    "repl_kw": "content",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/tractian-product-content-specialist",
-   "crawled_at": "2026-08-25T15:06:31.375762+00:00"
+   "crawled_at": "2026-08-25T15:51:42.092411+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/telus-digital-content-reviewer-us-5",
@@ -2724,9 +2294,10 @@
    "repl_kw": "content,reviewer",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/telus-digital-content-reviewer-us-5",
-   "crawled_at": "2026-08-25T15:06:31.375430+00:00"
+   "crawled_at": "2026-08-25T15:51:42.092014+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/native-camp-online-english-teacher-35",
@@ -2738,37 +2309,10 @@
    "repl_kw": "english teacher",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/native-camp-online-english-teacher-35",
-   "crawled_at": "2026-08-25T15:06:31.375004+00:00"
-  },
-  {
-   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/beyondtrust-enterprise-account-manager",
-   "title": "Enterprise Account Manager",
-   "company": "BeyondTrust",
-   "region": "Anywhere in the World",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "account manager",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "weworkremotely",
-   "url": "https://weworkremotely.com/remote-jobs/beyondtrust-enterprise-account-manager",
-   "crawled_at": "2026-08-25T15:06:31.374708+00:00"
-  },
-  {
-   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/brex-compliance-manager-marketing",
-   "title": "Compliance Manager, Marketing",
-   "company": "Brex",
-   "region": "Anywhere in the World",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "weworkremotely",
-   "url": "https://weworkremotely.com/remote-jobs/brex-compliance-manager-marketing",
-   "crawled_at": "2026-08-25T15:06:31.374517+00:00"
+   "crawled_at": "2026-08-25T15:51:42.091491+00:00"
   },
   {
    "job_id": "lever:4961d0fe-1a29-44bd-83d3-acf84c39664d",
@@ -2780,9 +2324,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "lever",
    "url": "https://jobs.lever.co/ro/4961d0fe-1a29-44bd-83d3-acf84c39664d",
-   "crawled_at": "2026-08-25T15:06:31.369625+00:00"
+   "crawled_at": "2026-08-25T15:51:42.085557+00:00"
   },
   {
    "job_id": "ashby:faf6f3a3-c215-4f25-aaee-5111dddde3c9",
@@ -2794,205 +2339,10 @@
    "repl_kw": "paralegal",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/faf6f3a3-c215-4f25-aaee-5111dddde3c9",
-   "crawled_at": "2026-08-25T15:06:31.362130+00:00"
-  },
-  {
-   "job_id": "ashby:7563e051-8de0-48ac-bcf2-70eaf22e3f8b",
-   "title": "Account Manager - Strategic",
-   "company": "ElevenLabs",
-   "region": "United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "account manager",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/ElevenLabs/7563e051-8de0-48ac-bcf2-70eaf22e3f8b",
-   "crawled_at": "2026-08-25T15:06:31.349147+00:00"
-  },
-  {
-   "job_id": "ashby:a59371c8-cd50-48e3-9f21-4b79a6f0e3b2",
-   "title": "Sales Development Leader, APJ",
-   "company": "Cursor",
-   "region": "Australia",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "sales development",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/Cursor/a59371c8-cd50-48e3-9f21-4b79a6f0e3b2",
-   "crawled_at": "2026-08-25T15:06:31.337953+00:00"
-  },
-  {
-   "job_id": "ashby:c43bdded-80a1-4705-a0ec-8217d771528c",
-   "title": "Data Analyst, User Operations",
-   "company": "Cursor",
-   "region": "Remote",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "data analyst",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/Cursor/c43bdded-80a1-4705-a0ec-8217d771528c",
-   "crawled_at": "2026-08-25T15:06:31.337892+00:00"
-  },
-  {
-   "job_id": "ashby:4df2842a-016d-4c69-a011-fab47aa5f981",
-   "title": "Community Engagement Lead - Ohio",
-   "company": "OpenAI",
-   "region": "US - Remote",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "community",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/openai/4df2842a-016d-4c69-a011-fab47aa5f981",
-   "crawled_at": "2026-08-25T15:06:31.319082+00:00"
-  },
-  {
-   "job_id": "ashby:2e127590-8604-4901-ac38-8dfd8e9e255f",
-   "title": "B2B Marketing Lead, India",
-   "company": "OpenAI",
-   "region": "India - Remote",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/openai/2e127590-8604-4901-ac38-8dfd8e9e255f",
-   "crawled_at": "2026-08-25T15:06:31.316352+00:00"
-  },
-  {
-   "job_id": "ashby:ab2a6711-4a2f-46aa-9d1c-f9de243b8845",
-   "title": "Community Engagement Lead - Effingham County / Savannah MSA",
-   "company": "OpenAI",
-   "region": "US - Remote",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "community",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/openai/ab2a6711-4a2f-46aa-9d1c-f9de243b8845",
-   "crawled_at": "2026-08-25T15:06:31.295416+00:00"
-  },
-  {
-   "job_id": "ashby:0d1babbc-0249-436d-98f7-ae8acf1940a5",
-   "title": "Enterprise Account Manager (London)",
-   "company": "Replit",
-   "region": "Remote - United Kingdom",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "account manager",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/Replit/0d1babbc-0249-436d-98f7-ae8acf1940a5",
-   "crawled_at": "2026-08-25T15:06:31.290860+00:00"
-  },
-  {
-   "job_id": "ashby:72c428b2-eaf0-4fc4-8509-8616d4be1a38",
-   "title": "Customer Success Manager, Commercial East",
-   "company": "Vanta",
-   "region": "Remote U.S.",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "customer success",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/Vanta/72c428b2-eaf0-4fc4-8509-8616d4be1a38",
-   "crawled_at": "2026-08-25T15:06:31.288579+00:00"
-  },
-  {
-   "job_id": "ashby:a0090ea4-5e19-439c-91e3-eb8a3f117eee",
-   "title": "Sr. Manager, Commercial Customer Success (East Region)",
-   "company": "Vanta",
-   "region": "Remote U.S.",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "customer success",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/Vanta/a0090ea4-5e19-439c-91e3-eb8a3f117eee",
-   "crawled_at": "2026-08-25T15:06:31.288235+00:00"
-  },
-  {
-   "job_id": "ashby:3e3514c4-76c5-443c-9ce9-a47be67f3c0d",
-   "title": "Account Manager, Growth Stage",
-   "company": "Vanta",
-   "region": "Sydney, Australia",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "account manager",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/Vanta/3e3514c4-76c5-443c-9ce9-a47be67f3c0d",
-   "crawled_at": "2026-08-25T15:06:31.288161+00:00"
-  },
-  {
-   "job_id": "ashby:403e14bd-0e69-49e7-a999-dcf26d93aae0",
-   "title": "Group Product Marketing Manager",
-   "company": "Vanta",
-   "region": "Remote U.S.",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/Vanta/403e14bd-0e69-49e7-a999-dcf26d93aae0",
-   "crawled_at": "2026-08-25T15:06:31.288080+00:00"
-  },
-  {
-   "job_id": "ashby:1bcca884-9c56-4519-b5eb-b5bd1f5ed402",
-   "title": "SLED Customer Success Manager, Public Sector",
-   "company": "Vanta",
-   "region": "Remote U.S.",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "customer success",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/Vanta/1bcca884-9c56-4519-b5eb-b5bd1f5ed402",
-   "crawled_at": "2026-08-25T15:06:31.287309+00:00"
-  },
-  {
-   "job_id": "ashby:a8b0c3e0-326c-4f34-876f-4903430d75d9",
-   "title": "Customer Success Manager, Strategic",
-   "company": "Vanta",
-   "region": "Remote U.S.",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "customer success",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/Vanta/a8b0c3e0-326c-4f34-876f-4903430d75d9",
-   "crawled_at": "2026-08-25T15:06:31.285905+00:00"
-  },
-  {
-   "job_id": "ashby:fb4b6076-b943-4d95-bb9b-a66aef8275f2",
-   "title": "Technical Recruiter",
-   "company": "Linear",
-   "region": "North America",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "recruit",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/Linear/fb4b6076-b943-4d95-bb9b-a66aef8275f2",
-   "crawled_at": "2026-08-25T15:06:31.277448+00:00"
+   "crawled_at": "2026-08-25T15:51:42.076364+00:00"
   },
   {
    "job_id": "ashby:c0abc97e-b4d7-4ad7-bd13-bc40f4023227",
@@ -3004,23 +2354,10 @@
    "repl_kw": "marketing",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/Linear/c0abc97e-b4d7-4ad7-bd13-bc40f4023227",
-   "crawled_at": "2026-08-25T15:06:31.276517+00:00"
-  },
-  {
-   "job_id": "ashby:370d9605-f02f-44f9-97fa-ebf769bed93d",
-   "title": "Customer Success Manager, Enterprise",
-   "company": "Linear",
-   "region": "North America",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "customer success",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/Linear/370d9605-f02f-44f9-97fa-ebf769bed93d",
-   "crawled_at": "2026-08-25T15:06:31.276403+00:00"
+   "crawled_at": "2026-08-25T15:51:41.968996+00:00"
   },
   {
    "job_id": "ashby:fef0c5d0-6744-40e6-aeae-0c5644f6af5e",
@@ -3032,9 +2369,10 @@
    "repl_kw": "content",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/Notion/fef0c5d0-6744-40e6-aeae-0c5644f6af5e",
-   "crawled_at": "2026-08-25T15:06:31.269126+00:00"
+   "crawled_at": "2026-08-25T15:51:41.959784+00:00"
   },
   {
    "job_id": "greenhouse:8084127",
@@ -3046,9 +2384,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8084127",
-   "crawled_at": "2026-08-25T15:06:31.265893+00:00"
+   "crawled_at": "2026-08-25T15:51:41.956409+00:00"
   },
   {
    "job_id": "greenhouse:8084123",
@@ -3060,9 +2399,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8084123",
-   "crawled_at": "2026-08-25T15:06:31.265703+00:00"
+   "crawled_at": "2026-08-25T15:51:41.956199+00:00"
   },
   {
    "job_id": "greenhouse:7958603",
@@ -3074,9 +2414,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/7958603",
-   "crawled_at": "2026-08-25T15:06:31.265645+00:00"
+   "crawled_at": "2026-08-25T15:51:41.956135+00:00"
   },
   {
    "job_id": "greenhouse:8031661",
@@ -3088,9 +2429,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8031661",
-   "crawled_at": "2026-08-25T15:06:31.265592+00:00"
+   "crawled_at": "2026-08-25T15:51:41.956079+00:00"
   },
   {
    "job_id": "greenhouse:8031647",
@@ -3102,9 +2444,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8031647",
-   "crawled_at": "2026-08-25T15:06:31.265567+00:00"
+   "crawled_at": "2026-08-25T15:51:41.956053+00:00"
   },
   {
    "job_id": "greenhouse:7909078",
@@ -3116,9 +2459,10 @@
    "repl_kw": "community",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/7909078",
-   "crawled_at": "2026-08-25T15:06:31.265465+00:00"
+   "crawled_at": "2026-08-25T15:51:41.955946+00:00"
   },
   {
    "job_id": "greenhouse:7904839",
@@ -3130,9 +2474,10 @@
    "repl_kw": "community",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/7904839",
-   "crawled_at": "2026-08-25T15:06:31.265408+00:00"
+   "crawled_at": "2026-08-25T15:51:41.955885+00:00"
   },
   {
    "job_id": "greenhouse:5850324",
@@ -3144,9 +2489,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/5850324",
-   "crawled_at": "2026-08-25T15:06:31.264990+00:00"
+   "crawled_at": "2026-08-25T15:51:41.955457+00:00"
   },
   {
    "job_id": "greenhouse:8084124",
@@ -3158,9 +2504,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8084124",
-   "crawled_at": "2026-08-25T15:06:31.264957+00:00"
+   "crawled_at": "2026-08-25T15:51:41.955420+00:00"
   },
   {
    "job_id": "greenhouse:7867207",
@@ -3172,9 +2519,10 @@
    "repl_kw": "community",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/7867207",
-   "crawled_at": "2026-08-25T15:06:31.264223+00:00"
+   "crawled_at": "2026-08-25T15:51:41.954668+00:00"
   },
   {
    "job_id": "greenhouse:8052691",
@@ -3186,9 +2534,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8052691",
-   "crawled_at": "2026-08-25T15:06:31.263334+00:00"
+   "crawled_at": "2026-08-25T15:51:41.953756+00:00"
   },
   {
    "job_id": "greenhouse:8097838",
@@ -3200,9 +2549,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8097838",
-   "crawled_at": "2026-08-25T15:06:31.258350+00:00"
+   "crawled_at": "2026-08-25T15:51:41.948691+00:00"
   },
   {
    "job_id": "greenhouse:7809139",
@@ -3214,9 +2564,10 @@
    "repl_kw": "outreach",
    "ai_skill_kw": "ai",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7809139",
-   "crawled_at": "2026-08-25T15:06:31.257656+00:00"
+   "crawled_at": "2026-08-25T15:51:41.947968+00:00"
   },
   {
    "job_id": "greenhouse:7942216",
@@ -3228,9 +2579,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7942216",
-   "crawled_at": "2026-08-25T15:06:31.254018+00:00"
+   "crawled_at": "2026-08-25T15:51:41.944255+00:00"
   },
   {
    "job_id": "greenhouse:8069947",
@@ -3242,9 +2594,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gusto/jobs/8069947",
-   "crawled_at": "2026-08-25T15:06:31.242050+00:00"
+   "crawled_at": "2026-08-25T15:51:41.931925+00:00"
   },
   {
    "job_id": "greenhouse:6678216",
@@ -3256,9 +2609,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gusto/jobs/6678216",
-   "crawled_at": "2026-08-25T15:06:31.242021+00:00"
+   "crawled_at": "2026-08-25T15:51:41.931892+00:00"
   },
   {
    "job_id": "greenhouse:8100272",
@@ -3270,9 +2624,10 @@
    "repl_kw": "customer support,support specialist",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gusto/jobs/8100272",
-   "crawled_at": "2026-08-25T15:06:31.241842+00:00"
+   "crawled_at": "2026-08-25T15:51:41.931704+00:00"
   },
   {
    "job_id": "greenhouse:8059729",
@@ -3284,9 +2639,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8059729",
-   "crawled_at": "2026-08-25T15:06:31.236465+00:00"
+   "crawled_at": "2026-08-25T15:51:41.926184+00:00"
   },
   {
    "job_id": "greenhouse:7311204",
@@ -3298,9 +2654,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=7311204",
-   "crawled_at": "2026-08-25T15:06:31.234351+00:00"
+   "crawled_at": "2026-08-25T15:51:41.923990+00:00"
   },
   {
    "job_id": "greenhouse:6907907",
@@ -3312,9 +2669,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://jobs.elastic.co/jobs?gh_jid=6907907&gh_jid=6907907",
-   "crawled_at": "2026-08-25T15:06:31.228402+00:00"
+   "crawled_at": "2026-08-25T15:51:41.917867+00:00"
   },
   {
    "job_id": "greenhouse:8067909",
@@ -3326,9 +2684,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067909",
-   "crawled_at": "2026-08-25T15:06:31.223921+00:00"
+   "crawled_at": "2026-08-25T15:51:41.913239+00:00"
   },
   {
    "job_id": "greenhouse:8059910",
@@ -3340,9 +2699,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8059910",
-   "crawled_at": "2026-08-25T15:06:31.223894+00:00"
+   "crawled_at": "2026-08-25T15:51:41.913210+00:00"
   },
   {
    "job_id": "greenhouse:8028956",
@@ -3354,9 +2714,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8028956",
-   "crawled_at": "2026-08-25T15:06:31.223867+00:00"
+   "crawled_at": "2026-08-25T15:51:41.913180+00:00"
   },
   {
    "job_id": "greenhouse:8028958",
@@ -3368,9 +2729,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8028958",
-   "crawled_at": "2026-08-25T15:06:31.223839+00:00"
+   "crawled_at": "2026-08-25T15:51:41.913151+00:00"
   },
   {
    "job_id": "greenhouse:8067913",
@@ -3382,9 +2744,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067913",
-   "crawled_at": "2026-08-25T15:06:31.223809+00:00"
+   "crawled_at": "2026-08-25T15:51:41.913119+00:00"
   },
   {
    "job_id": "greenhouse:8088950",
@@ -3396,9 +2759,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8088950",
-   "crawled_at": "2026-08-25T15:06:31.223138+00:00"
+   "crawled_at": "2026-08-25T15:51:41.912435+00:00"
   },
   {
    "job_id": "greenhouse:8112239",
@@ -3410,9 +2774,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8112239",
-   "crawled_at": "2026-08-25T15:06:31.221768+00:00"
+   "crawled_at": "2026-08-25T15:51:41.911035+00:00"
   },
   {
    "job_id": "greenhouse:7481689",
@@ -3424,9 +2789,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/7481689",
-   "crawled_at": "2026-08-25T15:06:31.221738+00:00"
+   "crawled_at": "2026-08-25T15:51:41.911001+00:00"
   },
   {
    "job_id": "greenhouse:8643775002",
@@ -3438,9 +2804,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8643775002?gh_jid=8643775002",
-   "crawled_at": "2026-08-25T15:06:31.216278+00:00"
+   "crawled_at": "2026-08-25T15:51:41.905416+00:00"
   },
   {
    "job_id": "greenhouse:7773968003",
@@ -3452,9 +2819,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7773968003",
-   "crawled_at": "2026-08-25T15:06:31.214183+00:00"
+   "crawled_at": "2026-08-25T15:51:41.903285+00:00"
   },
   {
    "job_id": "greenhouse:7789940003",
@@ -3466,9 +2834,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7789940003",
-   "crawled_at": "2026-08-25T15:06:31.211487+00:00"
+   "crawled_at": "2026-08-25T15:51:41.900517+00:00"
   },
   {
    "job_id": "greenhouse:8029663",
@@ -3480,9 +2849,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8029663",
-   "crawled_at": "2026-08-25T15:06:31.208609+00:00"
+   "crawled_at": "2026-08-25T15:51:41.897664+00:00"
   },
   {
    "job_id": "greenhouse:8029661",
@@ -3494,9 +2864,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8029661",
-   "crawled_at": "2026-08-25T15:06:31.208575+00:00"
+   "crawled_at": "2026-08-25T15:51:41.897625+00:00"
   },
   {
    "job_id": "greenhouse:7712406",
@@ -3508,9 +2879,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=7712406",
-   "crawled_at": "2026-08-25T15:06:31.208443+00:00"
+   "crawled_at": "2026-08-25T15:51:41.897468+00:00"
   },
   {
    "job_id": "greenhouse:8122997",
@@ -3522,9 +2894,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8122997",
-   "crawled_at": "2026-08-25T15:06:31.208367+00:00"
+   "crawled_at": "2026-08-25T15:51:41.897389+00:00"
   },
   {
    "job_id": "greenhouse:8123029",
@@ -3536,23 +2909,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8123029",
-   "crawled_at": "2026-08-25T15:06:31.208339+00:00"
-  },
-  {
-   "job_id": "greenhouse:7871823",
-   "title": "Director of Customer Success",
-   "company": "Instacart",
-   "region": "United States - Remote",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "customer success",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://instacart.careers/job/?gh_jid=7871823",
-   "crawled_at": "2026-08-25T15:06:31.207677+00:00"
+   "crawled_at": "2026-08-25T15:51:41.897359+00:00"
   },
   {
    "job_id": "greenhouse:7144697",
@@ -3564,9 +2924,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=7144697",
-   "crawled_at": "2026-08-25T15:06:31.207302+00:00"
+   "crawled_at": "2026-08-25T15:51:41.896285+00:00"
   },
   {
    "job_id": "greenhouse:8432614002",
@@ -3578,9 +2939,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8432614002?gh_jid=8432614002",
-   "crawled_at": "2026-08-25T15:06:31.202164+00:00"
+   "crawled_at": "2026-08-25T15:51:41.891013+00:00"
   },
   {
    "job_id": "greenhouse:8428989002",
@@ -3592,9 +2954,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8428989002?gh_jid=8428989002",
-   "crawled_at": "2026-08-25T15:06:31.202137+00:00"
+   "crawled_at": "2026-08-25T15:51:41.890983+00:00"
   },
   {
    "job_id": "greenhouse:8432615002",
@@ -3606,65 +2969,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8432615002?gh_jid=8432615002",
-   "crawled_at": "2026-08-25T15:06:31.202109+00:00"
-  },
-  {
-   "job_id": "greenhouse:8618619002",
-   "title": "Senior Manager, Sales Development",
-   "company": "Brex",
-   "region": "Salt Lake City, Utah, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "sales development",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://www.brex.com/careers/8618619002?gh_jid=8618619002",
-   "crawled_at": "2026-08-25T15:06:31.201272+00:00"
-  },
-  {
-   "job_id": "greenhouse:8618616002",
-   "title": "Senior Manager, Sales Development",
-   "company": "Brex",
-   "region": "Seattle, Washington, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "sales development",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://www.brex.com/careers/8618616002?gh_jid=8618616002",
-   "crawled_at": "2026-08-25T15:06:31.201244+00:00"
-  },
-  {
-   "job_id": "greenhouse:8618615002",
-   "title": "Senior Manager, Sales Development",
-   "company": "Brex",
-   "region": "San Francisco, California, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "sales development",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://www.brex.com/careers/8618615002?gh_jid=8618615002",
-   "crawled_at": "2026-08-25T15:06:31.201213+00:00"
-  },
-  {
-   "job_id": "greenhouse:8618610002",
-   "title": "Senior Manager, Sales Development",
-   "company": "Brex",
-   "region": "New York, New York, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "sales development",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://www.brex.com/careers/8618610002?gh_jid=8618610002",
-   "crawled_at": "2026-08-25T15:06:31.201172+00:00"
+   "crawled_at": "2026-08-25T15:51:41.890953+00:00"
   },
   {
    "job_id": "greenhouse:8434398002",
@@ -3676,9 +2984,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8434398002?gh_jid=8434398002",
-   "crawled_at": "2026-08-25T15:06:31.200908+00:00"
+   "crawled_at": "2026-08-25T15:51:41.889704+00:00"
   },
   {
    "job_id": "greenhouse:8434436002",
@@ -3690,9 +2999,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8434436002?gh_jid=8434436002",
-   "crawled_at": "2026-08-25T15:06:31.200855+00:00"
+   "crawled_at": "2026-08-25T15:51:41.889645+00:00"
   },
   {
    "job_id": "greenhouse:8434435002",
@@ -3704,51 +3014,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8434435002?gh_jid=8434435002",
-   "crawled_at": "2026-08-25T15:06:31.200827+00:00"
-  },
-  {
-   "job_id": "greenhouse:8683984002",
-   "title": "Principal Design Recruiter",
-   "company": "Brex",
-   "region": "Seattle, Washington, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "recruit",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://www.brex.com/careers/8683984002?gh_jid=8683984002",
-   "crawled_at": "2026-08-25T15:06:31.200360+00:00"
-  },
-  {
-   "job_id": "greenhouse:8683972002",
-   "title": "Principal Design Recruiter",
-   "company": "Brex",
-   "region": "New York, New York, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "recruit",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://www.brex.com/careers/8683972002?gh_jid=8683972002",
-   "crawled_at": "2026-08-25T15:06:31.200332+00:00"
-  },
-  {
-   "job_id": "greenhouse:8683894002",
-   "title": "Principal Design Recruiter",
-   "company": "Brex",
-   "region": "San Francisco, California, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "recruit",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://www.brex.com/careers/8683894002?gh_jid=8683894002",
-   "crawled_at": "2026-08-25T15:06:31.200305+00:00"
+   "crawled_at": "2026-08-25T15:51:41.889615+00:00"
   },
   {
    "job_id": "greenhouse:8660043002",
@@ -3760,9 +3029,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8660043002?gh_jid=8660043002",
-   "crawled_at": "2026-08-25T15:06:31.200109+00:00"
+   "crawled_at": "2026-08-25T15:51:41.888873+00:00"
   },
   {
    "job_id": "greenhouse:8614548002",
@@ -3774,9 +3044,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8614548002?gh_jid=8614548002",
-   "crawled_at": "2026-08-25T15:06:31.200080+00:00"
+   "crawled_at": "2026-08-25T15:51:41.888842+00:00"
   },
   {
    "job_id": "greenhouse:8477492002",
@@ -3788,9 +3059,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8477492002?gh_jid=8477492002",
-   "crawled_at": "2026-08-25T15:06:31.199942+00:00"
+   "crawled_at": "2026-08-25T15:51:41.888696+00:00"
   },
   {
    "job_id": "greenhouse:8477508002",
@@ -3802,9 +3074,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8477508002?gh_jid=8477508002",
-   "crawled_at": "2026-08-25T15:06:31.199889+00:00"
+   "crawled_at": "2026-08-25T15:51:41.888638+00:00"
   },
   {
    "job_id": "greenhouse:8477485002",
@@ -3816,9 +3089,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8477485002?gh_jid=8477485002",
-   "crawled_at": "2026-08-25T15:06:31.199862+00:00"
+   "crawled_at": "2026-08-25T15:51:41.888609+00:00"
   },
   {
    "job_id": "greenhouse:8475632002",
@@ -3830,9 +3104,10 @@
    "repl_kw": "sales development",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8475632002?gh_jid=8475632002",
-   "crawled_at": "2026-08-25T15:06:31.199835+00:00"
+   "crawled_at": "2026-08-25T15:51:41.888578+00:00"
   },
   {
    "job_id": "greenhouse:8335464002",
@@ -3844,9 +3119,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8335464002?gh_jid=8335464002",
-   "crawled_at": "2026-08-25T15:06:31.198601+00:00"
+   "crawled_at": "2026-08-25T15:51:41.887303+00:00"
   },
   {
    "job_id": "greenhouse:8335440002",
@@ -3858,9 +3134,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8335440002?gh_jid=8335440002",
-   "crawled_at": "2026-08-25T15:06:31.198545+00:00"
+   "crawled_at": "2026-08-25T15:51:41.887242+00:00"
   },
   {
    "job_id": "greenhouse:8335473002",
@@ -3872,9 +3149,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8335473002?gh_jid=8335473002",
-   "crawled_at": "2026-08-25T15:06:31.198517+00:00"
+   "crawled_at": "2026-08-25T15:51:41.887211+00:00"
   },
   {
    "job_id": "greenhouse:8461601002",
@@ -3886,9 +3164,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8461601002?gh_jid=8461601002",
-   "crawled_at": "2026-08-25T15:06:31.198417+00:00"
+   "crawled_at": "2026-08-25T15:51:41.887108+00:00"
   },
   {
    "job_id": "greenhouse:8461476002",
@@ -3900,9 +3179,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8461476002?gh_jid=8461476002",
-   "crawled_at": "2026-08-25T15:06:31.198391+00:00"
+   "crawled_at": "2026-08-25T15:51:41.887079+00:00"
   },
   {
    "job_id": "greenhouse:8461603002",
@@ -3914,9 +3194,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8461603002?gh_jid=8461603002",
-   "crawled_at": "2026-08-25T15:06:31.198363+00:00"
+   "crawled_at": "2026-08-25T15:51:41.887049+00:00"
   },
   {
    "job_id": "greenhouse:8387049002",
@@ -3928,23 +3209,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8387049002?gh_jid=8387049002",
-   "crawled_at": "2026-08-25T15:06:31.196671+00:00"
-  },
-  {
-   "job_id": "greenhouse:5397699008",
-   "title": "Head of Vulnerability Disclosure & Security Community",
-   "company": "Anthropic",
-   "region": "New York City, NY; Remote-Friendly (Travel-Required) | San Francisco, CA | Washington, DC",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "community",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397699008",
-   "crawled_at": "2026-08-25T15:06:31.166777+00:00"
+   "crawled_at": "2026-08-25T15:51:41.885324+00:00"
   },
   {
    "job_id": "greenhouse:5391974008",
@@ -3956,9 +3224,10 @@
    "repl_kw": "community",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391974008",
-   "crawled_at": "2026-08-25T15:06:31.163313+00:00"
+   "crawled_at": "2026-08-25T15:51:41.851263+00:00"
   },
   {
    "job_id": "greenhouse:5391999008",
@@ -3970,9 +3239,10 @@
    "repl_kw": "community",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391999008",
-   "crawled_at": "2026-08-25T15:06:31.163280+00:00"
+   "crawled_at": "2026-08-25T15:51:41.851227+00:00"
   },
   {
    "job_id": "greenhouse:5391983008",
@@ -3984,9 +3254,10 @@
    "repl_kw": "community",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391983008",
-   "crawled_at": "2026-08-25T15:06:31.163245+00:00"
+   "crawled_at": "2026-08-25T15:51:41.851190+00:00"
   },
   {
    "job_id": "greenhouse:8112049",
@@ -3998,9 +3269,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8112049",
-   "crawled_at": "2026-08-25T15:06:31.156276+00:00"
+   "crawled_at": "2026-08-25T15:51:41.844053+00:00"
   },
   {
    "job_id": "greenhouse:8107543",
@@ -4012,9 +3284,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8107543",
-   "crawled_at": "2026-08-25T15:06:31.156246+00:00"
+   "crawled_at": "2026-08-25T15:51:41.844021+00:00"
   },
   {
    "job_id": "greenhouse:8054838",
@@ -4026,9 +3299,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8054838",
-   "crawled_at": "2026-08-25T15:06:31.156212+00:00"
+   "crawled_at": "2026-08-25T15:51:41.843986+00:00"
   },
   {
    "job_id": "greenhouse:7940391",
@@ -4040,9 +3314,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7940391",
-   "crawled_at": "2026-08-25T15:06:31.156143+00:00"
+   "crawled_at": "2026-08-25T15:51:41.843924+00:00"
   },
   {
    "job_id": "greenhouse:8081452",
@@ -4054,9 +3329,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8081452",
-   "crawled_at": "2026-08-25T15:06:31.156020+00:00"
+   "crawled_at": "2026-08-25T15:51:41.843790+00:00"
   },
   {
    "job_id": "greenhouse:8081505",
@@ -4068,9 +3344,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8081505",
-   "crawled_at": "2026-08-25T15:06:31.155992+00:00"
+   "crawled_at": "2026-08-25T15:51:41.843759+00:00"
   },
   {
    "job_id": "greenhouse:7656243",
@@ -4082,9 +3359,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7656243",
-   "crawled_at": "2026-08-25T15:06:31.155897+00:00"
+   "crawled_at": "2026-08-25T15:51:41.843656+00:00"
   },
   {
    "job_id": "greenhouse:7678180",
@@ -4096,9 +3374,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7678180",
-   "crawled_at": "2026-08-25T15:06:31.155865+00:00"
+   "crawled_at": "2026-08-25T15:51:41.843622+00:00"
   },
   {
    "job_id": "greenhouse:7678040",
@@ -4110,9 +3389,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7678040",
-   "crawled_at": "2026-08-25T15:06:31.155804+00:00"
+   "crawled_at": "2026-08-25T15:51:41.843555+00:00"
   },
   {
    "job_id": "greenhouse:8023412",
@@ -4124,9 +3404,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8023412",
-   "crawled_at": "2026-08-25T15:06:31.154000+00:00"
+   "crawled_at": "2026-08-25T15:51:41.841699+00:00"
   },
   {
    "job_id": "greenhouse:8026888",
@@ -4138,9 +3419,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8026888",
-   "crawled_at": "2026-08-25T15:06:31.153365+00:00"
+   "crawled_at": "2026-08-25T15:51:41.841013+00:00"
   },
   {
    "job_id": "greenhouse:8055301",
@@ -4152,9 +3434,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8055301",
-   "crawled_at": "2026-08-25T15:06:31.153335+00:00"
+   "crawled_at": "2026-08-25T15:51:41.840980+00:00"
   },
   {
    "job_id": "greenhouse:8083603",
@@ -4166,9 +3449,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8083603",
-   "crawled_at": "2026-08-25T15:06:31.153304+00:00"
+   "crawled_at": "2026-08-25T15:51:41.840947+00:00"
   },
   {
    "job_id": "greenhouse:7954726",
@@ -4180,9 +3464,10 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7954726",
-   "crawled_at": "2026-08-25T15:06:31.153271+00:00"
+   "crawled_at": "2026-08-25T15:51:41.840910+00:00"
   },
   {
    "job_id": "greenhouse:7955200",
@@ -4194,9 +3479,10 @@
    "repl_kw": "community",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/7955200",
-   "crawled_at": "2026-08-25T15:06:31.150713+00:00"
+   "crawled_at": "2026-08-25T15:51:41.838309+00:00"
   },
   {
    "job_id": "greenhouse:8143677",
@@ -4208,9 +3494,10 @@
    "repl_kw": "community",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8143677",
-   "crawled_at": "2026-08-25T15:06:31.149267+00:00"
+   "crawled_at": "2026-08-25T15:51:41.836813+00:00"
   },
   {
    "job_id": "greenhouse:7669372",
@@ -4222,9 +3509,10 @@
    "repl_kw": "community",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/7669372",
-   "crawled_at": "2026-08-25T15:06:31.149232+00:00"
+   "crawled_at": "2026-08-25T15:51:41.836777+00:00"
   },
   {
    "job_id": "greenhouse:6141591004",
@@ -4236,23 +3524,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/figma/jobs/6141591004?gh_jid=6141591004",
-   "crawled_at": "2026-08-25T15:06:31.146483+00:00"
-  },
-  {
-   "job_id": "greenhouse:5211972007",
-   "title": "Global Specialized Domain Expert Recruiter (Contractor)",
-   "company": "Labelbox",
-   "region": "Remote, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "recruit",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/labelbox/jobs/5211972007",
-   "crawled_at": "2026-08-25T15:06:31.143173+00:00"
+   "crawled_at": "2026-08-25T15:51:41.833928+00:00"
   },
   {
    "job_id": "greenhouse:8082829",
@@ -4264,9 +3539,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.coinbase.com/careers/positions/8082829?gh_jid=8082829",
-   "crawled_at": "2026-08-25T15:06:31.129324+00:00"
+   "crawled_at": "2026-08-25T15:51:41.816160+00:00"
   },
   {
    "job_id": "greenhouse:8064788",
@@ -4278,37 +3554,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://www.coinbase.com/careers/positions/8064788?gh_jid=8064788",
-   "crawled_at": "2026-08-25T15:06:31.127527+00:00"
-  },
-  {
-   "job_id": "greenhouse:8050322",
-   "title": "Principal Recruiter",
-   "company": "Coinbase",
-   "region": "Remote - USA",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "recruit",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://www.coinbase.com/careers/positions/8050322?gh_jid=8050322",
-   "crawled_at": "2026-08-25T15:06:31.126452+00:00"
-  },
-  {
-   "job_id": "greenhouse:8106071",
-   "title": "Principal Recruiter",
-   "company": "Coinbase",
-   "region": "Remote - Singapore",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "recruit",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://www.coinbase.com/careers/positions/8106071?gh_jid=8106071",
-   "crawled_at": "2026-08-25T15:06:31.126425+00:00"
+   "crawled_at": "2026-08-25T15:51:41.814326+00:00"
   },
   {
    "job_id": "greenhouse:8105001",
@@ -4320,9 +3569,10 @@
    "repl_kw": "community",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8105001",
-   "crawled_at": "2026-08-25T15:06:31.123450+00:00"
+   "crawled_at": "2026-08-25T15:51:41.810290+00:00"
   },
   {
    "job_id": "greenhouse:8121965",
@@ -4334,9 +3584,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8121965",
-   "crawled_at": "2026-08-25T15:06:31.123267+00:00"
+   "crawled_at": "2026-08-25T15:51:41.810100+00:00"
   },
   {
    "job_id": "greenhouse:8119819",
@@ -4348,9 +3599,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8119819",
-   "crawled_at": "2026-08-25T15:06:31.123237+00:00"
+   "crawled_at": "2026-08-25T15:51:41.810069+00:00"
   },
   {
    "job_id": "greenhouse:8123221",
@@ -4362,9 +3614,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8123221",
-   "crawled_at": "2026-08-25T15:06:31.122967+00:00"
+   "crawled_at": "2026-08-25T15:51:41.809808+00:00"
   },
   {
    "job_id": "greenhouse:8123220",
@@ -4376,9 +3629,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8123220",
-   "crawled_at": "2026-08-25T15:06:31.122934+00:00"
+   "crawled_at": "2026-08-25T15:51:41.809774+00:00"
   },
   {
    "job_id": "greenhouse:8616005002",
@@ -4390,23 +3644,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8616005002",
-   "crawled_at": "2026-08-25T15:06:31.118794+00:00"
-  },
-  {
-   "job_id": "greenhouse:8648304002",
-   "title": "Senior Customer Success Architect - Singapore",
-   "company": "GitLab",
-   "region": "Remote, Singapore",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "customer success",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8648304002",
-   "crawled_at": "2026-08-25T15:06:31.118760+00:00"
+   "crawled_at": "2026-08-25T15:51:41.805573+00:00"
   },
   {
    "job_id": "greenhouse:8662116002",
@@ -4418,9 +3659,10 @@
    "repl_kw": "recruit",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8662116002",
-   "crawled_at": "2026-08-25T15:06:31.117883+00:00"
+   "crawled_at": "2026-08-25T15:51:41.804650+00:00"
   },
   {
    "job_id": "greenhouse:8613199002",
@@ -4432,9 +3674,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8613199002",
-   "crawled_at": "2026-08-25T15:06:31.117379+00:00"
+   "crawled_at": "2026-08-25T15:51:41.804126+00:00"
   },
   {
    "job_id": "greenhouse:8691859002",
@@ -4446,9 +3689,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8691859002",
-   "crawled_at": "2026-08-25T15:06:31.117346+00:00"
+   "crawled_at": "2026-08-25T15:51:41.804091+00:00"
   },
   {
    "job_id": "greenhouse:8548980002",
@@ -4460,9 +3704,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8548980002",
-   "crawled_at": "2026-08-25T15:06:31.116245+00:00"
+   "crawled_at": "2026-08-25T15:51:41.802980+00:00"
   },
   {
    "job_id": "greenhouse:8742716002",
@@ -4474,9 +3719,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8742716002",
-   "crawled_at": "2026-08-25T15:06:31.116214+00:00"
+   "crawled_at": "2026-08-25T15:51:41.802947+00:00"
   },
   {
    "job_id": "greenhouse:8533016002",
@@ -4488,9 +3734,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8533016002",
-   "crawled_at": "2026-08-25T15:06:31.116173+00:00"
+   "crawled_at": "2026-08-25T15:51:41.802918+00:00"
   },
   {
    "job_id": "greenhouse:8637426002",
@@ -4502,37 +3749,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637426002",
-   "crawled_at": "2026-08-25T15:06:31.116143+00:00"
-  },
-  {
-   "job_id": "greenhouse:8561952002",
-   "title": "Customer Success Architect, EMEA",
-   "company": "GitLab",
-   "region": "Remote, Austria; Remote, France; Remote, Germany",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "customer success",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8561952002",
-   "crawled_at": "2026-08-25T15:06:31.116108+00:00"
-  },
-  {
-   "job_id": "greenhouse:8646852002",
-   "title": "Customer Success Architect, CEUR",
-   "company": "GitLab",
-   "region": "Remote, Germany",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "customer success",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646852002",
-   "crawled_at": "2026-08-25T15:06:31.116077+00:00"
+   "crawled_at": "2026-08-25T15:51:41.802887+00:00"
   },
   {
    "job_id": "greenhouse:7203091",
@@ -4544,37 +3764,10 @@
    "repl_kw": "sales development,sdr",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/webflow/jobs/7203091",
-   "crawled_at": "2026-08-25T15:06:31.114388+00:00"
-  },
-  {
-   "job_id": "jobicy:151528",
-   "title": "Account Manager, SMB",
-   "company": "Dutchie",
-   "region": "USA",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "account manager",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "jobicy",
-   "url": "https://jobicy.com/jobs/151528-account-manager-smb",
-   "crawled_at": "2026-08-25T15:06:31.111601+00:00"
-  },
-  {
-   "job_id": "jobicy:151531",
-   "title": "Senior Product Marketing Manager",
-   "company": "DataGrail",
-   "region": "USA",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "marketing",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "source": "jobicy",
-   "url": "https://jobicy.com/jobs/151531-senior-product-marketing-manager-3",
-   "crawled_at": "2026-08-25T15:06:31.111550+00:00"
+   "crawled_at": "2026-08-25T15:51:41.801138+00:00"
   },
   {
    "job_id": "arbeitnow:senior-account-manager-healthcare-pr-comms-345155",
@@ -4586,9 +3779,1135 @@
    "repl_kw": "account manager",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": false,
    "source": "arbeitnow",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/realchemistry/senior-account-manager-healthcare-pr-comms-345155",
-   "crawled_at": "2026-08-25T15:06:31.089131+00:00"
+   "crawled_at": "2026-08-25T15:51:41.772906+00:00"
+  },
+  {
+   "job_id": "remotive:2091068",
+   "title": "Head of Marketing & Communications",
+   "company": "garden3d",
+   "region": "Worldwide",
+   "salary": "$150k - $230k",
+   "has_salary": true,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "ai,ml",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "remotive",
+   "url": "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068",
+   "crawled_at": "2026-08-25T15:51:41.745149+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/ischool-graphic-design-instructor-project-based",
+   "title": "Graphic Design instructor - Project Based",
+   "company": "Ischool",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "graphic design",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/ischool-graphic-design-instructor-project-based",
+   "crawled_at": "2026-08-25T15:51:42.097280+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/egear-senior-google-ads-media-buyer-performance-marketing-lead",
+   "title": "Senior Google Ads Media Buyer / Performance Marketing Lead",
+   "company": "Egear",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/egear-senior-google-ads-media-buyer-performance-marketing-lead",
+   "crawled_at": "2026-08-25T15:51:42.096195+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/great-minds-principal-product-manager-content-authoring-delivery-cms",
+   "title": "Principal Product Manager (Content Authoring, Delivery & CMS)",
+   "company": "Great Minds",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/great-minds-principal-product-manager-content-authoring-delivery-cms",
+   "crawled_at": "2026-08-25T15:51:42.093512+00:00"
+  },
+  {
+   "job_id": "ashby:9a2a69a5-cba1-47e5-ac4a-9fa5b78b7da7",
+   "title": "Field Marketer - North America",
+   "company": "ElevenLabs",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketer",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/ElevenLabs/9a2a69a5-cba1-47e5-ac4a-9fa5b78b7da7",
+   "crawled_at": "2026-08-25T15:51:42.078726+00:00"
+  },
+  {
+   "job_id": "ashby:5ae34b0f-8f60-4762-9e54-d2eada3acc76",
+   "title": "Growth Marketing - Consumer App Channels",
+   "company": "ElevenLabs",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/ElevenLabs/5ae34b0f-8f60-4762-9e54-d2eada3acc76",
+   "crawled_at": "2026-08-25T15:51:42.068440+00:00"
+  },
+  {
+   "job_id": "ashby:0b61d6ac-14a1-4cbf-9613-a8b69bd126e2",
+   "title": "Senior Growth Marketing Campaigns Manager",
+   "company": "Vanta",
+   "region": "Remote U.S.",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/Vanta/0b61d6ac-14a1-4cbf-9613-a8b69bd126e2",
+   "crawled_at": "2026-08-25T15:51:41.983138+00:00"
+  },
+  {
+   "job_id": "greenhouse:7921649",
+   "title": "Staff Data Analyst",
+   "company": "Stripe",
+   "region": "US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://stripe.com/jobs/search?gh_jid=7921649",
+   "crawled_at": "2026-08-25T15:51:41.951510+00:00"
+  },
+  {
+   "job_id": "greenhouse:8036235",
+   "title": "Head of Market Intelligence, Product Marketing",
+   "company": "Stripe",
+   "region": "SF, Seattle, NYC, Chicago, Remote in the US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://stripe.com/jobs/search?gh_jid=8036235",
+   "crawled_at": "2026-08-25T15:51:41.944579+00:00"
+  },
+  {
+   "job_id": "greenhouse:8065643",
+   "title": "Head of Marketing Operations",
+   "company": "Stripe",
+   "region": "San Francisco, New York, Seattle, Chicago, Atlanta, Toronto, Remote in the US, Remote in Canada",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://stripe.com/jobs/search?gh_jid=8065643",
+   "crawled_at": "2026-08-25T15:51:41.944509+00:00"
+  },
+  {
+   "job_id": "greenhouse:8128634",
+   "title": "Head of AEO & SEO",
+   "company": "Stripe",
+   "region": "US Remote; Chicago, Atlanta, Canada",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "seo",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://stripe.com/jobs/search?gh_jid=8128634",
+   "crawled_at": "2026-08-25T15:51:41.944340+00:00"
+  },
+  {
+   "job_id": "greenhouse:8072861",
+   "title": "Staff Product Marketing Manager",
+   "company": "MongoDB",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8072861",
+   "crawled_at": "2026-08-25T15:51:41.930643+00:00"
+  },
+  {
+   "job_id": "greenhouse:8037179",
+   "title": "VP, Product Marketing, Observability",
+   "company": "Elastic",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8037179&gh_jid=8037179",
+   "crawled_at": "2026-08-25T15:51:41.921029+00:00"
+  },
+  {
+   "job_id": "greenhouse:8013219",
+   "title": "Sr. Director, Global Public Sector Marketing",
+   "company": "Elastic",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8013219&gh_jid=8013219",
+   "crawled_at": "2026-08-25T15:51:41.920669+00:00"
+  },
+  {
+   "job_id": "greenhouse:8110185",
+   "title": "Sr. Director, Demand and Digital Marketing",
+   "company": "Elastic",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8110185&gh_jid=8110185",
+   "crawled_at": "2026-08-25T15:51:41.920577+00:00"
+  },
+  {
+   "job_id": "greenhouse:7991597",
+   "title": "Director, Enterprise Product Marketing",
+   "company": "Instacart",
+   "region": "United States - Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://instacart.careers/job/?gh_jid=7991597",
+   "crawled_at": "2026-08-25T15:51:41.896632+00:00"
+  },
+  {
+   "job_id": "greenhouse:7991599",
+   "title": "Director, Enterprise Product Marketing",
+   "company": "Instacart",
+   "region": "Canada - Remote (ON, AB, BC, or NS Only)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://instacart.careers/job/?gh_jid=7991599",
+   "crawled_at": "2026-08-25T15:51:41.896598+00:00"
+  },
+  {
+   "job_id": "greenhouse:8446669002",
+   "title": "Director, Product Marketing",
+   "company": "Brex",
+   "region": "San Francisco, California, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.brex.com/careers/8446669002?gh_jid=8446669002",
+   "crawled_at": "2026-08-25T15:51:41.886347+00:00"
+  },
+  {
+   "job_id": "greenhouse:8447171002",
+   "title": "Director, Product Marketing",
+   "company": "Brex",
+   "region": "New York, New York, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.brex.com/careers/8447171002?gh_jid=8447171002",
+   "crawled_at": "2026-08-25T15:51:41.886316+00:00"
+  },
+  {
+   "job_id": "greenhouse:8638646002",
+   "title": "Principal Event Marketing Manager, Data + AI World Tour",
+   "company": "Databricks",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "ai",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8638646002",
+   "crawled_at": "2026-08-25T15:51:41.870328+00:00"
+  },
+  {
+   "job_id": "greenhouse:8638642002",
+   "title": "Director, Web Marketing",
+   "company": "Databricks",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8638642002",
+   "crawled_at": "2026-08-25T15:51:41.865967+00:00"
+  },
+  {
+   "job_id": "greenhouse:8636157002",
+   "title": "Director, Americas Field Marketing at Databricks",
+   "company": "Databricks",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8636157002",
+   "crawled_at": "2026-08-25T15:51:41.865129+00:00"
+  },
+  {
+   "job_id": "greenhouse:7874931",
+   "title": "Staff Software Engineer- Growth Performance Marketing",
+   "company": "Pinterest",
+   "region": "San Francisco, CA, US; Remote, US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7874931",
+   "crawled_at": "2026-08-25T15:51:41.846377+00:00"
+  },
+  {
+   "job_id": "greenhouse:7724254",
+   "title": "Sr. Staff Machine Learning Engineer, Content Quality",
+   "company": "Pinterest",
+   "region": "San Francisco, CA, US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "machine learning",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7724254",
+   "crawled_at": "2026-08-25T15:51:41.845422+00:00"
+  },
+  {
+   "job_id": "greenhouse:7648650",
+   "title": "Director, Marketing Technology & Innovation",
+   "company": "Pinterest",
+   "region": "San Francisco, CA, US; Remote, US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7648650",
+   "crawled_at": "2026-08-25T15:51:41.841253+00:00"
+  },
+  {
+   "job_id": "greenhouse:8022402",
+   "title": "Director, Integrated Marketing- Mid Market",
+   "company": "Pinterest",
+   "region": "San Francisco, CA, US; Remote, US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8022402",
+   "crawled_at": "2026-08-25T15:51:41.841218+00:00"
+  },
+  {
+   "job_id": "greenhouse:8018513",
+   "title": "Staff Machine Learning Engineer, Ads Foundational Representations",
+   "company": "Reddit",
+   "region": "Remote - United Kingdom",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "presentation",
+   "ai_skill_kw": "machine learning",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8018513",
+   "crawled_at": "2026-08-25T15:51:41.840144+00:00"
+  },
+  {
+   "job_id": "greenhouse:8018517",
+   "title": "Staff Machine Learning Engineer, Ads Foundational Representations",
+   "company": "Reddit",
+   "region": "Remote - The Netherlands",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "presentation",
+   "ai_skill_kw": "machine learning",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8018517",
+   "crawled_at": "2026-08-25T15:51:41.840107+00:00"
+  },
+  {
+   "job_id": "greenhouse:7931000",
+   "title": "Staff Data Scientist, Marketing",
+   "company": "Reddit",
+   "region": "Remote - Ontario, Canada",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/7931000",
+   "crawled_at": "2026-08-25T15:51:41.839981+00:00"
+  },
+  {
+   "job_id": "greenhouse:7445240",
+   "title": "Staff Data Scientist, Marketing",
+   "company": "Reddit",
+   "region": "Remote - United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/7445240",
+   "crawled_at": "2026-08-25T15:51:41.839950+00:00"
+  },
+  {
+   "job_id": "greenhouse:8051630",
+   "title": "Senior Manager, Recruiting",
+   "company": "Coinbase",
+   "region": "Remote - USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.coinbase.com/careers/positions/8051630?gh_jid=8051630",
+   "crawled_at": "2026-08-25T15:51:41.814135+00:00"
+  },
+  {
+   "job_id": "greenhouse:8038750",
+   "title": "Head of Field and Partner Marketing",
+   "company": "Dropbox",
+   "region": "Remote - US: Select locations",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://jobs.dropbox.com/listing/8038750?gh_jid=8038750",
+   "crawled_at": "2026-08-25T15:51:41.810945+00:00"
+  },
+  {
+   "job_id": "greenhouse:8142720",
+   "title": "Director of Marketing Strategy",
+   "company": "Dropbox",
+   "region": "Remote - US: Select locations",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://jobs.dropbox.com/listing/8142720?gh_jid=8142720",
+   "crawled_at": "2026-08-25T15:51:41.810747+00:00"
+  },
+  {
+   "job_id": "greenhouse:8127761",
+   "title": "Head of Marketing",
+   "company": "Wikimedia Foundation",
+   "region": "Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8127761",
+   "crawled_at": "2026-08-25T15:51:41.810165+00:00"
+  },
+  {
+   "job_id": "greenhouse:7901861",
+   "title": "Head of Editorial + Platforms, Mozilla Ecosystem",
+   "company": "Mozilla",
+   "region": "Remote US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "editor",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/mozilla/jobs/7901861",
+   "crawled_at": "2026-08-25T15:51:41.808007+00:00"
+  },
+  {
+   "job_id": "greenhouse:8610952002",
+   "title": "Staff Lifecycle Marketing Manager",
+   "company": "GitLab",
+   "region": "Remote, Canada; Remote, US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8610952002",
+   "crawled_at": "2026-08-25T15:51:41.807319+00:00"
+  },
+  {
+   "job_id": "jobicy:151526",
+   "title": "Head of Marketing",
+   "company": "Anagram",
+   "region": "USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/151526-head-of-marketing-3",
+   "crawled_at": "2026-08-25T15:51:41.798750+00:00"
+  },
+  {
+   "job_id": "arbeitnow:chief-marketing-officer-dach-331964",
+   "title": "Chief Marketing Officer - DACH",
+   "company": "hellofresh",
+   "region": "(unspecified)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/chief-marketing-officer-dach-331964",
+   "crawled_at": "2026-08-25T15:51:41.752763+00:00"
+  },
+  {
+   "job_id": "remotive:2091081",
+   "title": "Senior Graphic Designer",
+   "company": "Lemon.io",
+   "region": "Americas, Europe, Asia, Africa, Oceania",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "graphic design",
+   "ai_skill_kw": "ai,ml",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "remotive",
+   "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081",
+   "crawled_at": "2026-08-25T15:51:41.746747+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/mercury-customer-support-systems-analytics-architect",
+   "title": "Customer Support Systems & Analytics Architect",
+   "company": "Mercury",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer support",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/mercury-customer-support-systems-analytics-architect",
+   "crawled_at": "2026-08-25T15:51:42.103157+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/braze-customer-success-manager-ii",
+   "title": "Customer Success Manager II",
+   "company": "Braze",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/braze-customer-success-manager-ii",
+   "crawled_at": "2026-08-25T15:51:42.102808+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/beyondtrust-enterprise-account-manager",
+   "title": "Enterprise Account Manager",
+   "company": "BeyondTrust",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "account manager",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/beyondtrust-enterprise-account-manager",
+   "crawled_at": "2026-08-25T15:51:42.091124+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/brex-compliance-manager-marketing",
+   "title": "Compliance Manager, Marketing",
+   "company": "Brex",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/brex-compliance-manager-marketing",
+   "crawled_at": "2026-08-25T15:51:42.090842+00:00"
+  },
+  {
+   "job_id": "ashby:7563e051-8de0-48ac-bcf2-70eaf22e3f8b",
+   "title": "Account Manager - Strategic",
+   "company": "ElevenLabs",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "account manager",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/ElevenLabs/7563e051-8de0-48ac-bcf2-70eaf22e3f8b",
+   "crawled_at": "2026-08-25T15:51:42.059981+00:00"
+  },
+  {
+   "job_id": "ashby:a59371c8-cd50-48e3-9f21-4b79a6f0e3b2",
+   "title": "Sales Development Leader, APJ",
+   "company": "Cursor",
+   "region": "Australia",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "sales development",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/Cursor/a59371c8-cd50-48e3-9f21-4b79a6f0e3b2",
+   "crawled_at": "2026-08-25T15:51:42.045089+00:00"
+  },
+  {
+   "job_id": "ashby:c43bdded-80a1-4705-a0ec-8217d771528c",
+   "title": "Data Analyst, User Operations",
+   "company": "Cursor",
+   "region": "Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/Cursor/c43bdded-80a1-4705-a0ec-8217d771528c",
+   "crawled_at": "2026-08-25T15:51:42.044935+00:00"
+  },
+  {
+   "job_id": "ashby:4df2842a-016d-4c69-a011-fab47aa5f981",
+   "title": "Community Engagement Lead - Ohio",
+   "company": "OpenAI",
+   "region": "US - Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "community",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/openai/4df2842a-016d-4c69-a011-fab47aa5f981",
+   "crawled_at": "2026-08-25T15:51:42.023084+00:00"
+  },
+  {
+   "job_id": "ashby:2e127590-8604-4901-ac38-8dfd8e9e255f",
+   "title": "B2B Marketing Lead, India",
+   "company": "OpenAI",
+   "region": "India - Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/openai/2e127590-8604-4901-ac38-8dfd8e9e255f",
+   "crawled_at": "2026-08-25T15:51:42.019547+00:00"
+  },
+  {
+   "job_id": "ashby:ab2a6711-4a2f-46aa-9d1c-f9de243b8845",
+   "title": "Community Engagement Lead - Effingham County / Savannah MSA",
+   "company": "OpenAI",
+   "region": "US - Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "community",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/openai/ab2a6711-4a2f-46aa-9d1c-f9de243b8845",
+   "crawled_at": "2026-08-25T15:51:41.994735+00:00"
+  },
+  {
+   "job_id": "ashby:0d1babbc-0249-436d-98f7-ae8acf1940a5",
+   "title": "Enterprise Account Manager (London)",
+   "company": "Replit",
+   "region": "Remote - United Kingdom",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "account manager",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/Replit/0d1babbc-0249-436d-98f7-ae8acf1940a5",
+   "crawled_at": "2026-08-25T15:51:41.989272+00:00"
+  },
+  {
+   "job_id": "ashby:72c428b2-eaf0-4fc4-8509-8616d4be1a38",
+   "title": "Customer Success Manager, Commercial East",
+   "company": "Vanta",
+   "region": "Remote U.S.",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/Vanta/72c428b2-eaf0-4fc4-8509-8616d4be1a38",
+   "crawled_at": "2026-08-25T15:51:41.986060+00:00"
+  },
+  {
+   "job_id": "ashby:a0090ea4-5e19-439c-91e3-eb8a3f117eee",
+   "title": "Sr. Manager, Commercial Customer Success (East Region)",
+   "company": "Vanta",
+   "region": "Remote U.S.",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/Vanta/a0090ea4-5e19-439c-91e3-eb8a3f117eee",
+   "crawled_at": "2026-08-25T15:51:41.985449+00:00"
+  },
+  {
+   "job_id": "ashby:3e3514c4-76c5-443c-9ce9-a47be67f3c0d",
+   "title": "Account Manager, Growth Stage",
+   "company": "Vanta",
+   "region": "Sydney, Australia",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "account manager",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/Vanta/3e3514c4-76c5-443c-9ce9-a47be67f3c0d",
+   "crawled_at": "2026-08-25T15:51:41.985383+00:00"
+  },
+  {
+   "job_id": "ashby:403e14bd-0e69-49e7-a999-dcf26d93aae0",
+   "title": "Group Product Marketing Manager",
+   "company": "Vanta",
+   "region": "Remote U.S.",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/Vanta/403e14bd-0e69-49e7-a999-dcf26d93aae0",
+   "crawled_at": "2026-08-25T15:51:41.985186+00:00"
+  },
+  {
+   "job_id": "ashby:1bcca884-9c56-4519-b5eb-b5bd1f5ed402",
+   "title": "SLED Customer Success Manager, Public Sector",
+   "company": "Vanta",
+   "region": "Remote U.S.",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/Vanta/1bcca884-9c56-4519-b5eb-b5bd1f5ed402",
+   "crawled_at": "2026-08-25T15:51:41.984000+00:00"
+  },
+  {
+   "job_id": "ashby:a8b0c3e0-326c-4f34-876f-4903430d75d9",
+   "title": "Customer Success Manager, Strategic",
+   "company": "Vanta",
+   "region": "Remote U.S.",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/Vanta/a8b0c3e0-326c-4f34-876f-4903430d75d9",
+   "crawled_at": "2026-08-25T15:51:41.982318+00:00"
+  },
+  {
+   "job_id": "ashby:fb4b6076-b943-4d95-bb9b-a66aef8275f2",
+   "title": "Technical Recruiter",
+   "company": "Linear",
+   "region": "North America",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/Linear/fb4b6076-b943-4d95-bb9b-a66aef8275f2",
+   "crawled_at": "2026-08-25T15:51:41.970266+00:00"
+  },
+  {
+   "job_id": "ashby:370d9605-f02f-44f9-97fa-ebf769bed93d",
+   "title": "Customer Success Manager, Enterprise",
+   "company": "Linear",
+   "region": "North America",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/Linear/370d9605-f02f-44f9-97fa-ebf769bed93d",
+   "crawled_at": "2026-08-25T15:51:41.968781+00:00"
+  },
+  {
+   "job_id": "greenhouse:7871823",
+   "title": "Director of Customer Success",
+   "company": "Instacart",
+   "region": "United States - Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://instacart.careers/job/?gh_jid=7871823",
+   "crawled_at": "2026-08-25T15:51:41.896688+00:00"
+  },
+  {
+   "job_id": "greenhouse:8618619002",
+   "title": "Senior Manager, Sales Development",
+   "company": "Brex",
+   "region": "Salt Lake City, Utah, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "sales development",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.brex.com/careers/8618619002?gh_jid=8618619002",
+   "crawled_at": "2026-08-25T15:51:41.890071+00:00"
+  },
+  {
+   "job_id": "greenhouse:8618616002",
+   "title": "Senior Manager, Sales Development",
+   "company": "Brex",
+   "region": "Seattle, Washington, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "sales development",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.brex.com/careers/8618616002?gh_jid=8618616002",
+   "crawled_at": "2026-08-25T15:51:41.890041+00:00"
+  },
+  {
+   "job_id": "greenhouse:8618615002",
+   "title": "Senior Manager, Sales Development",
+   "company": "Brex",
+   "region": "San Francisco, California, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "sales development",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.brex.com/careers/8618615002?gh_jid=8618615002",
+   "crawled_at": "2026-08-25T15:51:41.890012+00:00"
+  },
+  {
+   "job_id": "greenhouse:8618610002",
+   "title": "Senior Manager, Sales Development",
+   "company": "Brex",
+   "region": "New York, New York, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "sales development",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.brex.com/careers/8618610002?gh_jid=8618610002",
+   "crawled_at": "2026-08-25T15:51:41.889982+00:00"
+  },
+  {
+   "job_id": "greenhouse:8683984002",
+   "title": "Principal Design Recruiter",
+   "company": "Brex",
+   "region": "Seattle, Washington, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.brex.com/careers/8683984002?gh_jid=8683984002",
+   "crawled_at": "2026-08-25T15:51:41.889120+00:00"
+  },
+  {
+   "job_id": "greenhouse:8683972002",
+   "title": "Principal Design Recruiter",
+   "company": "Brex",
+   "region": "New York, New York, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.brex.com/careers/8683972002?gh_jid=8683972002",
+   "crawled_at": "2026-08-25T15:51:41.889091+00:00"
+  },
+  {
+   "job_id": "greenhouse:8683894002",
+   "title": "Principal Design Recruiter",
+   "company": "Brex",
+   "region": "San Francisco, California, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.brex.com/careers/8683894002?gh_jid=8683894002",
+   "crawled_at": "2026-08-25T15:51:41.889062+00:00"
+  },
+  {
+   "job_id": "greenhouse:5397699008",
+   "title": "Head of Vulnerability Disclosure & Security Community",
+   "company": "Anthropic",
+   "region": "New York City, NY; Remote-Friendly (Travel-Required) | San Francisco, CA | Washington, DC",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "community",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397699008",
+   "crawled_at": "2026-08-25T15:51:41.854902+00:00"
+  },
+  {
+   "job_id": "greenhouse:5211972007",
+   "title": "Global Specialized Domain Expert Recruiter (Contractor)",
+   "company": "Labelbox",
+   "region": "Remote, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/labelbox/jobs/5211972007",
+   "crawled_at": "2026-08-25T15:51:41.830516+00:00"
+  },
+  {
+   "job_id": "greenhouse:8050322",
+   "title": "Principal Recruiter",
+   "company": "Coinbase",
+   "region": "Remote - USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.coinbase.com/careers/positions/8050322?gh_jid=8050322",
+   "crawled_at": "2026-08-25T15:51:41.813237+00:00"
+  },
+  {
+   "job_id": "greenhouse:8106071",
+   "title": "Principal Recruiter",
+   "company": "Coinbase",
+   "region": "Remote - Singapore",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.coinbase.com/careers/positions/8106071?gh_jid=8106071",
+   "crawled_at": "2026-08-25T15:51:41.813209+00:00"
+  },
+  {
+   "job_id": "greenhouse:8648304002",
+   "title": "Senior Customer Success Architect - Singapore",
+   "company": "GitLab",
+   "region": "Remote, Singapore",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8648304002",
+   "crawled_at": "2026-08-25T15:51:41.805537+00:00"
+  },
+  {
+   "job_id": "greenhouse:8561952002",
+   "title": "Customer Success Architect, EMEA",
+   "company": "GitLab",
+   "region": "Remote, Austria; Remote, France; Remote, Germany",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8561952002",
+   "crawled_at": "2026-08-25T15:51:41.802849+00:00"
+  },
+  {
+   "job_id": "greenhouse:8646852002",
+   "title": "Customer Success Architect, CEUR",
+   "company": "GitLab",
+   "region": "Remote, Germany",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646852002",
+   "crawled_at": "2026-08-25T15:51:41.802817+00:00"
+  },
+  {
+   "job_id": "jobicy:151528",
+   "title": "Account Manager, SMB",
+   "company": "Dutchie",
+   "region": "USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "account manager",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/151528-account-manager-smb",
+   "crawled_at": "2026-08-25T15:51:41.798332+00:00"
+  },
+  {
+   "job_id": "jobicy:151531",
+   "title": "Senior Product Marketing Manager",
+   "company": "DataGrail",
+   "region": "USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/151531-senior-product-marketing-manager-3",
+   "crawled_at": "2026-08-25T15:51:41.798153+00:00"
   },
   {
    "job_id": "arbeitnow:senior-customer-success-manager-430541",
@@ -4600,9 +4919,10 @@
    "repl_kw": "customer success",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": true,
    "source": "arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/sparetech/senior-customer-success-manager-430541",
-   "crawled_at": "2026-08-25T15:06:31.079819+00:00"
+   "crawled_at": "2026-08-25T15:51:41.763870+00:00"
   },
   {
    "job_id": "arbeitnow:senior-quality-analyst-330064",
@@ -4614,9 +4934,25 @@
    "repl_kw": "quality analyst",
    "ai_skill_kw": "",
    "needs_speaking": true,
+   "senior": true,
    "source": "arbeitnow",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/starrez/senior-quality-analyst-330064",
-   "crawled_at": "2026-08-25T15:06:31.076407+00:00"
+   "crawled_at": "2026-08-25T15:51:41.757567+00:00"
+  },
+  {
+   "job_id": "arbeitnow:senior-channel-account-manager-75131",
+   "title": "Senior Channel Account Manager",
+   "company": "Tenableinc",
+   "region": "(unspecified)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "account manager",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/tenableinc/senior-channel-account-manager-75131",
+   "crawled_at": "2026-08-25T15:51:41.747391+00:00"
   }
  ]
 }
