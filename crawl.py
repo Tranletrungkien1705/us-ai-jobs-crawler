@@ -7,7 +7,7 @@ Env:
   SUPABASE_URL  e.g. https://xxxx.supabase.co
   SUPABASE_KEY  service/secret key (sb_secret_... or service_role) - bypasses RLS
 """
-import os, re, sys, json, hashlib, datetime
+import os, re, sys, json, hashlib, datetime, sqlite3
 import requests
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) job-crawler"}
@@ -118,6 +118,31 @@ def fetch_himalayas():
     return out
 
 
+COLS = ["job_id", "source", "title", "company", "location", "region", "is_us",
+        "salary", "tags", "url", "repl_kw", "ai_skill_kw", "crawled_at"]
+
+
+def store_sqlite(rows, path):
+    con = sqlite3.connect(path)
+    con.execute("""create table if not exists us_ai_jobs (
+        job_id text primary key, source text, title text, company text,
+        location text, region text, is_us integer, salary text, tags text,
+        url text, repl_kw text, ai_skill_kw text,
+        first_seen text default (datetime('now')), crawled_at text)""")
+    n = 0
+    for r in rows:
+        vals = [int(r[c]) if c == "is_us" else r.get(c) for c in COLS]
+        ph = ",".join("?" * len(COLS))
+        upd = ",".join(f"{c}=excluded.{c}" for c in COLS if c not in ("job_id", "first_seen"))
+        con.execute(f"insert into us_ai_jobs ({','.join(COLS)}) values ({ph}) "
+                    f"on conflict(job_id) do update set {upd}", vals)
+        n += 1
+    con.commit()
+    total = con.execute("select count(*) from us_ai_jobs").fetchone()[0]
+    con.close()
+    print(f"\nSQLite {path}: upserted {n}, table now has {total} rows.")
+
+
 def main():
     url = os.environ.get("SUPABASE_URL", "").rstrip("/")
     key = os.environ.get("SUPABASE_KEY", "")
@@ -149,7 +174,8 @@ def main():
         print(f"  [{r['source']}] {r['title'][:50]:50} | {r['region'][:18]:18} | {r['salary'] or '-'} | {r['repl_kw'][:40]}")
 
     if not url or not key:
-        print("\n[dry-run] SUPABASE_URL/KEY not set - skip upsert.")
+        db = os.environ.get("DB_PATH", os.path.expanduser("~/jobs.db"))
+        store_sqlite(rows, db)
         return
 
     # bulk upsert (omit first_seen so it stays at original insert time)
