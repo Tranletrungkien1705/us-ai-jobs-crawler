@@ -15,13 +15,28 @@ TIMEOUT = 30
 
 # --- job families AI can realistically do the work of ("ngon" = tri-thuc, luong tot) ---
 REPL = [
-    "content", "copywrit", "writer", "blog", "article", "ghostwrit",
-    "data entry", "annotat", "data label", "transcri", "translat", "proofread", "editor",
-    "virtual assistant", "customer support", "customer service", "chat support", "email support",
-    "moderat", "bookkeep", "accounts payable", "seo", "social media", "community manager",
-    "research assistant", "market research", "appointment setter", "outreach", "lead generation",
-    "sales development", "sdr", "recruit", "sourcer", "paralegal", "tutor", "english teacher",
-    "voice over", "video edit", "graphic design", "presentation", "data analyst", "qa tester",
+    # writing / content
+    "content", "copywrit", "copy editor", "writer", "blog", "article", "ghostwrit",
+    "technical writer", "ux writer", "scriptwrit", "grant writer", "newsletter",
+    "editor", "proofread", "product description", "documentation", "localization",
+    # data / annotation
+    "data entry", "annotat", "data label", "labeling", "transcri", "translat", "captioning",
+    "subtitle", "tagging", "categoriz", "survey", "data processing",
+    # support / VA / admin
+    "virtual assistant", "administrative assistant", "executive assistant", "admin assistant",
+    "customer support", "customer service", "customer success", "chat support", "email support",
+    "help desk", "helpdesk", "support specialist", "moderat", "scheduler", "data clerk",
+    # marketing / sales
+    "marketing", "marketer", "seo", "social media", "community", "email marketing",
+    "market research", "research assistant", "appointment setter", "outreach", "lead gen",
+    "sales development", "sdr", "bdr", "account manager", "cold call",
+    # finance / hr / legal (clerical)
+    "bookkeep", "accounts payable", "accounting clerk", "recruit", "sourcer", "paralegal",
+    # design / media / education
+    "graphic design", "presentation", "powerpoint", "video edit", "voice over",
+    "tutor", "english teacher", "curriculum",
+    # analytics / qa
+    "data analyst", "qa tester", "quality analyst", "reviewer", "curator", "prompt",
 ]
 # jobs that are ABOUT building AI (informational tag)
 AISKILL = ["ai", "ml", "llm", "gpt", "prompt", "machine learning", "nlp", "data scien", "generative"]
@@ -92,15 +107,38 @@ def fetch_remotive():
 
 def fetch_arbeitnow():
     out = []
+    for page in range(1, 5):  # phan trang de lay nhieu hon
+        try:
+            d = requests.get(f"https://www.arbeitnow.com/api/job-board-api?page={page}",
+                             headers=UA, timeout=TIMEOUT).json()
+            data = d.get("data", [])
+            if not data:
+                break
+            for j in data:
+                loc = j.get("location") or ("Remote" if j.get("remote") else "")
+                out.append(norm("arbeitnow", j.get("title"), j.get("company_name"),
+                                loc, None, " ".join(j.get("tags", []) or []),
+                                j.get("url"), j.get("slug")))
+        except Exception as e:
+            print(f"arbeitnow p{page} ERR", e, file=sys.stderr)
+            break
+    return out
+
+
+def fetch_jobicy():
+    out = []
     try:
-        d = requests.get("https://www.arbeitnow.com/api/job-board-api", headers=UA, timeout=TIMEOUT).json()
-        for j in d.get("data", []):
-            loc = j.get("location") or ("Remote" if j.get("remote") else "")
-            out.append(norm("arbeitnow", j.get("title"), j.get("company_name"),
-                            loc, None, " ".join(j.get("tags", []) or []),
-                            j.get("url"), j.get("slug")))
+        d = requests.get("https://jobicy.com/api/v2/remote-jobs?count=50", headers=UA, timeout=TIMEOUT).json()
+        for j in d.get("jobs", []):
+            sal = None
+            if j.get("annualSalaryMin"):
+                sal = f"${j.get('annualSalaryMin')}-{j.get('annualSalaryMax')} {j.get('salaryCurrency','')}".strip()
+            ind = j.get("jobIndustry")
+            tags = " ".join(ind) if isinstance(ind, list) else str(ind or "")
+            out.append(norm("jobicy", j.get("jobTitle"), j.get("companyName"),
+                            j.get("jobGeo") or "Anywhere", sal, tags, j.get("url"), j.get("id")))
     except Exception as e:
-        print("arbeitnow ERR", e, file=sys.stderr)
+        print("jobicy ERR", e, file=sys.stderr)
     return out
 
 
@@ -173,7 +211,7 @@ def main():
     key = os.environ.get("SUPABASE_KEY", "")
 
     raw = []
-    for f in (fetch_remoteok, fetch_remotive, fetch_arbeitnow, fetch_himalayas):
+    for f in (fetch_remoteok, fetch_remotive, fetch_arbeitnow, fetch_himalayas, fetch_jobicy):
         got = f()
         print(f"{f.__name__}: {len(got)}")
         raw += got

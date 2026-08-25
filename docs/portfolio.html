@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Copywriting Portfolio — Kien</title>
+<style>
+  :root{--bg:#0e1116;--card:#171b22;--line:#2a3038;--tx:#e6e9ef;--mut:#9aa4b2;--acc:#4f8cff;--acc2:#22c55e}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.55}
+  .wrap{max-width:760px;margin:0 auto;padding:26px 18px 70px}
+  a.back{color:var(--acc);font-size:13px;text-decoration:none}
+  h1{font-size:23px;margin:12px 0 2px}
+  .lede{color:var(--mut);font-size:14px;margin:0 0 6px}
+  .note{font-size:12.5px;color:var(--mut);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:14px 0}
+  .sample{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin:18px 0}
+  .kick{color:var(--acc);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+  .sample h2{font-size:19px;margin:6px 0 4px}
+  .brief{font-size:12.5px;color:var(--mut);margin:0 0 14px;font-style:italic}
+  .hero{font-size:26px;font-weight:800;line-height:1.2;margin:10px 0 8px;color:#fff}
+  .sub{font-size:15px;color:#cdd3dc}
+  .cta{display:inline-block;background:var(--acc);color:#fff;border-radius:9px;padding:9px 18px;font-weight:700;margin-top:12px;font-size:14px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}
+  .grid .b{background:#12161d;border:1px solid var(--line);border-radius:10px;padding:12px}
+  .grid .b b{color:#fff}
+  .email{background:#0b0e13;border:1px solid var(--line);border-radius:10px;padding:16px;margin-top:8px}
+  .email .h{font-size:13px;color:var(--mut);border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:10px}
+  .ad{border-left:3px solid var(--acc);padding:6px 0 6px 12px;margin:10px 0}
+  @media(max-width:560px){.grid{grid-template-columns:1fr}}
+  hr{border:none;border-top:1px solid var(--line);margin:6px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="./">← Job board</a>
+  <h1>Copywriting Portfolio</h1>
+  <p class="lede">Kien · Technical &amp; SaaS copywriter — I turn complex products into clear, converting copy.</p>
+  <div class="note">Original samples written for this portfolio. I write with an AI-assisted workflow for speed and consistency, and personally edit every line. Happy to complete a paid test piece in your brand voice.</div>
+
+  <!-- SAMPLE 1: SaaS landing -->
+  <div class="sample">
+    <div class="kick">Sample 1 · SaaS landing page</div>
+    <h2>FlowBill — invoicing API for developers</h2>
+    <p class="brief">Brief: a self-serve billing API needs a hero that speaks to engineers without losing decision-makers.</p>
+    <div class="hero">Ship billing in an afternoon, not a quarter.</div>
+    <p class="sub">FlowBill is the invoicing API that handles taxes, retries, and compliance — so your team writes three lines of code instead of three months of edge cases.</p>
+    <span class="cta">Get your API key →</span>
+    <div class="grid">
+      <div class="b"><b>Drop-in, not rip-out.</b><br>REST endpoints that fit your stack. Go live in a sandbox in under 10 minutes.</div>
+      <div class="b"><b>Compliance on autopilot.</b><br>E-invoicing, VAT, and audit trails built in — validated on millions of documents.</div>
+      <div class="b"><b>Never lose a payment.</b><br>Smart retries and dunning recover revenue while you sleep.</div>
+      <div class="b"><b>Scales with you.</b><br>From first invoice to enterprise volume, no re-architecture required.</div>
+    </div>
+    <p class="sub" style="margin-top:12px"><b>Stop maintaining billing code. Start shipping.</b> Your first 500 invoices are on us.</p>
+  </div>
+
+  <!-- SAMPLE 2: Marketing email -->
+  <div class="sample">
+    <div class="kick">Sample 2 · Product-launch email</div>
+    <h2>Nurture email — feature launch</h2>
+    <p class="brief">Brief: re-engage trial users who signed up but never sent their first invoice.</p>
+    <div class="email">
+      <div class="h"><b>Subject:</b> Your first invoice is 3 lines away 👋<br><b>Preview:</b> We saved you the boring part.</div>
+      <p>Hi {{first_name}},</p>
+      <p>You created a FlowBill account — smart move. But your first invoice is still sitting in the drafts of your to-do list.</p>
+      <p>Good news: we did the hard part. Copy our starter snippet, paste your API key, and send a real invoice in the next five minutes:</p>
+      <p><b>→ Send my first invoice</b></p>
+      <p>Taxes, formatting, and compliance are handled automatically. If anything looks off, just reply to this email — a real engineer (not a bot) will help.</p>
+      <p>Talk soon,<br>The FlowBill team</p>
+      <hr>
+      <p style="font-size:12px;color:var(--mut)">P.S. Still evaluating? Here's a 90-second demo of a full billing flow.</p>
+    </div>
+  </div>
+
+  <!-- BONUS: ad variations -->
+  <div class="sample">
+    <div class="kick">Bonus · Ad variations (A/B)</div>
+    <h2>Three hooks, one product</h2>
+    <p class="brief">Brief: short paid-social variants to test messaging angles.</p>
+    <div class="ad"><b>Pain:</b> Billing bugs cost you customers. FlowBill's API handles taxes, retries &amp; compliance — so you don't. Ship in an afternoon.</div>
+    <div class="ad"><b>Speed:</b> Three lines of code. One live invoice. Zero compliance headaches. That's FlowBill. Try it free →</div>
+    <div class="ad"><b>Proof:</b> Validated on millions of invoices. Trusted by dev teams who'd rather build features than chase payments. Start free.</div>
+  </div>
+
+</div>
+</body>
+</html>
