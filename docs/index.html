@@ -161,10 +161,11 @@
 <script>
 const $ = s => document.querySelector(s);
 let JOBS = [], onlySal = true, lowTalk = true;
-// nghe can NOI tieng Anh nhieu -> an khi bat "It noi TA"
-const SPEAK = ['customer support','customer service','customer success','help desk','helpdesk',
-  'support specialist','appointment setter','outreach','sales development','sdr','bdr',
-  'account manager','cold call','tutor','english teacher','voice over','community'];
+// CHI hien nghe async/output-based (viet, data, dich, annotation) -> an marketing/sales/support/recruit
+const ASYNC_OK = ['writer','content','copywrit','ghostwrit','blog','article','editor','proofread',
+  'data entry','annotat','data label','labeling','transcri','translat','captioning','subtitle',
+  'tagging','categoriz','data processing','qa tester','quality analyst','seo','graphic design',
+  'documentation','technical writer','ux writer','localization','curator','reviewer'];
 const doneSet = new Set(JSON.parse(localStorage.getItem('applied')||'[]'));
 
 $('#prof').value = localStorage.getItem('profile')||'';
@@ -215,7 +216,7 @@ function render(){
   const q = $('#q').value.trim().toLowerCase();
   let list = JOBS.filter(j=>{
     if(onlySal && !j.has_salary) return false;
-    if(lowTalk){ const kw=(j.repl_kw||'').toLowerCase(); if(SPEAK.some(s=>kw.includes(s))) return false; }
+    if(lowTalk){ const kw=(j.repl_kw||'').toLowerCase(); if(!ASYNC_OK.some(s=>kw.includes(s))) return false; }
     if(q && !(`${j.title} ${j.company} ${j.repl_kw}`.toLowerCase().includes(q))) return false;
     return true;
   });
