@@ -1,7 +1,7 @@
 {
- "updated": "2026-08-25T07:50:52.19122+00:00",
- "count": 25,
- "salaried": 7,
+ "updated": "2026-08-25T10:30:17.108914+00:00",
+ "count": 110,
+ "salaried": 10,
  "jobs": [
   {
    "title": "Church Recruitment Manager (TX)",
@@ -81,6 +81,39 @@
    "url": "https://himalayas.app/companies/foxelli-group/jobs/marketing-manager-e-commerce-100-remote-eu-6320000181"
   },
   {
+   "title": "Medical Reviewer (Radiologist) - Remote CA (West Sacramento, CA, US, 95605-1630)",
+   "company": "Gainwell Technologies",
+   "region": "United States",
+   "salary": "175000",
+   "has_salary": true,
+   "repl_kw": "reviewer",
+   "ai_skill_kw": "",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/gainwell-technologies/jobs/medical-reviewer-radiologist-remote-ca-west-sacramento-ca-us-95605-1630"
+  },
+  {
+   "title": "Medical Reviewer (Speech and Audiology Specialist) - Remote CA (West Sacramento,",
+   "company": "Gainwell Technologies",
+   "region": "United States",
+   "salary": "100000",
+   "has_salary": true,
+   "repl_kw": "reviewer",
+   "ai_skill_kw": "",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/gainwell-technologies/jobs/medical-reviewer-speech-and-audiology-specialist-remote-ca-west-sacramento"
+  },
+  {
+   "title": "National Account Manager",
+   "company": "SharkNinja",
+   "region": "United States",
+   "salary": "178300",
+   "has_salary": true,
+   "repl_kw": "account manager",
+   "ai_skill_kw": "",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/sharkninja/jobs/national-account-manager-1094579661"
+  },
+  {
    "title": "Account Executive, Affiliate Marketing",
    "company": "Accelerationpartners",
    "region": "(unspecified)",
@@ -93,6 +126,17 @@
   },
   {
    "title": "Account Manager",
+   "company": "Keeper Security",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "account manager",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/keeper-security-account-manager"
+  },
+  {
+   "title": "Account Manager",
    "company": "Keeper Security, Inc.",
    "region": "United States",
    "salary": null,
@@ -101,6 +145,17 @@
    "ai_skill_kw": "",
    "source": "himalayas",
    "url": "https://himalayas.app/companies/keeper-security-inc/jobs/account-manager"
+  },
+  {
+   "title": "Account Manager – Client Services",
+   "company": "Integrated Hire",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "account manager",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/integrated-hire-account-manager-client-services"
   },
   {
    "title": "Account Manager, SMB",
@@ -136,6 +191,259 @@
    "url": "https://jobicy.com/jobs/151488-clinical-transcript-reviewer"
   },
   {
+   "title": "Compliance Manager, Marketing",
+   "company": "Brex",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/brex-compliance-manager-marketing"
+  },
+  {
+   "title": "Content Marketing Manager",
+   "company": "Coursera",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content,marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/coursera/jobs/6144683004"
+  },
+  {
+   "title": "Content Reviewer - US",
+   "company": "TELUS Digital",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content,reviewer",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/telus-digital-content-reviewer-us-5"
+  },
+  {
+   "title": "Customer Success Architect, CEUR",
+   "company": "GitLab",
+   "region": "Remote, Germany",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646852002"
+  },
+  {
+   "title": "Customer Success Architect, EMEA",
+   "company": "GitLab",
+   "region": "Remote, Austria; Remote, France; Remote, Germany",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8561952002"
+  },
+  {
+   "title": "Customer Success Engineer",
+   "company": "Hightouch",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/hightouch-customer-success-engineer"
+  },
+  {
+   "title": "Customer Success Engineer, LATAM (Spanish, Portugese)",
+   "company": "GitLab",
+   "region": "Remote, Brazil; Remote, Mexico; Remote, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637426002"
+  },
+  {
+   "title": "Customer Success Manager",
+   "company": "Typeform",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/typeform-customer-success-manager"
+  },
+  {
+   "title": "Customer Success Manager",
+   "company": "GitLab",
+   "region": "Remote, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8742716002"
+  },
+  {
+   "title": "Customer Success Manager",
+   "company": "GitLab",
+   "region": "Remote, North America",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8533016002"
+  },
+  {
+   "title": "Customer Success Manager - Australia",
+   "company": "GitLab",
+   "region": "Remote, Australia",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8548980002"
+  },
+  {
+   "title": "Customer Success Manager II",
+   "company": "Braze",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/braze-customer-success-manager-ii"
+  },
+  {
+   "title": "Customer Success Manager, EMEA",
+   "company": "Customer.io",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/customer-io-customer-success-manager-emea"
+  },
+  {
+   "title": "Customer Support  Reservation Services (Remote)",
+   "company": "Destination Knot",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer support",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/destination-knot-customer-support-reservation-services-remote"
+  },
+  {
+   "title": "Customer Support & Product Demo Specialist",
+   "company": "Joby",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer support",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/joby-customer-support-product-demo-specialist"
+  },
+  {
+   "title": "Customer Support Agent (Remote)",
+   "company": "CRAE GROUP LTD",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer support",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote"
+  },
+  {
+   "title": "Customer Support Systems & Analytics Architect",
+   "company": "Mercury",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer support",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/mercury-customer-support-systems-analytics-architect"
+  },
+  {
+   "title": "Director of Marketing Strategy",
+   "company": "Dropbox",
+   "region": "Remote - US: Select locations",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://jobs.dropbox.com/listing/8142720?gh_jid=8142720"
+  },
+  {
+   "title": "Enablement Content Manager",
+   "company": "GitLab",
+   "region": "Remote, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8635277002"
+  },
+  {
+   "title": "Enterprise Account Manager",
+   "company": "BeyondTrust",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "account manager",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/beyondtrust-enterprise-account-manager"
+  },
+  {
+   "title": "Entry-Level Account Manager",
+   "company": "NoGigiddy",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "account manager",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/nogigiddy-entry-level-account-manager-4"
+  },
+  {
+   "title": "Executive Assistant to the Founder & CEO",
+   "company": "Turing",
+   "region": "Palo Alto, California, United States; San Francisco, California, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "executive assistant",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6123880004"
+  },
+  {
+   "title": "Freelance Graphic Designer / Signage Designer",
+   "company": "Jobgether",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "graphic design",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/jobgether-freelance-graphic-designer-signage-designer"
+  },
+  {
    "title": "Freelance SEO & GEO Content Writer (German Market) (m/w/d)",
    "company": "reolink",
    "region": "(unspecified)",
@@ -145,6 +453,83 @@
    "ai_skill_kw": "",
    "source": "arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/reolink/freelance-seo-geo-content-writer-german-market-365607"
+  },
+  {
+   "title": "Freelance Writer",
+   "company": "ProWriterSites",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "writer",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/prowritersites-freelance-writer"
+  },
+  {
+   "title": "Fundraising Support Specialist (Contract)",
+   "company": "Wikimedia Foundation",
+   "region": "Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "support specialist",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8105376"
+  },
+  {
+   "title": "Global Specialized Domain Expert Recruiter (Contractor)",
+   "company": "Labelbox",
+   "region": "Remote, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/labelbox/jobs/5211972007"
+  },
+  {
+   "title": "Graphic Design Assistant",
+   "company": "Blue Whale Lending Llc.",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "graphic design",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/blue-whale-lending-llc-graphic-design-assistant"
+  },
+  {
+   "title": "Graphic Design Executive",
+   "company": "Koin Limited",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "graphic design",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/koin-limited-graphic-design-executive"
+  },
+  {
+   "title": "Graphic Design instructor - Project Based",
+   "company": "Ischool",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "graphic design",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/ischool-graphic-design-instructor-project-based"
+  },
+  {
+   "title": "Head of Editorial + Platforms, Mozilla Ecosystem",
+   "company": "Mozilla",
+   "region": "Remote US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "editor",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/mozilla/jobs/7901861"
   },
   {
    "title": "Head of Editorial + Platforms, Mozilla Ecosystem",
@@ -158,6 +543,28 @@
    "url": "https://jobicy.com/jobs/151506-head-of-editorial-platforms-mozilla-ecosystem"
   },
   {
+   "title": "Head of Field and Partner Marketing",
+   "company": "Dropbox",
+   "region": "Remote - US: Select locations",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://jobs.dropbox.com/listing/8038750?gh_jid=8038750"
+  },
+  {
+   "title": "Head of Marketing",
+   "company": "Wikimedia Foundation",
+   "region": "Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8127761"
+  },
+  {
    "title": "Head of Marketing",
    "company": "Anagram",
    "region": "USA",
@@ -167,6 +574,105 @@
    "ai_skill_kw": "",
    "source": "jobicy",
    "url": "https://jobicy.com/jobs/151526-head-of-marketing-3"
+  },
+  {
+   "title": "Italian Translator / Linguist (Contract)",
+   "company": "Wikimedia Foundation",
+   "region": "Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "translat",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8023197"
+  },
+  {
+   "title": "Lead Program Manager, Community Wishlist",
+   "company": "Wikimedia Foundation",
+   "region": "Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "community",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8105001"
+  },
+  {
+   "title": "Lifecycle Marketing Operations Manager, Firefox Mobile",
+   "company": "Mozilla",
+   "region": "Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8114963"
+  },
+  {
+   "title": "Lifecycle Marketing Operations Manager, Firefox Mobile",
+   "company": "Mozilla",
+   "region": "Remote US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8115026"
+  },
+  {
+   "title": "Lifecycle Marketing Operations Manager, Firefox Mobile",
+   "company": "Mozilla",
+   "region": "Remote Canada",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8139354"
+  },
+  {
+   "title": "Litigation Paralegal",
+   "company": "Coinbase",
+   "region": "Remote - USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "paralegal",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://www.coinbase.com/careers/positions/8030591?gh_jid=8030591"
+  },
+  {
+   "title": "Manager, Customer Success",
+   "company": "GitLab",
+   "region": "Remote, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8691859002"
+  },
+  {
+   "title": "Manager, Customer Success Managers, EMEA",
+   "company": "GitLab",
+   "region": "Remote, Austria; Remote, Germany",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8613199002"
+  },
+  {
+   "title": "Marketing Automation SaaS + Services Line of Business Owner",
+   "company": "New Law Business Model",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/new-law-business-model-marketing-automation-saas-services-line-of-business-owner"
   },
   {
    "title": "Marketing Operations Specialist",
@@ -180,6 +686,83 @@
    "url": "https://remoteOK.com/remote-jobs/remote-marketing-operations-specialist-engine-1136950"
   },
   {
+   "title": "Online English Teacher",
+   "company": "Native Camp",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "english teacher",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/native-camp-online-english-teacher-35"
+  },
+  {
+   "title": "Performance Marketing Manager, Global",
+   "company": "Coinbase",
+   "region": "Remote - USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://www.coinbase.com/careers/positions/8008372?gh_jid=8008372"
+  },
+  {
+   "title": "Principal Product Manager (Content Authoring, Delivery & CMS)",
+   "company": "Great Minds",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/great-minds-principal-product-manager-content-authoring-delivery-cms"
+  },
+  {
+   "title": "Principal Recruiter",
+   "company": "Coinbase",
+   "region": "Remote - USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://www.coinbase.com/careers/positions/8050322?gh_jid=8050322"
+  },
+  {
+   "title": "Principal Recruiter",
+   "company": "Coinbase",
+   "region": "Remote - Singapore",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://www.coinbase.com/careers/positions/8106071?gh_jid=8106071"
+  },
+  {
+   "title": "Product Content Specialist",
+   "company": "Tractian",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/tractian-product-content-specialist"
+  },
+  {
+   "title": "Product Data Analyst Internship",
+   "company": "Prismfly",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/prismfly-product-data-analyst-internship"
+  },
+  {
    "title": "Product Marketing Manager",
    "company": "Dataiku",
    "region": "USA",
@@ -189,6 +772,105 @@
    "ai_skill_kw": "",
    "source": "jobicy",
    "url": "https://jobicy.com/jobs/151480-product-marketing-manager-2"
+  },
+  {
+   "title": "Product Marketing Manager, Prediction Markets",
+   "company": "Coinbase",
+   "region": "Remote - USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://www.coinbase.com/careers/positions/7982771?gh_jid=7982771"
+  },
+  {
+   "title": "Product Owner (m/w/d)  Tools & Systeme Customer Service // remote möglich",
+   "company": "E. Breuninger& Co.",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer service",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/e-breuninger-co-product-owner-m-w-d-tools-systeme-customer-service-remote-moglich"
+  },
+  {
+   "title": "Real Estate Photo Editor",
+   "company": "Jobgether",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "editor",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor"
+  },
+  {
+   "title": "Real Estate Photo Editor",
+   "company": "Jobgether",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "editor",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor-1"
+  },
+  {
+   "title": "Real Estate Photo Editor",
+   "company": "Jobgether",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "editor",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor-2"
+  },
+  {
+   "title": "Recruiter, Sales (Contract)",
+   "company": "GitLab",
+   "region": "Remote, Canada; Remote, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8662116002"
+  },
+  {
+   "title": "Sales Development Representative (SDR)",
+   "company": "Webflow",
+   "region": "Chicago, U.S. (Hybrid)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "sales development,sdr",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/webflow/jobs/7203091"
+  },
+  {
+   "title": "Senior Account Based Marketing Manager",
+   "company": "Dropbox",
+   "region": "Remote - US: Select locations",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://jobs.dropbox.com/listing/8096470?gh_jid=8096470"
+  },
+  {
+   "title": "Senior Account Based Marketing Manager",
+   "company": "Dropbox",
+   "region": "Remote - Canada: Select locations",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://jobs.dropbox.com/listing/8096471?gh_jid=8096471"
   },
   {
    "title": "Senior Account Manager (Healthcare PR & Comms)",
@@ -202,6 +884,72 @@
    "url": "https://www.arbeitnow.co.uk/jobs/companies/realchemistry/senior-account-manager-healthcare-pr-comms-345155"
   },
   {
+   "title": "Senior Customer Success Architect - Singapore",
+   "company": "GitLab",
+   "region": "Remote, Singapore",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8648304002"
+  },
+  {
+   "title": "Senior Customer Success Manager (f/m/x)",
+   "company": "sparetech",
+   "region": "(unspecified)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/sparetech/senior-customer-success-manager-430541"
+  },
+  {
+   "title": "Senior Customer Success Manager- Public Sector",
+   "company": "GitLab",
+   "region": "Remote, US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8616005002"
+  },
+  {
+   "title": "Senior Enterprise Product  Marketing Manager, Base",
+   "company": "Coinbase",
+   "region": "Remote - USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://www.coinbase.com/careers/positions/8084049?gh_jid=8084049"
+  },
+  {
+   "title": "Senior Fullstack Engineer, Marketing",
+   "company": "GitLab",
+   "region": "Remote, United Kingdom",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8697493002"
+  },
+  {
+   "title": "Senior Google Ads Media Buyer / Performance Marketing Lead",
+   "company": "Egear",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/egear-senior-google-ads-media-buyer-performance-marketing-lead"
+  },
+  {
    "title": "Senior Graphic Designer",
    "company": "Lemon.io",
    "region": "Americas, Europe, Asia, Africa, Oceania",
@@ -211,6 +959,50 @@
    "ai_skill_kw": "ai,ml",
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081"
+  },
+  {
+   "title": "Senior Lifecycle Marketing Manager",
+   "company": "GitLab",
+   "region": "Remote, Canada; Remote, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637075002"
+  },
+  {
+   "title": "Senior Manager, Recruiting",
+   "company": "Coinbase",
+   "region": "Remote - USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://www.coinbase.com/careers/positions/8051630?gh_jid=8051630"
+  },
+  {
+   "title": "Senior Marketing Manager, Website Growth",
+   "company": "Webflow",
+   "region": "U.S. Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/webflow/jobs/8097897"
+  },
+  {
+   "title": "Senior People Business Partner, Product & Marketing",
+   "company": "GitLab",
+   "region": "Remote, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617848002"
   },
   {
    "title": "Senior Product Marketing Manager",
@@ -224,6 +1016,39 @@
    "url": "https://jobicy.com/jobs/151531-senior-product-marketing-manager-3"
   },
   {
+   "title": "Senior Product Marketing Manager, Trading",
+   "company": "Coinbase",
+   "region": "Remote - USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://www.coinbase.com/careers/positions/8077090?gh_jid=8077090"
+  },
+  {
+   "title": "Senior Product Marketing Operations Manager",
+   "company": "Dropbox",
+   "region": "Remote - US: Select locations",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://jobs.dropbox.com/listing/8070685?gh_jid=8070685"
+  },
+  {
+   "title": "Senior Product Marketing Operations Manager",
+   "company": "Dropbox",
+   "region": "Remote - Canada: Select locations",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://jobs.dropbox.com/listing/8070686?gh_jid=8070686"
+  },
+  {
    "title": "Senior Quality Analyst",
    "company": "Starrez",
    "region": "(unspecified)",
@@ -233,6 +1058,116 @@
    "ai_skill_kw": "",
    "source": "arbeitnow",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/starrez/senior-quality-analyst-330064"
+  },
+  {
+   "title": "Senior Recruiter",
+   "company": "Coinbase",
+   "region": "Remote - USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://www.coinbase.com/careers/positions/8064788?gh_jid=8064788"
+  },
+  {
+   "title": "Senior Technical Recruiter (Contract)",
+   "company": "Ro",
+   "region": "New York, NY or Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "source": "lever",
+   "url": "https://jobs.lever.co/ro/4961d0fe-1a29-44bd-83d3-acf84c39664d"
+  },
+  {
+   "title": "Senior Technical Recruiter (Contract)",
+   "company": "Mozilla",
+   "region": "Remote US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8123221"
+  },
+  {
+   "title": "Senior Technical Recruiter (Contract)",
+   "company": "Mozilla",
+   "region": "Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8123220"
+  },
+  {
+   "title": "Staff Account Based Marketing Manager",
+   "company": "GitLab",
+   "region": "Remote, Canada; Remote, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637579002"
+  },
+  {
+   "title": "Staff Lifecycle Marketing Manager",
+   "company": "GitLab",
+   "region": "Remote, Canada; Remote, US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "marketing",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8610952002"
+  },
+  {
+   "title": "Supervisor, Customer Success Team",
+   "company": "Coinbase",
+   "region": "Remote - Cyprus",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "customer success",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://www.coinbase.com/careers/positions/8082829?gh_jid=8082829"
+  },
+  {
+   "title": "Targeted Recruiting & Onboarding Specialist (Contractor)",
+   "company": "Labelbox",
+   "region": "Remote, India",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/labelbox/jobs/5179646007"
+  },
+  {
+   "title": "UK GTM Recruiter (Contract)",
+   "company": "Mozilla",
+   "region": "Remote UK",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8121965"
+  },
+  {
+   "title": "UK GTM Recruiter (Contract)",
+   "company": "Mozilla",
+   "region": "Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "recruit",
+   "ai_skill_kw": "",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8119819"
   },
   {
    "title": "Web3 Marketing Manager (Content-Focused)",
