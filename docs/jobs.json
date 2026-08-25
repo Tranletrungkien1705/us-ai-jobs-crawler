@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-25T04:21:39.884992+00:00",
- "count": 5,
+ "updated": "2026-08-25T04:42:09.790056+00:00",
+ "count": 6,
  "salaried": 4,
  "jobs": [
   {
@@ -57,6 +57,17 @@
    "ai_skill_kw": "ai,ml",
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081"
+  },
+  {
+   "title": "Web3 Marketing Manager (Content-Focused)",
+   "company": "Manta Network",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/manta-network/jobs/web3-marketing-manager-content-focused-9542745140"
   }
  ]
 }
