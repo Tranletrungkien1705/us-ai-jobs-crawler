@@ -213,6 +213,7 @@ function card(j, i){
       ${j.salary?`<span class="tag sal">💵 ${esc(j.salary)}</span>`:''}
       ${j.needs_speaking?'<span class="tag" style="color:#f9a">🗣️ cần nói TA</span>':''}
       ${j.senior?'<span class="tag" style="color:#fc7">🎓 quá cấp</span>':''}
+      ${j.source==='weworkremotely'?'<span class="tag" style="color:#f88">⚠️ WWR thu phí — apply thẳng công ty</span>':''}
       ${kws}
     </div>
     <div class="acts">
