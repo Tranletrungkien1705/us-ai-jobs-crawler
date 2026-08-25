@@ -72,6 +72,7 @@
       <a class="chip" href="portfolio.html" style="text-decoration:none">📁 Portfolio</a>
       <a class="chip" href="cv.html" style="text-decoration:none">📄 CV</a>
       <span class="chip on" id="fTalk">🔇 Ít nói TA</span>
+      <span class="chip on" id="fFit">🎯 Vừa sức</span>
     </div>
   </div>
 </header>
@@ -168,7 +169,7 @@
 
 <script>
 const $ = s => document.querySelector(s);
-let JOBS = [], onlySal = false, lowTalk = true;
+let JOBS = [], onlySal = false, lowTalk = true, fitOnly = true;
 // CHI hien nghe async/output-based (viet, data, dich, annotation) -> an marketing/sales/support/recruit
 const ASYNC_OK = ['writer','content','copywrit','ghostwrit','blog','article','editor','proofread',
   'data entry','annotat','data label','labeling','transcri','translat','captioning','subtitle',
@@ -180,6 +181,7 @@ $('#prof').value = localStorage.getItem('profile')||'';
 $('#saveProf').onclick = () => { localStorage.setItem('profile', $('#prof').value); $('#saveProf').textContent='Đã lưu ✓'; setTimeout(()=>$('#saveProf').textContent='Lưu hồ sơ',1500); };
 $('#fSal').onclick = () => { onlySal=!onlySal; $('#fSal').classList.toggle('on',onlySal); render(); };
 $('#fTalk').onclick = () => { lowTalk=!lowTalk; $('#fTalk').classList.toggle('on',lowTalk); render(); };
+$('#fFit').onclick = () => { fitOnly=!fitOnly; $('#fFit').classList.toggle('on',fitOnly); render(); };
 $('#q').oninput = render;
 
 function promptFor(j){
@@ -209,6 +211,8 @@ function card(j, i){
     <div class="co">${esc(j.company||'—')} · ${esc(j.region||'—')} · <span style="opacity:.7">${j.source}</span></div>
     <div class="meta">
       ${j.salary?`<span class="tag sal">💵 ${esc(j.salary)}</span>`:''}
+      ${j.needs_speaking?'<span class="tag" style="color:#f9a">🗣️ cần nói TA</span>':''}
+      ${j.senior?'<span class="tag" style="color:#fc7">🎓 quá cấp</span>':''}
       ${kws}
     </div>
     <div class="acts">
@@ -225,6 +229,7 @@ function render(){
   let list = JOBS.filter(j=>{
     if(onlySal && !j.has_salary) return false;
     if(lowTalk && j.needs_speaking) return false;   // co doc tu MO TA job (verbal/fluent/phone/calls...)
+    if(fitOnly && j.senior) return false;           // an job qua cap (Head/Director/8+ years...)
     if(q && !(`${j.title} ${j.company} ${j.repl_kw}`.toLowerCase().includes(q))) return false;
     return true;
   });
@@ -246,7 +251,7 @@ function render(){
 fetch('jobs.json?_='+Date.now()).then(r=>r.json()).then(d=>{
   JOBS = d.jobs||[];
   const up = d.updated? new Date(d.updated).toLocaleString('vi-VN'):'—';
-  $('#sub').textContent = `${d.count} việc US · ${d.salaried} có lương · ${d.low_english??'?'} ít nói TA · cập nhật ${up}`;
+  $('#sub').textContent = `${d.count} việc US · ${d.fit??'?'} vừa sức bạn · ${d.low_english??'?'} ít nói TA · cập nhật ${up}`;
   render();
 }).catch(e=>{ $('#sub').textContent='Lỗi tải dữ liệu'; $('#list').innerHTML=`<div class="empty">${e}</div>`; });
 </script>

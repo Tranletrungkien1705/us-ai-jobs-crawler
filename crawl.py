@@ -101,6 +101,25 @@ def needs_speaking(title, desc):
     return False
 
 
+# job QUA CAP so voi 1 dev ~2 nam (cap bac lanh dao / doi nhieu nam KN)
+SENIOR_TITLE = ["head of", "head,", "director", "vp ", "vp,", "vice president", "chief",
+                "principal", "staff ", "senior manager", "sr manager", "sr. manager",
+                "general manager", "team lead", "tech lead", "founding", "distinguished",
+                "architect", "expert "]
+YEARS_RE = re.compile(r"(\d{1,2})\s*\+?\s*(?:years|yrs)\b", re.I)
+
+
+def is_senior(title, desc, floor=5):
+    t = (title or "").lower()
+    if any(k in t for k in SENIOR_TITLE):
+        return True
+    if desc:
+        yrs = [int(m) for m in YEARS_RE.findall(desc) if int(m) <= 20]
+        if yrs and max(yrs) >= floor:      # doi >=5 nam KN -> qua cap
+            return True
+    return False
+
+
 def fetch_remoteok():
     out = []
     try:
@@ -220,6 +239,7 @@ def _rec(r):
         "salary": sal or None, "has_salary": bool(sal),
         "repl_kw": r.get("repl_kw", ""), "ai_skill_kw": r.get("ai_skill_kw", ""),
         "needs_speaking": bool(r.get("needs_speaking")),
+        "senior": bool(r.get("senior")),
         "source": r["source"], "url": r["url"], "crawled_at": r.get("crawled_at"),
     }
 
@@ -241,7 +261,8 @@ def write_json(rows, path):
             print("merge prev ERR", e, file=sys.stderr)
     data = list(cur.values())
     data.sort(key=lambda x: (x.get("crawled_at") or ""), reverse=True)          # moi truoc
-    data.sort(key=lambda x: (not x.get("has_salary"), bool(x.get("needs_speaking"))))  # co luong + it-noi len dau
+    data.sort(key=lambda x: (bool(x.get("senior")), bool(x.get("needs_speaking")),
+                             not x.get("has_salary")))                          # vua-suc + it-noi + co luong len dau
     data = data[:500]
     d = os.path.dirname(path)
     if d:
@@ -249,10 +270,11 @@ def write_json(rows, path):
     updated = max((r["crawled_at"] for r in rows if r.get("crawled_at")), default=None)
     sal_n = sum(1 for x in data if x["has_salary"])
     low_n = sum(1 for x in data if not x.get("needs_speaking"))
+    fit_n = sum(1 for x in data if not x.get("needs_speaking") and not x.get("senior"))
     with open(path, "w", encoding="utf-8") as f:
         json.dump({"updated": updated, "count": len(data), "salaried": sal_n,
-                   "low_english": low_n, "jobs": data}, f, ensure_ascii=False, indent=1)
-    print(f"wrote {path}: {len(data)} US jobs ({sal_n} salaried, {low_n} it-noi-TA)")
+                   "low_english": low_n, "fit": fit_n, "jobs": data}, f, ensure_ascii=False, indent=1)
+    print(f"wrote {path}: {len(data)} US jobs ({sal_n} salaried, {low_n} it-noi, {fit_n} vua-suc)")
 
 
 # --- ATS cong ty (Greenhouse) — token da verify tra jobs ---
@@ -373,6 +395,7 @@ def main():
         r["region"] = r["location"] or "(unspecified)"
         r["is_us"] = is_us(r["location"])
         r["needs_speaking"] = needs_speaking(r["title"], r.get("_desc", ""))
+        r["senior"] = is_senior(r["title"], r.get("_desc", ""))
         r["crawled_at"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
         seen[r["job_id"]] = r
 
