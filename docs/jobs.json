@@ -1,0 +1,62 @@
+{
+ "updated": "2026-08-25T04:21:39.884992+00:00",
+ "count": 5,
+ "salaried": 4,
+ "jobs": [
+  {
+   "title": "Content Reviewer - English US",
+   "company": "TELUS Digital",
+   "region": "USA",
+   "salary": "$14/hour",
+   "has_salary": true,
+   "repl_kw": "content",
+   "ai_skill_kw": "ai,ml",
+   "source": "remotive",
+   "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-english-us-2091105"
+  },
+  {
+   "title": "Data Labeling Specialists",
+   "company": "Workada",
+   "region": "USA",
+   "salary": "$17/hr",
+   "has_salary": true,
+   "repl_kw": "data label",
+   "ai_skill_kw": "",
+   "source": "remotive",
+   "url": "https://remotive.com/remote-jobs/data/data-labeling-specialists-2090903"
+  },
+  {
+   "title": "Freelance Copywriter",
+   "company": "Coalition Technologies",
+   "region": "Worldwide",
+   "salary": "$20k -$35k",
+   "has_salary": true,
+   "repl_kw": "copywrit,writer",
+   "ai_skill_kw": "",
+   "source": "remotive",
+   "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306"
+  },
+  {
+   "title": "Freelance Writer",
+   "company": "IAPWE",
+   "region": "Worldwide",
+   "salary": "$50-$75 /hour",
+   "has_salary": true,
+   "repl_kw": "writer",
+   "ai_skill_kw": "",
+   "source": "remotive",
+   "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979"
+  },
+  {
+   "title": "Senior Graphic Designer",
+   "company": "Lemon.io",
+   "region": "Americas, Europe, Asia, Africa, Oceania",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "graphic design",
+   "ai_skill_kw": "ai,ml",
+   "source": "remotive",
+   "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081"
+  }
+ ]
+}
