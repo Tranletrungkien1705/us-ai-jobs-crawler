@@ -63,6 +63,7 @@
       <span class="chip on" id="fSal">💵 Có lương</span>
       <a class="chip" href="portfolio.html" style="text-decoration:none">📁 Portfolio</a>
       <a class="chip" href="cv.html" style="text-decoration:none">📄 CV</a>
+      <span class="chip on" id="fTalk">🔇 Ít nói TA</span>
     </div>
   </div>
 </header>
@@ -127,18 +128,49 @@
     </div>
   </details>
 
+  <details class="box" open>
+    <summary>🔇 Việc KHÔNG phỏng vấn / ít nói tiếng Anh (nền tảng riêng — ít người biết)</summary>
+    <div class="body">
+      <p style="margin:4px 0 8px">Không nằm trên board (đăng ký thẳng). Chỉ làm <b>bài test</b>, KHÔNG phỏng vấn, làm <b>async</b>, trả PayPal/Payoneer. ⚠️ Kiểm tra <b>eligibility theo quốc gia</b> từng nơi; lương thường <b>region-tier</b> (VN thấp hơn US).</p>
+
+      <h4>🥇 Huấn luyện AI (dùng chính kỹ năng CODE của bạn)</h4>
+      <ul>
+        <li><b>Outlier.ai</b>, <b>DataAnnotation.tech</b>, <b>Mercor</b>, <b>Mindrift</b>, <b>Alignerr</b>, <b>CrowdGen</b>, <b>Toloka</b> — đăng ký → làm assessment (1–3h) → nhận task async.</li>
+        <li>Task <b>coding/kỹ thuật</b> trả cao nhất ($15–40/h ở tier cao) — đúng thế mạnh .NET/SQL của bạn. Không gọi điện, không phỏng vấn.</li>
+        <li>Lưu ý: DataAnnotation tỉ lệ đậu ~10–20%; Outlier/Mindrift chia lương theo vùng.</li>
+      </ul>
+
+      <h4>🥈 Dịch / gõ băng EN↔VI (tận dụng tiếng Việt bản ngữ + đọc hiểu tốt)</h4>
+      <ul>
+        <li><b>GoTranscript</b>, <b>Gengo</b>, <b>Lionbridge</b> — test rồi nhận việc, chọn task tự do, gần như không nói.</li>
+        <li>Điểm mạnh của bạn: <b>đọc tiếng Anh proficient + viết tiếng Việt bản ngữ</b> → dịch EN→VI là sở trường.</li>
+      </ul>
+
+      <h4>🥉 Khảo sát nghiên cứu (dễ nhất, ít kỹ năng)</h4>
+      <ul>
+        <li><b>Prolific</b> — làm khảo sát nghiên cứu học thuật, không phỏng vấn, làm lúc rảnh.</li>
+      </ul>
+      <p class="muted" style="color:var(--mut);font-size:12.5px">💡 Ưu tiên nhóm 🥇 (huấn luyện AI coding): thu nhập tốt nhất + đúng nghề bạn + không nói tiếng Anh. Board bên dưới để dành cho khi bạn muốn thử job công ty (chấp nhận có phỏng vấn).</p>
+    </div>
+  </details>
+
   <div id="list"></div>
   <footer>Cập nhật tự động mỗi ngày qua GitHub Actions · dữ liệu từ RemoteOK · Remotive · Arbeitnow · Himalayas</footer>
 </div>
 
 <script>
 const $ = s => document.querySelector(s);
-let JOBS = [], onlySal = true;
+let JOBS = [], onlySal = true, lowTalk = true;
+// nghe can NOI tieng Anh nhieu -> an khi bat "It noi TA"
+const SPEAK = ['customer support','customer service','customer success','help desk','helpdesk',
+  'support specialist','appointment setter','outreach','sales development','sdr','bdr',
+  'account manager','cold call','tutor','english teacher','voice over','community'];
 const doneSet = new Set(JSON.parse(localStorage.getItem('applied')||'[]'));
 
 $('#prof').value = localStorage.getItem('profile')||'';
 $('#saveProf').onclick = () => { localStorage.setItem('profile', $('#prof').value); $('#saveProf').textContent='Đã lưu ✓'; setTimeout(()=>$('#saveProf').textContent='Lưu hồ sơ',1500); };
 $('#fSal').onclick = () => { onlySal=!onlySal; $('#fSal').classList.toggle('on',onlySal); render(); };
+$('#fTalk').onclick = () => { lowTalk=!lowTalk; $('#fTalk').classList.toggle('on',lowTalk); render(); };
 $('#q').oninput = render;
 
 function promptFor(j){
@@ -183,6 +215,7 @@ function render(){
   const q = $('#q').value.trim().toLowerCase();
   let list = JOBS.filter(j=>{
     if(onlySal && !j.has_salary) return false;
+    if(lowTalk){ const kw=(j.repl_kw||'').toLowerCase(); if(SPEAK.some(s=>kw.includes(s))) return false; }
     if(q && !(`${j.title} ${j.company} ${j.repl_kw}`.toLowerCase().includes(q))) return false;
     return true;
   });
