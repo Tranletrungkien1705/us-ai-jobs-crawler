@@ -8,6 +8,7 @@ Env:
   SUPABASE_KEY  service/secret key (sb_secret_... or service_role) - bypasses RLS
 """
 import os, re, sys, json, hashlib, datetime, sqlite3
+import xml.etree.ElementTree as ET
 import requests
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) job-crawler"}
@@ -206,12 +207,76 @@ def write_json(rows, path):
     print(f"wrote {path}: {len(data)} US jobs ({sal_n} salaried)")
 
 
+# --- ATS cong ty (Greenhouse) — token da verify tra jobs ---
+GH_BOARDS = {
+    "duolingo": "Duolingo", "webflow": "Webflow", "coursera": "Coursera",
+    "gitlab": "GitLab", "mozilla": "Mozilla", "wikimedia": "Wikimedia Foundation",
+    "dropbox": "Dropbox", "coinbase": "Coinbase", "cloudflare": "Cloudflare",
+    "scaleai": "Scale AI", "labelbox": "Labelbox", "turing": "Turing", "andela": "Andela",
+}
+
+
+def fetch_greenhouse():
+    out = []
+    for tok, name in GH_BOARDS.items():
+        try:
+            d = requests.get(f"https://boards-api.greenhouse.io/v1/boards/{tok}/jobs",
+                             headers=UA, timeout=TIMEOUT).json()
+            for j in d.get("jobs", []):
+                loc = (j.get("location") or {}).get("name", "")
+                out.append(norm("greenhouse", j.get("title"), name, loc, None, "",
+                                j.get("absolute_url"), j.get("id")))
+        except Exception as e:
+            print("greenhouse ERR", tok, e, file=sys.stderr)
+    return out
+
+
+def fetch_lever():
+    out = []
+    for c in ["ro"]:
+        try:
+            d = requests.get(f"https://api.lever.co/v0/postings/{c}?mode=json",
+                             headers=UA, timeout=TIMEOUT).json()
+            if not isinstance(d, list):
+                continue
+            for j in d:
+                cat = j.get("categories") or {}
+                out.append(norm("lever", j.get("text"), c.capitalize(), cat.get("location", ""),
+                                None, cat.get("team", ""), j.get("hostedUrl"), j.get("id")))
+        except Exception as e:
+            print("lever ERR", c, e, file=sys.stderr)
+    return out
+
+
+def fetch_weworkremotely():
+    out = []
+    for cat in ["remote-jobs", "categories/remote-design-jobs",
+                "categories/remote-customer-support-jobs"]:
+        try:
+            r = requests.get(f"https://weworkremotely.com/{cat}.rss", headers=UA, timeout=TIMEOUT)
+            root = ET.fromstring(r.content)
+            for it in root.iter("item"):
+                title = (it.findtext("title") or "").strip()
+                link = (it.findtext("link") or "").strip()
+                region = (it.findtext("region") or "").strip()
+                if ":" in title:
+                    company, role = title.split(":", 1)
+                else:
+                    company, role = "", title
+                out.append(norm("weworkremotely", role.strip() or title, company.strip(),
+                                region or "Remote", None, "", link, link))
+        except Exception as e:
+            print("wwr ERR", cat, e, file=sys.stderr)
+    return out
+
+
 def main():
     url = os.environ.get("SUPABASE_URL", "").rstrip("/")
     key = os.environ.get("SUPABASE_KEY", "")
 
     raw = []
-    for f in (fetch_remoteok, fetch_remotive, fetch_arbeitnow, fetch_himalayas, fetch_jobicy):
+    for f in (fetch_remoteok, fetch_remotive, fetch_arbeitnow, fetch_himalayas, fetch_jobicy,
+              fetch_greenhouse, fetch_lever, fetch_weworkremotely):
         got = f()
         print(f"{f.__name__}: {len(got)}")
         raw += got
