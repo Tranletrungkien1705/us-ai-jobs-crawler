@@ -3,85 +3,132 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Copywriting Portfolio — Kien</title>
+<title>Technical Writing Portfolio — Kien</title>
 <style>
-  :root{--bg:#0e1116;--card:#171b22;--line:#2a3038;--tx:#e6e9ef;--mut:#9aa4b2;--acc:#4f8cff}
+  :root{--bg:#0f1216;--card:#161b22;--line:#2a3038;--tx:#e7ebf1;--mut:#9aa4b2;--acc:#4f8cff;--grn:#7ee787;--code:#0b0e13}
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.55}
-  .wrap{max-width:760px;margin:0 auto;padding:26px 18px 70px}
-  a.back{color:var(--acc);font-size:13px;text-decoration:none}
-  h1{font-size:23px;margin:12px 0 2px}
-  .lede{color:var(--mut);font-size:14px;margin:0 0 6px}
-  .note{font-size:12.5px;color:var(--mut);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:14px 0}
-  .sample{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin:18px 0}
-  .kick{color:var(--acc);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
-  .sample h2{font-size:19px;margin:6px 0 4px}
+  body{margin:0;background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.62}
+  .wrap{max-width:740px;margin:0 auto;padding:26px 18px 70px}
+  a.back{color:var(--acc);font-size:13px;text-decoration:none;margin-right:14px}
+  h1{font-size:24px;margin:12px 0 2px}
+  .lede{color:var(--mut);font-size:14px;margin:0 0 4px}
+  .note{font-size:12.5px;color:var(--mut);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 13px;margin:15px 0}
+  article{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:20px 0}
+  .kick{color:var(--acc);font-size:11.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase}
+  article h2{font-size:21px;margin:7px 0 4px;line-height:1.25;color:#fff}
   .brief{font-size:12.5px;color:var(--mut);margin:0 0 14px;font-style:italic}
-  .hero{font-size:25px;font-weight:800;line-height:1.2;margin:10px 0 8px;color:#fff}
-  .sub{font-size:15px;color:#cdd3dc}
-  .cta{display:inline-block;background:var(--acc);color:#fff;border-radius:9px;padding:9px 18px;font-weight:700;margin-top:12px;font-size:14px}
-  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}
-  .grid .b{background:#12161d;border:1px solid var(--line);border-radius:10px;padding:12px}
-  .grid .b b{color:#fff}
-  .email{background:#0b0e13;border:1px solid var(--line);border-radius:10px;padding:16px;margin-top:8px}
-  .email .h{font-size:13px;color:var(--mut);border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:10px}
-  .ad{border-left:3px solid var(--acc);padding:6px 0 6px 12px;margin:10px 0}
-  @media(max-width:560px){.grid{grid-template-columns:1fr}}
-  hr{border:none;border-top:1px solid var(--line);margin:6px 0}
+  article h3{font-size:15px;margin:18px 0 4px;color:#fff}
+  p,li{font-size:14.5px;color:#d7dce4}
+  code{background:#1e232c;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:13px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  pre{background:var(--code);border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow:auto;font-size:12.8px;line-height:1.55;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:#c9d1d9}
+  pre .k{color:#ff7b72}.pre .s{color:#a5d6ff}
+  table{width:100%;border-collapse:collapse;margin:8px 0;font-size:13px}
+  th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--mut);font-weight:600;font-size:11.5px;text-transform:uppercase;letter-spacing:.05em}
+  td code{background:#1e232c}
+  .why{border-left:3px solid var(--grn);background:rgba(126,231,135,.06);padding:9px 14px;margin:14px 0 0;border-radius:0 8px 8px 0}
+  .why b{color:var(--grn);font-size:12.5px;letter-spacing:.03em}
+  .why p{font-size:13px;color:#c7ccd4;margin:4px 0 0}
+  hr{border:none;border-top:1px solid var(--line);margin:16px 0}
 </style>
 </head>
 <body>
 <div class="wrap">
   <a class="back" href="./">← Job board</a>
-  <a class="back" href="cv.html" style="margin-left:14px">📄 My CV</a>
-  <h1>Copywriting Portfolio</h1>
-  <p class="lede">Kien · Technical &amp; SaaS copywriter — a backend developer who writes about technology from the inside out.</p>
-  <div class="note">Marketing copy I wrote for the kinds of enterprise products I built as a developer (e-invoicing, dealer-distribution SaaS). Product names generalized; systems and domain are real. AI-assisted workflow, every line personally edited. Happy to do a paid test piece in your brand voice.</div>
+  <a class="back" href="cv.html">📄 CV</a>
+  <h1>Technical Writing Portfolio</h1>
+  <p class="lede">Kien — a .NET developer who writes clear technical content about the systems he builds.</p>
+  <div class="note">These pieces are written from real work I did on enterprise software (e-invoicing, a distribution platform for 80+ dealers). Client names and proprietary details are removed; the engineering is real and I can explain every line. Drafted with an AI-assisted workflow, verified and edited by hand.</div>
 
-  <!-- SAMPLE 1: e-invoice landing (real domain: he built e-invoice platform) -->
-  <div class="sample">
-    <div class="kick">Sample 1 · SaaS landing page</div>
-    <h2>e-Invoice platform — for finance teams &amp; developers</h2>
-    <p class="brief">Based on an enterprise e-invoicing system I helped build (tax-authority integration, millions of documents). Goal: land both CFOs and the engineers who integrate it.</p>
-    <div class="hero">Compliant e-invoices, issued in seconds — not spreadsheets.</div>
-    <p class="sub">Our platform connects straight to the tax authority, validates every invoice, and returns a signed, legal document through one API call. Your finance team stops firefighting; your developers stop reading regulations.</p>
-    <span class="cta">Book a demo →</span>
-    <div class="grid">
-      <div class="b"><b>Tax-authority ready.</b><br>Built-in TVAN/e-invoice compliance, digital signatures, and audit trails — validated on millions of live documents.</div>
-      <div class="b"><b>One API, any system.</b><br>Issue, cancel, and reconcile invoices from your ERP or app with a single REST call.</div>
-      <div class="b"><b>Zero lost invoices.</b><br>Automatic retries and status tracking mean every document reaches the authority — and the customer.</div>
-      <div class="b"><b>Scales to enterprise.</b><br>From one branch to a nationwide network, no re-architecture as volume grows.</div>
-    </div>
-    <p class="sub" style="margin-top:12px"><b>Turn compliance from a cost center into a checkbox.</b> Start with a free sandbox and 500 test invoices.</p>
-  </div>
+  <!-- SAMPLE 1: technical tutorial -->
+  <article>
+    <div class="kick">Sample 1 · Engineering tutorial</div>
+    <h2>Eliminating query timeouts on a multi-tenant SQL Server</h2>
+    <p class="brief">Audience: backend engineers. Goal: explain a real fix so a reader can apply it themselves.</p>
 
-  <!-- SAMPLE 2: dealer distribution email (real domain: DMS for 80+ dealers) -->
-  <div class="sample">
-    <div class="kick">Sample 2 · Product-update email</div>
-    <h2>Dealer distribution platform — feature announcement</h2>
-    <p class="brief">Based on a vehicle-distribution management system I built for a network of 80+ dealers. Goal: drive adoption of a new real-time inventory feature.</p>
-    <div class="email">
-      <div class="h"><b>Subject:</b> Know exactly where every vehicle is — in real time 🚗<br><b>Preview:</b> No more calling three branches to find one car.</div>
-      <p>Hi {{dealer_name}},</p>
-      <p>Finding a specific vehicle across the network used to mean phone calls, spreadsheets, and guesswork. Not anymore.</p>
-      <p>Your dashboard now shows <b>live inventory across all 80+ dealers</b> — stock, transit, and warehouse status, updated the moment anything moves. Reserve a unit at another branch in two clicks, and the paperwork follows automatically.</p>
-      <p><b>→ See live inventory now</b></p>
-      <p>Less time chasing stock, more time closing sales. Questions? Just reply — our team reads every message.</p>
-      <p>Best,<br>The Platform Team</p>
-      <hr>
-      <p style="font-size:12px;color:var(--mut)">P.S. Managers: the new report shows aging stock per branch, so nothing sits too long.</p>
-    </div>
-  </div>
+    <p>A report that ran in milliseconds during testing started timing out in production. Nothing had changed in the code — only the data had grown, and dozens of tenants now shared the same tables. Here is how we brought that query back under a second, without new hardware.</p>
 
-  <!-- BONUS: ad variations -->
-  <div class="sample">
-    <div class="kick">Bonus · Ad variations (A/B)</div>
-    <h2>Three hooks, one product (e-invoicing)</h2>
-    <p class="brief">Short paid-social variants to test messaging angles.</p>
-    <div class="ad"><b>Pain:</b> One rejected invoice can freeze a payment for weeks. Our API validates and files every invoice with the tax authority — automatically. Try it free.</div>
-    <div class="ad"><b>Speed:</b> One API call. A signed, legal e-invoice in seconds. Compliance handled. That's it. Start your sandbox →</div>
-    <div class="ad"><b>Proof:</b> Millions of invoices, zero compliance headaches. Trusted by finance teams who'd rather close books than read regulations.</div>
-  </div>
+    <h3>1. Read the plan before touching anything</h3>
+    <p>The first step is never a guess. We captured the actual execution plan and looked for the usual suspects: a <b>clustered index scan</b> over the full table and a stack of <b>key lookups</b>. Translation: SQL Server was reading every tenant's rows to answer a question about one.</p>
+
+    <h3>2. Index for the query you actually run</h3>
+    <p>A single-column index on <code>TenantId</code> wasn't enough. The query filtered by tenant <i>and</i> a date range, then returned a handful of columns. So we built a <b>composite index</b> that matched that shape — key columns in filter order, with the returned columns <code>INCLUDE</code>d so the query never leaves the index:</p>
+    <pre>CREATE INDEX IX_Invoice_Tenant_Date
+  ON Invoice (TenantId, CreatedDate)
+  INCLUDE (Status, Total);</pre>
+    <p>The scan became a <b>seek</b>, and the key lookups disappeared.</p>
+
+    <h3>3. Page inside a temp table, not across the big join</h3>
+    <p>The report joined several large tables and then paged the result. Applying <code>OFFSET / FETCH</code> to that whole join forced SQL Server to build the entire set every time. Instead, we resolved the <b>page of IDs first</b> into a temp table, then joined only those rows back to the detail tables:</p>
+    <pre>SELECT InvoiceId INTO #page
+FROM Invoice
+WHERE TenantId = @tenant AND CreatedDate &gt;= @from
+ORDER BY CreatedDate DESC
+OFFSET @skip ROWS FETCH NEXT @take ROWS ONLY;
+
+-- then join #page (tiny) to the detail tables</pre>
+
+    <h3>4. Keep writes short and locked at the row</h3>
+    <p>Concurrent tenants were also blocking each other. Wrapping the write path in short transactions with row-level locking (rather than letting SQL Server escalate to a table lock) removed the contention.</p>
+
+    <h3>Result</h3>
+    <p>Query time dropped from repeated timeouts to consistently under a second, and it stayed there as data kept growing. No extra servers — just reading the plan and indexing for the real workload.</p>
+    <div class="why"><b>WHY THIS WORKS</b><p>Leads with the reader's pain, gives one idea per section, and pairs each claim with copy-pasteable SQL. A busy engineer can skim the headings and still leave knowing exactly what to do.</p></div>
+  </article>
+
+  <!-- SAMPLE 2: API documentation -->
+  <article>
+    <div class="kick">Sample 2 · API reference</div>
+    <h2>Issue an e-invoice</h2>
+    <p class="brief">Audience: developers integrating a billing/e-invoice API. Goal: everything needed to make the call correctly on the first try.</p>
+
+    <p>Creates and submits an e-invoice to the tax authority, and returns a signed, legally valid document. Idempotent on <code>clientRef</code>.</p>
+    <pre><span class="k">POST</span> /api/v1/invoices
+Authorization: Bearer &lt;token&gt;
+Content-Type: application/json</pre>
+
+    <h3>Request body</h3>
+    <table>
+      <tr><th>Field</th><th>Type</th><th>Required</th><th>Description</th></tr>
+      <tr><td><code>clientRef</code></td><td>string</td><td>Yes</td><td>Your unique reference. Re-sending the same value returns the original invoice instead of creating a duplicate.</td></tr>
+      <tr><td><code>buyer.taxCode</code></td><td>string</td><td>Yes</td><td>Buyer's tax identification number.</td></tr>
+      <tr><td><code>items[]</code></td><td>array</td><td>Yes</td><td>Line items — <code>name</code>, <code>qty</code>, <code>unitPrice</code>, <code>taxRate</code>.</td></tr>
+    </table>
+
+    <h3>Example</h3>
+    <pre>curl -X POST https://api.example.com/api/v1/invoices \
+  -H "Authorization: Bearer $TOKEN" \
+  -d '{ "clientRef": "SO-10231",
+        "buyer": { "taxCode": "0101234567" },
+        "items": [{ "name": "License", "qty": 1,
+                    "unitPrice": 200, "taxRate": 10 }] }'</pre>
+    <pre>{ "invoiceId": "INV-2026-000512",
+  "status": "issued",
+  "pdfUrl": "https://.../INV-2026-000512.pdf" }</pre>
+
+    <h3>Errors</h3>
+    <table>
+      <tr><th>Code</th><th>Meaning</th><th>Fix</th></tr>
+      <tr><td><code>422</code></td><td>Invalid tax code</td><td>Verify <code>buyer.taxCode</code> against the tax registry.</td></tr>
+      <tr><td><code>409</code></td><td>Duplicate <code>clientRef</code></td><td>Safe to ignore — the original invoice is returned.</td></tr>
+      <tr><td><code>503</code></td><td>Tax authority unavailable</td><td>Retry with back-off; the call is idempotent.</td></tr>
+    </table>
+    <div class="why"><b>WHY THIS WORKS</b><p>The <code>409</code> and <code>503</code> rows answer the two questions every integrator asks in production — "will I double-charge?" and "what if their service is down?" — before they have to ask support.</p></div>
+  </article>
+
+  <!-- SAMPLE 3: feature note / README -->
+  <article>
+    <div class="kick">Sample 3 · Feature note / README</div>
+    <h2>Ship on every push: the shopvot pipeline</h2>
+    <p class="brief">Audience: developers evaluating a demo repo. Goal: explain what happens on <code>git push</code> in 20 seconds.</p>
+    <p>shopvot deploys itself. Push to <code>main</code> and a self-hosted GitHub Actions runner does the rest — no manual steps, no downtime.</p>
+    <pre>git push  ─▶  build multi-stage Docker image
+          ─▶  health-check the new container
+          ─▶  rolling replace (old stays up until new is ready)
+          ─▶  live, 24/7</pre>
+    <p>If the health check fails, the old container keeps serving and the deploy stops — so a bad build never takes the site down. The whole flow is built from source and runs on a single machine.</p>
+    <div class="why"><b>WHY THIS WORKS</b><p>A diagram carries the whole story before the prose does, and the one line that matters to a cautious reader — "a bad build never takes the site down" — is stated plainly, not buried.</p></div>
+  </article>
 
 </div>
 </body>
