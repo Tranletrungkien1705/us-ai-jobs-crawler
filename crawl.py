@@ -15,29 +15,19 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) job-crawler"}
 TIMEOUT = 30
 
 # --- job families AI can realistically do the work of ("ngon" = tri-thuc, luong tot) ---
+# --- CHI nghe entry/async lam duoc boi dev 2 nam + it noi TA (KHONG marketing/sales/support/recruit) ---
 REPL = [
-    # writing / content
-    "content", "copywrit", "copy editor", "writer", "blog", "article", "ghostwrit",
-    "technical writer", "ux writer", "scriptwrit", "grant writer", "newsletter",
-    "editor", "proofread", "product description", "documentation", "localization",
-    # data / annotation
-    "data entry", "annotat", "data label", "labeling", "transcri", "translat", "captioning",
-    "subtitle", "tagging", "categoriz", "survey", "data processing",
-    # support / VA / admin
-    "virtual assistant", "administrative assistant", "executive assistant", "admin assistant",
-    "customer support", "customer service", "customer success", "chat support", "email support",
-    "help desk", "helpdesk", "support specialist", "moderat", "scheduler", "data clerk",
-    # marketing / sales
-    "marketing", "marketer", "seo", "social media", "community", "email marketing",
-    "market research", "research assistant", "appointment setter", "outreach", "lead gen",
-    "sales development", "sdr", "bdr", "account manager", "cold call",
-    # finance / hr / legal (clerical)
-    "bookkeep", "accounts payable", "accounting clerk", "recruit", "sourcer", "paralegal",
-    # design / media / education
-    "graphic design", "presentation", "powerpoint", "video edit", "voice over",
-    "tutor", "english teacher", "curriculum",
-    # analytics / qa
-    "data analyst", "qa tester", "quality analyst", "reviewer", "curator", "prompt",
+    # writing / content (async — senior/noi-TA da loc manh nen bare keyword an toan)
+    "content", "writer", "copywrit", "copy editor", "ghostwrit", "blog", "article",
+    "technical writer", "ux writer", "editor", "documentation", "proofread",
+    "product description", "localization", "seo",
+    # data / annotation / dich (hop nhat: it noi TA, tan dung tieng Viet)
+    "data entry", "data annotat", "annotator", "data label", "labeling", "transcri", "translat",
+    "captioning", "subtitle", "data processing", "data clerk",
+    # analytics / qa (junior)
+    "data analyst", "qa tester", "quality analyst",
+    # thiet ke
+    "graphic design",
 ]
 # jobs that are ABOUT building AI (informational tag)
 AISKILL = ["ai", "ml", "llm", "gpt", "prompt", "machine learning", "nlp", "data scien", "generative"]
@@ -103,9 +93,9 @@ def needs_speaking(title, desc):
 
 # job QUA CAP so voi 1 dev ~2 nam (cap bac lanh dao / doi nhieu nam KN)
 SENIOR_TITLE = ["head of", "head,", "director", "vp ", "vp,", "vice president", "chief",
-                "principal", "staff ", "senior manager", "sr manager", "sr. manager",
-                "general manager", "team lead", "tech lead", "founding", "distinguished",
-                "architect", "expert "]
+                "principal", "staff ", "manager", "lead ", " lead", "senior", "sr ", "sr.",
+                "strategist", "counsel", "underwriter", "scientist", "owner", "founding",
+                "general manager", "distinguished", "architect", "expert "]
 YEARS_RE = re.compile(r"(\d{1,2})\s*\+?\s*(?:years|yrs)\b", re.I)
 
 
@@ -255,8 +245,11 @@ def write_json(rows, path):
             prev = json.load(open(path, encoding="utf-8")).get("jobs", [])
             for p in prev:
                 k = p.get("url") or p.get("job_id")
-                if k and k not in cur:
-                    cur[k] = p
+                if not k or k in cur:
+                    continue
+                if not kw_hits(p.get("title", ""), "")[0]:   # loc lai theo REPL hien tai (bo marketing cu...)
+                    continue
+                cur[k] = p
         except Exception as e:
             print("merge prev ERR", e, file=sys.stderr)
     data = list(cur.values())
