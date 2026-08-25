@@ -68,7 +68,7 @@
     <div class="sub" id="sub">Đang tải…</div>
     <div class="bar">
       <input id="q" type="search" placeholder="Tìm theo chức danh / công ty…">
-      <span class="chip on" id="fSal">💵 Có lương</span>
+      <span class="chip" id="fSal">💵 Có lương</span>
       <a class="chip" href="portfolio.html" style="text-decoration:none">📁 Portfolio</a>
       <a class="chip" href="cv.html" style="text-decoration:none">📄 CV</a>
       <span class="chip on" id="fTalk">🔇 Ít nói TA</span>
@@ -168,7 +168,7 @@
 
 <script>
 const $ = s => document.querySelector(s);
-let JOBS = [], onlySal = true, lowTalk = true;
+let JOBS = [], onlySal = false, lowTalk = true;
 // CHI hien nghe async/output-based (viet, data, dich, annotation) -> an marketing/sales/support/recruit
 const ASYNC_OK = ['writer','content','copywrit','ghostwrit','blog','article','editor','proofread',
   'data entry','annotat','data label','labeling','transcri','translat','captioning','subtitle',
