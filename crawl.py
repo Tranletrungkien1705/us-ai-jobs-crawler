@@ -65,7 +65,7 @@ def jid(source, raw):
     return f"{source}:{raw}" if raw else f"{source}:" + hashlib.md5(raw.encode() if raw else b'').hexdigest()[:12]
 
 
-def norm(source, title, company, location, salary, tags, url, raw_id):
+def norm(source, title, company, location, salary, tags, url, raw_id, desc=""):
     return {
         "job_id": jid(source, str(raw_id or url)),
         "source": source,
@@ -75,7 +75,30 @@ def norm(source, title, company, location, salary, tags, url, raw_id):
         "salary": (str(salary).strip()[:120] if salary else None),
         "tags": (tags or "").strip()[:500],
         "url": (url or "").strip()[:600],
+        "_desc": (desc or "")[:6000],   # chi de quet needs_speaking; KHONG luu DB
     }
+
+
+# tin hieu "phai NOI tieng Anh" trong mo ta job
+SPEAK_RE = re.compile(
+    r"\b(verbal|spoken english|fluent(ly)?\s+(in\s+)?english|native(\s+level)?\s+english|"
+    r"phone call|video call|on calls|cold call|answer(ing)? calls|calls with|"
+    r"speaking skills|verbal communication|excellent communication skills|"
+    r"present to|presenting to|client-facing|customer-facing|stakeholder)\b", re.I)
+# nghe theo TITLE luon can noi nhieu
+SPEAK_TITLE = ["customer support", "customer service", "customer success", "account manager",
+               "account executive", "sales development", "sdr", "bdr", "cold call", "tutor",
+               "teacher", "recruiter", "community", "success manager", "sales manager",
+               "appointment", "outreach", "interpreter", "voice"]
+
+
+def needs_speaking(title, desc):
+    t = (title or "").lower()
+    if any(k in t for k in SPEAK_TITLE):
+        return True
+    if desc and SPEAK_RE.search(desc):
+        return True
+    return False
 
 
 def fetch_remoteok():
@@ -87,7 +110,8 @@ def fetch_remoteok():
                 continue
             out.append(norm("remoteok", j.get("position"), j.get("company"),
                             j.get("location"), j.get("salary_min"),
-                            " ".join(j.get("tags", []) or []), j.get("url"), j.get("id")))
+                            " ".join(j.get("tags", []) or []), j.get("url"), j.get("id"),
+                            desc=j.get("description", "")))
     except Exception as e:
         print("remoteok ERR", e, file=sys.stderr)
     return out
@@ -100,7 +124,8 @@ def fetch_remotive():
         for j in d.get("jobs", []):
             out.append(norm("remotive", j.get("title"), j.get("company_name"),
                             j.get("candidate_required_location"), j.get("salary"),
-                            " ".join(j.get("tags", []) or []), j.get("url"), j.get("id")))
+                            " ".join(j.get("tags", []) or []), j.get("url"), j.get("id"),
+                            desc=j.get("description", "")))
     except Exception as e:
         print("remotive ERR", e, file=sys.stderr)
     return out
@@ -119,7 +144,7 @@ def fetch_arbeitnow():
                 loc = j.get("location") or ("Remote" if j.get("remote") else "")
                 out.append(norm("arbeitnow", j.get("title"), j.get("company_name"),
                                 loc, None, " ".join(j.get("tags", []) or []),
-                                j.get("url"), j.get("slug")))
+                                j.get("url"), j.get("slug"), desc=j.get("description", "")))
         except Exception as e:
             print(f"arbeitnow p{page} ERR", e, file=sys.stderr)
             break
@@ -137,7 +162,8 @@ def fetch_jobicy():
             ind = j.get("jobIndustry")
             tags = " ".join(ind) if isinstance(ind, list) else str(ind or "")
             out.append(norm("jobicy", j.get("jobTitle"), j.get("companyName"),
-                            j.get("jobGeo") or "Anywhere", sal, tags, j.get("url"), j.get("id")))
+                            j.get("jobGeo") or "Anywhere", sal, tags, j.get("url"), j.get("id"),
+                            desc=j.get("jobDescription") or j.get("jobExcerpt") or ""))
     except Exception as e:
         print("jobicy ERR", e, file=sys.stderr)
     return out
@@ -153,7 +179,8 @@ def fetch_himalayas():
             out.append(norm("himalayas", j.get("title"), j.get("companyName"),
                             loc, j.get("maxSalary"),
                             " ".join(j.get("categories", []) or []),
-                            j.get("applicationLink") or j.get("guid"), j.get("guid")))
+                            j.get("applicationLink") or j.get("guid"), j.get("guid"),
+                            desc=j.get("description") or j.get("excerpt") or ""))
     except Exception as e:
         print("himalayas ERR", e, file=sys.stderr)
     return out
@@ -184,27 +211,48 @@ def store_sqlite(rows, path):
     print(f"\nSQLite {path}: upserted {n}, table now has {total} rows.")
 
 
+def _rec(r):
+    sal = r.get("salary") or ""
+    sal = sal.strip() if isinstance(sal, str) else str(sal)
+    return {
+        "job_id": r.get("job_id"),
+        "title": r["title"], "company": r["company"], "region": r.get("region") or "(unspecified)",
+        "salary": sal or None, "has_salary": bool(sal),
+        "repl_kw": r.get("repl_kw", ""), "ai_skill_kw": r.get("ai_skill_kw", ""),
+        "needs_speaking": bool(r.get("needs_speaking")),
+        "source": r["source"], "url": r["url"], "crawled_at": r.get("crawled_at"),
+    }
+
+
 def write_json(rows, path):
-    us = [r for r in rows if r["is_us"]]
-    data = []
-    for r in us:
-        sal = (r.get("salary") or "").strip()
-        data.append({
-            "title": r["title"], "company": r["company"], "region": r["region"],
-            "salary": sal or None, "has_salary": bool(sal),
-            "repl_kw": r["repl_kw"], "ai_skill_kw": r.get("ai_skill_kw", ""),
-            "source": r["source"], "url": r["url"],
-        })
-    data.sort(key=lambda x: (not x["has_salary"], x["title"].lower()))
+    cur = {}
+    for r in rows:
+        if r.get("is_us"):
+            cur[r.get("url") or r.get("job_id")] = _rec(r)
+    # gop file cu -> tich luy nhieu ngay (ban hien tai thang)
+    if os.path.exists(path):
+        try:
+            prev = json.load(open(path, encoding="utf-8")).get("jobs", [])
+            for p in prev:
+                k = p.get("url") or p.get("job_id")
+                if k and k not in cur:
+                    cur[k] = p
+        except Exception as e:
+            print("merge prev ERR", e, file=sys.stderr)
+    data = list(cur.values())
+    data.sort(key=lambda x: (x.get("crawled_at") or ""), reverse=True)          # moi truoc
+    data.sort(key=lambda x: (not x.get("has_salary"), bool(x.get("needs_speaking"))))  # co luong + it-noi len dau
+    data = data[:500]
     d = os.path.dirname(path)
     if d:
         os.makedirs(d, exist_ok=True)
-    updated = max((r["crawled_at"] for r in rows), default=None)
+    updated = max((r["crawled_at"] for r in rows if r.get("crawled_at")), default=None)
     sal_n = sum(1 for x in data if x["has_salary"])
+    low_n = sum(1 for x in data if not x.get("needs_speaking"))
     with open(path, "w", encoding="utf-8") as f:
-        json.dump({"updated": updated, "count": len(data), "salaried": sal_n, "jobs": data},
-                  f, ensure_ascii=False, indent=1)
-    print(f"wrote {path}: {len(data)} US jobs ({sal_n} salaried)")
+        json.dump({"updated": updated, "count": len(data), "salaried": sal_n,
+                   "low_english": low_n, "jobs": data}, f, ensure_ascii=False, indent=1)
+    print(f"wrote {path}: {len(data)} US jobs ({sal_n} salaried, {low_n} it-noi-TA)")
 
 
 # --- ATS cong ty (Greenhouse) — token da verify tra jobs ---
@@ -213,7 +261,38 @@ GH_BOARDS = {
     "gitlab": "GitLab", "mozilla": "Mozilla", "wikimedia": "Wikimedia Foundation",
     "dropbox": "Dropbox", "coinbase": "Coinbase", "cloudflare": "Cloudflare",
     "scaleai": "Scale AI", "labelbox": "Labelbox", "turing": "Turing", "andela": "Andela",
+    "udemy": "Udemy", "khanacademy": "Khan Academy", "figma": "Figma", "reddit": "Reddit",
+    "pinterest": "Pinterest", "twitch": "Twitch", "invisibletech": "Invisible",
+    "snorkelai": "Snorkel AI", "anthropic": "Anthropic", "databricks": "Databricks",
+    "brex": "Brex", "airtable": "Airtable", "robinhood": "Robinhood", "instacart": "Instacart",
+    "affirm": "Affirm", "chime": "Chime", "asana": "Asana", "twilio": "Twilio",
+    "elastic": "Elastic", "mongodb": "MongoDB", "gusto": "Gusto", "lyft": "Lyft",
+    "stripe": "Stripe", "flexport": "Flexport",
 }
+
+ASHBY_BOARDS = {
+    "Notion": "Notion", "Linear": "Linear", "Ramp": "Ramp", "Vanta": "Vanta",
+    "Replit": "Replit", "Runway": "Runway", "openai": "OpenAI", "cohere": "Cohere",
+    "Cursor": "Cursor", "Perplexity": "Perplexity", "ElevenLabs": "ElevenLabs",
+    "Multiverse": "Multiverse", "Hex": "Hex", "Watershed": "Watershed",
+}
+
+
+def fetch_ashby():
+    out = []
+    for tok, name in ASHBY_BOARDS.items():
+        try:
+            d = requests.get(f"https://api.ashbyhq.com/posting-api/job-board/{tok}",
+                             headers=UA, timeout=TIMEOUT).json()
+            for j in d.get("jobs", []):
+                loc = j.get("location") or (j.get("address", {}) or {}).get("postalAddress", {}).get("addressLocality", "")
+                out.append(norm("ashby", j.get("title"), name, loc, None,
+                                j.get("department", "") or j.get("team", ""),
+                                j.get("jobUrl") or j.get("applyUrl"), j.get("id"),
+                                desc=j.get("descriptionPlain") or ""))
+        except Exception as e:
+            print("ashby ERR", tok, e, file=sys.stderr)
+    return out
 
 
 def fetch_greenhouse():
@@ -233,7 +312,7 @@ def fetch_greenhouse():
 
 def fetch_lever():
     out = []
-    for c in ["ro"]:
+    for c in ["ro", "spotify"]:
         try:
             d = requests.get(f"https://api.lever.co/v0/postings/{c}?mode=json",
                              headers=UA, timeout=TIMEOUT).json()
@@ -241,8 +320,9 @@ def fetch_lever():
                 continue
             for j in d:
                 cat = j.get("categories") or {}
+                dsc = j.get("descriptionPlain") or j.get("description") or ""
                 out.append(norm("lever", j.get("text"), c.capitalize(), cat.get("location", ""),
-                                None, cat.get("team", ""), j.get("hostedUrl"), j.get("id")))
+                                None, cat.get("team", ""), j.get("hostedUrl"), j.get("id"), desc=dsc))
         except Exception as e:
             print("lever ERR", c, e, file=sys.stderr)
     return out
@@ -259,12 +339,13 @@ def fetch_weworkremotely():
                 title = (it.findtext("title") or "").strip()
                 link = (it.findtext("link") or "").strip()
                 region = (it.findtext("region") or "").strip()
+                dsc = (it.findtext("description") or "").strip()
                 if ":" in title:
                     company, role = title.split(":", 1)
                 else:
                     company, role = "", title
                 out.append(norm("weworkremotely", role.strip() or title, company.strip(),
-                                region or "Remote", None, "", link, link))
+                                region or "Remote", None, "", link, link, desc=dsc))
         except Exception as e:
             print("wwr ERR", cat, e, file=sys.stderr)
     return out
@@ -276,7 +357,7 @@ def main():
 
     raw = []
     for f in (fetch_remoteok, fetch_remotive, fetch_arbeitnow, fetch_himalayas, fetch_jobicy,
-              fetch_greenhouse, fetch_lever, fetch_weworkremotely):
+              fetch_greenhouse, fetch_ashby, fetch_lever, fetch_weworkremotely):
         got = f()
         print(f"{f.__name__}: {len(got)}")
         raw += got
@@ -291,52 +372,38 @@ def main():
         r["ai_skill_kw"] = ",".join(ai)
         r["region"] = r["location"] or "(unspecified)"
         r["is_us"] = is_us(r["location"])
+        r["needs_speaking"] = needs_speaking(r["title"], r.get("_desc", ""))
         r["crawled_at"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
         seen[r["job_id"]] = r
 
     rows = list(seen.values())
     us_rows = [r for r in rows if r["is_us"]]
-    print(f"\nAI-replaceable total: {len(rows)} | US/worldwide: {len(us_rows)}")
-    for r in us_rows[:10]:
-        print(f"  [{r['source']}] {r['title'][:50]:50} | {r['region'][:18]:18} | {r['salary'] or '-'} | {r['repl_kw'][:40]}")
+    low = [r for r in us_rows if not r["needs_speaking"]]
+    print(f"\nAI-replaceable total: {len(rows)} | US: {len(us_rows)} | it-noi-TA: {len(low)}")
+    for r in low[:10]:
+        print(f"  [{r['source']}] {r['title'][:46]:46} @ {r['company'][:16]:16} | {r['repl_kw'][:30]}")
 
+    # luu kho tho vao Supabase (chi cac cot that) hoac sqlite fallback
+    if url and key:
+        payload = [{c: r.get(c) for c in COLS} for r in rows]
+        endpoint = f"{url}/rest/v1/us_ai_jobs?on_conflict=job_id"
+        headers = {"apikey": key, "Authorization": f"Bearer {key}",
+                   "Content-Type": "application/json",
+                   "Prefer": "resolution=merge-duplicates,return=minimal"}
+        ok = 0
+        for i in range(0, len(payload), 200):
+            batch = payload[i:i + 200]
+            resp = requests.post(endpoint, headers=headers, data=json.dumps(batch), timeout=TIMEOUT)
+            if resp.status_code in (200, 201, 204):
+                ok += len(batch)
+            else:
+                print(f"upsert ERR {resp.status_code}: {resp.text[:300]}", file=sys.stderr)
+        print(f"Upserted {ok}/{len(payload)} rows into us_ai_jobs.")
+    else:
+        store_sqlite(rows, os.environ.get("DB_PATH", os.path.expanduser("~/jobs.db")))
+
+    # board = crawl hien tai + gop file cu (tich luy + giu co needs_speaking)
     write_json(rows, os.environ.get("JSON_OUT", "docs/jobs.json"))
-
-    if not url or not key:
-        db = os.environ.get("DB_PATH", os.path.expanduser("~/jobs.db"))
-        store_sqlite(rows, db)
-        return
-
-    # bulk upsert (omit first_seen so it stays at original insert time)
-    endpoint = f"{url}/rest/v1/us_ai_jobs?on_conflict=job_id"
-    headers = {
-        "apikey": key, "Authorization": f"Bearer {key}",
-        "Content-Type": "application/json",
-        "Prefer": "resolution=merge-duplicates,return=minimal",
-    }
-    ok = 0
-    for i in range(0, len(rows), 200):
-        batch = rows[i:i + 200]
-        resp = requests.post(endpoint, headers=headers, data=json.dumps(batch), timeout=TIMEOUT)
-        if resp.status_code in (200, 201, 204):
-            ok += len(batch)
-        else:
-            print(f"upsert ERR {resp.status_code}: {resp.text[:300]}", file=sys.stderr)
-    print(f"\nUpserted {ok}/{len(rows)} rows into us_ai_jobs.")
-
-    # build board tu TOAN BO bang (tich luy qua nhieu ngay), khong chi me hom nay
-    try:
-        q = (f"{url}/rest/v1/us_ai_jobs?select=title,company,region,salary,"
-             f"repl_kw,ai_skill_kw,source,url,is_us,crawled_at"
-             f"&is_us=eq.true&order=crawled_at.desc&limit=800")
-        board = requests.get(q, headers={"apikey": key, "Authorization": f"Bearer {key}"}, timeout=TIMEOUT).json()
-        # loc lai theo TITLE -> bo cac dong nhieu cu (match qua tags) van con trong DB
-        board = [r for r in board if kw_hits(r.get("title", ""), "")[0]]
-        for r in board:
-            r["region"] = r.get("region") or "(unspecified)"
-        write_json(board, os.environ.get("JSON_OUT", "docs/jobs.json"))
-    except Exception as e:
-        print("board rebuild ERR", e, file=sys.stderr)
 
 
 if __name__ == "__main__":

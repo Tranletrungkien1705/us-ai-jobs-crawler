@@ -224,7 +224,7 @@ function render(){
   const q = $('#q').value.trim().toLowerCase();
   let list = JOBS.filter(j=>{
     if(onlySal && !j.has_salary) return false;
-    if(lowTalk){ const kw=(j.repl_kw||'').toLowerCase(); if(!ASYNC_OK.some(s=>kw.includes(s))) return false; }
+    if(lowTalk && j.needs_speaking) return false;   // co doc tu MO TA job (verbal/fluent/phone/calls...)
     if(q && !(`${j.title} ${j.company} ${j.repl_kw}`.toLowerCase().includes(q))) return false;
     return true;
   });
@@ -246,7 +246,7 @@ function render(){
 fetch('jobs.json?_='+Date.now()).then(r=>r.json()).then(d=>{
   JOBS = d.jobs||[];
   const up = d.updated? new Date(d.updated).toLocaleString('vi-VN'):'—';
-  $('#sub').textContent = `${d.count} việc US · ${d.salaried} có lương · cập nhật ${up}`;
+  $('#sub').textContent = `${d.count} việc US · ${d.salaried} có lương · ${d.low_english??'?'} ít nói TA · cập nhật ${up}`;
   render();
 }).catch(e=>{ $('#sub').textContent='Lỗi tải dữ liệu'; $('#list').innerHTML=`<div class="empty">${e}</div>`; });
 </script>
