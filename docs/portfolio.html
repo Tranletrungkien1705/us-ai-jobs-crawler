@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Copywriting Portfolio — Kien</title>
 <style>
-  :root{--bg:#0e1116;--card:#171b22;--line:#2a3038;--tx:#e6e9ef;--mut:#9aa4b2;--acc:#4f8cff;--acc2:#22c55e}
+  :root{--bg:#0e1116;--card:#171b22;--line:#2a3038;--tx:#e6e9ef;--mut:#9aa4b2;--acc:#4f8cff}
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.55}
   .wrap{max-width:760px;margin:0 auto;padding:26px 18px 70px}
@@ -17,7 +17,7 @@
   .kick{color:var(--acc);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
   .sample h2{font-size:19px;margin:6px 0 4px}
   .brief{font-size:12.5px;color:var(--mut);margin:0 0 14px;font-style:italic}
-  .hero{font-size:26px;font-weight:800;line-height:1.2;margin:10px 0 8px;color:#fff}
+  .hero{font-size:25px;font-weight:800;line-height:1.2;margin:10px 0 8px;color:#fff}
   .sub{font-size:15px;color:#cdd3dc}
   .cta{display:inline-block;background:var(--acc);color:#fff;border-radius:9px;padding:9px 18px;font-weight:700;margin-top:12px;font-size:14px}
   .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}
@@ -33,53 +33,54 @@
 <body>
 <div class="wrap">
   <a class="back" href="./">← Job board</a>
+  <a class="back" href="cv.html" style="margin-left:14px">📄 My CV</a>
   <h1>Copywriting Portfolio</h1>
-  <p class="lede">Kien · Technical &amp; SaaS copywriter — I turn complex products into clear, converting copy.</p>
-  <div class="note">Original samples written for this portfolio. I write with an AI-assisted workflow for speed and consistency, and personally edit every line. Happy to complete a paid test piece in your brand voice.</div>
+  <p class="lede">Kien · Technical &amp; SaaS copywriter — a backend developer who writes about technology from the inside out.</p>
+  <div class="note">Marketing copy I wrote for the kinds of enterprise products I built as a developer (e-invoicing, dealer-distribution SaaS). Product names generalized; systems and domain are real. AI-assisted workflow, every line personally edited. Happy to do a paid test piece in your brand voice.</div>
 
-  <!-- SAMPLE 1: SaaS landing -->
+  <!-- SAMPLE 1: e-invoice landing (real domain: he built e-invoice platform) -->
   <div class="sample">
     <div class="kick">Sample 1 · SaaS landing page</div>
-    <h2>FlowBill — invoicing API for developers</h2>
-    <p class="brief">Brief: a self-serve billing API needs a hero that speaks to engineers without losing decision-makers.</p>
-    <div class="hero">Ship billing in an afternoon, not a quarter.</div>
-    <p class="sub">FlowBill is the invoicing API that handles taxes, retries, and compliance — so your team writes three lines of code instead of three months of edge cases.</p>
-    <span class="cta">Get your API key →</span>
+    <h2>e-Invoice platform — for finance teams &amp; developers</h2>
+    <p class="brief">Based on an enterprise e-invoicing system I helped build (tax-authority integration, millions of documents). Goal: land both CFOs and the engineers who integrate it.</p>
+    <div class="hero">Compliant e-invoices, issued in seconds — not spreadsheets.</div>
+    <p class="sub">Our platform connects straight to the tax authority, validates every invoice, and returns a signed, legal document through one API call. Your finance team stops firefighting; your developers stop reading regulations.</p>
+    <span class="cta">Book a demo →</span>
     <div class="grid">
-      <div class="b"><b>Drop-in, not rip-out.</b><br>REST endpoints that fit your stack. Go live in a sandbox in under 10 minutes.</div>
-      <div class="b"><b>Compliance on autopilot.</b><br>E-invoicing, VAT, and audit trails built in — validated on millions of documents.</div>
-      <div class="b"><b>Never lose a payment.</b><br>Smart retries and dunning recover revenue while you sleep.</div>
-      <div class="b"><b>Scales with you.</b><br>From first invoice to enterprise volume, no re-architecture required.</div>
+      <div class="b"><b>Tax-authority ready.</b><br>Built-in TVAN/e-invoice compliance, digital signatures, and audit trails — validated on millions of live documents.</div>
+      <div class="b"><b>One API, any system.</b><br>Issue, cancel, and reconcile invoices from your ERP or app with a single REST call.</div>
+      <div class="b"><b>Zero lost invoices.</b><br>Automatic retries and status tracking mean every document reaches the authority — and the customer.</div>
+      <div class="b"><b>Scales to enterprise.</b><br>From one branch to a nationwide network, no re-architecture as volume grows.</div>
     </div>
-    <p class="sub" style="margin-top:12px"><b>Stop maintaining billing code. Start shipping.</b> Your first 500 invoices are on us.</p>
+    <p class="sub" style="margin-top:12px"><b>Turn compliance from a cost center into a checkbox.</b> Start with a free sandbox and 500 test invoices.</p>
   </div>
 
-  <!-- SAMPLE 2: Marketing email -->
+  <!-- SAMPLE 2: dealer distribution email (real domain: DMS for 80+ dealers) -->
   <div class="sample">
-    <div class="kick">Sample 2 · Product-launch email</div>
-    <h2>Nurture email — feature launch</h2>
-    <p class="brief">Brief: re-engage trial users who signed up but never sent their first invoice.</p>
+    <div class="kick">Sample 2 · Product-update email</div>
+    <h2>Dealer distribution platform — feature announcement</h2>
+    <p class="brief">Based on a vehicle-distribution management system I built for a network of 80+ dealers. Goal: drive adoption of a new real-time inventory feature.</p>
     <div class="email">
-      <div class="h"><b>Subject:</b> Your first invoice is 3 lines away 👋<br><b>Preview:</b> We saved you the boring part.</div>
-      <p>Hi {{first_name}},</p>
-      <p>You created a FlowBill account — smart move. But your first invoice is still sitting in the drafts of your to-do list.</p>
-      <p>Good news: we did the hard part. Copy our starter snippet, paste your API key, and send a real invoice in the next five minutes:</p>
-      <p><b>→ Send my first invoice</b></p>
-      <p>Taxes, formatting, and compliance are handled automatically. If anything looks off, just reply to this email — a real engineer (not a bot) will help.</p>
-      <p>Talk soon,<br>The FlowBill team</p>
+      <div class="h"><b>Subject:</b> Know exactly where every vehicle is — in real time 🚗<br><b>Preview:</b> No more calling three branches to find one car.</div>
+      <p>Hi {{dealer_name}},</p>
+      <p>Finding a specific vehicle across the network used to mean phone calls, spreadsheets, and guesswork. Not anymore.</p>
+      <p>Your dashboard now shows <b>live inventory across all 80+ dealers</b> — stock, transit, and warehouse status, updated the moment anything moves. Reserve a unit at another branch in two clicks, and the paperwork follows automatically.</p>
+      <p><b>→ See live inventory now</b></p>
+      <p>Less time chasing stock, more time closing sales. Questions? Just reply — our team reads every message.</p>
+      <p>Best,<br>The Platform Team</p>
       <hr>
-      <p style="font-size:12px;color:var(--mut)">P.S. Still evaluating? Here's a 90-second demo of a full billing flow.</p>
+      <p style="font-size:12px;color:var(--mut)">P.S. Managers: the new report shows aging stock per branch, so nothing sits too long.</p>
     </div>
   </div>
 
   <!-- BONUS: ad variations -->
   <div class="sample">
     <div class="kick">Bonus · Ad variations (A/B)</div>
-    <h2>Three hooks, one product</h2>
-    <p class="brief">Brief: short paid-social variants to test messaging angles.</p>
-    <div class="ad"><b>Pain:</b> Billing bugs cost you customers. FlowBill's API handles taxes, retries &amp; compliance — so you don't. Ship in an afternoon.</div>
-    <div class="ad"><b>Speed:</b> Three lines of code. One live invoice. Zero compliance headaches. That's FlowBill. Try it free →</div>
-    <div class="ad"><b>Proof:</b> Validated on millions of invoices. Trusted by dev teams who'd rather build features than chase payments. Start free.</div>
+    <h2>Three hooks, one product (e-invoicing)</h2>
+    <p class="brief">Short paid-social variants to test messaging angles.</p>
+    <div class="ad"><b>Pain:</b> One rejected invoice can freeze a payment for weeks. Our API validates and files every invoice with the tax authority — automatically. Try it free.</div>
+    <div class="ad"><b>Speed:</b> One API call. A signed, legal e-invoice in seconds. Compliance handled. That's it. Start your sandbox →</div>
+    <div class="ad"><b>Proof:</b> Millions of invoices, zero compliance headaches. Trusted by finance teams who'd rather close books than read regulations.</div>
   </div>
 
 </div>
