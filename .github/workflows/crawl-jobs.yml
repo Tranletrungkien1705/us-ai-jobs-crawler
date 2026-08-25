@@ -1,0 +1,21 @@
+name: crawl-ai-jobs
+
+on:
+  schedule:
+    - cron: "0 7 * * *"      # 07:00 UTC daily = 14:00 gio VN
+  workflow_dispatch: {}        # cho phep chay tay tu tab Actions
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest     # runner cua GitHub = IP My
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Crawl & upsert
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python crawl.py
