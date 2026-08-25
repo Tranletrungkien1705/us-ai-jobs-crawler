@@ -5,6 +5,9 @@ on:
     - cron: "0 7 * * *"      # 07:00 UTC daily = 14:00 gio VN
   workflow_dispatch: {}        # cho phep chay tay tu tab Actions
 
+permissions:
+  contents: write              # de commit docs/jobs.json cho GitHub Pages
+
 jobs:
   crawl:
     runs-on: ubuntu-latest     # runner cua GitHub = IP My
@@ -14,8 +17,15 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - name: Crawl & upsert
+      - name: Crawl -> Supabase + docs/jobs.json
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python crawl.py
+      - name: Commit jobs.json neu doi
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/jobs.json
+          git commit -m "chore: update jobs.json [skip ci]" || { echo "no change"; exit 0; }
+          git push

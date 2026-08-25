@@ -29,10 +29,12 @@ AISKILL = ["ai", "ml", "llm", "gpt", "prompt", "machine learning", "nlp", "data 
 US_HINTS = ["us", "u.s", "united states", "usa", "america", "worldwide", "anywhere", "remote"]
 
 
-def kw_hits(blob):
-    t = blob.lower()
-    repl = sorted({k for k in REPL if k in t})
-    ai = sorted({k for k in AISKILL if re.search(r"\b" + re.escape(k) + r"\b", t)})
+# kem chat luong: chi match REPL trong TITLE (tags cua Lemon.io/... la list da danh muc -> nhieu)
+def kw_hits(title, tags):
+    tl = (title or "").lower()
+    blob = f"{title} {tags}".lower()
+    repl = sorted({k for k in REPL if k in tl})
+    ai = sorted({k for k in AISKILL if re.search(r"\b" + re.escape(k) + r"\b", blob)})
     return repl, ai
 
 
@@ -143,6 +145,29 @@ def store_sqlite(rows, path):
     print(f"\nSQLite {path}: upserted {n}, table now has {total} rows.")
 
 
+def write_json(rows, path):
+    us = [r for r in rows if r["is_us"]]
+    data = []
+    for r in us:
+        sal = (r.get("salary") or "").strip()
+        data.append({
+            "title": r["title"], "company": r["company"], "region": r["region"],
+            "salary": sal or None, "has_salary": bool(sal),
+            "repl_kw": r["repl_kw"], "ai_skill_kw": r.get("ai_skill_kw", ""),
+            "source": r["source"], "url": r["url"],
+        })
+    data.sort(key=lambda x: (not x["has_salary"], x["title"].lower()))
+    d = os.path.dirname(path)
+    if d:
+        os.makedirs(d, exist_ok=True)
+    updated = max((r["crawled_at"] for r in rows), default=None)
+    sal_n = sum(1 for x in data if x["has_salary"])
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump({"updated": updated, "count": len(data), "salaried": sal_n, "jobs": data},
+                  f, ensure_ascii=False, indent=1)
+    print(f"wrote {path}: {len(data)} US jobs ({sal_n} salaried)")
+
+
 def main():
     url = os.environ.get("SUPABASE_URL", "").rstrip("/")
     key = os.environ.get("SUPABASE_KEY", "")
@@ -156,8 +181,7 @@ def main():
     # dedupe by job_id (later source wins), filter to AI-replaceable
     seen = {}
     for r in raw:
-        blob = f"{r['title']} {r['tags']}"
-        repl, ai = kw_hits(blob)
+        repl, ai = kw_hits(r["title"], r["tags"])
         if not repl:
             continue
         r["repl_kw"] = ",".join(repl)
@@ -172,6 +196,8 @@ def main():
     print(f"\nAI-replaceable total: {len(rows)} | US/worldwide: {len(us_rows)}")
     for r in us_rows[:10]:
         print(f"  [{r['source']}] {r['title'][:50]:50} | {r['region'][:18]:18} | {r['salary'] or '-'} | {r['repl_kw'][:40]}")
+
+    write_json(rows, os.environ.get("JSON_OUT", "docs/jobs.json"))
 
     if not url or not key:
         db = os.environ.get("DB_PATH", os.path.expanduser("~/jobs.db"))
@@ -194,6 +220,20 @@ def main():
         else:
             print(f"upsert ERR {resp.status_code}: {resp.text[:300]}", file=sys.stderr)
     print(f"\nUpserted {ok}/{len(rows)} rows into us_ai_jobs.")
+
+    # build board tu TOAN BO bang (tich luy qua nhieu ngay), khong chi me hom nay
+    try:
+        q = (f"{url}/rest/v1/us_ai_jobs?select=title,company,region,salary,"
+             f"repl_kw,ai_skill_kw,source,url,is_us,crawled_at"
+             f"&is_us=eq.true&order=crawled_at.desc&limit=800")
+        board = requests.get(q, headers={"apikey": key, "Authorization": f"Bearer {key}"}, timeout=TIMEOUT).json()
+        # loc lai theo TITLE -> bo cac dong nhieu cu (match qua tags) van con trong DB
+        board = [r for r in board if kw_hits(r.get("title", ""), "")[0]]
+        for r in board:
+            r["region"] = r.get("region") or "(unspecified)"
+        write_json(board, os.environ.get("JSON_OUT", "docs/jobs.json"))
+    except Exception as e:
+        print("board rebuild ERR", e, file=sys.stderr)
 
 
 if __name__ == "__main__":
