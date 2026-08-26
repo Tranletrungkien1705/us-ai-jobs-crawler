@@ -22,10 +22,12 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python crawl.py
+      - name: Crawl VN .NET jobs -> docs/vn-jobs.json
+        run: python vn_crawl.py
       - name: Commit jobs.json neu doi
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/jobs.json
-          git commit -m "chore: update jobs.json [skip ci]" || { echo "no change"; exit 0; }
+          git add docs/jobs.json docs/vn-jobs.json
+          git commit -m "chore: update jobs [skip ci]" || { echo "no change"; exit 0; }
           git push
