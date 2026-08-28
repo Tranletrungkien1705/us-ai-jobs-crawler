@@ -1,34 +1,8 @@
 {
  "count": 54,
- "fit": 34,
- "remote": 4,
+ "fit": 36,
+ "remote": 7,
  "jobs": [
-  {
-   "title": "Backend Software Engineer",
-   "company": "Motorola Solutions",
-   "location": "Ho Chi Minh City, Ho Chi Minh City, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/backend-software-engineer-at-motorola-solutions-4373563038",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": true,
-   "part_time": false,
-   "vietnamese_only": false,
-   "fit": true
-  },
-  {
-   "title": "Junior Software Developer - Da Nang",
-   "company": "AvePoint",
-   "location": "Đà Nang, Da Nang City, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/junior-software-developer-da-nang-at-avepoint-4077630903",
-   "source": "linkedin",
-   "level": "junior",
-   "senior": false,
-   "remote": true,
-   "part_time": false,
-   "vietnamese_only": false,
-   "fit": true
-  },
   {
    "title": ".NET Developer",
    "company": "DXC Technology",
@@ -37,7 +11,7 @@
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
-   "remote": false,
+   "remote": true,
    "part_time": false,
    "vietnamese_only": false,
    "fit": true
@@ -50,7 +24,46 @@
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
-   "remote": false,
+   "remote": true,
+   "part_time": false,
+   "vietnamese_only": false,
+   "fit": true
+  },
+  {
+   "title": "Lập Trình Viên .Net (Web + Mobile) - Khối Công Nghệ Nội Dung",
+   "company": "Công ty Cổ Phần VCCorp",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/l%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-net-web-%2B-mobile-kh%E1%BB%91i-c%C3%B4ng-ngh%E1%BB%87-n%E1%BB%99i-dung-at-c%C3%B4ng-ty-c%E1%BB%95-ph%E1%BA%A7n-vccorp-4448975636",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": true,
+   "part_time": false,
+   "vietnamese_only": false,
+   "fit": true
+  },
+  {
+   "title": "Software Developer (.NET,C++,C#)",
+   "company": "Hansen Technologies",
+   "location": "Ho Chi Minh City, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/software-developer-net-c%2B%2B-c%23-at-hansen-technologies-4449745472",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": true,
+   "part_time": false,
+   "vietnamese_only": false,
+   "fit": true
+  },
+  {
+   "title": "Software Engineer (Azure)",
+   "company": "Norrin",
+   "location": "Ho Chi Minh City, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/software-engineer-azure-at-norrin-4368032456",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": true,
    "part_time": false,
    "vietnamese_only": false,
    "fit": true
@@ -108,6 +121,19 @@
    "fit": true
   },
   {
+   "title": "Back End Developer",
+   "company": "Astek Vietnam",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/back-end-developer-at-astek-vietnam-4458036942",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "fit": true
+  },
+  {
    "title": "Backend Engineer (.NET/Node.js - Middle)",
    "company": "PLAYSTUDIOS",
    "location": "Hanoi, Hanoi, Vietnam",
@@ -127,6 +153,19 @@
    "url": "https://vn.linkedin.com/jobs/view/backend-engineer-net-node-js-middle-at-playstudios-vietnam-4452892688",
    "source": "linkedin",
    "level": "middle",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "fit": true
+  },
+  {
+   "title": "Backend Software Engineer",
+   "company": "Motorola Solutions",
+   "location": "Ho Chi Minh City, Ho Chi Minh City, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/backend-software-engineer-at-motorola-solutions-4373563038",
+   "source": "linkedin",
+   "level": "unspecified",
    "senior": false,
    "remote": false,
    "part_time": false,
@@ -173,19 +212,6 @@
    "fit": true
   },
   {
-   "title": "Fresher - Junior .NET/C# Developer",
-   "company": "AvePoint",
-   "location": "Da Nang City, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/fresher-junior-net-c%23-developer-at-avepoint-4453523945",
-   "source": "linkedin",
-   "level": "fresher",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "fit": true
-  },
-  {
    "title": "Fresher .NET Developer",
    "company": "BMBSoftVN",
    "location": "Hanoi Capital Region",
@@ -225,6 +251,19 @@
    "fit": true
   },
   {
+   "title": "Fullstack .NET Developer",
+   "company": "TMA Technology Group (BU3)",
+   "location": "Ho Chi Minh City, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/fullstack-net-developer-at-tma-technology-group-bu3-4458930250",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "fit": true
+  },
+  {
    "title": "Fullstack .Net Developer (ReactJS, .Net, English)",
    "company": "Optimizely",
    "location": "Hanoi Capital Region",
@@ -251,10 +290,36 @@
    "fit": true
   },
   {
+   "title": "Junior Full Stack Engineer (.NET)",
+   "company": "Amaris Consulting",
+   "location": "Ho Chi Minh City, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/junior-full-stack-engineer-net-at-amaris-consulting-4444527045",
+   "source": "linkedin",
+   "level": "junior",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "fit": true
+  },
+  {
+   "title": "Junior Software Developer - Da Nang",
+   "company": "AvePoint",
+   "location": "Đà Nang, Da Nang City, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/junior-software-developer-da-nang-at-avepoint-4077630903",
+   "source": "linkedin",
+   "level": "junior",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "fit": true
+  },
+  {
    "title": "Junior Web Developer (.NET, C#)",
    "company": "MISA CAREERS",
    "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/junior-web-developer-net-c%23-at-misa-careers-4448745630",
+   "url": "https://vn.linkedin.com/jobs/view/junior-web-developer-net-c%23-at-misa-careers-4460322511",
    "source": "linkedin",
    "level": "junior",
    "senior": false,
@@ -268,19 +333,6 @@
    "company": "KiotViet",
    "location": "Hanoi, Hanoi, Vietnam",
    "url": "https://vn.linkedin.com/jobs/view/l%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-net-around-35m-at-kiotviet-4456570165",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "fit": true
-  },
-  {
-   "title": "Lập Trình Viên .Net (Web + Mobile) - Khối Công Nghệ Nội Dung",
-   "company": "Công ty Cổ Phần VCCorp",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/l%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-net-web-%2B-mobile-kh%E1%BB%91i-c%C3%B4ng-ngh%E1%BB%87-n%E1%BB%99i-dung-at-c%C3%B4ng-ty-c%E1%BB%95-ph%E1%BA%A7n-vccorp-4448975636",
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
@@ -305,8 +357,8 @@
   {
    "title": "Nhân viên Công nghệ thông tin phần mềm",
    "company": "An Sinh Hospital",
-   "location": "Ninh Xá, Hai Duong, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/nh%C3%A2n-vi%C3%AAn-c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin-ph%E1%BA%A7n-m%E1%BB%81m-at-an-sinh-hospital-4449686258",
+   "location": "Xã Đại Tiến, Cao Bang, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/nh%C3%A2n-vi%C3%AAn-c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin-ph%E1%BA%A7n-m%E1%BB%81m-at-an-sinh-hospital-4449690173",
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
@@ -318,8 +370,8 @@
   {
    "title": "Nhân viên Công nghệ thông tin phần mềm",
    "company": "An Sinh Hospital",
-   "location": "Xã Đại Tiến, Cao Bang, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/nh%C3%A2n-vi%C3%AAn-c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin-ph%E1%BA%A7n-m%E1%BB%81m-at-an-sinh-hospital-4449690173",
+   "location": "Ninh Xá, Hai Duong, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/nh%C3%A2n-vi%C3%AAn-c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin-ph%E1%BA%A7n-m%E1%BB%81m-at-an-sinh-hospital-4449686258",
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
@@ -342,10 +394,10 @@
    "fit": true
   },
   {
-   "title": "Software Developer (.NET,C++,C#)",
-   "company": "Hansen Technologies",
+   "title": "Software Developer (.NET/Java)",
+   "company": "Tinhvan Software JSC.",
    "location": "Ho Chi Minh City, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/software-developer-net-c%2B%2B-c%23-at-hansen-technologies-4449745472",
+   "url": "https://vn.linkedin.com/jobs/view/software-developer-net-java-at-tinhvan-software-jsc-4458944788",
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
@@ -368,36 +420,10 @@
    "fit": true
   },
   {
-   "title": "Software Engineer",
-   "company": "MISA JSC",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/software-engineer-at-misa-jsc-4453500603",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "fit": true
-  },
-  {
    "title": "Software Engineer (.NET) – 3+ Years Experience",
    "company": "",
    "location": "Hanoi Capital Region",
    "url": "https://vn.linkedin.com/jobs/view/software-engineer-net-%E2%80%93-3%2B-years-experience-at-kis-technology-inc-4327805047",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "fit": true
-  },
-  {
-   "title": "Software Engineer (Azure)",
-   "company": "Norrin",
-   "location": "Ho Chi Minh City, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/software-engineer-azure-at-norrin-4368032456",
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
@@ -446,10 +472,10 @@
    "fit": true
   },
   {
-   "title": "[ TIGER TRIBE ] - SENIOR BACKEND DEVELOPER",
-   "company": "Tiger Tribe (A HEINEKEN Company)",
+   "title": "[DN/HCM] Senior/Lead C# Software Engineer",
+   "company": "Sioux Technologies",
    "location": "Ho Chi Minh City Metropolitan Area",
-   "url": "https://vn.linkedin.com/jobs/view/tiger-tribe-senior-backend-developer-at-tiger-tribe-a-heineken-company-4457693120",
+   "url": "https://vn.linkedin.com/jobs/view/dn-hcm-senior-lead-c%23-software-engineer-at-sioux-technologies-4450489036",
    "source": "linkedin",
    "level": "unspecified",
    "senior": true,
@@ -459,10 +485,10 @@
    "fit": false
   },
   {
-   "title": "[Senior] Fullstack Developer",
-   "company": "Vietsol - Pioneering Excellence in Mobility Engineering & Technology",
-   "location": "Phường Long Biên, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/senior-fullstack-developer-at-vietsol-pioneering-excellence-in-mobility-engineering-technology-4458371558",
+   "title": "Senior .Net Engineer (Remote, Vietnam)",
+   "company": "Employment Hero",
+   "location": "Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/senior-net-engineer-remote-vietnam-at-employment-hero-4460196416",
    "source": "linkedin",
    "level": "unspecified",
    "senior": true,
@@ -485,10 +511,10 @@
    "fit": false
   },
   {
-   "title": "[DN/HCM] Senior/Lead C# Software Engineer",
-   "company": "Sioux Technologies",
+   "title": "[ TIGER TRIBE ] - SENIOR BACKEND DEVELOPER",
+   "company": "Tiger Tribe (A HEINEKEN Company)",
    "location": "Ho Chi Minh City Metropolitan Area",
-   "url": "https://vn.linkedin.com/jobs/view/dn-hcm-senior-lead-c%23-software-engineer-at-sioux-technologies-4450489036",
+   "url": "https://vn.linkedin.com/jobs/view/tiger-tribe-senior-backend-developer-at-tiger-tribe-a-heineken-company-4457693120",
    "source": "linkedin",
    "level": "unspecified",
    "senior": true,
@@ -511,10 +537,10 @@
    "fit": false
   },
   {
-   "title": "Hanoi| Senior Fullstack Developer (.NET) - Up To 50M",
-   "company": "MISA JSC",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/hanoi-senior-fullstack-developer-net-up-to-50m-at-misa-jsc-4456849050",
+   "title": "[Senior] Fullstack Developer",
+   "company": "Vietsol - Pioneering Excellence in Mobility Engineering & Technology",
+   "location": "Phường Long Biên, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/senior-fullstack-developer-at-vietsol-pioneering-excellence-in-mobility-engineering-technology-4458371558",
    "source": "linkedin",
    "level": "unspecified",
    "senior": true,
@@ -615,19 +641,6 @@
    "fit": false
   },
   {
-   "title": "Senior Full-Stack (.NET + Angular) Engineer",
-   "company": "Forte Group",
-   "location": "Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/senior-full-stack-net-%2B-angular-engineer-at-forte-group-4456711027",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": true,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "fit": false
-  },
-  {
    "title": "Senior Fullstack .NET Developer",
    "company": "AS White Global",
    "location": "Ho Chi Minh City, Vietnam",
@@ -684,19 +697,6 @@
    "company": "NashTech",
    "location": "Hanoi Capital Region",
    "url": "https://vn.linkedin.com/jobs/view/senior-software-engineer-net-hcm-hn-at-nashtech-4456702310",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": true,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "fit": false
-  },
-  {
-   "title": "Senior/Techlead Dotnet Developer",
-   "company": "Eastgate Software",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/senior-techlead-dotnet-developer-at-eastgate-software-4448989298",
    "source": "linkedin",
    "level": "unspecified",
    "senior": true,

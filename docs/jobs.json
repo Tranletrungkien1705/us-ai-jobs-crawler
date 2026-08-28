@@ -1,9 +1,9 @@
 {
- "updated": "2026-08-27T18:13:16.122149+00:00",
- "count": 61,
+ "updated": "2026-08-28T19:22:50.969117+00:00",
+ "count": 65,
  "salaried": 5,
- "low_english": 49,
- "fit": 25,
+ "low_english": 52,
+ "fit": 26,
  "jobs": [
   {
    "job_id": "remotive:1749306",
@@ -18,7 +18,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
-   "crawled_at": "2026-08-27T18:13:15.894861+00:00"
+   "crawled_at": "2026-08-28T19:22:50.743275+00:00"
   },
   {
    "job_id": "remotive:1185979",
@@ -33,7 +33,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
-   "crawled_at": "2026-08-27T18:13:15.894450+00:00"
+   "crawled_at": "2026-08-28T19:22:50.742852+00:00"
   },
   {
    "job_id": "remoteok:1137136",
@@ -48,7 +48,7 @@
    "senior": false,
    "source": "remoteok",
    "url": "https://remoteOK.com/remote-jobs/remote-course-writer-and-editor-ux-ui-and-ai-interaction-design-foundation-1137136",
-   "crawled_at": "2026-08-27T18:13:15.890429+00:00"
+   "crawled_at": "2026-08-28T19:22:50.739216+00:00"
   },
   {
    "job_id": "remotive:2090903",
@@ -78,7 +78,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/prismfly-product-data-analyst-internship",
-   "crawled_at": "2026-08-27T18:13:16.121128+00:00"
+   "crawled_at": "2026-08-28T19:22:50.968129+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/jobgether-freelance-graphic-designer-signage-designer",
@@ -93,7 +93,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/jobgether-freelance-graphic-designer-signage-designer",
-   "crawled_at": "2026-08-27T18:13:16.120215+00:00"
+   "crawled_at": "2026-08-28T19:22:50.967238+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/ixdf-interaction-design-foundation-course-writer-and-editor-ux-ui-and-ai",
@@ -108,7 +108,157 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/ixdf-interaction-design-foundation-course-writer-and-editor-ux-ui-and-ai",
-   "crawled_at": "2026-08-27T18:13:16.116973+00:00"
+   "crawled_at": "2026-08-28T19:22:50.963927+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/designfiles-content-marketing-coordinator",
+   "title": "Content Marketing Coordinator",
+   "company": "DesignFiles",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/designfiles-content-marketing-coordinator",
+   "crawled_at": "2026-08-28T19:22:50.963026+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/spiralyze-video-editor-linkedin-content",
+   "title": "Video Editor (LinkedIn Content)",
+   "company": "Spiralyze",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content,editor",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/spiralyze-video-editor-linkedin-content",
+   "crawled_at": "2026-08-28T19:22:50.959291+00:00"
+  },
+  {
+   "job_id": "ashby:a21ec926-88d3-4f95-98be-c551fe1ec49f",
+   "title": "B2B SEO/AEO Expert",
+   "company": "ElevenLabs",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "seo",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/ElevenLabs/a21ec926-88d3-4f95-98be-c551fe1ec49f",
+   "crawled_at": "2026-08-28T19:22:50.950389+00:00"
+  },
+  {
+   "job_id": "greenhouse:8463702002",
+   "title": "Data Analyst II",
+   "company": "Brex",
+   "region": "New York, New York, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://www.brex.com/careers/8463702002?gh_jid=8463702002",
+   "crawled_at": "2026-08-28T19:22:50.839371+00:00"
+  },
+  {
+   "job_id": "greenhouse:8463696002",
+   "title": "Data Analyst II",
+   "company": "Brex",
+   "region": "San Francisco, California, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://www.brex.com/careers/8463696002?gh_jid=8463696002",
+   "crawled_at": "2026-08-28T19:22:50.839343+00:00"
+  },
+  {
+   "job_id": "greenhouse:7908767",
+   "title": "Content Designer II, Personalization",
+   "company": "Pinterest",
+   "region": "San Francisco, CA, US; Remote, US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7908767",
+   "crawled_at": "2026-08-28T19:22:50.800831+00:00"
+  },
+  {
+   "job_id": "greenhouse:8139781",
+   "title": "Software Engineer, Content Platform",
+   "company": "Reddit",
+   "region": "Remote - United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781",
+   "crawled_at": "2026-08-28T19:22:50.799681+00:00"
+  },
+  {
+   "job_id": "greenhouse:6037719004",
+   "title": "Support Engineer, Content Systems",
+   "company": "Figma",
+   "region": "San Francisco, CA • New York, NY • United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://boards.greenhouse.io/figma/jobs/6037719004?gh_jid=6037719004",
+   "crawled_at": "2026-08-28T19:22:50.796955+00:00"
+  },
+  {
+   "job_id": "greenhouse:7156991",
+   "title": "English Chemistry Video Content Creator, Grade 11- 12 (Freelancer), India",
+   "company": "Khan Academy",
+   "region": "India (Remote)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/khanacademy/jobs/7156991",
+   "crawled_at": "2026-08-28T19:22:50.793052+00:00"
+  },
+  {
+   "job_id": "greenhouse:8023197",
+   "title": "Italian Translator / Linguist (Contract)",
+   "company": "Wikimedia Foundation",
+   "region": "Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "translat",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8023197",
+   "crawled_at": "2026-08-28T19:22:50.775082+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/prowritersites-freelance-writer",
@@ -124,141 +274,6 @@
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/prowritersites-freelance-writer",
    "crawled_at": "2026-08-27T18:13:16.116175+00:00"
-  },
-  {
-   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/spiralyze-video-editor-linkedin-content",
-   "title": "Video Editor (LinkedIn Content)",
-   "company": "Spiralyze",
-   "region": "Anywhere in the World",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content,editor",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "weworkremotely",
-   "url": "https://weworkremotely.com/remote-jobs/spiralyze-video-editor-linkedin-content",
-   "crawled_at": "2026-08-27T18:13:16.111823+00:00"
-  },
-  {
-   "job_id": "ashby:a21ec926-88d3-4f95-98be-c551fe1ec49f",
-   "title": "B2B SEO/AEO Expert",
-   "company": "ElevenLabs",
-   "region": "United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "seo",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "ashby",
-   "url": "https://jobs.ashbyhq.com/ElevenLabs/a21ec926-88d3-4f95-98be-c551fe1ec49f",
-   "crawled_at": "2026-08-27T18:13:16.103338+00:00"
-  },
-  {
-   "job_id": "greenhouse:8463696002",
-   "title": "Data Analyst II",
-   "company": "Brex",
-   "region": "San Francisco, California, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "data analyst",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://www.brex.com/careers/8463696002?gh_jid=8463696002",
-   "crawled_at": "2026-08-27T18:13:15.993027+00:00"
-  },
-  {
-   "job_id": "greenhouse:8463702002",
-   "title": "Data Analyst II",
-   "company": "Brex",
-   "region": "New York, New York, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "data analyst",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://www.brex.com/careers/8463702002?gh_jid=8463702002",
-   "crawled_at": "2026-08-27T18:13:15.992974+00:00"
-  },
-  {
-   "job_id": "greenhouse:7908767",
-   "title": "Content Designer II, Personalization",
-   "company": "Pinterest",
-   "region": "San Francisco, CA, US; Remote, US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7908767",
-   "crawled_at": "2026-08-27T18:13:15.954622+00:00"
-  },
-  {
-   "job_id": "greenhouse:8139781",
-   "title": "Software Engineer, Content Platform",
-   "company": "Reddit",
-   "region": "Remote - United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781",
-   "crawled_at": "2026-08-27T18:13:15.953459+00:00"
-  },
-  {
-   "job_id": "greenhouse:6037719004",
-   "title": "Support Engineer, Content Systems",
-   "company": "Figma",
-   "region": "San Francisco, CA • New York, NY • United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://boards.greenhouse.io/figma/jobs/6037719004?gh_jid=6037719004",
-   "crawled_at": "2026-08-27T18:13:15.950812+00:00"
-  },
-  {
-   "job_id": "greenhouse:7156991",
-   "title": "English Chemistry Video Content Creator, Grade 11- 12 (Freelancer), India",
-   "company": "Khan Academy",
-   "region": "India (Remote)",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/khanacademy/jobs/7156991",
-   "crawled_at": "2026-08-27T18:13:15.946932+00:00"
-  },
-  {
-   "job_id": "greenhouse:8023197",
-   "title": "Italian Translator / Linguist (Contract)",
-   "company": "Wikimedia Foundation",
-   "region": "Remote",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "translat",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8023197",
-   "crawled_at": "2026-08-27T18:13:15.929062+00:00"
   },
   {
    "job_id": "himalayas:https://himalayas.app/companies/telus-digital/jobs/online-data-analyst-odia-in-953447407",
@@ -377,7 +392,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-english-us-2091105",
-   "crawled_at": "2026-08-27T18:13:15.893655+00:00"
+   "crawled_at": "2026-08-28T19:22:50.742051+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor",
@@ -392,7 +407,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor",
-   "crawled_at": "2026-08-27T18:13:16.121644+00:00"
+   "crawled_at": "2026-08-28T19:22:50.968628+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor-1",
@@ -407,7 +422,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor-1",
-   "crawled_at": "2026-08-27T18:13:16.119474+00:00"
+   "crawled_at": "2026-08-28T19:22:50.966410+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/koin-limited-graphic-design-executive",
@@ -422,7 +437,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/koin-limited-graphic-design-executive",
-   "crawled_at": "2026-08-27T18:13:16.118677+00:00"
+   "crawled_at": "2026-08-28T19:22:50.965599+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor-2",
@@ -437,7 +452,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor-2",
-   "crawled_at": "2026-08-27T18:13:16.118321+00:00"
+   "crawled_at": "2026-08-28T19:22:50.965247+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/blue-whale-lending-llc-graphic-design-assistant",
@@ -452,7 +467,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/blue-whale-lending-llc-graphic-design-assistant",
-   "crawled_at": "2026-08-27T18:13:16.114215+00:00"
+   "crawled_at": "2026-08-28T19:22:50.961058+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/tractian-product-content-specialist",
@@ -467,7 +482,22 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/tractian-product-content-specialist",
-   "crawled_at": "2026-08-27T18:13:16.114063+00:00"
+   "crawled_at": "2026-08-28T19:22:50.960909+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/argos-multilingual-inc-ai-data-annotator-remote",
+   "title": "AI Data Annotator - Remote",
+   "company": "Argos Multilingual Inc.",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "annotator,data annotat",
+   "ai_skill_kw": "ai",
+   "needs_speaking": true,
+   "senior": false,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/argos-multilingual-inc-ai-data-annotator-remote",
+   "crawled_at": "2026-08-28T19:22:50.958472+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/telus-digital-content-reviewer-us-5",
@@ -497,7 +527,7 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/ischool-graphic-design-instructor-project-based",
-   "crawled_at": "2026-08-27T18:13:16.117479+00:00"
+   "crawled_at": "2026-08-28T19:22:50.964423+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/great-minds-principal-product-manager-content-authoring-delivery-cms",
@@ -512,7 +542,7 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/great-minds-principal-product-manager-content-authoring-delivery-cms",
-   "crawled_at": "2026-08-27T18:13:16.114832+00:00"
+   "crawled_at": "2026-08-28T19:22:50.961624+00:00"
   },
   {
    "job_id": "ashby:13fcee94-512f-4229-b7ab-f91d3fdd24e3",
@@ -527,37 +557,22 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/13fcee94-512f-4229-b7ab-f91d3fdd24e3",
-   "crawled_at": "2026-08-27T18:13:16.102402+00:00"
+   "crawled_at": "2026-08-28T19:22:50.949481+00:00"
   },
   {
-   "job_id": "greenhouse:8054645",
-   "title": "Social Media & Content Manager",
-   "company": "Flexport",
-   "region": "Chicago, Illinois, United States",
+   "job_id": "ashby:ef819b07-d617-42c7-873f-798d1a7d4024",
+   "title": "Localization Specialist",
+   "company": "ElevenLabs",
+   "region": "United States",
    "salary": null,
    "has_salary": false,
-   "repl_kw": "content",
+   "repl_kw": "localization",
    "ai_skill_kw": "",
    "needs_speaking": false,
    "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
-   "crawled_at": "2026-08-27T18:13:16.052750+00:00"
-  },
-  {
-   "job_id": "greenhouse:8054644",
-   "title": "Social Media & Content Manager",
-   "company": "Flexport",
-   "region": "New York City, New York, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
-   "crawled_at": "2026-08-27T18:13:16.052723+00:00"
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/ElevenLabs/ef819b07-d617-42c7-873f-798d1a7d4024",
+   "crawled_at": "2026-08-28T19:22:50.946813+00:00"
   },
   {
    "job_id": "greenhouse:8044163",
@@ -572,7 +587,37 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
-   "crawled_at": "2026-08-27T18:13:16.052694+00:00"
+   "crawled_at": "2026-08-28T19:22:50.899239+00:00"
+  },
+  {
+   "job_id": "greenhouse:8054645",
+   "title": "Social Media & Content Manager",
+   "company": "Flexport",
+   "region": "Chicago, Illinois, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
+   "crawled_at": "2026-08-28T19:22:50.899213+00:00"
+  },
+  {
+   "job_id": "greenhouse:8054644",
+   "title": "Social Media & Content Manager",
+   "company": "Flexport",
+   "region": "New York City, New York, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
+   "crawled_at": "2026-08-28T19:22:50.899184+00:00"
   },
   {
    "job_id": "greenhouse:7921649",
@@ -587,7 +632,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7921649",
-   "crawled_at": "2026-08-27T18:13:16.047864+00:00"
+   "crawled_at": "2026-08-28T19:22:50.894307+00:00"
   },
   {
    "job_id": "greenhouse:8128634",
@@ -602,7 +647,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8128634",
-   "crawled_at": "2026-08-27T18:13:16.042205+00:00"
+   "crawled_at": "2026-08-28T19:22:50.888827+00:00"
   },
   {
    "job_id": "greenhouse:7612192",
@@ -617,7 +662,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7612192",
-   "crawled_at": "2026-08-27T18:13:16.039947+00:00"
+   "crawled_at": "2026-08-28T19:22:50.886474+00:00"
   },
   {
    "job_id": "greenhouse:7540441",
@@ -632,7 +677,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7540441",
-   "crawled_at": "2026-08-27T18:13:16.039888+00:00"
+   "crawled_at": "2026-08-28T19:22:50.886416+00:00"
   },
   {
    "job_id": "greenhouse:7696633",
@@ -647,7 +692,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=7696633",
-   "crawled_at": "2026-08-27T18:13:16.027234+00:00"
+   "crawled_at": "2026-08-28T19:22:50.873988+00:00"
   },
   {
    "job_id": "greenhouse:8637295002",
@@ -662,7 +707,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8637295002?gh_jid=8637295002",
-   "crawled_at": "2026-08-27T18:13:16.008904+00:00"
+   "crawled_at": "2026-08-28T19:22:50.855593+00:00"
   },
   {
    "job_id": "greenhouse:7819571003",
@@ -677,7 +722,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7819571003",
-   "crawled_at": "2026-08-27T18:13:16.004313+00:00"
+   "crawled_at": "2026-08-28T19:22:50.850842+00:00"
   },
   {
    "job_id": "greenhouse:8082169",
@@ -692,7 +737,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8082169",
-   "crawled_at": "2026-08-27T18:13:15.958304+00:00"
+   "crawled_at": "2026-08-28T19:22:50.804343+00:00"
   },
   {
    "job_id": "greenhouse:7724254",
@@ -707,7 +752,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7724254",
-   "crawled_at": "2026-08-27T18:13:15.958084+00:00"
+   "crawled_at": "2026-08-28T19:22:50.804123+00:00"
   },
   {
    "job_id": "greenhouse:7901910",
@@ -722,7 +767,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7901910",
-   "crawled_at": "2026-08-27T18:13:15.956090+00:00"
+   "crawled_at": "2026-08-28T19:22:50.802206+00:00"
   },
   {
    "job_id": "greenhouse:7765105",
@@ -737,7 +782,22 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/khanacademy/jobs/7765105",
-   "crawled_at": "2026-08-27T18:13:15.947186+00:00"
+   "crawled_at": "2026-08-28T19:22:50.793300+00:00"
+  },
+  {
+   "job_id": "greenhouse:8158048",
+   "title": "Senior Software Engineer, MediaWiki Content Platform Team",
+   "company": "Wikimedia Foundation",
+   "region": "Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8158048",
+   "crawled_at": "2026-08-28T19:22:50.775364+00:00"
   },
   {
    "job_id": "greenhouse:7901861",
@@ -752,7 +812,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/7901861",
-   "crawled_at": "2026-08-27T18:13:15.927371+00:00"
+   "crawled_at": "2026-08-28T19:22:50.773395+00:00"
   },
   {
    "job_id": "greenhouse:8635277002",
@@ -767,7 +827,22 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8635277002",
-   "crawled_at": "2026-08-27T18:13:15.923222+00:00"
+   "crawled_at": "2026-08-28T19:22:50.769250+00:00"
+  },
+  {
+   "job_id": "remotive:2091081",
+   "title": "Senior Graphic Designer",
+   "company": "Lemon.io",
+   "region": "Americas, Europe, Asia, Africa, Oceania",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "graphic design",
+   "ai_skill_kw": "ai,ml",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "remotive",
+   "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081",
+   "crawled_at": "2026-08-28T19:22:50.743722+00:00"
   },
   {
    "job_id": "greenhouse:6144683004",
@@ -815,21 +890,6 @@
    "crawled_at": "2026-08-27T18:13:15.903998+00:00"
   },
   {
-   "job_id": "remotive:2091081",
-   "title": "Senior Graphic Designer",
-   "company": "Lemon.io",
-   "region": "Americas, Europe, Asia, Africa, Oceania",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "graphic design",
-   "ai_skill_kw": "ai,ml",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "remotive",
-   "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081",
-   "crawled_at": "2026-08-27T18:13:15.895345+00:00"
-  },
-  {
    "job_id": "greenhouse:8576707002",
    "title": "Lead Data Analyst, MyPay",
    "company": "Chime",
@@ -857,7 +917,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/Cursor/c43bdded-80a1-4705-a0ec-8217d771528c",
-   "crawled_at": "2026-08-27T18:13:16.092898+00:00"
+   "crawled_at": "2026-08-28T19:22:50.939444+00:00"
   },
   {
    "job_id": "ashby:fef0c5d0-6744-40e6-aeae-0c5644f6af5e",
@@ -872,7 +932,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/Notion/fef0c5d0-6744-40e6-aeae-0c5644f6af5e",
-   "crawled_at": "2026-08-27T18:13:16.054338+00:00"
+   "crawled_at": "2026-08-28T19:22:50.900745+00:00"
   },
   {
    "job_id": "arbeitnow:senior-quality-analyst-330064",
