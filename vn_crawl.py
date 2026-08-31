@@ -107,7 +107,7 @@ def fetch_linkedin():
 
 def li_desc(url):
     """Đọc mô tả job từ LinkedIn guest jobPosting endpoint (để bắt năm KN + English)."""
-    m = re.search(r"/jobs/view/(\d+)", url or "")
+    m = re.search(r"(\d{8,})", url or "")   # job-id LinkedIn = số ~10 chữ số cuối url
     if not m:
         return ""
     try:
