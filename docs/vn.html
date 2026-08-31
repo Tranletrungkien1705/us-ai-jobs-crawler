@@ -119,9 +119,9 @@ function card(j,i){
       ${j.part_time?'<span class="tag">⏱ part-time</span>':''}
       ${j.vietnamese_only?'<span class="tag vn">🇻🇳 khỏi tiếng Anh</span>':''}
       ${j.night?'<span class="tag" style="color:#a9b">🌙 ca đêm</span>':''}
-      ${j.min_years>=4?`<span class="tag" style="color:#fc7">🎓 ${j.min_years}+ năm KN</span>`:''}
+      ${j.min_years>=3?`<span class="tag" style="color:#fc7">🎓 ${j.min_years}+ năm KN</span>`:''}
       ${j.needs_english?'<span class="tag" style="color:#f9a">🇬🇧 cần English</span>':''}
-      ${j.senior&&!(j.min_years>=4)?'<span class="tag" style="color:#fc7">🎓 quá cấp</span>':''}
+      ${j.senior&&!(j.min_years>=3)?'<span class="tag" style="color:#fc7">🎓 quá cấp</span>':''}
     </div>
     <div class="acts">
       <span class="btn p" data-copy="${i}">📋 Copy đơn cho Claude</span>

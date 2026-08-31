@@ -128,8 +128,8 @@ ENGLISH_RE = re.compile(
 
 def desc_flags(desc):
     yrs = [int(x) for x in re.findall(r"(\d{1,2})\s*\+?\s*years", desc or "", re.I) if 1 <= int(x) <= 15]
-    min_years = min(yrs) if yrs else 0        # ngưỡng KN tối thiểu job đòi
-    return min_years, bool(desc and ENGLISH_RE.search(desc))
+    req_years = max(yrs) if yrs else 0        # năm KN cao nhất job đòi
+    return req_years, bool(desc and ENGLISH_RE.search(desc))
 
 
 def fetch_itviec():
@@ -176,7 +176,7 @@ def main():
             time.sleep(0.25)
         r["min_years"] = my
         r["needs_english"] = eng
-        r["over_exp"] = my >= 4                       # job đòi ≥4 năm = quá tầm (bạn ~2 năm)
+        r["over_exp"] = my >= 3                       # job đòi ≥3 năm = quá tầm (bạn ~2 năm)
         r["senior"] = is_senior(t) or r["over_exp"]
         r["remote"] = r.get("remote_hint") or bool(re.search(r"remote|từ xa|wfh", (t + " " + loc).lower()))
         r["part_time"] = r.get("pt_hint") or bool(re.search(r"part[- ]?time|bán thời gian", t.lower()))
