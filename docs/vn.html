@@ -49,6 +49,7 @@
     <div class="bar">
       <input id="q" type="search" placeholder="Tìm chức danh / công ty…">
       <span class="chip on" id="fFit">🎯 Vừa sức</span>
+      <span class="chip on" id="fNight">🌙 Bỏ ca đêm</span>
       <span class="chip" id="fRemote">🏠 Remote</span>
       <span class="chip" id="fVN">🇻🇳 Khỏi tiếng Anh</span>
     </div>
@@ -78,10 +79,11 @@
 </div>
 <script>
 const $=s=>document.querySelector(s);
-let JOBS=[], fitOnly=true, remoteOnly=false, vnOnly=false;
+let JOBS=[], fitOnly=true, nightOff=true, remoteOnly=false, vnOnly=false;
 $('#prof').value=localStorage.getItem('profile')||'';
 $('#saveProf').onclick=()=>{localStorage.setItem('profile',$('#prof').value);$('#saveProf').textContent='Đã lưu ✓';setTimeout(()=>$('#saveProf').textContent='Lưu hồ sơ',1500);};
 $('#fFit').onclick=()=>{fitOnly=!fitOnly;$('#fFit').classList.toggle('on',fitOnly);render();};
+$('#fNight').onclick=()=>{nightOff=!nightOff;$('#fNight').classList.toggle('on',nightOff);render();};
 $('#fRemote').onclick=()=>{remoteOnly=!remoteOnly;$('#fRemote').classList.toggle('on',remoteOnly);render();};
 $('#fVN').onclick=()=>{vnOnly=!vnOnly;$('#fVN').classList.toggle('on',vnOnly);render();};
 $('#q').oninput=render;
@@ -108,6 +110,7 @@ function card(j,i){
       ${j.remote?'<span class="tag rm">🏠 remote</span>':''}
       ${j.part_time?'<span class="tag">⏱ part-time</span>':''}
       ${j.vietnamese_only?'<span class="tag vn">🇻🇳 khỏi tiếng Anh</span>':''}
+      ${j.night?'<span class="tag" style="color:#a9b">🌙 ca đêm</span>':''}
       ${j.senior?'<span class="tag" style="color:#fc7">🎓 quá cấp</span>':''}
     </div>
     <div class="acts">
@@ -120,6 +123,7 @@ function render(){
   const q=$('#q').value.trim().toLowerCase();
   let list=JOBS.filter(j=>{
     if(fitOnly&&j.senior) return false;
+    if(nightOff&&j.night) return false;
     if(remoteOnly&&!j.remote) return false;
     if(vnOnly&&!j.vietnamese_only) return false;
     if(q&&!(`${j.title} ${j.company}`.toLowerCase().includes(q))) return false;

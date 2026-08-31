@@ -127,10 +127,12 @@ def main():
         r["remote"] = r.get("remote_hint") or bool(re.search(r"remote|từ xa|wfh", (t + " " + loc).lower()))
         r["part_time"] = r.get("pt_hint") or bool(re.search(r"part[- ]?time|bán thời gian", t.lower()))
         r["vietnamese_only"] = bool(re.search(r"vietnamese only|tiếng việt|người việt", (t).lower()))
+        r["night"] = bool(re.search(r"night[- ]?shift|ca đêm|graveyard|âm phủ|us hours|"
+                                    r"us time|emea|overnight|0:00|2:00 ?am|đêm", (t + " " + loc).lower()))
         r["fit"] = not r["senior"]
         jobs.append({k: r[k] for k in ("title", "company", "location", "url", "source",
                                        "level", "senior", "remote", "part_time",
-                                       "vietnamese_only", "fit")})
+                                       "vietnamese_only", "night", "fit")})
 
     # sort: fit (junior/mid) first, then remote, then part-time
     jobs.sort(key=lambda x: (x["senior"], not x["remote"], not x["part_time"], x["title"].lower()))
