@@ -35,6 +35,16 @@ LEVELS = [("fresher", ["fresher", "intern", "thực tập", "sinh viên"]),
           ("middle", ["middle", "mid-level", "mid level", "middle/senior"])]
 
 
+# ĐÚNG mảng của bạn: C#/.NET/SQL
+RELEVANT_CORE = ["c#", "c-sharp", "csharp", ".net", "dotnet", "asp.net", "sql"]
+# LOẠI ngôn ngữ/stack KHÔNG phải của bạn (C/C++, Java, Python, mobile, game, BrSE-Nhật...)
+EXCLUDE_RE = re.compile(
+    r"(c\+\+|c/c|\bjava\b|\bphp\b|\bpython\b|\bgolang\b|\bruby\b|\brust\b|\bkotlin\b|"
+    r"\bscala\b|\bswift\b|cocos|unity|unreal|\bbrse\b|cầu nối|embedded|firmware|"
+    r"flutter|react native|\breactjs\b|\bangular\b|\bvuejs\b|\bgame\b|\btester\b|"
+    r"\bqc\b|japanese|tiếng nhật|nhật bản|\bdesigner\b|front-?end)", re.I)
+
+
 def level_of(title):
     t = title.lower()
     for name, kws in LEVELS:
@@ -128,7 +138,10 @@ def main():
             continue
         seen.add(key)
         t = r["title"]
+        if EXCLUDE_RE.search(t):        # loại C/C++/Java/mobile/game/BrSE...
+            continue
         loc = r["location"]
+        r["relevant"] = any(k in t.lower() for k in RELEVANT_CORE)  # đúng C#/.NET/SQL
         r["level"] = level_of(t)
         r["senior"] = is_senior(t)
         r["remote"] = r.get("remote_hint") or bool(re.search(r"remote|từ xa|wfh", (t + " " + loc).lower()))
@@ -141,7 +154,8 @@ def main():
         r["fit"] = not r["senior"]
         jobs.append({k: r[k] for k in ("title", "company", "location", "url", "source",
                                        "level", "senior", "remote", "part_time",
-                                       "vietnamese_only", "night", "hanoi", "junior_up", "fit")})
+                                       "vietnamese_only", "night", "hanoi", "junior_up",
+                                       "relevant", "fit")})
 
     # sort: fit (junior/mid) first, then remote, then part-time
     jobs.sort(key=lambda x: (x["senior"], not x["remote"], not x["part_time"], x["title"].lower()))
