@@ -1,13 +1,13 @@
 {
- "count": 43,
- "fit": 29,
+ "count": 36,
+ "fit": 20,
  "remote": 2,
  "jobs": [
   {
-   "title": "Back End Developer",
-   "company": "Equix Technologies",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/back-end-developer-at-equix-technologies-4455600149",
+   "title": "Power Platform Developer",
+   "company": "YKK Vietnam Co. Ltd",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/power-platform-developer-at-ykk-vietnam-co-ltd-4456080862",
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
@@ -17,22 +17,24 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": false,
    "fit": true
   },
   {
-   "title": "Software Engineer (C/C++)",
-   "company": "WorldQuant",
+   "title": "Tuyển dụng Thực tập sinh Dev - Vị trí lập trình .Net",
+   "company": "Công ty cổ phần chuyển đổi số thg",
    "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/software-engineer-c-c%2B%2B-at-worldquant-4446194196",
+   "url": "https://vn.linkedin.com/jobs/view/tuy%E1%BB%83n-d%E1%BB%A5ng-th%E1%BB%B1c-t%E1%BA%ADp-sinh-dev-v%E1%BB%8B-tr%C3%AD-l%E1%BA%ADp-tr%C3%ACnh-net-at-c%C3%B4ng-ty-c%E1%BB%95-ph%E1%BA%A7n-chuy%E1%BB%83n-%C4%91%E1%BB%95i-s%E1%BB%91-thg-4449988645",
    "source": "linkedin",
-   "level": "unspecified",
+   "level": "fresher",
    "senior": false,
    "remote": true,
    "part_time": false,
    "vietnamese_only": false,
    "night": false,
    "hanoi": true,
-   "junior_up": true,
+   "junior_up": false,
+   "relevant": true,
    "fit": true
   },
   {
@@ -49,6 +51,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
    "fit": true
   },
   {
@@ -65,38 +68,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
-   "fit": true
-  },
-  {
-   "title": "[HN/HCM] Kỹ sư cầu nối BrSE  (Japanese)",
-   "company": "GMO-Z.com RUNSYSTEM Career",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/hn-hcm-k%E1%BB%B9-s%C6%B0-c%E1%BA%A7u-n%E1%BB%91i-brse-japanese-at-gmo-z-com-runsystem-career-4457916114",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "fit": true
-  },
-  {
-   "title": "[HN] Software Engineer (fullstack)",
-   "company": "Base Careers",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/hn-software-engineer-fullstack-at-base-careers-4450220154",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
+   "relevant": false,
    "fit": true
   },
   {
@@ -113,6 +85,41 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": false,
+   "fit": true
+  },
+  {
+   "title": "Back End Developer",
+   "company": "Equix Technologies",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/back-end-developer-at-equix-technologies-4455600149",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "fit": true
+  },
+  {
+   "title": "Back End Developer",
+   "company": "VINFAST",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/back-end-developer-at-vinfast-4448988829",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
    "fit": true
   },
   {
@@ -129,6 +136,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": false,
    "fit": true
   },
   {
@@ -145,6 +153,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
    "fit": true
   },
   {
@@ -161,22 +170,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
-   "fit": true
-  },
-  {
-   "title": "Cocos Developer (Upto 30M)",
-   "company": "XGame Studio",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/cocos-developer-upto-30m-at-xgame-studio-4453287701",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
+   "relevant": true,
    "fit": true
   },
   {
@@ -193,6 +187,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": false,
    "fit": true
   },
   {
@@ -209,38 +204,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": false,
-   "fit": true
-  },
-  {
-   "title": "Full Stack Engineer",
-   "company": "WorldQuant",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/full-stack-engineer-at-worldquant-4378791890",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "fit": true
-  },
-  {
-   "title": "HN | Lập trình viên Fullstack (C#, .Net, Vuejs)",
-   "company": "Misa",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/hn-l%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-fullstack-c%23-net-vuejs-at-misa-4454227574",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
+   "relevant": false,
    "fit": true
   },
   {
@@ -257,6 +221,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": false,
    "fit": true
   },
   {
@@ -273,38 +238,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
-   "fit": true
-  },
-  {
-   "title": "KỸ SƯ THIẾT KẾ PHẦN MỀM",
-   "company": "SUNHOUSE KITCHEN APPLIANCE",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/k%E1%BB%B9-s%C6%B0-thi%E1%BA%BFt-k%E1%BA%BF-ph%E1%BA%A7n-m%E1%BB%81m-at-sunhouse-kitchen-appliance-4459495232",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "fit": true
-  },
-  {
-   "title": "Kỹ sư Web app – cloud",
-   "company": "Phenikaa-X",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/k%E1%BB%B9-s%C6%B0-web-app-%E2%80%93-cloud-at-phenikaa-x-4453417962",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
+   "relevant": true,
    "fit": true
   },
   {
@@ -321,6 +255,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
    "fit": true
   },
   {
@@ -337,38 +272,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
-   "fit": true
-  },
-  {
-   "title": "Middle Unity Developer",
-   "company": "Archer Game Studio",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/middle-unity-developer-at-archer-game-studio-4456634413",
-   "source": "linkedin",
-   "level": "middle",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "fit": true
-  },
-  {
-   "title": "Power Platform Developer",
-   "company": "YKK Vietnam Co. Ltd",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/power-platform-developer-at-ykk-vietnam-co-ltd-4456080862",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
+   "relevant": true,
    "fit": true
   },
   {
@@ -385,6 +289,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": false,
    "fit": true
   },
   {
@@ -401,6 +306,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": false,
    "fit": true
   },
   {
@@ -417,38 +323,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
-   "fit": true
-  },
-  {
-   "title": "Tuyển dụng Thực tập sinh Dev - Vị trí lập trình .Net",
-   "company": "Công ty cổ phần chuyển đổi số thg",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/tuy%E1%BB%83n-d%E1%BB%A5ng-th%E1%BB%B1c-t%E1%BA%ADp-sinh-dev-v%E1%BB%8B-tr%C3%AD-l%E1%BA%ADp-tr%C3%ACnh-net-at-c%C3%B4ng-ty-c%E1%BB%95-ph%E1%BA%A7n-chuy%E1%BB%83n-%C4%91%E1%BB%95i-s%E1%BB%91-thg-4449988645",
-   "source": "linkedin",
-   "level": "fresher",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": false,
-   "fit": true
-  },
-  {
-   "title": "Unity Developer",
-   "company": "CSCMobi Viet Nam",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/unity-developer-at-cscmobi-viet-nam-4448152974",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
+   "relevant": false,
    "fit": true
   },
   {
@@ -465,6 +340,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
    "fit": true
   },
   {
@@ -481,6 +357,24 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
+   "fit": false
+  },
+  {
+   "title": "[Hà Nội] Techlead Backend",
+   "company": "Kaopiz",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/h%C3%A0-n%E1%BB%99i-techlead-backend-at-kaopiz-4456638496",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": true,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
    "fit": false
   },
   {
@@ -497,6 +391,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": false,
    "fit": false
   },
   {
@@ -513,6 +408,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
    "fit": false
   },
   {
@@ -529,6 +425,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
    "fit": false
   },
   {
@@ -545,6 +442,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
    "fit": false
   },
   {
@@ -561,6 +459,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
    "fit": false
   },
   {
@@ -577,6 +476,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
    "fit": false
   },
   {
@@ -593,6 +493,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
    "fit": false
   },
   {
@@ -609,6 +510,24 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
+   "fit": false
+  },
+  {
+   "title": "Senior Application Architect",
+   "company": "Trianz",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/senior-application-architect-at-trianz-4460338599",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": true,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
    "fit": false
   },
   {
@@ -625,6 +544,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
    "fit": false
   },
   {
@@ -641,6 +561,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
    "fit": false
   },
   {
@@ -657,6 +578,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": false,
    "fit": false
   },
   {
@@ -673,6 +595,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": false,
    "fit": false
   },
   {
@@ -689,6 +612,7 @@
    "night": false,
    "hanoi": true,
    "junior_up": true,
+   "relevant": true,
    "fit": false
   }
  ]
