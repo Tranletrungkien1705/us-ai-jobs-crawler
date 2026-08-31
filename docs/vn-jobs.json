@@ -1,7 +1,7 @@
 {
- "count": 37,
- "fit": 13,
- "remote": 0,
+ "count": 34,
+ "fit": 12,
+ "remote": 1,
  "jobs": [
   {
    "title": "[Hanoi] Junior Software Engineer",
@@ -20,25 +20,6 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": true,
-   "fit": true
-  },
-  {
-   "title": "Back End Developer",
-   "company": "Equix Technologies",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/back-end-developer-at-equix-technologies-4455600149",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
    "fit": true
   },
   {
@@ -251,6 +232,25 @@
    "fit": true
   },
   {
+   "title": "Full Stack Engineer (.NET, C#, Vue.js) | Middle/Senior",
+   "company": "MISA CAREERS",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/full-stack-engineer-net-c%23-vue-js-middle-senior-at-misa-careers-4460308717",
+   "source": "linkedin",
+   "level": "middle",
+   "senior": true,
+   "remote": true,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": true,
+   "min_years": 4,
+   "needs_english": false,
+   "fit": false
+  },
+  {
    "title": ".NET Developer (Vietnamese Only)",
    "company": "Globant",
    "location": "Hanoi, Hanoi, Vietnam",
@@ -284,25 +284,6 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": true,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": false
-  },
-  {
-   "title": "[Hà Nội] Techlead Backend",
-   "company": "Kaopiz",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/h%C3%A0-n%E1%BB%99i-techlead-backend-at-kaopiz-4456638496",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": true,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
    "min_years": 0,
    "needs_english": false,
    "fit": false
@@ -343,25 +324,6 @@
    "relevant": false,
    "min_years": 5,
    "needs_english": true,
-   "fit": false
-  },
-  {
-   "title": "Back End Developer",
-   "company": "VINFAST",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/back-end-developer-at-vinfast-4448988829",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": true,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 3,
-   "needs_english": false,
    "fit": false
   },
   {
@@ -418,25 +380,6 @@
    "junior_up": true,
    "relevant": true,
    "min_years": 3,
-   "needs_english": false,
-   "fit": false
-  },
-  {
-   "title": "Full Stack Engineer (.NET, C#, Vue.js) | Middle/Senior",
-   "company": "MISA CAREERS",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/full-stack-engineer-net-c%23-vue-js-middle-senior-at-misa-careers-4460308717",
-   "source": "linkedin",
-   "level": "middle",
-   "senior": true,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": true,
-   "min_years": 4,
    "needs_english": false,
    "fit": false
   },
@@ -498,10 +441,10 @@
    "fit": false
   },
   {
-   "title": "Senior .Net Developer",
-   "company": "Optimizely",
+   "title": "Senior .NET Developer",
+   "company": "Paraline Software",
    "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/senior-net-developer-at-optimizely-4454031761",
+   "url": "https://vn.linkedin.com/jobs/view/senior-net-developer-at-paraline-software-4459730894",
    "source": "linkedin",
    "level": "unspecified",
    "senior": true,
@@ -517,10 +460,10 @@
    "fit": false
   },
   {
-   "title": "Senior .NET Developer",
-   "company": "Paraline Software",
+   "title": "Senior .Net Developer",
+   "company": "Optimizely",
    "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/senior-net-developer-at-paraline-software-4459730894",
+   "url": "https://vn.linkedin.com/jobs/view/senior-net-developer-at-optimizely-4454031761",
    "source": "linkedin",
    "level": "unspecified",
    "senior": true,
@@ -684,7 +627,7 @@
    "junior_up": true,
    "relevant": true,
    "min_years": 0,
-   "needs_english": false,
+   "needs_english": true,
    "fit": false
   },
   {
