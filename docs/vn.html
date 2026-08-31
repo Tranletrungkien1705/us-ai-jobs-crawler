@@ -49,6 +49,7 @@
     <div class="bar">
       <input id="q" type="search" placeholder="Tìm chức danh / công ty…">
       <span class="chip on" id="fRel">💠 Đúng C#/.NET</span>
+      <span class="chip on" id="fEng">🇬🇧 Bỏ job cần English</span>
       <span class="chip on" id="fHN">📍 Hà Nội</span>
       <span class="chip on" id="fJr">📈 Từ Junior</span>
       <span class="chip on" id="fFit">🎯 Vừa sức</span>
@@ -82,12 +83,13 @@
 </div>
 <script>
 const $=s=>document.querySelector(s);
-let JOBS=[], fitOnly=true, nightOff=true, remoteOnly=false, vnOnly=false, hnOnly=true, jrUp=true, relOnly=true;
+let JOBS=[], fitOnly=true, nightOff=true, remoteOnly=false, vnOnly=false, hnOnly=true, jrUp=true, relOnly=true, engOff=true;
 $('#prof').value=localStorage.getItem('profile')||'';
 $('#saveProf').onclick=()=>{localStorage.setItem('profile',$('#prof').value);$('#saveProf').textContent='Đã lưu ✓';setTimeout(()=>$('#saveProf').textContent='Lưu hồ sơ',1500);};
 $('#fFit').onclick=()=>{fitOnly=!fitOnly;$('#fFit').classList.toggle('on',fitOnly);render();};
 $('#fNight').onclick=()=>{nightOff=!nightOff;$('#fNight').classList.toggle('on',nightOff);render();};
 $('#fRel').onclick=()=>{relOnly=!relOnly;$('#fRel').classList.toggle('on',relOnly);render();};
+$('#fEng').onclick=()=>{engOff=!engOff;$('#fEng').classList.toggle('on',engOff);render();};
 $('#fHN').onclick=()=>{hnOnly=!hnOnly;$('#fHN').classList.toggle('on',hnOnly);render();};
 $('#fJr').onclick=()=>{jrUp=!jrUp;$('#fJr').classList.toggle('on',jrUp);render();};
 $('#fRemote').onclick=()=>{remoteOnly=!remoteOnly;$('#fRemote').classList.toggle('on',remoteOnly);render();};
@@ -117,7 +119,9 @@ function card(j,i){
       ${j.part_time?'<span class="tag">⏱ part-time</span>':''}
       ${j.vietnamese_only?'<span class="tag vn">🇻🇳 khỏi tiếng Anh</span>':''}
       ${j.night?'<span class="tag" style="color:#a9b">🌙 ca đêm</span>':''}
-      ${j.senior?'<span class="tag" style="color:#fc7">🎓 quá cấp</span>':''}
+      ${j.min_years>=4?`<span class="tag" style="color:#fc7">🎓 ${j.min_years}+ năm KN</span>`:''}
+      ${j.needs_english?'<span class="tag" style="color:#f9a">🇬🇧 cần English</span>':''}
+      ${j.senior&&!(j.min_years>=4)?'<span class="tag" style="color:#fc7">🎓 quá cấp</span>':''}
     </div>
     <div class="acts">
       <span class="btn p" data-copy="${i}">📋 Copy đơn cho Claude</span>
@@ -131,6 +135,7 @@ function render(){
     if(fitOnly&&j.senior) return false;
     if(nightOff&&j.night) return false;
     if(relOnly&&!j.relevant) return false;
+    if(engOff&&j.needs_english) return false;
     if(hnOnly&&!j.hanoi) return false;
     if(jrUp&&!j.junior_up) return false;
     if(remoteOnly&&!j.remote) return false;

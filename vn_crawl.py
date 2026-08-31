@@ -105,6 +105,33 @@ def fetch_linkedin():
     return out
 
 
+def li_desc(url):
+    """Đọc mô tả job từ LinkedIn guest jobPosting endpoint (để bắt năm KN + English)."""
+    m = re.search(r"/jobs/view/(\d+)", url or "")
+    if not m:
+        return ""
+    try:
+        r = requests.get(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{m.group(1)}",
+                         headers=UA, timeout=TIMEOUT)
+        if r.status_code == 200:
+            return html.unescape(re.sub(r"<[^>]+>", " ", r.text))
+    except Exception:
+        pass
+    return ""
+
+
+ENGLISH_RE = re.compile(
+    r"good (at |command of )?english|fluent(ly)?( in)? english|excellent english|strong english|"
+    r"english (communication|proficiency|fluency|skills|is a must|required)|"
+    r"proficient in english|tiếng anh (tốt|khá|thành thạo|giao tiếp)", re.I)
+
+
+def desc_flags(desc):
+    yrs = [int(x) for x in re.findall(r"(\d{1,2})\s*\+?\s*years", desc or "", re.I) if 1 <= int(x) <= 15]
+    min_years = min(yrs) if yrs else 0        # ngưỡng KN tối thiểu job đòi
+    return min_years, bool(desc and ENGLISH_RE.search(desc))
+
+
 def fetch_itviec():
     out = []
     try:
@@ -143,7 +170,14 @@ def main():
         loc = r["location"]
         r["relevant"] = any(k in t.lower() for k in RELEVANT_CORE)  # đúng C#/.NET/SQL
         r["level"] = level_of(t)
-        r["senior"] = is_senior(t)
+        my, eng = (0, False)
+        if r["source"] == "linkedin":
+            my, eng = desc_flags(li_desc(r["url"]))  # ĐỌC MÔ TẢ: năm KN + English
+            time.sleep(0.25)
+        r["min_years"] = my
+        r["needs_english"] = eng
+        r["over_exp"] = my >= 4                       # job đòi ≥4 năm = quá tầm (bạn ~2 năm)
+        r["senior"] = is_senior(t) or r["over_exp"]
         r["remote"] = r.get("remote_hint") or bool(re.search(r"remote|từ xa|wfh", (t + " " + loc).lower()))
         r["part_time"] = r.get("pt_hint") or bool(re.search(r"part[- ]?time|bán thời gian", t.lower()))
         r["vietnamese_only"] = bool(re.search(r"vietnamese only|tiếng việt|người việt", (t).lower()))
@@ -155,7 +189,7 @@ def main():
         jobs.append({k: r[k] for k in ("title", "company", "location", "url", "source",
                                        "level", "senior", "remote", "part_time",
                                        "vietnamese_only", "night", "hanoi", "junior_up",
-                                       "relevant", "fit")})
+                                       "relevant", "min_years", "needs_english", "fit")})
 
     # sort: fit (junior/mid) first, then remote, then part-time
     jobs.sort(key=lambda x: (x["senior"], not x["remote"], not x["part_time"], x["title"].lower()))
