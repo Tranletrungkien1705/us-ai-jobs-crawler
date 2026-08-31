@@ -1,58 +1,34 @@
 {
- "count": 54,
- "fit": 33,
- "remote": 7,
+ "count": 50,
+ "fit": 31,
+ "remote": 5,
  "jobs": [
   {
-   "title": "Fresher .NET Developer",
-   "company": "BMBSoftVN",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/fresher-net-developer-at-bmbsoftvn-4455603691",
-   "source": "linkedin",
-   "level": "fresher",
-   "senior": false,
-   "remote": true,
-   "part_time": false,
-   "vietnamese_only": false,
-   "fit": true
-  },
-  {
-   "title": "Software Developer",
-   "company": "menumiz™ (AU)",
-   "location": "Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/software-developer-at-menumiz%E2%84%A2-au-4453515390",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": true,
-   "part_time": false,
-   "vietnamese_only": false,
-   "fit": true
-  },
-  {
-   "title": "Software Developer (.NET,C++,C#)",
-   "company": "Hansen Technologies",
+   "title": "Dot Net Developer ((English/French Speaking)",
+   "company": "Capgemini",
    "location": "Ho Chi Minh City, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/software-developer-net-c%2B%2B-c%23-at-hansen-technologies-4449745472",
+   "url": "https://vn.linkedin.com/jobs/view/dot-net-developer-english-french-speaking-at-capgemini-4457454810",
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
    "remote": true,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
-   "title": "Software Engineer (Azure)",
-   "company": "Norrin",
-   "location": "Ho Chi Minh City, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/software-engineer-azure-at-norrin-4368032456",
+   "title": "Lập Trình Viên .Net (Web + Mobile) - Khối Công Nghệ Nội Dung",
+   "company": "Công ty Cổ Phần VCCorp",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/l%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-net-web-%2B-mobile-kh%E1%BB%91i-c%C3%B4ng-ngh%E1%BB%87-n%E1%BB%99i-dung-at-c%C3%B4ng-ty-c%E1%BB%95-ph%E1%BA%A7n-vccorp-4448975636",
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
    "remote": true,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -66,6 +42,7 @@
    "remote": true,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -79,6 +56,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -92,6 +70,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -105,6 +84,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -118,6 +98,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -131,6 +112,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": true,
+   "night": false,
    "fit": true
   },
   {
@@ -144,6 +126,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -157,6 +140,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -170,6 +154,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -183,6 +168,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -196,6 +182,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -209,19 +196,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
-   "fit": true
-  },
-  {
-   "title": "Dot Net Developer ((English/French Speaking)",
-   "company": "Capgemini",
-   "location": "Ho Chi Minh City, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/dot-net-developer-english-french-speaking-at-capgemini-4457454810",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -235,6 +210,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -248,6 +224,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -261,6 +238,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -274,6 +252,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -287,6 +266,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -300,6 +280,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -313,19 +294,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
-   "fit": true
-  },
-  {
-   "title": "Lập Trình Viên .Net (Web + Mobile) - Khối Công Nghệ Nội Dung",
-   "company": "Công ty Cổ Phần VCCorp",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/l%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-net-web-%2B-mobile-kh%E1%BB%91i-c%C3%B4ng-ngh%E1%BB%87-n%E1%BB%99i-dung-at-c%C3%B4ng-ty-c%E1%BB%95-ph%E1%BA%A7n-vccorp-4448975636",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -339,19 +308,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
-   "fit": true
-  },
-  {
-   "title": "Nhân viên Công nghệ thông tin phần mềm",
-   "company": "An Sinh Hospital",
-   "location": "Ninh Xá, Hai Duong, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/nh%C3%A2n-vi%C3%AAn-c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin-ph%E1%BA%A7n-m%E1%BB%81m-at-an-sinh-hospital-4449686258",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -365,6 +322,49 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
+   "fit": true
+  },
+  {
+   "title": "Nhân viên Công nghệ thông tin phần mềm",
+   "company": "An Sinh Hospital",
+   "location": "Ninh Xá, Hai Duong, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/nh%C3%A2n-vi%C3%AAn-c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin-ph%E1%BA%A7n-m%E1%BB%81m-at-an-sinh-hospital-4449686258",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "fit": true
+  },
+  {
+   "title": "Software Developer",
+   "company": "menumiz™ (AU)",
+   "location": "Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/software-developer-at-menumiz%E2%84%A2-au-4453515390",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "fit": true
+  },
+  {
+   "title": "Software Developer (.NET,C++,C#)",
+   "company": "Hansen Technologies",
+   "location": "Ho Chi Minh City, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/software-developer-net-c%2B%2B-c%23-at-hansen-technologies-4449745472",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -378,6 +378,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -391,19 +392,21 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
-   "title": "Software Engineer (.NET) – 3+ Years Experience",
-   "company": "",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/software-engineer-net-%E2%80%93-3%2B-years-experience-at-kis-technology-inc-4327805047",
+   "title": "Software Engineer (Azure)",
+   "company": "Norrin",
+   "location": "Ho Chi Minh City, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/software-engineer-azure-at-norrin-4368032456",
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -417,6 +420,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -430,6 +434,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": true
   },
   {
@@ -443,6 +448,7 @@
    "remote": true,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -456,6 +462,7 @@
    "remote": true,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -469,6 +476,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -482,6 +490,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -495,6 +504,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -508,6 +518,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -521,6 +532,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -534,6 +546,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -547,6 +560,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -560,6 +574,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -573,6 +588,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -586,6 +602,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -599,6 +616,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -612,45 +630,21 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
-   "title": "Senior Full Stack Engineer (.Net, Vue/React) - Hybrid",
-   "company": "CoverGo | Insurtech",
-   "location": "Ho Chi Minh City, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/senior-full-stack-engineer-net-vue-react-hybrid-at-covergo-insurtech-4451699469",
+   "title": "Senior Full-Stack (.NET + Angular) Engineer",
+   "company": "Forte Group",
+   "location": "Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/senior-full-stack-net-%2B-angular-engineer-at-forte-group-4456711027",
    "source": "linkedin",
    "level": "unspecified",
    "senior": true,
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
-   "fit": false
-  },
-  {
-   "title": "Senior Full-stack Engineer (.NET, AI SDLC)",
-   "company": "OPSWAT",
-   "location": "Ho Chi Minh City, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/senior-full-stack-engineer-net-ai-sdlc-at-opswat-4460303162",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": true,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "fit": false
-  },
-  {
-   "title": "Senior Fullstack .NET Developer",
-   "company": "AS White Global",
-   "location": "Ho Chi Minh City, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/senior-fullstack-net-developer-at-as-white-global-4458360637",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": true,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -664,6 +658,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -677,6 +672,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -690,6 +686,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   },
   {
@@ -703,6 +700,7 @@
    "remote": false,
    "part_time": false,
    "vietnamese_only": false,
+   "night": false,
    "fit": false
   }
  ]
