@@ -19,7 +19,14 @@ LI_QUERIES = [
     (".NET", "&f_JT=P,C"),          # part-time / contract
     ("C# developer", "&f_WT=2"),
 ]
-LI_LOCATIONS = ["Vietnam"]
+LI_LOCATIONS = ["Hanoi, Vietnam"]   # focus Hà Nội (distance=30mi ~ 50km)
+
+# Hà Nội + vùng bán kính ~50km (để lọc client-side vì LinkedIn hay trả cả nước)
+HANOI_KW = ["hà nội", "ha noi", "hanoi", "capital region", "gia lâm", "gia lam",
+            "long biên", "long bien", "cầu giấy", "cau giay", "đống đa", "dong da",
+            "hai bà trưng", "thanh xuân", "thanh xuan", "hoàng mai", "từ liêm", "tu liem",
+            "hà đông", "ha dong", "hoàn kiếm", "hoan kiem", "tây hồ", "ba đình", "ba dinh",
+            "bắc ninh", "bac ninh", "hưng yên", "hung yen"]
 
 SENIOR = ["senior", "sr ", "sr.", "lead", "principal", "manager", "head", "director",
           "architect", "techlead", "tech lead", "expert", "chief", "trưởng"]
@@ -52,7 +59,7 @@ def fetch_linkedin():
             for start in (0, 10, 20):
                 url = ("https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
                        f"?keywords={requests.utils.quote(kw)}&location={requests.utils.quote(loc)}"
-                       f"&f_TPR=r2592000{filt}&start={start}")
+                       f"&distance=30&f_TPR=r2592000{filt}&start={start}")
                 try:
                     r = requests.get(url, headers=UA, timeout=TIMEOUT)
                     if r.status_code != 200 or not r.text.strip():
@@ -129,10 +136,12 @@ def main():
         r["vietnamese_only"] = bool(re.search(r"vietnamese only|tiếng việt|người việt", (t).lower()))
         r["night"] = bool(re.search(r"night[- ]?shift|ca đêm|graveyard|âm phủ|us hours|"
                                     r"us time|emea|overnight|0:00|2:00 ?am|đêm", (t + " " + loc).lower()))
+        r["hanoi"] = r["remote"] or any(k in loc.lower() for k in HANOI_KW)
+        r["junior_up"] = r["level"] != "fresher"   # bỏ fresher/intern
         r["fit"] = not r["senior"]
         jobs.append({k: r[k] for k in ("title", "company", "location", "url", "source",
                                        "level", "senior", "remote", "part_time",
-                                       "vietnamese_only", "night", "fit")})
+                                       "vietnamese_only", "night", "hanoi", "junior_up", "fit")})
 
     # sort: fit (junior/mid) first, then remote, then part-time
     jobs.sort(key=lambda x: (x["senior"], not x["remote"], not x["part_time"], x["title"].lower()))
