@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV — Kien (.NET / HIS)</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;background:#e9edf2;color:#1b2230;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.46}
+  .toolbar{max-width:860px;margin:14px auto 0;padding:0 16px;display:flex;gap:10px;justify-content:flex-end}
+  .btn{background:#0d9488;color:#fff;border:none;border-radius:8px;padding:9px 16px;font-size:13.5px;font-weight:600;cursor:pointer;text-decoration:none}
+  .btn.g{background:#dfe4ea;color:#1b2230}
+  .page{max-width:860px;margin:12px auto 40px;background:#fff;box-shadow:0 2px 18px rgba(0,0,0,.08);border-radius:6px;overflow:hidden}
+  .hero{background:#0f2a3f;color:#eaf1f6;padding:26px 40px 22px;position:relative}
+  .hero:after{content:"";position:absolute;left:0;bottom:0;height:5px;width:100%;background:linear-gradient(90deg,#0d9488 0 50%,#0f2a3f 50% 100%)}
+  .hero h1{margin:0;font-size:27px}
+  .hero .role{color:#5fd3c4;font-weight:600;font-size:14.5px;margin:4px 0 9px}
+  .hero .c{font-size:12.3px;color:#c3d1dc;display:flex;flex-wrap:wrap;gap:3px 15px}
+  .hero a{color:#7fe0d3;text-decoration:none}
+  .body{padding:24px 40px 32px}
+  h2{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#0d9488;border-bottom:2px solid #eee;padding-bottom:4px;margin:0 0 8px}
+  section{margin-bottom:16px}
+  p,li{font-size:13px;color:#232d3b}
+  .sum{font-size:13.4px;color:#33404f}
+  .dom{display:grid;grid-template-columns:1fr 1fr;gap:6px 22px}
+  .dom .d{font-size:12.8px}.dom .d b{color:#0f2a3f}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:2px 24px}
+  ul{margin:5px 0;padding-left:17px}li{margin:3px 0}
+  .job .top{display:flex;justify-content:space-between;flex-wrap:wrap}
+  .job .t{font-weight:700;font-size:13.8px}.job .d{color:#6b7683;font-size:12px}
+  .job .cpy{color:#0d9488;font-size:12px;font-style:italic;margin:0 0 2px}
+  .muted{color:#6b7683}
+  .learn{background:#f0fdfa;border:1px solid #99f6e4;border-radius:8px;padding:8px 12px;font-size:12.5px;color:#0f766e}
+  @media print{body{background:#fff}.toolbar{display:none}.page{box-shadow:none;margin:0;border-radius:0}a{color:inherit}}
+  @media(max-width:640px){.dom,.cols{grid-template-columns:1fr}.body,.hero{padding-left:22px;padding-right:22px}}
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <a class="btn g" href="https://github.com/Tranletrungkien1705">GitHub</a>
+  <button class="btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+</div>
+<div class="page">
+  <div class="hero">
+    <h1>Kien Tran <span class="muted" style="font-size:15px">(Trần Lê Trung Kiên)</span></h1>
+    <div class="role">Backend / Full-stack Developer (.NET) · E-invoice · Payments · Inventory · DevOps</div>
+    <div class="c">
+      <span>✉️ kientlt59@gmail.com</span><span>📞 0975 654 356</span>
+      <span>📍 Hà Nội · Remote</span>
+      <span>💻 <a href="https://github.com/Tranletrungkien1705">github.com/Tranletrungkien1705</a></span>
+    </div>
+  </div>
+  <div class="body">
+    <section>
+      <h2>Summary</h2>
+      <p class="sum">Enterprise developer (2+ years, C#/.NET, SQL Server) focused on the exact business domains a clinic HIS needs: <b>e-invoicing, payments/bank integration, inventory, and high-integrity transactions</b>. I own features end to end — business analysis, API, database design, and deployment with Docker &amp; CI/CD. Strong with transactional data (payments, stock, refunds), role-based access &amp; audit logging, and query optimization on large multi-tenant datasets.</p>
+    </section>
+
+    <section>
+      <h2>Domain Highlights (matches this HIS role)</h2>
+      <div class="dom">
+        <div class="d"><b>E-invoicing:</b> built an e-invoice platform (TVAN/HĐĐT) — tax-authority integration, digital signing, SOAP/REST + XML signing.</div>
+        <div class="d"><b>Payments &amp; finance:</b> integrated <b>5 bank APIs</b> + SSO OAuth 2.0; handled deposits, refunds, and payment transactions.</div>
+        <div class="d"><b>Inventory / warehouse:</b> stock in–out–on-hand, transfers and reconciliation across an 80+ dealer distribution network (close to dược/kho).</div>
+        <div class="d"><b>Data integrity:</b> transactions, row-lock &amp; rollback on multi-tenant SQL Server; eliminated query timeouts on large datasets.</div>
+        <div class="d"><b>Access &amp; audit:</b> 3-axis RBAC (Role × Organization × Function) with row-level control &amp; operation logging.</div>
+        <div class="d"><b>Delivery:</b> self-built CI/CD (GitHub Actions) + Docker to ship to production 24/7.</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="cols">
+        <ul>
+          <li><b>Backend:</b> C#, .NET 8/Core, ASP.NET Core, Web API, EF Core, REST, SOAP/WCF</li>
+          <li><b>Database:</b> SQL Server (stored procs, indexing, execution plans, transactions, tuning); MySQL; PostgreSQL (learning)</li>
+          <li><b>Architecture:</b> Clean Architecture, 3-tier, SOLID, RBAC, DI/Repository</li>
+        </ul>
+        <ul>
+          <li><b>DevOps:</b> Docker, GitHub Actions CI/CD (self-hosted runner), Linux, Nginx, Kubernetes/Argo, Terraform, Prometheus/Grafana</li>
+          <li><b>Web:</b> JavaScript, jQuery/AJAX, Razor, HTML5/CSS3, Bootstrap</li>
+          <li><b>Adapting:</b> TypeScript, Node.js/NestJS, React — actively learning (AI-assisted)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="job">
+        <div class="top"><span class="t">.NET Developer — idocNet</span><span class="d">May 2024 – Present</span></div>
+        <div class="cpy">Enterprise software house</div>
+        <ul>
+          <li>Developed &amp; maintained 4 enterprise systems — <b>e-invoice (TVAN)</b>, vehicle-distribution (inventory + payments, 80+ dealers), CarService, InBrand — on ASP.NET / Web API, layered architecture.</li>
+          <li>Wrote/optimized T-SQL on multi-tenant SQL Server (composite indexes, row-lock transactions, temp-table paging) — <b>eliminated query timeouts</b> on large datasets.</li>
+          <li>Integrated third-party services: <b>SSO OAuth 2.0, 5 bank APIs, e-invoice gateways</b> over SOAP/REST with XML signing.</li>
+          <li>Implemented <b>3-axis RBAC</b> for row-level access + operation logging across all modules.</li>
+          <li>Set up <b>CI/CD (GitHub Actions + Docker)</b> to build and ship apps to production, running 24/7.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="top"><span class="t">Intern, Software Development — IPPG</span><span class="d">Sep 2022 – May 2024</span></div>
+        <ul><li>Built features, fixed bugs, wrote SQL for reports; foundational C#/ASP.NET/SQL in a real business environment.</li></ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Relevant Projects</h2>
+      <ul>
+        <li><b>MiniDMS</b> — Inventory &amp; Order Management <span class="muted">· github.com/…/MiniDMS</span><br>
+          ASP.NET Core 8 · EF Core · Clean Architecture · RBAC. Inventory + order + debt management with 4-role access, bulk Excel import, report export — <b>close to HIS stock/billing workflows</b>.</li>
+        <li><b>shopvot</b> — Containerized shop + CI/CD <span class="muted">· github.com/…/shopvot</span><br>
+          ASP.NET Core 8 · Docker (multi-stage) · GitHub Actions. Git push → build image → rolling deploy, running 24/7 with health checks.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education &amp; Languages</h2>
+      <ul>
+        <li>B.Sc. Information Technology — Lincoln University College (2021–2025), GPA 3.0 · TECHWIZ 4 (2024)</li>
+        <li>Vietnamese (native) · English (technical reading — proficient; writing — working)</li>
+      </ul>
+    </section>
+
+    <div class="learn">Note: My core stack is .NET / SQL Server. For this role I'm ramping on <b>PostgreSQL, Node.js/NestJS and React</b> — my backend, database, transaction and DevOps fundamentals transfer directly, and I use AI coding tools to move fast.</div>
+  </div>
+</div>
+</body>
+</html>
