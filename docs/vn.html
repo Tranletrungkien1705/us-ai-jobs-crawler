@@ -158,9 +158,18 @@ Promise.all([
   fetch('vn-jobs.json?_='+Date.now()).then(r=>r.json()).catch(()=>({jobs:[]})),
   fetch('topcv-jobs.json?_='+Date.now()).then(r=>r.json()).catch(()=>({jobs:[]}))
 ]).then(([a,c])=>{
-  const m=new Map();
-  [...(a.jobs||[]),...(c.jobs||[])].forEach(j=>{if(j&&j.url)m.set(j.url,j);});
-  JOBS=[...m.values()];
+  // ưu tiên nền tảng tỷ lệ chốt cao hơn khi job trùng: TopCV > VietnamWorks > LinkedIn
+  const PR={topcv:3,vietnamworks:2,linkedin:1};
+  const nkey=t=>(t||'').toLowerCase().replace(/[^a-z0-9à-ỹ ]/g,' ').replace(/\b(junior|middle|senior|fresher|remote|onsite|hybrid|urgent|hot|new|mới|tuyển|gấp)\b/g,'').replace(/\s+/g,' ').trim();
+  const best=new Map();
+  [...(a.jobs||[]),...(c.jobs||[])].forEach(j=>{
+    if(!j||!j.url) return;
+    const k=nkey(j.title); if(!k) return;
+    const pr=j.prio||PR[j.source]||1;
+    const ex=best.get(k);
+    if(!ex || pr>(ex.prio||PR[ex.source]||1)) best.set(k,j);
+  });
+  JOBS=[...best.values()];
   render();
 }).catch(e=>{$('#sub').textContent='Lỗi tải dữ liệu';$('#list').innerHTML=`<div class="empty">${e}</div>`;});
 </script>
