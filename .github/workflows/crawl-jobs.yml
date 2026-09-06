@@ -24,12 +24,6 @@ jobs:
         run: python crawl.py
       - name: Crawl VN .NET jobs -> docs/vn-jobs.json
         run: python vn_crawl.py
-      - name: Scrape TopCV via Playwright -> docs/topcv-jobs.json
-        continue-on-error: true
-        run: |
-          npm i playwright
-          npx playwright install --with-deps chromium
-          node vn_topcv.js
       - name: Commit jobs.json neu doi
         run: |
           git config user.name  "github-actions[bot]"
