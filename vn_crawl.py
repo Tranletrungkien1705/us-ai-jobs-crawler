@@ -31,8 +31,9 @@ HANOI_KW = ["hà nội", "ha noi", "hanoi", "capital region", "gia lâm", "gia l
             "hà đông", "ha dong", "hoàn kiếm", "hoan kiem", "tây hồ", "ba đình", "ba dinh",
             "bắc ninh", "bac ninh", "hưng yên", "hung yen"]
 
-SENIOR = ["senior", "sr ", "sr.", "lead", "principal", "manager", "head", "director",
-          "architect", "techlead", "tech lead", "expert", "chief", "trưởng"]
+# CHỈ ẩn lãnh đạo THẬT (cho "Senior Developer" hiện vì bạn đang nộp cả job 3-5 năm)
+SENIOR = ["lead ", " lead", "principal", "manager", "head of", "head,", "director",
+          "architect", "tech lead", "techlead", "chief", "trưởng", "vp "]
 LEVELS = [("fresher", ["fresher", "intern", "thực tập", "sinh viên"]),
           ("junior", ["junior", "jr "]),
           ("middle", ["middle", "mid-level", "mid level", "middle/senior"])]
