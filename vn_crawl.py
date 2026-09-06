@@ -165,8 +165,7 @@ def fetch_remote_dotnet():
         for j in d:
             if not isinstance(j, dict) or "position" not in j:
                 continue
-            blob = (j.get("position") or "") + " " + " ".join(j.get("tags", []) or [])
-            if not DOTNET_RE.search(blob):
+            if not DOTNET_RE.search(j.get("position") or ""):   # chỉ khớp TITLE cho sạch
                 continue
             out.append({"title": j.get("position", ""), "company": j.get("company", ""),
                         "location": j.get("location") or "Remote", "url": clean(j.get("url", "")),
@@ -177,8 +176,7 @@ def fetch_remote_dotnet():
     try:
         d = requests.get("https://remotive.com/api/remote-jobs?search=.net", headers=UA, timeout=TIMEOUT).json()
         for j in d.get("jobs", []):
-            blob = (j.get("title") or "") + " " + " ".join(j.get("tags", []) or [])
-            if not DOTNET_RE.search(blob):
+            if not DOTNET_RE.search(j.get("title") or ""):
                 continue
             out.append({"title": j.get("title", ""), "company": j.get("company_name", ""),
                         "location": j.get("candidate_required_location") or "Remote", "url": clean(j.get("url", "")),
