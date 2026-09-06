@@ -154,9 +154,13 @@ function render(){
   const applied=JOBS.filter(j=>doneSet.has(j.url)).length;
   $('#sub').textContent=`${JOBS.length} việc .NET VN · ${list.length} đang hiện · ${applied} đã nộp`;
 }
-fetch('vn-jobs.json?_='+Date.now()).then(r=>r.json()).then(d=>{
-  JOBS=d.jobs||[];
-  $('#sub').textContent=`${d.count} việc .NET VN · ${d.fit} vừa sức · ${d.remote} remote`;
+Promise.all([
+  fetch('vn-jobs.json?_='+Date.now()).then(r=>r.json()).catch(()=>({jobs:[]})),
+  fetch('topcv-jobs.json?_='+Date.now()).then(r=>r.json()).catch(()=>({jobs:[]}))
+]).then(([a,c])=>{
+  const m=new Map();
+  [...(a.jobs||[]),...(c.jobs||[])].forEach(j=>{if(j&&j.url)m.set(j.url,j);});
+  JOBS=[...m.values()];
   render();
 }).catch(e=>{$('#sub').textContent='Lỗi tải dữ liệu';$('#list').innerHTML=`<div class="empty">${e}</div>`;});
 </script>
