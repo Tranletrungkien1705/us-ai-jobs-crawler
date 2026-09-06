@@ -179,8 +179,8 @@ def main():
             time.sleep(0.25)
         r["min_years"] = my
         r["needs_english"] = eng
-        r["over_exp"] = my >= 3                       # job đòi ≥3 năm = quá tầm (bạn ~2 năm)
-        r["senior"] = is_senior(t) or r["over_exp"]
+        r["over_exp"] = my >= 5                       # ≥5 năm mới coi quá cấp (3-4 năm = reach, cho hiện)
+        r["senior"] = is_senior(t)                    # senior CHỈ theo title; năm KN để board lọc client-side
         r["remote"] = r.get("remote_hint") or bool(re.search(r"remote|từ xa|wfh", (t + " " + loc).lower()))
         r["part_time"] = r.get("pt_hint") or bool(re.search(r"part[- ]?time|bán thời gian", t.lower()))
         r["vietnamese_only"] = bool(re.search(r"vietnamese only|tiếng việt|người việt", (t).lower()))
