@@ -15,6 +15,9 @@ TIMEOUT = 25
 # (keyword, extra filter) — f_WT=2 remote, f_JT=P part-time C contract, f_TPR=r2592000 last 30d
 LI_QUERIES = [
     (".NET", ""), ("C# developer", ""), ("ASP.NET", ""), ("dotnet", ""),
+    (".NET Core", ""), ("ASP.NET Core", ""), ("backend .NET", ""), ("C# backend", ""),
+    ("lập trình viên .NET", ""), ("lập trình .NET", ""), ("web developer .NET", ""),
+    (".NET developer", ""), ("fullstack .NET", ""),
     (".NET", "&f_WT=2"),            # remote
     (".NET", "&f_JT=P,C"),          # part-time / contract
     ("C# developer", "&f_WT=2"),
@@ -66,7 +69,7 @@ def fetch_linkedin():
     out, seen = [], set()
     for loc in LI_LOCATIONS:
         for kw, filt in LI_QUERIES:
-            for start in (0, 10, 20):
+            for start in (0, 10, 20, 30, 40):
                 url = ("https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
                        f"?keywords={requests.utils.quote(kw)}&location={requests.utils.quote(loc)}"
                        f"&distance=30&f_TPR=r2592000{filt}&start={start}")
@@ -191,16 +194,30 @@ def main():
                                        "vietnamese_only", "night", "hanoi", "junior_up",
                                        "relevant", "min_years", "needs_english", "fit")})
 
-    # sort: fit (junior/mid) first, then remote, then part-time
-    jobs.sort(key=lambda x: (x["senior"], not x["remote"], not x["part_time"], x["title"].lower()))
-
     out = os.environ.get("JSON_OUT", "docs/vn-jobs.json")
+    # GỘP file cũ -> tích luỹ qua nhiều ngày (dedup theo url); bỏ job cũ đã hết hạn thì LinkedIn ko trả nữa
+    have = {j["url"] for j in jobs if j.get("url")}
+    if os.path.exists(out):
+        try:
+            prev = json.load(open(out, encoding="utf-8")).get("jobs", [])
+            for p in prev:
+                u = p.get("url")
+                if u and u not in have:
+                    have.add(u)
+                    jobs.append(p)
+        except Exception as e:
+            print("merge prev ERR", e, file=sys.stderr)
+
+    # sort: fit (junior/mid) first, then remote, then part-time
+    jobs.sort(key=lambda x: (x.get("senior"), not x.get("remote"), not x.get("part_time"), (x.get("title") or "").lower()))
+    jobs = jobs[:250]
+
     d = os.path.dirname(out)
     if d:
         os.makedirs(d, exist_ok=True)
     payload = {"count": len(jobs),
-               "fit": sum(1 for j in jobs if j["fit"]),
-               "remote": sum(1 for j in jobs if j["remote"]),
+               "fit": sum(1 for j in jobs if j.get("fit")),
+               "remote": sum(1 for j in jobs if j.get("remote")),
                "jobs": jobs}
     with open(out, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)

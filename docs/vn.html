@@ -109,9 +109,12 @@ CÔNG VIỆC
 HỒ SƠ CỦA TÔI
 ${p}`;
 }
+const doneSet=new Set(JSON.parse(localStorage.getItem('vnApplied')||'[]'));
+function saveDone(){localStorage.setItem('vnApplied',JSON.stringify([...doneSet]));}
 function card(j,i){
-  return `<div class="card">
-    <div class="t">${esc(j.title)}</div>
+  const done=doneSet.has(j.url);
+  return `<div class="card" style="${done?'opacity:.55':''}">
+    <div class="t">${esc(j.title)}${done?' <span style="color:#22c55e;font-size:13px">✓ đã nộp</span>':''}</div>
     <div class="co">${esc(j.company||'—')} · ${esc(j.location||'VN')} · <span style="opacity:.6">${j.source}</span></div>
     <div class="meta">
       ${j.level&&j.level!=='unspecified'?`<span class="tag lv">${j.level}</span>`:''}
@@ -126,6 +129,7 @@ function card(j,i){
     <div class="acts">
       <span class="btn p" data-copy="${i}">📋 Copy đơn cho Claude</span>
       <a class="btn s" href="${j.url}" target="_blank" rel="noopener">🔗 Mở tin</a>
+      <span class="btn s" data-done="${i}" style="${done?'background:rgba(34,197,94,.2);color:#86efac;border-color:rgba(34,197,94,.4)':''}">${done?'✓ Đã nộp':'Đánh dấu đã nộp'}</span>
     </div>
   </div>`;
 }
@@ -146,6 +150,9 @@ function render(){
   $('#list').innerHTML=list.length?list.map((j,i)=>card(j,i)).join(''):`<div class="empty">Không có tin khớp. Thử tắt bớt bộ lọc.</div>`;
   window._v=list;
   $('#list').querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{navigator.clipboard.writeText(promptFor(window._v[+b.dataset.copy]));b.textContent='✓ Đã copy';setTimeout(()=>b.textContent='📋 Copy đơn cho Claude',1500);});
+  $('#list').querySelectorAll('[data-done]').forEach(b=>b.onclick=()=>{const j=window._v[+b.dataset.done];doneSet.has(j.url)?doneSet.delete(j.url):doneSet.add(j.url);saveDone();render();});
+  const applied=JOBS.filter(j=>doneSet.has(j.url)).length;
+  $('#sub').textContent=`${JOBS.length} việc .NET VN · ${list.length} đang hiện · ${applied} đã nộp`;
 }
 fetch('vn-jobs.json?_='+Date.now()).then(r=>r.json()).then(d=>{
   JOBS=d.jobs||[];
