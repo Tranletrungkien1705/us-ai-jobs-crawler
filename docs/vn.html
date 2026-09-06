@@ -49,7 +49,7 @@
     <div class="bar">
       <input id="q" type="search" placeholder="Tìm chức danh / công ty…">
       <span class="chip on" id="fRel">💠 Đúng C#/.NET</span>
-      <span class="chip on" id="fEng">🇬🇧 Bỏ job cần English</span>
+      <span class="chip" id="fEng">🇬🇧 Bỏ job cần English</span>
       <span class="chip on" id="fHN">📍 Hà Nội</span>
       <span class="chip on" id="fJr">📈 Từ Junior</span>
       <span class="chip on" id="fFit">🎯 Vừa sức</span>
@@ -83,7 +83,7 @@
 </div>
 <script>
 const $=s=>document.querySelector(s);
-let JOBS=[], fitOnly=true, nightOff=true, remoteOnly=false, vnOnly=false, hnOnly=true, jrUp=true, relOnly=true, engOff=true;
+let JOBS=[], fitOnly=true, nightOff=true, remoteOnly=false, vnOnly=false, hnOnly=true, jrUp=true, relOnly=true, engOff=false;
 $('#prof').value=localStorage.getItem('profile')||'';
 $('#saveProf').onclick=()=>{localStorage.setItem('profile',$('#prof').value);$('#saveProf').textContent='Đã lưu ✓';setTimeout(()=>$('#saveProf').textContent='Lưu hồ sơ',1500);};
 $('#fFit').onclick=()=>{fitOnly=!fitOnly;$('#fFit').classList.toggle('on',fitOnly);render();};

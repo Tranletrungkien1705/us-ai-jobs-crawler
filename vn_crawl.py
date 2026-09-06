@@ -154,12 +154,50 @@ def fetch_itviec():
     return out
 
 
+DOTNET_RE = re.compile(r"\.net|dotnet|c#|csharp|asp\.net", re.I)
+
+
+def fetch_remote_dotnet():
+    """Job .NET/C# REMOTE quốc tế (làm từ VN được) — RemoteOK + Remotive."""
+    out = []
+    try:
+        d = requests.get("https://remoteok.com/api", headers=UA, timeout=TIMEOUT).json()
+        for j in d:
+            if not isinstance(j, dict) or "position" not in j:
+                continue
+            blob = (j.get("position") or "") + " " + " ".join(j.get("tags", []) or [])
+            if not DOTNET_RE.search(blob):
+                continue
+            out.append({"title": j.get("position", ""), "company": j.get("company", ""),
+                        "location": j.get("location") or "Remote", "url": clean(j.get("url", "")),
+                        "source": "remoteok", "remote_hint": True, "pt_hint": False,
+                        "_desc": j.get("description", "")})
+    except Exception as e:
+        print("remoteok ERR", e, file=sys.stderr)
+    try:
+        d = requests.get("https://remotive.com/api/remote-jobs?search=.net", headers=UA, timeout=TIMEOUT).json()
+        for j in d.get("jobs", []):
+            blob = (j.get("title") or "") + " " + " ".join(j.get("tags", []) or [])
+            if not DOTNET_RE.search(blob):
+                continue
+            out.append({"title": j.get("title", ""), "company": j.get("company_name", ""),
+                        "location": j.get("candidate_required_location") or "Remote", "url": clean(j.get("url", "")),
+                        "source": "remotive", "remote_hint": True, "pt_hint": False,
+                        "_desc": j.get("description", "")})
+    except Exception as e:
+        print("remotive ERR", e, file=sys.stderr)
+    return out
+
+
 def main():
     raw = fetch_linkedin()
     print("linkedin:", len(raw))
     it = fetch_itviec()
     print("itviec:", len(it))
     raw += it
+    rd = fetch_remote_dotnet()
+    print("remote-dotnet:", len(rd))
+    raw += rd
 
     # dedupe + tag
     seen, jobs = set(), []
@@ -178,6 +216,8 @@ def main():
         if r["source"] == "linkedin":
             my, eng = desc_flags(li_desc(r["url"]))  # ĐỌC MÔ TẢ: năm KN + English
             time.sleep(0.25)
+        elif r.get("_desc"):
+            my, eng = desc_flags(r["_desc"])          # remote jobs đã có sẵn mô tả
         r["min_years"] = my
         r["needs_english"] = eng
         r["over_exp"] = my >= 5                       # ≥5 năm mới coi quá cấp (3-4 năm = reach, cho hiện)
