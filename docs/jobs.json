@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-06T14:12:29.028725+00:00",
- "count": 95,
+ "updated": "2026-09-07T13:27:40.290068+00:00",
+ "count": 97,
  "salaried": 7,
  "low_english": 75,
  "fit": 34,
@@ -18,7 +18,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
-   "crawled_at": "2026-09-06T14:12:28.791241+00:00"
+   "crawled_at": "2026-09-07T13:27:40.053652+00:00"
   },
   {
    "job_id": "remotive:1185979",
@@ -33,7 +33,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
-   "crawled_at": "2026-09-06T14:12:28.790798+00:00"
+   "crawled_at": "2026-09-07T13:27:40.053221+00:00"
   },
   {
    "job_id": "remoteok:1137286",
@@ -48,7 +48,7 @@
    "senior": false,
    "source": "remoteok",
    "url": "https://remoteOK.com/remote-jobs/remote-data-entry-clerk-astrek-careers-1137286",
-   "crawled_at": "2026-09-06T14:12:28.788139+00:00"
+   "crawled_at": "2026-09-07T13:27:40.050478+00:00"
   },
   {
    "job_id": "remoteok:1137136",
@@ -93,7 +93,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/ixdf-interaction-design-foundation-course-writer-and-editor-ux-ui-and-ai",
-   "crawled_at": "2026-09-06T14:12:29.028215+00:00"
+   "crawled_at": "2026-09-07T13:27:40.289562+00:00"
   },
   {
    "job_id": "ashby:a21ec926-88d3-4f95-98be-c551fe1ec49f",
@@ -108,7 +108,7 @@
    "senior": false,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/a21ec926-88d3-4f95-98be-c551fe1ec49f",
-   "crawled_at": "2026-09-06T14:12:29.015672+00:00"
+   "crawled_at": "2026-09-07T13:27:40.276521+00:00"
   },
   {
    "job_id": "greenhouse:8463702002",
@@ -123,7 +123,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8463702002?gh_jid=8463702002",
-   "crawled_at": "2026-09-06T14:12:28.900789+00:00"
+   "crawled_at": "2026-09-07T13:27:40.160902+00:00"
   },
   {
    "job_id": "greenhouse:8463696002",
@@ -138,7 +138,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8463696002?gh_jid=8463696002",
-   "crawled_at": "2026-09-06T14:12:28.900759+00:00"
+   "crawled_at": "2026-09-07T13:27:40.160871+00:00"
   },
   {
    "job_id": "greenhouse:7908767",
@@ -153,7 +153,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7908767",
-   "crawled_at": "2026-09-06T14:12:28.861474+00:00"
+   "crawled_at": "2026-09-07T13:27:40.121425+00:00"
   },
   {
    "job_id": "greenhouse:8139781",
@@ -168,7 +168,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781",
-   "crawled_at": "2026-09-06T14:12:28.860436+00:00"
+   "crawled_at": "2026-09-07T13:27:40.120381+00:00"
   },
   {
    "job_id": "greenhouse:6037719004",
@@ -183,7 +183,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/figma/jobs/6037719004?gh_jid=6037719004",
-   "crawled_at": "2026-09-06T14:12:28.857811+00:00"
+   "crawled_at": "2026-09-07T13:27:40.117750+00:00"
   },
   {
    "job_id": "greenhouse:7156991",
@@ -198,7 +198,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/khanacademy/jobs/7156991",
-   "crawled_at": "2026-09-06T14:12:28.854063+00:00"
+   "crawled_at": "2026-09-07T13:27:40.113982+00:00"
   },
   {
    "job_id": "greenhouse:8023197",
@@ -213,7 +213,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8023197",
-   "crawled_at": "2026-09-06T14:12:28.834933+00:00"
+   "crawled_at": "2026-09-07T13:27:40.095122+00:00"
   },
   {
    "job_id": "jobicy:152485",
@@ -512,7 +512,22 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-english-us-2091105",
-   "crawled_at": "2026-09-06T14:12:28.791810+00:00"
+   "crawled_at": "2026-09-07T13:27:40.054223+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
+   "title": "Remote Data Entry Clerk",
+   "company": "NoGigiddy",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data entry",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": false,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
+   "crawled_at": "2026-09-07T13:27:40.288661+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/argos-multilingual-inc-ai-data-annotator-remote",
@@ -707,7 +722,7 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/ischool-graphic-design-instructor-project-based",
-   "crawled_at": "2026-09-06T14:12:29.028725+00:00"
+   "crawled_at": "2026-09-07T13:27:40.290068+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/great-minds-principal-product-manager-content-authoring-delivery-cms",
@@ -722,7 +737,7 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/great-minds-principal-product-manager-content-authoring-delivery-cms",
-   "crawled_at": "2026-09-06T14:12:29.026458+00:00"
+   "crawled_at": "2026-09-07T13:27:40.287440+00:00"
   },
   {
    "job_id": "ashby:13fcee94-512f-4229-b7ab-f91d3fdd24e3",
@@ -737,7 +752,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/13fcee94-512f-4229-b7ab-f91d3fdd24e3",
-   "crawled_at": "2026-09-06T14:12:29.014704+00:00"
+   "crawled_at": "2026-09-07T13:27:40.275549+00:00"
   },
   {
    "job_id": "ashby:ef819b07-d617-42c7-873f-798d1a7d4024",
@@ -752,22 +767,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/ef819b07-d617-42c7-873f-798d1a7d4024",
-   "crawled_at": "2026-09-06T14:12:29.012519+00:00"
-  },
-  {
-   "job_id": "greenhouse:8054644",
-   "title": "Social Media & Content Manager",
-   "company": "Flexport",
-   "region": "New York City, New York, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
-   "crawled_at": "2026-09-06T14:12:28.962612+00:00"
+   "crawled_at": "2026-09-07T13:27:40.273368+00:00"
   },
   {
    "job_id": "greenhouse:8054645",
@@ -782,7 +782,22 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
-   "crawled_at": "2026-09-06T14:12:28.962584+00:00"
+   "crawled_at": "2026-09-07T13:27:40.223295+00:00"
+  },
+  {
+   "job_id": "greenhouse:8054644",
+   "title": "Social Media & Content Manager",
+   "company": "Flexport",
+   "region": "New York City, New York, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
+   "crawled_at": "2026-09-07T13:27:40.223266+00:00"
   },
   {
    "job_id": "greenhouse:8044163",
@@ -797,7 +812,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
-   "crawled_at": "2026-09-06T14:12:28.962555+00:00"
+   "crawled_at": "2026-09-07T13:27:40.223234+00:00"
   },
   {
    "job_id": "greenhouse:7921649",
@@ -812,7 +827,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7921649",
-   "crawled_at": "2026-09-06T14:12:28.957395+00:00"
+   "crawled_at": "2026-09-07T13:27:40.218057+00:00"
   },
   {
    "job_id": "greenhouse:8128634",
@@ -827,7 +842,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8128634",
-   "crawled_at": "2026-09-06T14:12:28.951199+00:00"
+   "crawled_at": "2026-09-07T13:27:40.211657+00:00"
   },
   {
    "job_id": "greenhouse:7612192",
@@ -842,7 +857,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7612192",
-   "crawled_at": "2026-09-06T14:12:28.948650+00:00"
+   "crawled_at": "2026-09-07T13:27:40.209079+00:00"
   },
   {
    "job_id": "greenhouse:7540441",
@@ -857,7 +872,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7540441",
-   "crawled_at": "2026-09-06T14:12:28.948612+00:00"
+   "crawled_at": "2026-09-07T13:27:40.209040+00:00"
   },
   {
    "job_id": "greenhouse:7696633",
@@ -872,7 +887,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=7696633",
-   "crawled_at": "2026-09-06T14:12:28.935762+00:00"
+   "crawled_at": "2026-09-07T13:27:40.196019+00:00"
   },
   {
    "job_id": "greenhouse:8637295002",
@@ -887,7 +902,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8637295002?gh_jid=8637295002",
-   "crawled_at": "2026-09-06T14:12:28.916625+00:00"
+   "crawled_at": "2026-09-07T13:27:40.176794+00:00"
   },
   {
    "job_id": "greenhouse:7819571003",
@@ -902,7 +917,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7819571003",
-   "crawled_at": "2026-09-06T14:12:28.911897+00:00"
+   "crawled_at": "2026-09-07T13:27:40.172051+00:00"
   },
   {
    "job_id": "greenhouse:8168338",
@@ -917,7 +932,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8168338",
-   "crawled_at": "2026-09-06T14:12:28.909857+00:00"
+   "crawled_at": "2026-09-07T13:27:40.169996+00:00"
   },
   {
    "job_id": "greenhouse:8168301",
@@ -932,7 +947,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8168301",
-   "crawled_at": "2026-09-06T14:12:28.909827+00:00"
+   "crawled_at": "2026-09-07T13:27:40.169964+00:00"
   },
   {
    "job_id": "greenhouse:7724254",
@@ -947,7 +962,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7724254",
-   "crawled_at": "2026-09-06T14:12:28.864529+00:00"
+   "crawled_at": "2026-09-07T13:27:40.124482+00:00"
   },
   {
    "job_id": "greenhouse:7901910",
@@ -962,7 +977,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7901910",
-   "crawled_at": "2026-09-06T14:12:28.862698+00:00"
+   "crawled_at": "2026-09-07T13:27:40.122658+00:00"
   },
   {
    "job_id": "greenhouse:7765105",
@@ -977,7 +992,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/khanacademy/jobs/7765105",
-   "crawled_at": "2026-09-06T14:12:28.854314+00:00"
+   "crawled_at": "2026-09-07T13:27:40.114232+00:00"
   },
   {
    "job_id": "greenhouse:8158048",
@@ -992,7 +1007,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8158048",
-   "crawled_at": "2026-09-06T14:12:28.835197+00:00"
+   "crawled_at": "2026-09-07T13:27:40.095399+00:00"
   },
   {
    "job_id": "jobicy:152486",
@@ -1295,6 +1310,21 @@
    "crawled_at": "2026-08-25T16:13:54.590685+00:00"
   },
   {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/headway-senior-manager-content-community-marketing",
+   "title": "Senior Manager, Content & Community Marketing",
+   "company": "Headway",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/headway-senior-manager-content-community-marketing",
+   "crawled_at": "2026-09-07T13:27:40.288135+00:00"
+  },
+  {
    "job_id": "ashby:c43bdded-80a1-4705-a0ec-8217d771528c",
    "title": "Data Analyst, User Operations",
    "company": "Cursor",
@@ -1307,7 +1337,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/Cursor/c43bdded-80a1-4705-a0ec-8217d771528c",
-   "crawled_at": "2026-09-06T14:12:29.004259+00:00"
+   "crawled_at": "2026-09-07T13:27:40.265002+00:00"
   },
   {
    "job_id": "ashby:0fab2072-8863-42ec-b00d-de367b90d937",
@@ -1322,7 +1352,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/Vanta/0fab2072-8863-42ec-b00d-de367b90d937",
-   "crawled_at": "2026-09-06T14:12:28.973598+00:00"
+   "crawled_at": "2026-09-07T13:27:40.234332+00:00"
   },
   {
    "job_id": "ashby:fef0c5d0-6744-40e6-aeae-0c5644f6af5e",
@@ -1337,7 +1367,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/Notion/fef0c5d0-6744-40e6-aeae-0c5644f6af5e",
-   "crawled_at": "2026-09-06T14:12:28.964173+00:00"
+   "crawled_at": "2026-09-07T13:27:40.224861+00:00"
   },
   {
    "job_id": "arbeitnow:remote-project-manager-gaming-localization-production-164320",
