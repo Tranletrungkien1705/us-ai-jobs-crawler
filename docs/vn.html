@@ -56,6 +56,7 @@
       <span class="chip on" id="fNight">🌙 Bỏ ca đêm</span>
       <span class="chip" id="fRemote">🏠 Remote</span>
       <span class="chip" id="fVN">🇻🇳 Khỏi tiếng Anh</span>
+      <span class="chip" id="fHidden">👁 Hiện đã bỏ qua</span>
     </div>
   </div>
 </header>
@@ -83,7 +84,7 @@
 </div>
 <script>
 const $=s=>document.querySelector(s);
-let JOBS=[], fitOnly=true, nightOff=true, remoteOnly=false, vnOnly=false, hnOnly=true, jrUp=true, relOnly=true, engOff=false;
+let JOBS=[], fitOnly=true, nightOff=true, remoteOnly=false, vnOnly=false, hnOnly=true, jrUp=true, relOnly=true, engOff=false, showHidden=false;
 $('#prof').value=localStorage.getItem('profile')||'';
 $('#saveProf').onclick=()=>{localStorage.setItem('profile',$('#prof').value);$('#saveProf').textContent='Đã lưu ✓';setTimeout(()=>$('#saveProf').textContent='Lưu hồ sơ',1500);};
 $('#fFit').onclick=()=>{fitOnly=!fitOnly;$('#fFit').classList.toggle('on',fitOnly);render();};
@@ -94,6 +95,7 @@ $('#fHN').onclick=()=>{hnOnly=!hnOnly;$('#fHN').classList.toggle('on',hnOnly);re
 $('#fJr').onclick=()=>{jrUp=!jrUp;$('#fJr').classList.toggle('on',jrUp);render();};
 $('#fRemote').onclick=()=>{remoteOnly=!remoteOnly;$('#fRemote').classList.toggle('on',remoteOnly);render();};
 $('#fVN').onclick=()=>{vnOnly=!vnOnly;$('#fVN').classList.toggle('on',vnOnly);render();};
+$('#fHidden').onclick=()=>{showHidden=!showHidden;$('#fHidden').classList.toggle('on',showHidden);render();};
 $('#q').oninput=render;
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
 function promptFor(j){
@@ -111,11 +113,13 @@ ${p}`;
 }
 const doneSet=new Set(JSON.parse(localStorage.getItem('vnApplied')||'[]'));
 function saveDone(){localStorage.setItem('vnApplied',JSON.stringify([...doneSet]));}
+const hideSet=new Set(JSON.parse(localStorage.getItem('vnHidden')||'[]'));
+function saveHide(){localStorage.setItem('vnHidden',JSON.stringify([...hideSet]));}
 function card(j,i){
   const done=doneSet.has(j.url);
   return `<div class="card" style="${done?'opacity:.55':''}">
     <div class="t">${esc(j.title)}${done?' <span style="color:#22c55e;font-size:13px">✓ đã nộp</span>':''}</div>
-    <div class="co">${esc(j.company||'—')} · ${esc(j.location||'VN')} · <span style="opacity:.6">${j.source}</span></div>
+    <div class="co"><b style="color:#e6e9ef">${esc(j.company||'(chưa rõ công ty)')}</b> · ${esc(j.location||'VN')} · <span style="opacity:.6">${j.source}</span></div>
     <div class="meta">
       ${j.level&&j.level!=='unspecified'?`<span class="tag lv">${j.level}</span>`:''}
       ${j.remote?'<span class="tag rm">🏠 remote</span>':''}
@@ -130,12 +134,15 @@ function card(j,i){
       <span class="btn p" data-copy="${i}">📋 Copy đơn cho Claude</span>
       <a class="btn s" href="${j.url}" target="_blank" rel="noopener">🔗 Mở tin</a>
       <span class="btn s" data-done="${i}" style="${done?'background:rgba(34,197,94,.2);color:#86efac;border-color:rgba(34,197,94,.4)':''}">${done?'✓ Đã nộp':'Đánh dấu đã nộp'}</span>
+      <span class="btn s" data-hide="${i}" style="color:#f88">🚫 Bỏ qua</span>
     </div>
   </div>`;
 }
 function render(){
   const q=$('#q').value.trim().toLowerCase();
   let list=JOBS.filter(j=>{
+    if(showHidden){ if(!hideSet.has(j.url)) return false; }   // chế độ xem lại job đã bỏ
+    else { if(hideSet.has(j.url)) return false; }
     if(fitOnly&&(j.senior||(j.min_years||0)>=5)) return false;
     if(nightOff&&j.night) return false;
     if(relOnly&&!j.relevant) return false;
@@ -151,6 +158,7 @@ function render(){
   window._v=list;
   $('#list').querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{navigator.clipboard.writeText(promptFor(window._v[+b.dataset.copy]));b.textContent='✓ Đã copy';setTimeout(()=>b.textContent='📋 Copy đơn cho Claude',1500);});
   $('#list').querySelectorAll('[data-done]').forEach(b=>b.onclick=()=>{const j=window._v[+b.dataset.done];doneSet.has(j.url)?doneSet.delete(j.url):doneSet.add(j.url);saveDone();render();});
+  $('#list').querySelectorAll('[data-hide]').forEach(b=>b.onclick=()=>{const j=window._v[+b.dataset.hide];hideSet.has(j.url)?hideSet.delete(j.url):hideSet.add(j.url);saveHide();render();});
   const applied=JOBS.filter(j=>doneSet.has(j.url)).length;
   $('#sub').textContent=`${JOBS.length} việc .NET VN · ${list.length} đang hiện · ${applied} đã nộp`;
 }
@@ -164,7 +172,7 @@ Promise.all([
   const best=new Map();
   [...(a.jobs||[]),...(c.jobs||[])].forEach(j=>{
     if(!j||!j.url) return;
-    const k=nkey(j.title); if(!k) return;
+    const k=nkey(j.title)+'|'+nkey(j.company||''); if(!nkey(j.title)) return;
     const pr=j.prio||PR[j.source]||1;
     const ex=best.get(k);
     if(!ex || pr>(ex.prio||PR[ex.source]||1)) best.set(k,j);
