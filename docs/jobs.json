@@ -1,9 +1,9 @@
 {
- "updated": "2026-09-08T12:05:37.245935+00:00",
- "count": 99,
+ "updated": "2026-09-09T12:16:59.150508+00:00",
+ "count": 103,
  "salaried": 7,
- "low_english": 77,
- "fit": 35,
+ "low_english": 80,
+ "fit": 36,
  "jobs": [
   {
    "job_id": "remotive:1749306",
@@ -18,7 +18,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
-   "crawled_at": "2026-09-08T12:05:37.013314+00:00"
+   "crawled_at": "2026-09-09T12:16:58.916013+00:00"
   },
   {
    "job_id": "remotive:1185979",
@@ -33,7 +33,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
-   "crawled_at": "2026-09-08T12:05:37.012891+00:00"
+   "crawled_at": "2026-09-09T12:16:58.915562+00:00"
   },
   {
    "job_id": "remoteok:1137286",
@@ -93,7 +93,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/ixdf-interaction-design-foundation-course-writer-and-editor-ux-ui-and-ai",
-   "crawled_at": "2026-09-08T12:05:37.245410+00:00"
+   "crawled_at": "2026-09-09T12:16:59.149977+00:00"
   },
   {
    "job_id": "ashby:a21ec926-88d3-4f95-98be-c551fe1ec49f",
@@ -108,7 +108,97 @@
    "senior": false,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/a21ec926-88d3-4f95-98be-c551fe1ec49f",
-   "crawled_at": "2026-09-08T12:05:37.233660+00:00"
+   "crawled_at": "2026-09-09T12:16:59.136285+00:00"
+  },
+  {
+   "job_id": "greenhouse:8178459",
+   "title": "PMM, Executive Content & Experiences",
+   "company": "Stripe",
+   "region": "San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://stripe.com/jobs/search?gh_jid=8178459",
+   "crawled_at": "2026-09-09T12:16:59.073735+00:00"
+  },
+  {
+   "job_id": "greenhouse:8463702002",
+   "title": "Data Analyst II",
+   "company": "Brex",
+   "region": "New York, New York, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://www.brex.com/careers/8463702002?gh_jid=8463702002",
+   "crawled_at": "2026-09-09T12:16:59.021856+00:00"
+  },
+  {
+   "job_id": "greenhouse:8463696002",
+   "title": "Data Analyst II",
+   "company": "Brex",
+   "region": "San Francisco, California, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://www.brex.com/careers/8463696002?gh_jid=8463696002",
+   "crawled_at": "2026-09-09T12:16:59.021800+00:00"
+  },
+  {
+   "job_id": "greenhouse:7908767",
+   "title": "Content Designer II, Personalization",
+   "company": "Pinterest",
+   "region": "San Francisco, CA, US; Remote, US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7908767",
+   "crawled_at": "2026-09-09T12:16:58.982383+00:00"
+  },
+  {
+   "job_id": "greenhouse:8139781",
+   "title": "Software Engineer, Content Platform",
+   "company": "Reddit",
+   "region": "Remote - United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781",
+   "crawled_at": "2026-09-09T12:16:58.981424+00:00"
+  },
+  {
+   "job_id": "greenhouse:7156991",
+   "title": "English Chemistry Video Content Creator, Grade 11- 12 (Freelancer), India",
+   "company": "Khan Academy",
+   "region": "India (Remote)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/khanacademy/jobs/7156991",
+   "crawled_at": "2026-09-09T12:16:58.975020+00:00"
   },
   {
    "job_id": "greenhouse:8170601",
@@ -126,66 +216,6 @@
    "crawled_at": "2026-09-08T12:05:37.140799+00:00"
   },
   {
-   "job_id": "greenhouse:8463702002",
-   "title": "Data Analyst II",
-   "company": "Brex",
-   "region": "New York, New York, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "data analyst",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://www.brex.com/careers/8463702002?gh_jid=8463702002",
-   "crawled_at": "2026-09-08T12:05:37.120904+00:00"
-  },
-  {
-   "job_id": "greenhouse:8463696002",
-   "title": "Data Analyst II",
-   "company": "Brex",
-   "region": "San Francisco, California, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "data analyst",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://www.brex.com/careers/8463696002?gh_jid=8463696002",
-   "crawled_at": "2026-09-08T12:05:37.120875+00:00"
-  },
-  {
-   "job_id": "greenhouse:7908767",
-   "title": "Content Designer II, Personalization",
-   "company": "Pinterest",
-   "region": "San Francisco, CA, US; Remote, US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7908767",
-   "crawled_at": "2026-09-08T12:05:37.082341+00:00"
-  },
-  {
-   "job_id": "greenhouse:8139781",
-   "title": "Software Engineer, Content Platform",
-   "company": "Reddit",
-   "region": "Remote - United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781",
-   "crawled_at": "2026-09-08T12:05:37.081356+00:00"
-  },
-  {
    "job_id": "greenhouse:6037719004",
    "title": "Support Engineer, Content Systems",
    "company": "Figma",
@@ -199,21 +229,6 @@
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/figma/jobs/6037719004?gh_jid=6037719004",
    "crawled_at": "2026-09-08T12:05:37.078773+00:00"
-  },
-  {
-   "job_id": "greenhouse:7156991",
-   "title": "English Chemistry Video Content Creator, Grade 11- 12 (Freelancer), India",
-   "company": "Khan Academy",
-   "region": "India (Remote)",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/khanacademy/jobs/7156991",
-   "crawled_at": "2026-09-08T12:05:37.075029+00:00"
   },
   {
    "job_id": "greenhouse:8023197",
@@ -527,7 +542,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-english-us-2091105",
-   "crawled_at": "2026-09-08T12:05:37.013905+00:00"
+   "crawled_at": "2026-09-09T12:16:58.916579+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
@@ -542,7 +557,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
-   "crawled_at": "2026-09-08T12:05:37.244515+00:00"
+   "crawled_at": "2026-09-09T12:16:59.149076+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/argos-multilingual-inc-ai-data-annotator-remote",
@@ -737,7 +752,7 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/ischool-graphic-design-instructor-project-based",
-   "crawled_at": "2026-09-08T12:05:37.245935+00:00"
+   "crawled_at": "2026-09-09T12:16:59.150508+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/great-minds-principal-product-manager-content-authoring-delivery-cms",
@@ -752,7 +767,7 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/great-minds-principal-product-manager-content-authoring-delivery-cms",
-   "crawled_at": "2026-09-08T12:05:37.243348+00:00"
+   "crawled_at": "2026-09-09T12:16:59.147867+00:00"
   },
   {
    "job_id": "ashby:13fcee94-512f-4229-b7ab-f91d3fdd24e3",
@@ -767,7 +782,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/13fcee94-512f-4229-b7ab-f91d3fdd24e3",
-   "crawled_at": "2026-09-08T12:05:37.232711+00:00"
+   "crawled_at": "2026-09-09T12:16:59.135312+00:00"
   },
   {
    "job_id": "ashby:ef819b07-d617-42c7-873f-798d1a7d4024",
@@ -782,7 +797,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/ef819b07-d617-42c7-873f-798d1a7d4024",
-   "crawled_at": "2026-09-08T12:05:37.230646+00:00"
+   "crawled_at": "2026-09-09T12:16:59.133186+00:00"
   },
   {
    "job_id": "greenhouse:8044163",
@@ -797,22 +812,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
-   "crawled_at": "2026-09-08T12:05:37.182175+00:00"
-  },
-  {
-   "job_id": "greenhouse:8054644",
-   "title": "Social Media & Content Manager",
-   "company": "Flexport",
-   "region": "New York City, New York, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
-   "crawled_at": "2026-09-08T12:05:37.182146+00:00"
+   "crawled_at": "2026-09-09T12:16:59.083037+00:00"
   },
   {
    "job_id": "greenhouse:8054645",
@@ -827,7 +827,22 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
-   "crawled_at": "2026-09-08T12:05:37.182114+00:00"
+   "crawled_at": "2026-09-09T12:16:59.083009+00:00"
+  },
+  {
+   "job_id": "greenhouse:8054644",
+   "title": "Social Media & Content Manager",
+   "company": "Flexport",
+   "region": "New York City, New York, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
+   "crawled_at": "2026-09-09T12:16:59.082978+00:00"
   },
   {
    "job_id": "greenhouse:7921649",
@@ -842,7 +857,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7921649",
-   "crawled_at": "2026-09-08T12:05:37.176937+00:00"
+   "crawled_at": "2026-09-09T12:16:59.077889+00:00"
   },
   {
    "job_id": "greenhouse:8128634",
@@ -857,7 +872,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8128634",
-   "crawled_at": "2026-09-08T12:05:37.170667+00:00"
+   "crawled_at": "2026-09-09T12:16:59.071423+00:00"
   },
   {
    "job_id": "greenhouse:7612192",
@@ -872,7 +887,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7612192",
-   "crawled_at": "2026-09-08T12:05:37.168158+00:00"
+   "crawled_at": "2026-09-09T12:16:59.068865+00:00"
   },
   {
    "job_id": "greenhouse:7540441",
@@ -887,7 +902,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7540441",
-   "crawled_at": "2026-09-08T12:05:37.168123+00:00"
+   "crawled_at": "2026-09-09T12:16:59.068829+00:00"
   },
   {
    "job_id": "greenhouse:7696633",
@@ -902,7 +917,22 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=7696633",
-   "crawled_at": "2026-09-08T12:05:37.155505+00:00"
+   "crawled_at": "2026-09-09T12:16:59.056272+00:00"
+  },
+  {
+   "job_id": "greenhouse:8186927",
+   "title": "Principal Technical Writer - Customer Onboarding",
+   "company": "Elastic",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "technical writer,writer",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8186927&gh_jid=8186927",
+   "crawled_at": "2026-09-09T12:16:59.048090+00:00"
   },
   {
    "job_id": "greenhouse:8637295002",
@@ -917,7 +947,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8637295002?gh_jid=8637295002",
-   "crawled_at": "2026-09-08T12:05:37.136531+00:00"
+   "crawled_at": "2026-09-09T12:16:59.037458+00:00"
   },
   {
    "job_id": "greenhouse:7819571003",
@@ -932,7 +962,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7819571003",
-   "crawled_at": "2026-09-08T12:05:37.131864+00:00"
+   "crawled_at": "2026-09-09T12:16:59.032804+00:00"
   },
   {
    "job_id": "greenhouse:8168338",
@@ -947,7 +977,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8168338",
-   "crawled_at": "2026-09-08T12:05:37.129859+00:00"
+   "crawled_at": "2026-09-09T12:16:59.030915+00:00"
   },
   {
    "job_id": "greenhouse:8168301",
@@ -962,7 +992,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://instacart.careers/job/?gh_jid=8168301",
-   "crawled_at": "2026-09-08T12:05:37.129829+00:00"
+   "crawled_at": "2026-09-09T12:16:59.030885+00:00"
   },
   {
    "job_id": "greenhouse:7724254",
@@ -977,7 +1007,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7724254",
-   "crawled_at": "2026-09-08T12:05:37.085339+00:00"
+   "crawled_at": "2026-09-09T12:16:58.985314+00:00"
   },
   {
    "job_id": "greenhouse:7901910",
@@ -992,7 +1022,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7901910",
-   "crawled_at": "2026-09-08T12:05:37.083555+00:00"
+   "crawled_at": "2026-09-09T12:16:58.983570+00:00"
   },
   {
    "job_id": "greenhouse:7765105",
@@ -1007,7 +1037,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/khanacademy/jobs/7765105",
-   "crawled_at": "2026-09-08T12:05:37.075276+00:00"
+   "crawled_at": "2026-09-09T12:16:58.975270+00:00"
   },
   {
    "job_id": "greenhouse:8158048",
@@ -1022,7 +1052,22 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8158048",
-   "crawled_at": "2026-09-08T12:05:37.056670+00:00"
+   "crawled_at": "2026-09-09T12:16:58.955850+00:00"
+  },
+  {
+   "job_id": "arbeitnow:principal-technical-writer-customer-onboarding-414872",
+   "title": "Principal Technical Writer - Customer Onboarding",
+   "company": "Elastic",
+   "region": "(unspecified)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "technical writer,writer",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/elastic/principal-technical-writer-customer-onboarding-414872",
+   "crawled_at": "2026-09-09T12:16:58.923038+00:00"
   },
   {
    "job_id": "jobicy:152722",
@@ -1352,7 +1397,7 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/headway-senior-manager-content-community-marketing",
-   "crawled_at": "2026-09-08T12:05:37.244036+00:00"
+   "crawled_at": "2026-09-09T12:16:59.148595+00:00"
   },
   {
    "job_id": "ashby:c43bdded-80a1-4705-a0ec-8217d771528c",
@@ -1367,7 +1412,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/Cursor/c43bdded-80a1-4705-a0ec-8217d771528c",
-   "crawled_at": "2026-09-08T12:05:37.222715+00:00"
+   "crawled_at": "2026-09-09T12:16:59.124898+00:00"
   },
   {
    "job_id": "ashby:0fab2072-8863-42ec-b00d-de367b90d937",
@@ -1382,7 +1427,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/Vanta/0fab2072-8863-42ec-b00d-de367b90d937",
-   "crawled_at": "2026-09-08T12:05:37.193041+00:00"
+   "crawled_at": "2026-09-09T12:16:59.094064+00:00"
   },
   {
    "job_id": "ashby:fef0c5d0-6744-40e6-aeae-0c5644f6af5e",
@@ -1397,7 +1442,22 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/Notion/fef0c5d0-6744-40e6-aeae-0c5644f6af5e",
-   "crawled_at": "2026-09-08T12:05:37.183721+00:00"
+   "crawled_at": "2026-09-09T12:16:59.084594+00:00"
+  },
+  {
+   "job_id": "jobicy:152859",
+   "title": "Senior Data Analyst",
+   "company": "Tremendous",
+   "region": "LATAM,  Canada,  USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/152859-senior-data-analyst",
+   "crawled_at": "2026-09-09T12:16:58.945107+00:00"
   },
   {
    "job_id": "arbeitnow:remote-project-manager-gaming-localization-production-164320",
