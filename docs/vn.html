@@ -48,6 +48,7 @@
     <div class="sub" id="sub">Đang tải…</div>
     <div class="bar">
       <input id="q" type="search" placeholder="Tìm chức danh / công ty…">
+      <span class="chip" id="fNew">🆕 Mới (3 ngày)</span>
       <span class="chip on" id="fRel">💠 Đúng C#/.NET</span>
       <span class="chip" id="fEng">🇬🇧 Bỏ job cần English</span>
       <span class="chip on" id="fHN">📍 Hà Nội</span>
@@ -84,7 +85,10 @@
 </div>
 <script>
 const $=s=>document.querySelector(s);
-let JOBS=[], fitOnly=true, nightOff=true, remoteOnly=false, vnOnly=false, hnOnly=true, jrUp=true, relOnly=true, engOff=false, showHidden=false;
+let JOBS=[], fitOnly=true, nightOff=true, remoteOnly=false, vnOnly=false, hnOnly=true, jrUp=true, relOnly=true, engOff=false, showHidden=false, newOnly=false;
+const NEW_DAYS=3;
+function daysAgo(d){ if(!d) return 999; const t=new Date(d+'T00:00:00').getTime(); if(isNaN(t)) return 999; return Math.floor((Date.now()-t)/86400000); }
+function isNew(j){ return daysAgo(j.first_seen)<=NEW_DAYS; }
 $('#prof').value=localStorage.getItem('profile')||'';
 $('#saveProf').onclick=()=>{localStorage.setItem('profile',$('#prof').value);$('#saveProf').textContent='Đã lưu ✓';setTimeout(()=>$('#saveProf').textContent='Lưu hồ sơ',1500);};
 $('#fFit').onclick=()=>{fitOnly=!fitOnly;$('#fFit').classList.toggle('on',fitOnly);render();};
@@ -96,6 +100,7 @@ $('#fJr').onclick=()=>{jrUp=!jrUp;$('#fJr').classList.toggle('on',jrUp);render()
 $('#fRemote').onclick=()=>{remoteOnly=!remoteOnly;$('#fRemote').classList.toggle('on',remoteOnly);render();};
 $('#fVN').onclick=()=>{vnOnly=!vnOnly;$('#fVN').classList.toggle('on',vnOnly);render();};
 $('#fHidden').onclick=()=>{showHidden=!showHidden;$('#fHidden').classList.toggle('on',showHidden);render();};
+$('#fNew').onclick=()=>{newOnly=!newOnly;$('#fNew').classList.toggle('on',newOnly);render();};
 $('#q').oninput=render;
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
 function promptFor(j){
@@ -118,7 +123,7 @@ function saveHide(){localStorage.setItem('vnHidden',JSON.stringify([...hideSet])
 function card(j,i){
   const done=doneSet.has(j.url);
   return `<div class="card" style="${done?'opacity:.55':''}">
-    <div class="t">${esc(j.title)}${done?' <span style="color:#22c55e;font-size:13px">✓ đã nộp</span>':''}</div>
+    <div class="t">${isNew(j)?'<span style="color:#fde047;font-size:12px;font-weight:700">🆕 MỚI</span> ':''}${esc(j.title)}${done?' <span style="color:#22c55e;font-size:13px">✓ đã nộp</span>':''}</div>
     <div class="co"><b style="color:#e6e9ef">${esc(j.company||'(chưa rõ công ty)')}</b> · ${esc(j.location||'VN')} · <span style="opacity:.6">${j.source}</span></div>
     <div class="meta">
       ${j.level&&j.level!=='unspecified'?`<span class="tag lv">${j.level}</span>`:''}
@@ -152,16 +157,20 @@ function render(){
     if(jrUp&&!j.junior_up) return false;
     if(remoteOnly&&!j.remote) return false;
     if(vnOnly&&!j.vietnamese_only) return false;
+    if(newOnly&&!isNew(j)) return false;
     if(q&&!(`${j.title} ${j.company}`.toLowerCase().includes(q))) return false;
     return true;
   });
+  // job mới nhất lên đầu
+  list.sort((a,b)=>daysAgo(a.first_seen)-daysAgo(b.first_seen));
   $('#list').innerHTML=list.length?list.map((j,i)=>card(j,i)).join(''):`<div class="empty">Không có tin khớp. Thử tắt bớt bộ lọc.</div>`;
   window._v=list;
   $('#list').querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{navigator.clipboard.writeText(promptFor(window._v[+b.dataset.copy]));b.textContent='✓ Đã copy';setTimeout(()=>b.textContent='📋 Copy đơn cho Claude',1500);});
   $('#list').querySelectorAll('[data-done]').forEach(b=>b.onclick=()=>{const j=window._v[+b.dataset.done];doneSet.has(j.url)?doneSet.delete(j.url):doneSet.add(j.url);saveDone();render();});
   $('#list').querySelectorAll('[data-hide]').forEach(b=>b.onclick=()=>{const j=window._v[+b.dataset.hide];hideSet.has(j.url)?hideSet.delete(j.url):hideSet.add(j.url);saveHide();render();});
   const applied=JOBS.filter(j=>doneSet.has(j.url)).length;
-  $('#sub').textContent=`${JOBS.length} việc .NET VN · ${list.length} đang hiện · ${applied} đã nộp`;
+  const newCnt=JOBS.filter(j=>isNew(j)&&!doneSet.has(j.url)&&!hideSet.has(j.url)).length;
+  $('#sub').textContent=`${JOBS.length} việc .NET VN · 🆕 ${newCnt} mới (≤${NEW_DAYS} ngày) · ${list.length} đang hiện · ${applied} đã nộp`;
 }
 Promise.all([
   fetch('vn-jobs.json?_='+Date.now()).then(r=>r.json()).catch(()=>({jobs:[]})),

@@ -234,18 +234,26 @@ def main():
                                        "relevant", "min_years", "needs_english", "fit")})
 
     out = os.environ.get("JSON_OUT", "docs/vn-jobs.json")
-    # GỘP file cũ -> tích luỹ qua nhiều ngày (dedup theo url); bỏ job cũ đã hết hạn thì LinkedIn ko trả nữa
-    have = {j["url"] for j in jobs if j.get("url")}
+    today = datetime.date.today().isoformat()
+    # GỘP file cũ -> tích luỹ qua nhiều ngày (dedup theo url) + đánh dấu first_seen
+    prevmap = {}
     if os.path.exists(out):
         try:
             prev = json.load(open(out, encoding="utf-8")).get("jobs", [])
-            for p in prev:
-                u = p.get("url")
-                if u and u not in have:
-                    have.add(u)
-                    jobs.append(p)
+            prevmap = {p.get("url"): p for p in prev if p.get("url")}
         except Exception as e:
             print("merge prev ERR", e, file=sys.stderr)
+            prev = []
+    else:
+        prev = []
+    for j in jobs:
+        j["first_seen"] = (prevmap.get(j.get("url")) or {}).get("first_seen") or today
+    have = {j["url"] for j in jobs if j.get("url")}
+    for p in prev:
+        u = p.get("url")
+        if u and u not in have:
+            have.add(u)
+            jobs.append(p)
 
     # sort: fit (junior/mid) first, then remote, then part-time
     jobs.sort(key=lambda x: (x.get("senior"), not x.get("remote"), not x.get("part_time"), (x.get("title") or "").lower()))

@@ -24,7 +24,7 @@ const EXTRACT = (sel, coSel) => (as, coSel2) => as.map(a => {
 async function topcv(p){
   const seen=new Set(), out=[];
   const coSel='a[href*="/cong-ty/"],a[href*="/brand/"],[class*="company"] a,[class*="company-name"]';
-  for(const u of ['https://www.topcv.vn/tim-viec-lam-.net','https://www.topcv.vn/tim-viec-lam-c-sharp','https://www.topcv.vn/tim-viec-lam-asp.net','https://www.topcv.vn/tim-viec-lam-.net-core','https://www.topcv.vn/tim-viec-lam-backend-.net']){
+  for(const u of ['https://www.topcv.vn/tim-viec-lam-.net','https://www.topcv.vn/tim-viec-lam-c-sharp','https://www.topcv.vn/tim-viec-lam-asp.net','https://www.topcv.vn/tim-viec-lam-.net-core','https://www.topcv.vn/tim-viec-lam-backend-.net','https://www.topcv.vn/tim-viec-lam-lap-trinh-vien-.net','https://www.topcv.vn/tim-viec-lam-fullstack-.net','https://www.topcv.vn/tim-viec-lam-.net-tai-ha-noi','https://www.topcv.vn/tim-viec-lam-winform','https://www.topcv.vn/tim-viec-lam-blazor']){
     try{
       await p.goto(u,{waitUntil:'domcontentloaded',timeout:40000}); await p.waitForTimeout(3500);
       const cards=await p.$$eval('a[href*="/viec-lam/"]', EXTRACT(null,null), coSel);
@@ -36,7 +36,7 @@ async function topcv(p){
 async function vietnamworks(p){
   const seen=new Set(), out=[];
   const coSel='a[href*="/nha-tuyen-dung/"],a[href*="/cong-ty/"],[class*="company"] a,[class*="employer"]';
-  for(const q of ['.net','c%23','asp.net','dotnet','backend%20.net']){
+  for(const q of ['.net','c%23','asp.net','dotnet','backend%20.net','.net%20core','fullstack%20.net','lap%20trinh%20.net']){
     try{
       await p.goto(`https://www.vietnamworks.com/viec-lam?q=${q}`,{waitUntil:'domcontentloaded',timeout:40000}); await p.waitForTimeout(4000);
       for(let s=0;s<4;s++){ await p.mouse.wheel(0,4000); await p.waitForTimeout(1500); }
@@ -55,9 +55,14 @@ async function vietnamworks(p){
   let all = [...tc, ...vw];
   let prev = [];
   try { prev = JSON.parse(fs.readFileSync('docs/topcv-jobs.json','utf8')).jobs || []; } catch (e) {}
+  const prevMap = new Map(prev.map(o => [o.url, o]));
+  const today = new Date().toISOString().slice(0, 10);
+  all.forEach(j => { j.first_seen = (prevMap.get(j.url) || {}).first_seen || today; });   // giữ ngày cũ, job mới = hôm nay
   const byUrl = new Map(all.map(j => [j.url, j]));
   for (const o of prev) if (o.url && !byUrl.has(o.url)) byUrl.set(o.url, o);
   const jobs = [...byUrl.values()].slice(0, 250);
+  const newN = jobs.filter(j => j.first_seen === today).length;
+  console.error('NEW today:', newN);
   fs.mkdirSync('docs', { recursive: true });
   fs.writeFileSync('docs/topcv-jobs.json', JSON.stringify({ count: jobs.length, jobs }, null, 1));
   console.log(`TopCV ${tc.length} + VietnamWorks ${vw.length} -> total ${jobs.length}; with company: ${jobs.filter(j=>j.company).length}`);
