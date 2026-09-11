@@ -56,7 +56,7 @@
       <span class="chip on" id="fNight">🌙 Bỏ ca đêm</span>
       <span class="chip" id="fRemote">🏠 Remote</span>
       <span class="chip" id="fVN">🇻🇳 Khỏi tiếng Anh</span>
-      <span class="chip" id="fHidden">👁 Hiện đã bỏ qua</span>
+      <span class="chip" id="fHidden">👁 Hiện đã xử lý (nộp/bỏ)</span>
     </div>
   </div>
 </header>
@@ -141,8 +141,9 @@ function card(j,i){
 function render(){
   const q=$('#q').value.trim().toLowerCase();
   let list=JOBS.filter(j=>{
-    if(showHidden){ if(!hideSet.has(j.url)) return false; }   // chế độ xem lại job đã bỏ
-    else { if(hideSet.has(j.url)) return false; }
+    const processed = hideSet.has(j.url) || doneSet.has(j.url);  // đã nộp HOẶC bỏ qua
+    if(showHidden){ if(!processed) return false; }              // chế độ xem lại job đã xử lý
+    else { if(processed) return false; }                        // mặc định: ẩn job đã nộp + đã bỏ
     if(fitOnly&&(j.senior||(j.min_years||0)>=5)) return false;
     if(nightOff&&j.night) return false;
     if(relOnly&&!j.relevant) return false;
