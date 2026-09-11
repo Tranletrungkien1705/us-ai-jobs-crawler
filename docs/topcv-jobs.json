@@ -19,7 +19,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack Developer (C#, .NET, Vuejs) - Jetpay",
@@ -39,7 +40,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack Developer (C#, .NET, Vuejs) - Yêu Cầu Tối Thiểu 3 Năm Kinh Nghiệm C#, .NET/.NET Core",
@@ -59,7 +61,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Backend Developer (.Net)",
@@ -79,27 +82,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
-  },
-  {
-   "title": "Lập Trình Viên .NET (Product)",
-   "company": "Công ty Cổ phần Công nghệ KiotViet",
-   "location": "Việt Nam",
-   "url": "https://www.topcv.vn/viec-lam/lap-trinh-vien-net-product/2283468.html",
-   "source": "topcv",
-   "prio": 3,
-   "level": "unspecified",
-   "senior": false,
-   "relevant": true,
-   "hanoi": true,
-   "junior_up": true,
-   "night": false,
-   "vietnamese_only": true,
-   "needs_english": false,
-   "remote": false,
-   "part_time": false,
-   "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Lập Trình Viên .NET DEVELOPER (C#, ASP.NET)",
@@ -119,7 +103,29 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
+  },
+  {
+   "title": "Lập Trình Viên .NET (Product)",
+   "company": "Công ty Cổ phần Công nghệ KiotViet",
+   "location": "Việt Nam",
+   "url": "https://www.topcv.vn/viec-lam/lap-trinh-vien-net-product/2283468.html",
+   "source": "topcv",
+   "prio": 3,
+   "level": "unspecified",
+   "senior": false,
+   "relevant": true,
+   "hanoi": true,
+   "junior_up": true,
+   "night": false,
+   "vietnamese_only": true,
+   "needs_english": false,
+   "remote": false,
+   "part_time": false,
+   "min_years": 0,
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Software Developer (C#, .Net, Reactjs)",
@@ -139,7 +145,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior SQL / .NET Backend Developer (Oracle Focus)",
@@ -159,7 +166,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior Developer (C# / VB.NET)",
@@ -179,7 +187,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Lập Trình Viên .NET (Product, Microservices)",
@@ -199,7 +208,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack Developer (.NET, ReactJS/ Angular)",
@@ -219,7 +229,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Backend Developer (.NET)",
@@ -239,7 +250,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Lập Trình Viên Web (C#, .Net) [Junior]",
@@ -259,7 +271,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Techlead .NET (Government Domain)",
@@ -279,7 +292,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Technical .NET (Domain Chính Phủ)",
@@ -299,7 +313,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Nhân Viên Backend .NET",
@@ -319,7 +334,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Lập Trình Viên Fullstacks.Net",
@@ -339,7 +355,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Backend Developer (Java/.NET)",
@@ -359,7 +376,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Lập Trình Viên .NET",
@@ -379,7 +397,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Software Engineer (Golang/Python/Java/.NET)",
@@ -399,7 +418,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack Developer (C#, .NET, Vuejs) - Yêu Cầu Tối Thiểu 3 Năm Kinh Nghiệm C#, .NET/.NET Core",
@@ -419,7 +439,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Application Support (.NET, MS SQL Server)",
@@ -439,7 +460,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": ".Net Developer (2-3 Năm Kinh Nghiệm)",
@@ -459,7 +481,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Backend Developer (.NET, SQL, C#)",
@@ -479,7 +502,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Nhân Viên Phát Triển Phần Mềm (.Net 8)",
@@ -499,7 +523,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Lập Trình Back-End .NET (2+ YOE)",
@@ -519,7 +544,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Software Developer (.Net C# Developer) - 1 Năm Kinh Nghiệm - Tiếng Anh Giao Tiếp Tốt - Làm Việc Tại Hà Nội - Phúc Lợi Tốt, Thu Nhập Cao",
@@ -539,7 +565,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": ".Net Developer",
@@ -559,7 +586,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Trưởng Nhóm Kỹ Sư Phần Mềm Cao Cấp (.NET,Azure,C#)",
@@ -579,7 +607,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack Developer (.NET & REACTJS) (Tier2-CT)",
@@ -599,7 +628,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Nhân Viên .Net",
@@ -619,47 +649,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
-  },
-  {
-   "title": "Techlead (React Js + .net+Cloud)",
-   "company": "Công ty cổ phần công nghệ số VCI",
-   "location": "Việt Nam",
-   "url": "https://www.vietnamworks.com/techlead-react-js-net-cloud-2079236-jv",
-   "source": "vietnamworks",
-   "prio": 2,
-   "level": "unspecified",
-   "senior": true,
-   "relevant": true,
-   "hanoi": true,
-   "junior_up": true,
-   "night": false,
-   "vietnamese_only": true,
-   "needs_english": false,
-   "remote": false,
-   "part_time": false,
-   "min_years": 0,
-   "fit": false
-  },
-  {
-   "title": "Senior Full-Stack Software Developer (.NET, React/angular, Power Apps)",
-   "company": "Công Ty TNHH Mi-Jack Manufacturing Global Viet Nam",
-   "location": "Việt Nam",
-   "url": "https://www.vietnamworks.com/senior-full-stack-software-developer-net-reactangular-power-apps-2094296-jv",
-   "source": "vietnamworks",
-   "prio": 2,
-   "level": "middle",
-   "senior": false,
-   "relevant": true,
-   "hanoi": true,
-   "junior_up": true,
-   "night": false,
-   "vietnamese_only": true,
-   "needs_english": false,
-   "remote": false,
-   "part_time": false,
-   "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "C#.net Senior Developer (Also Open for Middle and Junior Dev)",
@@ -679,16 +670,38 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
-   "title": "Fullstack Engineer (.NET, Angular)",
-   "company": "Công Ty Cổ Phần Tập Đoàn Masan",
+   "title": "Techlead (React Js + .net+Cloud)",
+   "company": "Công ty cổ phần công nghệ số VCI",
    "location": "Việt Nam",
-   "url": "https://www.vietnamworks.com/fullstack-engineer-net-angular-2090514-jv",
+   "url": "https://www.vietnamworks.com/techlead-react-js-net-cloud-2079236-jv",
    "source": "vietnamworks",
    "prio": 2,
    "level": "unspecified",
+   "senior": true,
+   "relevant": true,
+   "hanoi": true,
+   "junior_up": true,
+   "night": false,
+   "vietnamese_only": true,
+   "needs_english": false,
+   "remote": false,
+   "part_time": false,
+   "min_years": 0,
+   "fit": false,
+   "first_seen": "2026-09-11"
+  },
+  {
+   "title": "Senior Full-Stack Software Developer (.NET, React/angular, Power Apps)",
+   "company": "Công Ty TNHH Mi-Jack Manufacturing Global Viet Nam",
+   "location": "Việt Nam",
+   "url": "https://www.vietnamworks.com/senior-full-stack-software-developer-net-reactangular-power-apps-2094296-jv",
+   "source": "vietnamworks",
+   "prio": 2,
+   "level": "middle",
    "senior": false,
    "relevant": true,
    "hanoi": true,
@@ -699,7 +712,8 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Mid-Level Backend Developer (.NET)",
@@ -719,7 +733,29 @@
    "remote": false,
    "part_time": false,
    "min_years": 0,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
+  },
+  {
+   "title": "Fullstack Engineer (.NET, Angular)",
+   "company": "Công Ty Cổ Phần Tập Đoàn Masan",
+   "location": "Việt Nam",
+   "url": "https://www.vietnamworks.com/fullstack-engineer-net-angular-2090514-jv",
+   "source": "vietnamworks",
+   "prio": 2,
+   "level": "unspecified",
+   "senior": false,
+   "relevant": true,
+   "hanoi": true,
+   "junior_up": true,
+   "night": false,
+   "vietnamese_only": true,
+   "needs_english": false,
+   "remote": false,
+   "part_time": false,
+   "min_years": 0,
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": ".NET Developer (Product, Ứng Dụng AI)",
