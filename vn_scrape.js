@@ -37,7 +37,7 @@ async function topcv(p){
       for(const l of cards) if(!seen.has(l.h)){ seen.add(l.h); out.push(l); }
     }catch(e){ console.error('topcv',u,e.message.slice(0,50)); }
   }
-  return out.filter(j=>REL.test(j.t)&&!NOISE.test(j.t)).map(j=>enrich(j.t,j.h,'topcv',3,j.co,j.bt));
+  return out.filter(j=>(REL.test(j.t)||REL.test(j.bt))&&!NOISE.test(j.t)).map(j=>enrich(j.t,j.h,'topcv',3,j.co,j.bt));
 }
 async function vietnamworks(p){
   const seen=new Set(), out=[];
@@ -50,7 +50,7 @@ async function vietnamworks(p){
       for(const l of cards) if(!seen.has(l.h)){ seen.add(l.h); out.push(l); }
     }catch(e){ console.error('vnw',q,e.message.slice(0,50)); }
   }
-  return out.filter(j=>REL.test(j.t)&&!NOISE.test(j.t)).map(j=>enrich(j.t.replace(/^Mới\s+/,''),j.h,'vietnamworks',2,j.co,j.bt));
+  return out.filter(j=>(REL.test(j.t)||REL.test(j.bt))&&!NOISE.test(j.t)).map(j=>enrich(j.t.replace(/^Mới\s+/,''),j.h,'vietnamworks',2,j.co,j.bt));
 }
 (async () => {
   const b = await chromium.launch({ headless: true, args: ['--no-sandbox','--disable-dev-shm-usage'] });
