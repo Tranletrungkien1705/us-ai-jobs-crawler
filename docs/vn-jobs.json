@@ -1,8 +1,68 @@
 {
- "count": 177,
- "fit": 149,
- "remote": 18,
+ "count": 183,
+ "fit": 154,
+ "remote": 19,
  "jobs": [
+  {
+   "title": "[Hanoi] Quality Assurance Automation/Manual (4 YOE+)",
+   "company": "Sun* Vietnam",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/hanoi-quality-assurance-automation-manual-4-yoe%2B-at-sun-vietnam-4463815635",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": true,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-11"
+  },
+  {
+   "title": "[REMOTE _ VMO] FULLSTACK NODEJS/ REACT JS_ UPTO 60M ( Night shift)",
+   "company": "VMO",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/remote-vmo-fullstack-nodejs-react-js-upto-60m-night-shift-at-vmo-4464312568",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": true,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": true,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 5,
+   "needs_english": true,
+   "fit": true,
+   "first_seen": "2026-09-11"
+  },
+  {
+   "title": "[REMOTE _ VMO] FULLSTACK NODEJS/ REACT JS_ UPTO 60M ( Night shift)",
+   "company": "VMO",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/remote-vmo-fullstack-nodejs-react-js-upto-60m-night-shift-at-vmo-4464311805",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": true,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": true,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 5,
+   "needs_english": true,
+   "fit": true,
+   "first_seen": "2026-09-11"
+  },
   {
    "title": "[Remote] Mid/Senior Full Stack Developer",
    "company": "VMO",
@@ -23,10 +83,10 @@
    "fit": true
   },
   {
-   "title": "Associate Technical Consultant",
-   "company": "Nucleus Software",
+   "title": "Applications and Systems Engineer - Hanoi",
+   "company": "Michael Page",
    "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/associate-technical-consultant-at-nucleus-software-4463237913",
+   "url": "https://vn.linkedin.com/jobs/view/applications-and-systems-engineer-hanoi-at-michael-page-4465801006",
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
@@ -37,9 +97,10 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 10,
+   "min_years": 3,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "BUSINESS ANALYST / PRODUCT OWNER — INTERNAL AUTOMATION & TOOLS",
@@ -58,7 +119,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Full Stack Engineer - KYC Tech (fully remote!)",
@@ -77,7 +139,8 @@
    "relevant": false,
    "min_years": 3,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Full Stack Software Engineer — AI,Fronted Oriented (Fully Remote)",
@@ -96,7 +159,8 @@
    "relevant": false,
    "min_years": 4,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack Developer (Remote Fulltime)",
@@ -122,44 +186,6 @@
    "company": "Kintetsu World Express",
    "location": "Hanoi Capital Region",
    "url": "https://vn.linkedin.com/jobs/view/it-application-staff-at-kintetsu-world-express-4457678332",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": true,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true
-  },
-  {
-   "title": "Junior Backend Developer (Hanoi)",
-   "company": "Ecomobi PTE",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/junior-backend-developer-hanoi-at-ecomobi-pte-4463219086",
-   "source": "linkedin",
-   "level": "junior",
-   "senior": false,
-   "remote": true,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true
-  },
-  {
-   "title": "QA Engineer (Manual/Automation) - Hà Nội",
-   "company": "Sun* Vietnam",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/qa-engineer-manual-automation-h%C3%A0-n%E1%BB%99i-at-sun-vietnam-4463252183",
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
@@ -251,25 +277,6 @@
    "fit": true
   },
   {
-   "title": "Software Engineer",
-   "company": "WorldQuant",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/software-engineer-at-worldquant-4432599645",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": true,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true
-  },
-  {
    "title": "Solution Consultant (ERP Implementation Consultant) - Chuyên Viên Triển Khai Giải Pháp Phần Mềm ERP",
    "company": "Stringee",
    "location": "Hanoi, Hanoi, Vietnam",
@@ -305,7 +312,48 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
+  },
+  {
+   "title": "Associate Technical Consultant",
+   "company": "Nucleus Software",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/associate-technical-consultant-at-nucleus-software-4463237913",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": true,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 10,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-11"
+  },
+  {
+   "title": "QA Engineer (Manual/Automation) - Hà Nội",
+   "company": "Sun* Vietnam",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/qa-engineer-manual-automation-h%C3%A0-n%E1%BB%99i-at-sun-vietnam-4463252183",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": true,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "(HN/ HCM) Senior Fullstack Engineer (AI)",
@@ -343,7 +391,8 @@
    "relevant": false,
    "min_years": 5,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "(Senior) AI Engineer",
@@ -381,26 +430,8 @@
    "relevant": true,
    "min_years": 4,
    "needs_english": true,
-   "fit": true
-  },
-  {
-   "title": "[Hanoi] Quality Assurance Automation/Manual (4 YOE+)",
-   "company": "Sun* Vietnam",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/hanoi-quality-assurance-automation-manual-4-yoe%2B-at-sun-vietnam-4463815635",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "[HN] AI AUTOMATION DEVELOPER",
@@ -419,7 +450,8 @@
    "relevant": false,
    "min_years": 3,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "[HN] Chuyên gia Phát triển giải pháp CNTT - Backend Developer Expert",
@@ -438,7 +470,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "[HN] Fullstack Developer_English Proficiency_Night Shift_Upto 60M gross + Night Shift Allowance",
@@ -457,7 +490,8 @@
    "relevant": false,
    "min_years": 5,
    "needs_english": true,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "[HN] Lập trình Cơ sở dữ liệu",
@@ -476,7 +510,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "[HN] NodeJS Developer",
@@ -514,7 +549,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "[HN] Software Developer (Mid-Sen)",
@@ -533,7 +569,8 @@
    "relevant": false,
    "min_years": 3,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "[Hà Nội] QA Engineer (Manual/Automation)",
@@ -590,7 +627,8 @@
    "relevant": true,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "AI Fullstack Developer",
@@ -609,7 +647,8 @@
    "relevant": false,
    "min_years": 4,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Applied Senior Software Engineer (AI Native Development)",
@@ -628,7 +667,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Back End Developer",
@@ -647,7 +687,8 @@
    "relevant": false,
    "min_years": 5,
    "needs_english": true,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Back End Developer",
@@ -666,7 +707,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Back End Developer",
@@ -685,7 +727,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": true,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Back End Developer (AI Infrastructure)",
@@ -761,7 +804,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Backend Developer (NodeJS)",
@@ -818,7 +862,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Backend Specialist (Hanoi)",
@@ -837,7 +882,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Backend Specialist UPTO 900M GROSS / YEAR (HN)",
@@ -856,7 +902,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Backend Systems Engineer",
@@ -875,7 +922,8 @@
    "relevant": false,
    "min_years": 3,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Basic Software Engineer",
@@ -894,7 +942,8 @@
    "relevant": false,
    "min_years": 3,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Binance Accelerator Program - Full Stack Engineer",
@@ -951,7 +1000,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Business Analyst (VN26022)",
@@ -970,7 +1020,8 @@
    "relevant": false,
    "min_years": 4,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "C# Developer",
@@ -1027,7 +1078,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Chuyên Viên Kỹ Thuật ERP",
@@ -1046,7 +1098,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Chuyên Viên Phân Tích Nghiệp Vụ & Triển Khai Giải Pháp",
@@ -1065,7 +1118,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Client Engineer (Middle)",
@@ -1103,7 +1157,8 @@
    "relevant": false,
    "min_years": 3,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Data Platform Engineer",
@@ -1179,7 +1234,8 @@
    "relevant": false,
    "min_years": 5,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Developer",
@@ -1198,7 +1254,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "DevOps & Cloud Infrastructure Engineer",
@@ -1237,6 +1294,26 @@
    "min_years": 8,
    "needs_english": true,
    "fit": true
+  },
+  {
+   "title": "Expert, Software Engineering (40001156)",
+   "company": "Techcombank (TCB)",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/expert-software-engineering-40001156-at-techcombank-tcb-4463593633",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 11,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Expert, Software Engineering (40001156)",
@@ -1331,7 +1408,8 @@
    "relevant": true,
    "min_years": 0,
    "needs_english": true,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Full Stack Developer",
@@ -1350,7 +1428,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Full Stack Developer (.NET & React) – IoT & AI Specialist",
@@ -1388,7 +1467,8 @@
    "relevant": false,
    "min_years": 5,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Full Stack Engineer",
@@ -1407,7 +1487,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Full Stack Engineer",
@@ -1483,7 +1564,8 @@
    "relevant": false,
    "min_years": 5,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Full-stack Developer",
@@ -1502,7 +1584,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack Developer",
@@ -1521,7 +1604,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack Developer",
@@ -1540,7 +1624,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "FullStack Developer (Junior, Senior) - Khối Công nghệ thông tin (2025TD922)",
@@ -1559,7 +1644,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack Developer (onsite)",
@@ -1578,7 +1664,8 @@
    "relevant": false,
    "min_years": 5,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack Engineer (NodeJS)",
@@ -1597,7 +1684,8 @@
    "relevant": false,
    "min_years": 3,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack Engineer — HiTradies",
@@ -1616,7 +1704,8 @@
    "relevant": false,
    "min_years": 3,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack JS-Blockchain",
@@ -1714,6 +1803,26 @@
    "fit": true
   },
   {
+   "title": "Junior Backend Developer (Hanoi)",
+   "company": "Ecomobi PTE",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/junior-backend-developer-hanoi-at-ecomobi-pte-4463219086",
+   "source": "linkedin",
+   "level": "junior",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-11"
+  },
+  {
    "title": "Junior Power Apps Developer",
    "company": "Noventiq Vietnam",
    "location": "Noi Xá, Vietnam",
@@ -1768,7 +1877,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": true,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Junior Software Engineer（AI&LLM)",
@@ -1806,7 +1916,8 @@
    "relevant": true,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "KỸ SƯ THIẾT KẾ PHẦN MỀM",
@@ -1844,7 +1955,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Lập trình viên .NET (Around 35M)",
@@ -1882,7 +1994,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Lập Trình Viên Backend (.NET Core)",
@@ -1901,7 +2014,8 @@
    "relevant": true,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Lập trình viên ERP (Senior)",
@@ -1920,7 +2034,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Lập trình viên JavaScript",
@@ -1939,7 +2054,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Mid/Sen Business Analyst",
@@ -1958,7 +2074,28 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
+  },
+  {
+   "title": "Middle Backend & Applied AI",
+   "company": "Aladin Technology",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/middle-backend-applied-ai-at-aladin-technology-4464850154",
+   "source": "linkedin",
+   "level": "middle",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Middle Backend & Applied AI",
@@ -1996,7 +2133,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "NodeJS Senior",
@@ -2015,7 +2153,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Officer, Software Engineering (40001158)",
@@ -2089,9 +2228,10 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 2,
+   "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Power Platform Developer",
@@ -2148,7 +2288,8 @@
    "relevant": true,
    "min_years": 5,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior .NET Developer",
@@ -2167,7 +2308,8 @@
    "relevant": true,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior .Net Developer",
@@ -2205,7 +2347,8 @@
    "relevant": true,
    "min_years": 5,
    "needs_english": true,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior Backend Developer (.NET)",
@@ -2243,7 +2386,8 @@
    "relevant": false,
    "min_years": 5,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior Backend Engineer (.NET)_ English C1/C2",
@@ -2281,7 +2425,8 @@
    "relevant": false,
    "min_years": 10,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior Backend Engineer/ AI Engineer - Thu Nhập Upto 30M/ Tháng - Làm Thứ 2 Đến Thứ 6 - Domain Edtech/ AI/ Finance",
@@ -2319,7 +2464,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior Engineer, Back End Development 1 1",
@@ -2338,7 +2484,8 @@
    "relevant": false,
    "min_years": 8,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior Full-Stack Engineer",
@@ -2357,7 +2504,8 @@
    "relevant": false,
    "min_years": 5,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior Fullstack Developer (Nextjs, Nodejs, AWS)",
@@ -2395,7 +2543,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior IoT Backend Developer",
@@ -2452,7 +2601,8 @@
    "relevant": false,
    "min_years": 5,
    "needs_english": true,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior Software Engineer",
@@ -2471,7 +2621,8 @@
    "relevant": false,
    "min_years": 8,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior Software Engineer",
@@ -2528,7 +2679,8 @@
    "relevant": true,
    "min_years": 3,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "SOFTWARE ENGINEER",
@@ -2547,7 +2699,8 @@
    "relevant": false,
    "min_years": 3,
    "needs_english": true,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Software Engineer",
@@ -2566,7 +2719,28 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
+  },
+  {
+   "title": "Software Engineer",
+   "company": "WorldQuant",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/software-engineer-at-worldquant-4432599645",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 8,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Software Engineer",
@@ -2604,7 +2778,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Software Engineer (Spring Boot, AWS)",
@@ -2642,7 +2817,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Solution Delivery Executive (Junior-Middle)￼",
@@ -2680,7 +2856,8 @@
    "relevant": false,
    "min_years": 8,
    "needs_english": true,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Số lượng: 2",
@@ -2737,7 +2914,8 @@
    "relevant": false,
    "min_years": 3,
    "needs_english": true,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Thực tập sinh Backend",
@@ -2756,7 +2934,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Thực tập sinh Kỹ thuật ERP",
@@ -2775,7 +2954,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Vietnam | Onsite | Senior .NET Backend Developer",
@@ -2832,7 +3012,8 @@
    "relevant": true,
    "min_years": 4,
    "needs_english": false,
-   "fit": true
+   "fit": true,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "AUTOMATION TEST LEADER (No Eng)",
@@ -2854,10 +3035,10 @@
    "fit": false
   },
   {
-   "title": "Senior Application Solution Architect",
-   "company": "Blitz IT Consultants Pte Ltd",
+   "title": "DevOps Engineer (Senior/Principal)",
+   "company": "playSTUDIOS Vietnam",
    "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/senior-application-solution-architect-at-blitz-it-consultants-pte-ltd-4465616707",
+   "url": "https://vn.linkedin.com/jobs/view/devops-engineer-senior-principal-at-playstudios-vietnam-4434308079",
    "source": "linkedin",
    "level": "unspecified",
    "senior": true,
@@ -2868,9 +3049,50 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
+   "min_years": 4,
+   "needs_english": false,
+   "fit": false,
+   "first_seen": "2026-09-11"
+  },
+  {
+   "title": "Team Leader / Application Solution Architect (Implementation)",
+   "company": "Blitz IT Consultants Pte Ltd",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/team-leader-application-solution-architect-implementation-at-blitz-it-consultants-pte-ltd-4465608780",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": true,
+   "remote": true,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 6,
+   "needs_english": false,
+   "fit": false,
+   "first_seen": "2026-09-11"
+  },
+  {
+   "title": "Senior Application Solution Architect",
+   "company": "Blitz IT Consultants Pte Ltd",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/senior-application-solution-architect-at-blitz-it-consultants-pte-ltd-4465616707",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": true,
+   "remote": false,
+   "part_time": true,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
    "min_years": 5,
    "needs_english": true,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "[HN] TECHNICAL LEADER (.NET - SP C-AIOFFICE)",
@@ -2908,7 +3130,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Backend Lead (Technical Expert) - Mảng Chứng khoán",
@@ -2946,26 +3169,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": false
-  },
-  {
-   "title": "DevOps Engineer (Senior/Principal)",
-   "company": "playSTUDIOS Vietnam",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/devops-engineer-senior-principal-at-playstudios-vietnam-4434308079",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": true,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "DevOps Engineering Manager - NPP",
@@ -3003,7 +3208,8 @@
    "relevant": false,
    "min_years": 5,
    "needs_english": false,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Engineering Manager - (DevOps & SRE)- NPP",
@@ -3020,9 +3226,30 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": false
+   "min_years": 10,
+   "needs_english": true,
+   "fit": false,
+   "first_seen": "2026-09-11"
+  },
+  {
+   "title": "Engineering Manager - (DevOps & SRE)- NPP",
+   "company": "NAB Innovation Centre Vietnam",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/engineering-manager-devops-sre-npp-at-nab-innovation-centre-vietnam-4465675885",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": true,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 10,
+   "needs_english": true,
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack Team Lead (.NET)",
@@ -3041,7 +3268,8 @@
    "relevant": true,
    "min_years": 5,
    "needs_english": true,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Fullstack Team Leader (JS)",
@@ -3079,7 +3307,8 @@
    "relevant": false,
    "min_years": 10,
    "needs_english": false,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Principal Software Engineer",
@@ -3117,7 +3346,8 @@
    "relevant": false,
    "min_years": 15,
    "needs_english": false,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Senior MES Engineer",
@@ -3155,7 +3385,8 @@
    "relevant": false,
    "min_years": 8,
    "needs_english": false,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Solution Architect (Việt Nam Market)",
@@ -3173,25 +3404,6 @@
    "junior_up": true,
    "relevant": false,
    "min_years": 0,
-   "needs_english": false,
-   "fit": false
-  },
-  {
-   "title": "Team Leader / Application Solution Architect (Implementation)",
-   "company": "Blitz IT Consultants Pte Ltd",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/team-leader-application-solution-architect-implementation-at-blitz-it-consultants-pte-ltd-4465608780",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": true,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 6,
    "needs_english": false,
    "fit": false
   },
@@ -3231,7 +3443,8 @@
    "relevant": true,
    "min_years": 5,
    "needs_english": false,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Technical Lead",
@@ -3250,7 +3463,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": true,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Technical Lead",
@@ -3269,7 +3483,8 @@
    "relevant": false,
    "min_years": 7,
    "needs_english": false,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Technical Lead",
@@ -3286,9 +3501,10 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 8,
    "needs_english": false,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Technical Lead / Solution Architect",
@@ -3345,7 +3561,8 @@
    "relevant": false,
    "min_years": 0,
    "needs_english": false,
-   "fit": false
+   "fit": false,
+   "first_seen": "2026-09-11"
   },
   {
    "title": "Technical Leader (ITSM)",
