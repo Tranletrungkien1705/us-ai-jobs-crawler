@@ -234,7 +234,7 @@ def main():
                                        "relevant", "min_years", "needs_english", "fit")})
 
     out = os.environ.get("JSON_OUT", "docs/vn-jobs.json")
-    today = datetime.date.today().isoformat()
+    today = time.strftime("%Y-%m-%d")
     # GỘP file cũ -> tích luỹ qua nhiều ngày (dedup theo url) + đánh dấu first_seen
     prevmap = {}
     if os.path.exists(out):
