@@ -6,19 +6,25 @@ const NOISE = /game net|net cafe|tiệm net|quán net|kinh doanh máy tính|pc\/
 const SENIOR = /lead |team lead| manager|head of|director|architect|chief|trưởng nhóm|principal|leader|quản lý/i;
 function level(t){ t=t.toLowerCase(); if(/fresher|intern|thực tập/.test(t))return'fresher'; if(/junior|jr /.test(t))return'junior'; if(/middle|mid-|senior/.test(t))return'middle'; return'unspecified'; }
 function needEng(t){ return /english|tiếng anh|chinese|japanese|korean/i.test(t); }
-function enrich(title, url, source, prio, company){
+// tìm tỉnh/thành trong text thẻ tin; không thấy -> "Việt Nam" (KHÔNG mặc định Hà Nội)
+const PROV = /(Hà Nội|Hồ Chí Minh|TP\.?\s?HCM|Đà Nẵng|Bình Dương|Đồng Nai|Hải Phòng|Cần Thơ|Bắc Ninh|Bắc Giang|Hưng Yên|Hải Dương|Quảng Ninh|Vĩnh Phúc|Thái Nguyên|Nghệ An|Thanh Hóa|Huế|Khánh Hòa|Long An|Bình Định|Nam Định)/i;
+function locOf(bt){ const m=(bt||'').match(PROV); return m?m[1]:'Việt Nam'; }
+function isHN(bt){ return /hà ?nội|ha ?noi|hanoi/i.test(bt||''); }
+function enrich(title, url, source, prio, company, bt){
   const lv = level(title), sen = SENIOR.test(title);
-  return { title, company: (company||'').slice(0,80), location: 'Việt Nam', url, source, prio,
-    level: lv, senior: sen, relevant: true, hanoi: true, junior_up: lv !== 'fresher',
+  const loc = locOf(bt), hn = isHN(bt);
+  return { title, company: (company||'').slice(0,80), location: loc, url, source, prio,
+    level: lv, senior: sen, relevant: true, hanoi: hn, junior_up: lv !== 'fresher',
     night: false, vietnamese_only: !needEng(title), needs_english: needEng(title),
-    remote: /remote|từ xa/i.test(title), part_time: false, min_years: 0, fit: !sen };
+    remote: /remote|từ xa/i.test(title+' '+(bt||'')), part_time: false, min_years: 0, fit: !sen };
 }
-// lấy title + url + company từ mỗi card (đi ngược lên tổ tiên tìm link công ty)
+// lấy title + url + company + text-thẻ (bt) từ mỗi card; box = tổ tiên chứa link công ty (biên của card)
 const EXTRACT = (sel, coSel) => (as, coSel2) => as.map(a => {
   const t=(a.textContent||'').replace(/\s+/g,' ').trim();
-  let el=a.parentElement, co='';
-  for(let i=0;i<7 && el;i++){ const c=el.querySelector(coSel2); if(c && (c.textContent||'').trim().length>1){ co=(c.textContent||'').replace(/\s+/g,' ').trim(); break; } el=el.parentElement; }
-  return { h:a.href.split('?')[0], t, co };
+  let el=a.parentElement, co='', box=a.parentElement||a;
+  for(let i=0;i<7 && el;i++){ const c=el.querySelector(coSel2); if(c && (c.textContent||'').trim().length>1){ co=(c.textContent||'').replace(/\s+/g,' ').trim(); box=el; break; } box=el; el=el.parentElement; }
+  const bt=(box.textContent||'').replace(/\s+/g,' ').trim().slice(0,600);
+  return { h:a.href.split('?')[0], t, co, bt };
 }).filter(x=>x.t.length>5);
 
 async function topcv(p){
@@ -31,7 +37,7 @@ async function topcv(p){
       for(const l of cards) if(!seen.has(l.h)){ seen.add(l.h); out.push(l); }
     }catch(e){ console.error('topcv',u,e.message.slice(0,50)); }
   }
-  return out.filter(j=>REL.test(j.t)&&!NOISE.test(j.t)).map(j=>enrich(j.t,j.h,'topcv',3,j.co));
+  return out.filter(j=>REL.test(j.t)&&!NOISE.test(j.t)).map(j=>enrich(j.t,j.h,'topcv',3,j.co,j.bt));
 }
 async function vietnamworks(p){
   const seen=new Set(), out=[];
@@ -44,7 +50,7 @@ async function vietnamworks(p){
       for(const l of cards) if(!seen.has(l.h)){ seen.add(l.h); out.push(l); }
     }catch(e){ console.error('vnw',q,e.message.slice(0,50)); }
   }
-  return out.filter(j=>REL.test(j.t)&&!NOISE.test(j.t)).map(j=>enrich(j.t.replace(/^Mới\s+/,''),j.h,'vietnamworks',2,j.co));
+  return out.filter(j=>REL.test(j.t)&&!NOISE.test(j.t)).map(j=>enrich(j.t.replace(/^Mới\s+/,''),j.h,'vietnamworks',2,j.co,j.bt));
 }
 (async () => {
   const b = await chromium.launch({ headless: true, args: ['--no-sandbox','--disable-dev-shm-usage'] });
@@ -61,6 +67,8 @@ async function vietnamworks(p){
   const byUrl = new Map(all.map(j => [j.url, j]));
   for (const o of prev) if (o.url && !byUrl.has(o.url)) byUrl.set(o.url, o);
   const jobs = [...byUrl.values()].slice(0, 250);
+  // sửa lỗi cũ: nhiều entry trước đây bị gắn hanoi=true bừa -> chỉ Hà Nội khi location THẬT là Hà Nội
+  jobs.forEach(j => { j.hanoi = /hà ?nội|ha ?noi|hanoi/i.test((j.location||'') + ' ' + (j.title||'')); });
   const newN = jobs.filter(j => j.first_seen === today).length;
   console.error('NEW today:', newN);
   fs.mkdirSync('docs', { recursive: true });
