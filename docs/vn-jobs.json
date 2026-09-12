@@ -1,7 +1,7 @@
 {
- "count": 190,
- "fit": 158,
- "remote": 14,
+ "count": 192,
+ "fit": 160,
+ "remote": 13,
  "jobs": [
   {
    "title": "[REMOTE _ VMO] FULLSTACK NODEJS/ REACT JS_ UPTO 60M ( Night shift)",
@@ -61,26 +61,6 @@
    "min_years": 5,
    "needs_english": true,
    "fit": true
-  },
-  {
-   "title": "BUSINESS ANALYST / PRODUCT OWNER — INTERNAL AUTOMATION & TOOLS",
-   "company": "VNGROUP",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/business-analyst-product-owner-%E2%80%94-internal-automation-tools-at-vngroup-4462255745",
-   "source": "linkedin",
-   "level": "fresher",
-   "senior": false,
-   "remote": true,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": false,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-09-11"
   },
   {
    "title": "Full Stack Engineer - KYC Tech (fully remote!)",
@@ -626,7 +606,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 10,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -987,6 +967,26 @@
    "first_seen": "2026-09-11"
   },
   {
+   "title": "BUSINESS ANALYST / PRODUCT OWNER — INTERNAL AUTOMATION & TOOLS",
+   "company": "VNGROUP",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/business-analyst-product-owner-%E2%80%94-internal-automation-tools-at-vngroup-4462255745",
+   "source": "linkedin",
+   "level": "fresher",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": false,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-11"
+  },
+  {
    "title": "C# Developer",
    "company": "Kaopiz",
    "location": "Hanoi, Hanoi, Vietnam",
@@ -1118,7 +1118,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 3,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -1448,8 +1448,8 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 5,
-   "needs_english": true,
+   "min_years": 0,
+   "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
   },
@@ -1808,6 +1808,26 @@
    "fit": true
   },
   {
+   "title": "HN| Fullstack Developer (C#,.NET)",
+   "company": "MISA JSC",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/hn-fullstack-developer-c%23-net-at-misa-jsc-4465188795",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": true,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-12"
+  },
+  {
    "title": "HÀ NỘI - LẬP TRÌNH VIÊN NODE.JS",
    "company": "CleverGroup Corp",
    "location": "Hanoi, Hanoi, Vietnam",
@@ -1845,6 +1865,26 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
+  },
+  {
+   "title": "Junior Full Stack Engineer",
+   "company": "Lodestone Analytics",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/junior-full-stack-engineer-at-lodestone-analytics-4465199207",
+   "source": "linkedin",
+   "level": "junior",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 2,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-12"
   },
   {
    "title": "Junior Power Apps Developer",
@@ -2255,7 +2295,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 2,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -3002,8 +3042,8 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 3,
-   "needs_english": true,
+   "min_years": 0,
+   "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
   },
@@ -3217,7 +3257,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 4,
    "needs_english": false,
    "fit": false,
    "first_seen": "2026-09-11"
@@ -3454,8 +3494,8 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
+   "min_years": 5,
+   "needs_english": true,
    "fit": false,
    "first_seen": "2026-09-11"
   },
