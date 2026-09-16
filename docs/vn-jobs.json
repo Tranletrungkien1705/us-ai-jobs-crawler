@@ -1,6 +1,6 @@
 {
- "count": 215,
- "fit": 180,
+ "count": 222,
+ "fit": 187,
  "remote": 14,
  "jobs": [
   {
@@ -77,7 +77,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 3,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -373,6 +373,26 @@
    "needs_english": true,
    "fit": true,
    "first_seen": "2026-09-11"
+  },
+  {
+   "title": "[Ha Noi] Middle .NET Developer",
+   "company": "VTI",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/ha-noi-middle-net-developer-at-vti-4466836797",
+   "source": "linkedin",
+   "level": "middle",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": true,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-16"
   },
   {
    "title": "[Hanoi] Quality Assurance Automation/Manual (4 YOE+)",
@@ -1022,7 +1042,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 3,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -1418,6 +1438,26 @@
    "min_years": 0,
    "needs_english": false,
    "fit": true
+  },
+  {
+   "title": "DevOps Engineer",
+   "company": "Globant",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/devops-engineer-at-globant-4466828992",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 4,
+   "needs_english": true,
+   "fit": true,
+   "first_seen": "2026-09-16"
   },
   {
    "title": "Engineering Support (BMS/Automation)",
@@ -1992,6 +2032,26 @@
    "first_seen": "2026-09-14"
   },
   {
+   "title": "Gen AI Fullstack Engineer [English fluent - Offer 55M]",
+   "company": "VMO",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/gen-ai-fullstack-engineer-english-fluent-offer-55m-at-vmo-4466839021",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 4,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-16"
+  },
+  {
    "title": "Hanoi| Senior Fullstack Developer Up To 50M",
    "company": "MISA JSC",
    "location": "Hanoi Capital Region",
@@ -2028,6 +2088,26 @@
    "min_years": 0,
    "needs_english": false,
    "fit": true
+  },
+  {
+   "title": "HN | Lập Trình Viên PKI / Security Developer",
+   "company": "Misa",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/hn-l%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-pki-security-developer-at-misa-4466835725",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-16"
   },
   {
    "title": "HN| Fullstack Developer (C#, .NET) - Junior/Middle",
@@ -2142,8 +2222,8 @@
    "hanoi": false,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
+   "min_years": 2,
+   "needs_english": true,
    "fit": true,
    "first_seen": "2026-09-11"
   },
@@ -2366,6 +2446,26 @@
    "first_seen": "2026-09-11"
   },
   {
+   "title": "Mid .Net Dev Cau Giay Hanoi",
+   "company": "Diksha Tek Services",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/mid-net-dev-cau-giay-hanoi-at-diksha-tek-services-4466825394",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": true,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-16"
+  },
+  {
    "title": "Mid/Sen Business Analyst",
    "company": "Sunshine Group",
    "location": "Hanoi Capital Region",
@@ -2423,6 +2523,26 @@
    "min_years": 0,
    "needs_english": false,
    "fit": true
+  },
+  {
+   "title": "Middle VB.Net Developer",
+   "company": "VTI",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/middle-vb-net-developer-at-vti-4467974455",
+   "source": "linkedin",
+   "level": "middle",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": true,
+   "min_years": 3,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-16"
   },
   {
    "title": "Middle/Senior Backend Developer/AI Engineer",
@@ -3133,6 +3253,26 @@
    "first_seen": "2026-09-11"
   },
   {
+   "title": "Senior/Staff Software Engineer (On-Device AI Prototyping)",
+   "company": "Qualcomm",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/senior-staff-software-engineer-on-device-ai-prototyping-at-qualcomm-4463518182",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 4,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-16"
+  },
+  {
    "title": "Software Engineer",
    "company": "MISA JSC",
    "location": "Hanoi, Hanoi, Vietnam",
@@ -3796,7 +3936,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 8,
+   "min_years": 0,
    "needs_english": false,
    "fit": false,
    "first_seen": "2026-09-14"
