@@ -1,7 +1,7 @@
 {
- "count": 246,
- "fit": 206,
- "remote": 14,
+ "count": 247,
+ "fit": 207,
+ "remote": 15,
  "jobs": [
   {
    "title": "[REMOTE _ VMO] FULLSTACK NODEJS/ REACT JS_ UPTO 60M ( Night shift)",
@@ -139,6 +139,26 @@
    "min_years": 0,
    "needs_english": false,
    "fit": true
+  },
+  {
+   "title": "Senior .NET Full-stack Developer",
+   "company": "Lemon.io",
+   "location": "Northern America, LATAM, Europe, APAC",
+   "url": "https://remotive.com/remote-jobs/software-development/senior-net-full-stack-developer-2091130",
+   "source": "remotive",
+   "level": "unspecified",
+   "senior": false,
+   "remote": true,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": true,
+   "min_years": 4,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-19"
   },
   {
    "title": "Senior Data Engineer",
@@ -886,8 +906,8 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 5,
-   "needs_english": true,
+   "min_years": 0,
+   "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
   },
@@ -1828,7 +1848,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 5,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -2026,7 +2046,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 5,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -2186,7 +2206,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 5,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -2286,7 +2306,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 4,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-16"
@@ -2956,7 +2976,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 2,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -3055,7 +3075,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 2,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-15"
@@ -3213,7 +3233,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 5,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -4179,7 +4199,7 @@
    "junior_up": true,
    "relevant": false,
    "min_years": 0,
-   "needs_english": false,
+   "needs_english": true,
    "fit": false,
    "first_seen": "2026-09-18"
   },
@@ -4654,7 +4674,7 @@
    "junior_up": true,
    "relevant": false,
    "min_years": 0,
-   "needs_english": false,
+   "needs_english": true,
    "fit": false,
    "first_seen": "2026-09-15"
   },
