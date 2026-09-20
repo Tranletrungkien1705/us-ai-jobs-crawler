@@ -866,7 +866,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 10,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -906,8 +906,8 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
+   "min_years": 5,
+   "needs_english": true,
    "fit": true,
    "first_seen": "2026-09-11"
   },
@@ -1458,7 +1458,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 3,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -2306,7 +2306,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 4,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-16"
@@ -3075,7 +3075,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 2,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-15"
@@ -3332,7 +3332,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 8,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -4081,7 +4081,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": true,
-   "min_years": 4,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -4733,7 +4733,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": true,
-   "min_years": 5,
+   "min_years": 0,
    "needs_english": false,
    "fit": false,
    "first_seen": "2026-09-11"
