@@ -649,7 +649,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": true,
-   "min_years": 0,
+   "min_years": 5,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-01"
@@ -729,7 +729,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 2,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-01"
@@ -949,7 +949,7 @@
    "junior_up": true,
    "relevant": false,
    "min_years": 0,
-   "needs_english": false,
+   "needs_english": true,
    "fit": true,
    "first_seen": "2026-10-09"
   },
@@ -1106,7 +1106,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 4,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-09"
@@ -1307,7 +1307,7 @@
    "junior_up": true,
    "relevant": false,
    "min_years": 0,
-   "needs_english": false,
+   "needs_english": true,
    "fit": true,
    "first_seen": "2026-10-09"
   },
@@ -1605,7 +1605,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": true,
-   "min_years": 0,
+   "min_years": 1,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-06"
@@ -2101,7 +2101,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 4,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -2141,7 +2141,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 3,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-07"
@@ -2975,26 +2975,6 @@
   },
   {
    "title": "Full Stack Engineer",
-   "company": "VINFAST",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/full-stack-engineer-at-vinfast-4467512311",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-09-17"
-  },
-  {
-   "title": "Full Stack Engineer",
    "company": "WorldQuant",
    "location": "Hanoi, Hanoi, Vietnam",
    "url": "https://vn.linkedin.com/jobs/view/full-stack-engineer-at-worldquant-4378791890",
@@ -3032,6 +3012,26 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-07"
+  },
+  {
+   "title": "Full Stack Engineer",
+   "company": "VINFAST",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/full-stack-engineer-at-vinfast-4467512311",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 5,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-17"
   },
   {
    "title": "Full Stack Engineer",
@@ -3706,7 +3706,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 10,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-09"
@@ -4222,7 +4222,7 @@
    "junior_up": true,
    "relevant": false,
    "min_years": 0,
-   "needs_english": false,
+   "needs_english": true,
    "fit": true,
    "first_seen": "2026-09-11"
   },
@@ -4281,7 +4281,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": true,
-   "min_years": 0,
+   "min_years": 2,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-05"
@@ -4639,7 +4639,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": true,
-   "min_years": 0,
+   "min_years": 3,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-16"
@@ -4857,7 +4857,7 @@
    "hanoi": false,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 3,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-29"
