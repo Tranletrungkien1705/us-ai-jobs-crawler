@@ -295,8 +295,8 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": true,
-   "min_years": 7,
-   "needs_english": true,
+   "min_years": 0,
+   "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-04"
   },
@@ -1232,6 +1232,26 @@
    "fit": true
   },
   {
+   "title": "[Rikkeisoft HN/ĐN/HCM] SE N2+",
+   "company": "Rikkeisoft",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/rikkeisoft-hn-%C4%91n-hcm-se-n2%2B-at-rikkeisoft-4478189817",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-10-14"
+  },
+  {
    "title": "[Rikkeisoft HN] Senior .Net",
    "company": "Rikkeisoft",
    "location": "Hanoi Capital Region",
@@ -1785,7 +1805,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": true,
-   "min_years": 1,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-06"
@@ -3115,6 +3135,26 @@
   },
   {
    "title": "Full Stack Engineer",
+   "company": "WorldQuant",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/full-stack-engineer-at-worldquant-4378791890",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-11"
+  },
+  {
+   "title": "Full Stack Engineer",
    "company": "VINFAST",
    "location": "Hanoi Capital Region",
    "url": "https://vn.linkedin.com/jobs/view/full-stack-engineer-at-vinfast-4467512311",
@@ -3132,26 +3172,6 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-17"
-  },
-  {
-   "title": "Full Stack Engineer",
-   "company": "WorldQuant",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/full-stack-engineer-at-worldquant-4378791890",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 5,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-09-11"
   },
   {
    "title": "Full Stack Engineer",
@@ -4382,7 +4402,7 @@
    "junior_up": true,
    "relevant": false,
    "min_years": 0,
-   "needs_english": true,
+   "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
   },
@@ -4441,7 +4461,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": true,
-   "min_years": 2,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-05"
@@ -4943,26 +4963,6 @@
    "needs_english": true,
    "fit": true,
    "first_seen": "2026-09-28"
-  },
-  {
-   "title": "NodeJS Senior",
-   "company": "Kiaisoft株式会社",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/nodejs-senior-at-kiaisoft%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE-4461379916",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-09-11"
   }
  ]
 }
