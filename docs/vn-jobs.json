@@ -1,7 +1,7 @@
 {
  "count": 250,
  "fit": 250,
- "remote": 32,
+ "remote": 29,
  "jobs": [
   {
    "title": "[Hanoi] Associate QA cum Customer Support",
@@ -101,26 +101,6 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-17"
-  },
-  {
-   "title": "AI Resident (Engineering)",
-   "company": "Qualcomm",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/ai-resident-engineering-at-qualcomm-4477572884",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": true,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": true,
-   "fit": true,
-   "first_seen": "2026-10-15"
   },
   {
    "title": "Binance Accelerator Program - QA Tooling Developer (Quality & Efficiency)",
@@ -341,26 +321,6 @@
    "first_seen": "2026-10-12"
   },
   {
-   "title": "Quantitative Developer",
-   "company": "WorldQuant",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/quantitative-developer-at-worldquant-4454546637",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": true,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-10-20"
-  },
-  {
    "title": "Senior .NET API Engineer (Remote, 60M net)",
    "company": "itworks Asia",
    "location": "Hanoi Capital Region",
@@ -495,26 +455,6 @@
    "min_years": 5,
    "needs_english": false,
    "fit": true
-  },
-  {
-   "title": "Senior/Staff Software Engineer (On-Device AI Prototyping)",
-   "company": "Qualcomm",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/senior-staff-software-engineer-on-device-ai-prototyping-at-qualcomm-4470080163",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": true,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 4,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-10-20"
   },
   {
    "title": "Smart Cockpit Scrum Master",
@@ -1029,7 +969,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 2,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-15"
@@ -1309,7 +1249,7 @@
    "junior_up": true,
    "relevant": false,
    "min_years": 0,
-   "needs_english": true,
+   "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-09"
   },
@@ -1652,6 +1592,26 @@
    "first_seen": "2026-10-19"
   },
   {
+   "title": "AI Resident (Engineering)",
+   "company": "Qualcomm",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/ai-resident-engineering-at-qualcomm-4477572884",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-10-15"
+  },
+  {
    "title": "AI Solutions & Automation Engineer",
    "company": "Ateme",
    "location": "Hanoi, Hanoi, Vietnam",
@@ -1852,6 +1812,26 @@
    "first_seen": "2026-09-30"
   },
   {
+   "title": "Automotive Software Engineer – Intelligent Cockpit",
+   "company": "Vietsol - Pioneering Excellence in Mobility Engineering & Technology",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/automotive-software-engineer-%E2%80%93-intelligent-cockpit-at-vietsol-pioneering-excellence-in-mobility-engineering-technology-4480787254",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-10-21"
+  },
+  {
    "title": "AWS and AI Talent",
    "company": "CoderPush",
    "location": "Hanoi Capital Region",
@@ -1970,6 +1950,26 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
+  },
+  {
+   "title": "Back End Developer (AI Infrastructure)",
+   "company": "Alignerr",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/back-end-developer-ai-infrastructure-at-alignerr-4482006953",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-10-21"
   },
   {
    "title": "Back End Developer (AI Infrastructure)",
@@ -2741,7 +2741,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 4,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -3084,6 +3084,26 @@
    "first_seen": "2026-10-18"
   },
   {
+   "title": "CTO (Hanoi, Robotics) - Vietnamese only",
+   "company": "PERSOL APAC",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/cto-hanoi-robotics-vietnamese-only-at-persol-apac-4480751636",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": true,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-10-21"
+  },
+  {
    "title": "Cộng tác viên An toàn thông tin",
    "company": "Kinh nghiệm kinh doanh",
    "location": "Hanoi, Hanoi, Vietnam",
@@ -3118,7 +3138,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 3,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -3318,6 +3338,26 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-13"
+  },
+  {
+   "title": "Digital Service Consultant",
+   "company": "Ricoh Vietnam",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/digital-service-consultant-at-ricoh-vietnam-4480461625",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-10-21"
   },
   {
    "title": "Digitalize Technician (MXHY)",
@@ -3868,7 +3908,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 5,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -4928,45 +4968,6 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-16"
-  },
-  {
-   "title": "HN| Fullstack Developer (C#, .NET) - Junior/Middle",
-   "company": "MISA CAREERS",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/hn-fullstack-developer-c%23-net-junior-middle-at-misa-careers-4463215067",
-   "source": "linkedin",
-   "level": "junior",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": true,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true
-  },
-  {
-   "title": "HN| Fullstack Developer (C#, .NET) Up To 35M",
-   "company": "MISA JSC",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/hn-fullstack-developer-c%23-net-up-to-35m-at-misa-jsc-4467133866",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": true,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-09-17"
   }
  ]
 }
