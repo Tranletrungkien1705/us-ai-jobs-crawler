@@ -499,7 +499,7 @@
    "title": "Sr. Full-Stack Software Engineer - Remote",
    "company": "YO AI Labs",
    "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/sr-full-stack-software-engineer-remote-at-yo-ai-labs-4479961138",
+   "url": "https://vn.linkedin.com/jobs/view/sr-full-stack-software-engineer-remote-at-yo-ai-labs-4479905407",
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
@@ -519,7 +519,7 @@
    "title": "Sr. Full-Stack Software Engineer - Remote",
    "company": "YO AI Labs",
    "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/sr-full-stack-software-engineer-remote-at-yo-ai-labs-4479905407",
+   "url": "https://vn.linkedin.com/jobs/view/sr-full-stack-software-engineer-remote-at-yo-ai-labs-4479961138",
    "source": "linkedin",
    "level": "unspecified",
    "senior": false,
@@ -2622,7 +2622,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 2,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-19"
@@ -3105,6 +3105,26 @@
    "first_seen": "2026-09-11"
   },
   {
+   "title": "Chuyên viên/Chuyên viên cao cấp Phát triển ứng dụng BackEnd",
+   "company": "VPBank Securities - Chứng khoán VPBank (VPBankS)",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/chuy%C3%AAn-vi%C3%AAn-chuy%C3%AAn-vi%C3%AAn-cao-c%E1%BA%A5p-ph%C3%A1t-tri%E1%BB%83n-%E1%BB%A9ng-d%E1%BB%A5ng-backend-at-vpbank-securities-ch%E1%BB%A9ng-kho%C3%A1n-vpbank-vpbanks-4481659492",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-10-23"
+  },
+  {
    "title": "Client Engineer (Middle)",
    "company": "playSTUDIOS Vietnam",
    "location": "Hanoi Capital Region",
@@ -3555,7 +3575,7 @@
    "junior_up": true,
    "relevant": false,
    "min_years": 0,
-   "needs_english": true,
+   "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-15"
   },
@@ -4666,7 +4686,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 4,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-20"
@@ -4950,26 +4970,6 @@
    "needs_english": true,
    "fit": true,
    "first_seen": "2026-10-19"
-  },
-  {
-   "title": "Generative AI Engineer (Junior - Senior)",
-   "company": "NTT DATA, Inc.",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/generative-ai-engineer-junior-senior-at-ntt-data-inc-4409299756",
-   "source": "linkedin",
-   "level": "junior",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-09-30"
   }
  ]
 }
