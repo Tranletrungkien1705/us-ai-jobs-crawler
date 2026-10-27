@@ -1175,6 +1175,26 @@
    "first_seen": "2026-09-11"
   },
   {
+   "title": "[HN] FULLSTACK DEVELOPER",
+   "company": "CMC Technology & Solution (CMC TS)",
+   "location": "Quận Cầu Giấy, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/hn-fullstack-developer-at-cmc-technology-solution-cmc-ts-4484061498",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-10-27"
+  },
+  {
    "title": "[HN] Fullstack Developer_English Proficiency_Night Shift_Upto 60M gross + Night Shift Allowance",
    "company": "VMO",
    "location": "Quận Cầu Giấy, Hanoi, Vietnam",
@@ -4950,26 +4970,6 @@
    "needs_english": true,
    "fit": true,
    "first_seen": "2026-10-08"
-  },
-  {
-   "title": "Fullstack Developer (onsite)",
-   "company": "SOCOTEC",
-   "location": "Quận Cầu Giấy, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/fullstack-developer-onsite-at-socotec-4455609898",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-09-11"
   }
  ]
 }
