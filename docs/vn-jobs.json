@@ -610,7 +610,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 4,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-07"
@@ -929,7 +929,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": true,
-   "min_years": 5,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-01"
@@ -1029,7 +1029,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 2,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-15"
@@ -1053,6 +1053,26 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-02"
+  },
+  {
+   "title": "[Hanoi] Business Analyst (Technical Requirement Engineer)",
+   "company": "LG Electronics R&D Vietnam",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/hanoi-business-analyst-technical-requirement-engineer-at-lg-electronics-r-d-vietnam-4484931153",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-10-31"
   },
   {
    "title": "[Hanoi] IT Helpdesk (Fresh Graduates | Fresh Speed Up 2026)",
@@ -1429,7 +1449,7 @@
    "junior_up": true,
    "relevant": false,
    "min_years": 0,
-   "needs_english": true,
+   "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-19"
   },
@@ -1887,7 +1907,7 @@
    "junior_up": true,
    "relevant": false,
    "min_years": 0,
-   "needs_english": true,
+   "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-15"
   },
@@ -2729,26 +2749,6 @@
   },
   {
    "title": "Backend Engineer",
-   "company": "WorldQuant",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/backend-engineer-at-worldquant-4470293613",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 5,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-09-22"
-  },
-  {
-   "title": "Backend Engineer",
    "company": "Diksha Technology",
    "location": "Hanoi Capital Region",
    "url": "https://vn.linkedin.com/jobs/view/backend-engineer-at-diksha-technology-4482923755",
@@ -2766,6 +2766,26 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-26"
+  },
+  {
+   "title": "Backend Engineer",
+   "company": "WorldQuant",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/backend-engineer-at-worldquant-4470293613",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 5,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-09-22"
   },
   {
    "title": "Backend Engineer",
@@ -3854,8 +3874,8 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 3,
-   "needs_english": true,
+   "min_years": 0,
+   "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-21"
   },
@@ -4926,7 +4946,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 3,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-29"
@@ -4950,26 +4970,6 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-07"
-  },
-  {
-   "title": "Fullstack .Net Developer [English fluent - Offer upto 55M]",
-   "company": "VMO",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/fullstack-net-developer-english-fluent-offer-upto-55m-at-vmo-4471428926",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": true,
-   "min_years": 7,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-09-24"
   }
  ]
 }
