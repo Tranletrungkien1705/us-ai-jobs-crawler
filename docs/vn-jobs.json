@@ -1449,7 +1449,7 @@
    "junior_up": true,
    "relevant": false,
    "min_years": 0,
-   "needs_english": false,
+   "needs_english": true,
    "fit": true,
    "first_seen": "2026-10-19"
   },
@@ -1746,7 +1746,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 4,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-22"
@@ -3002,7 +3002,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 5,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-30"
@@ -3201,7 +3201,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 4,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -3658,7 +3658,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 3,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
@@ -4191,7 +4191,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 3,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-22"
@@ -4373,6 +4373,26 @@
    "needs_english": true,
    "fit": true,
    "first_seen": "2026-09-21"
+  },
+  {
+   "title": "Fresher IT System System Operator",
+   "company": "VTI",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/fresher-it-system-system-operator-at-vti-4485616356",
+   "source": "linkedin",
+   "level": "fresher",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": false,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-11-01"
   },
   {
    "title": "Front End Developer - Web (Vietnam)",
@@ -4950,26 +4970,6 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-29"
-  },
-  {
-   "title": "Full-Stack Software Engineer (Junior/Intermidiate)",
-   "company": "WELAST",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/full-stack-software-engineer-junior-intermidiate-at-welast-4474263010",
-   "source": "linkedin",
-   "level": "junior",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-10-07"
   }
  ]
 }
