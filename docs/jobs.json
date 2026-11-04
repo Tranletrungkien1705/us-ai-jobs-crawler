@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-03T14:58:36.704630+00:00",
- "count": 295,
+ "updated": "2026-11-04T15:19:08.917535+00:00",
+ "count": 298,
  "salaried": 21,
- "low_english": 223,
- "fit": 97,
+ "low_english": 226,
+ "fit": 98,
  "jobs": [
   {
    "job_id": "remotive:1185979",
@@ -18,7 +18,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
-   "crawled_at": "2026-11-03T14:58:36.556785+00:00"
+   "crawled_at": "2026-11-04T15:19:08.676774+00:00"
   },
   {
    "job_id": "remotive:1749306",
@@ -33,7 +33,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
-   "crawled_at": "2026-11-02T16:58:12.061543+00:00"
+   "crawled_at": "2026-11-04T15:19:08.676160+00:00"
   },
   {
    "job_id": "remoteok:1137428",
@@ -138,7 +138,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/cata-kor-graphic-designer",
-   "crawled_at": "2026-11-03T14:58:36.704630+00:00"
+   "crawled_at": "2026-11-04T15:19:08.917535+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/keeper-security-creative-localization-specialist",
@@ -153,7 +153,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/keeper-security-creative-localization-specialist",
-   "crawled_at": "2026-11-03T14:58:36.704383+00:00"
+   "crawled_at": "2026-11-04T15:19:08.917145+00:00"
   },
   {
    "job_id": "greenhouse:8265686",
@@ -168,7 +168,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8265686",
-   "crawled_at": "2026-11-03T14:58:36.665257+00:00"
+   "crawled_at": "2026-11-04T15:19:08.852608+00:00"
   },
   {
    "job_id": "greenhouse:8008481003",
@@ -183,7 +183,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/8008481003",
-   "crawled_at": "2026-11-03T14:58:36.635201+00:00"
+   "crawled_at": "2026-11-04T15:19:08.803281+00:00"
   },
   {
    "job_id": "greenhouse:8463702002",
@@ -198,7 +198,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8463702002?gh_jid=8463702002",
-   "crawled_at": "2026-11-03T14:58:36.628715+00:00"
+   "crawled_at": "2026-11-04T15:19:08.793070+00:00"
   },
   {
    "job_id": "greenhouse:8139781",
@@ -213,7 +213,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781",
-   "crawled_at": "2026-11-03T14:58:36.602713+00:00"
+   "crawled_at": "2026-11-04T15:19:08.751161+00:00"
   },
   {
    "job_id": "greenhouse:8204881",
@@ -228,7 +228,52 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/khanacademy/jobs/8204881",
-   "crawled_at": "2026-11-03T14:58:36.599203+00:00"
+   "crawled_at": "2026-11-04T15:19:08.745562+00:00"
+  },
+  {
+   "job_id": "jobicy:150052",
+   "title": "1775 RPG/AS400 & JD Edwards EnterpriseOne Developer",
+   "company": "Softgic",
+   "region": "Anywhere",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "seo",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/150052-1775-rpg-as400-jd-edwards-enterpriseone-developer",
+   "crawled_at": "2026-11-04T15:19:08.714174+00:00"
+  },
+  {
+   "job_id": "arbeitnow:consultant-e-seo-h-f-toulouse-288318",
+   "title": "Consultant (e) SEO H/F-Toulouse",
+   "company": "PIXALIONE",
+   "region": "Toulouse, Occitanie, France",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "seo",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.fr/jobs/companies/pixalione/consultant-e-seo-h-f-toulouse-288318",
+   "crawled_at": "2026-11-04T15:19:08.681509+00:00"
+  },
+  {
+   "job_id": "remoteok:1136701",
+   "title": "QA Tester Entry Level",
+   "company": "Ace IT Careers",
+   "region": "Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "qa tester",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "remoteok",
+   "url": "https://remoteOK.com/remote-jobs/remote-qa-tester-entry-level-ace-it-careers-1136701",
+   "crawled_at": "2026-11-04T15:19:08.675538+00:00"
   },
   {
    "job_id": "arbeitnow:alternante-data-analyst-h-f-fontenay-sous-bois-192374",
@@ -259,21 +304,6 @@
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/icuc-social-social-media-content-specialist-bilingual-french-english-remote-in-canada-us",
    "crawled_at": "2026-10-29T14:05:47.842997+00:00"
-  },
-  {
-   "job_id": "remoteok:1136701",
-   "title": "QA Tester Entry Level",
-   "company": "Ace IT Careers",
-   "region": "Remote",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "qa tester",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "remoteok",
-   "url": "https://remoteOK.com/remote-jobs/remote-qa-tester-entry-level-ace-it-careers-1136701",
-   "crawled_at": "2026-10-29T14:05:47.654628+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/planetscale-video-editor",
@@ -859,21 +889,6 @@
    "source": "jobicy",
    "url": "https://jobicy.com/jobs/154499-3d-lidar-data-annotation-analyst",
    "crawled_at": "2026-10-04T13:07:43.296032+00:00"
-  },
-  {
-   "job_id": "jobicy:150052",
-   "title": "1775 RPG/AS400 & JD Edwards EnterpriseOne Developer",
-   "company": "Softgic",
-   "region": "Anywhere",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "seo",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "jobicy",
-   "url": "https://jobicy.com/jobs/150052-1775-rpg-as400-jd-edwards-enterpriseone-developer",
-   "crawled_at": "2026-10-03T12:25:02.119737+00:00"
   },
   {
    "job_id": "greenhouse:8770312002",
@@ -1536,7 +1551,7 @@
    "senior": false,
    "source": "remoteok",
    "url": "https://remoteOK.com/remote-jobs/remote-graphic-designer-video-editor-bluetuskr-1137507",
-   "crawled_at": "2026-11-03T14:58:36.555661+00:00"
+   "crawled_at": "2026-11-04T15:19:08.674334+00:00"
   },
   {
    "job_id": "arbeitnow:data-operations-labeling-specialist-all-genders-133669",
@@ -2136,7 +2151,7 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/descript-lead-editor-product-manager",
-   "crawled_at": "2026-11-03T14:58:36.702450+00:00"
+   "crawled_at": "2026-11-04T15:19:08.914123+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/socure-technical-content-marketing-manager",
@@ -2151,7 +2166,7 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/socure-technical-content-marketing-manager",
-   "crawled_at": "2026-11-03T14:58:36.701871+00:00"
+   "crawled_at": "2026-11-04T15:19:08.913228+00:00"
   },
   {
    "job_id": "ashby:13fcee94-512f-4229-b7ab-f91d3fdd24e3",
@@ -2166,7 +2181,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/ElevenLabs/13fcee94-512f-4229-b7ab-f91d3fdd24e3",
-   "crawled_at": "2026-11-03T14:58:36.696099+00:00"
+   "crawled_at": "2026-11-04T15:19:08.904175+00:00"
   },
   {
    "job_id": "greenhouse:8054645",
@@ -2181,7 +2196,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
-   "crawled_at": "2026-11-03T14:58:36.667408+00:00"
+   "crawled_at": "2026-11-04T15:19:08.855994+00:00"
   },
   {
    "job_id": "greenhouse:8054644",
@@ -2196,7 +2211,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
-   "crawled_at": "2026-11-03T14:58:36.667391+00:00"
+   "crawled_at": "2026-11-04T15:19:08.855967+00:00"
   },
   {
    "job_id": "greenhouse:8044163",
@@ -2211,7 +2226,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
-   "crawled_at": "2026-11-03T14:58:36.667374+00:00"
+   "crawled_at": "2026-11-04T15:19:08.855939+00:00"
   },
   {
    "job_id": "greenhouse:8128634",
@@ -2226,7 +2241,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8128634",
-   "crawled_at": "2026-11-03T14:58:36.659436+00:00"
+   "crawled_at": "2026-11-04T15:19:08.843023+00:00"
   },
   {
    "job_id": "greenhouse:8203216",
@@ -2241,7 +2256,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8203216",
-   "crawled_at": "2026-11-03T14:58:36.658262+00:00"
+   "crawled_at": "2026-11-04T15:19:08.841088+00:00"
   },
   {
    "job_id": "greenhouse:7612192",
@@ -2256,7 +2271,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7612192",
-   "crawled_at": "2026-11-03T14:58:36.657786+00:00"
+   "crawled_at": "2026-11-04T15:19:08.840308+00:00"
   },
   {
    "job_id": "greenhouse:7540441",
@@ -2271,7 +2286,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=7540441",
-   "crawled_at": "2026-11-03T14:58:36.657749+00:00"
+   "crawled_at": "2026-11-04T15:19:08.840275+00:00"
   },
   {
    "job_id": "greenhouse:8186927",
@@ -2286,7 +2301,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8186927&gh_jid=8186927",
-   "crawled_at": "2026-11-03T14:58:36.644711+00:00"
+   "crawled_at": "2026-11-04T15:19:08.818576+00:00"
   },
   {
    "job_id": "greenhouse:8879740002",
@@ -2301,7 +2316,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8879740002?gh_jid=8879740002",
-   "crawled_at": "2026-11-03T14:58:36.638302+00:00"
+   "crawled_at": "2026-11-04T15:19:08.808175+00:00"
   },
   {
    "job_id": "greenhouse:8918533002",
@@ -2316,7 +2331,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8918533002?gh_jid=8918533002",
-   "crawled_at": "2026-11-03T14:58:36.638232+00:00"
+   "crawled_at": "2026-11-04T15:19:08.808100+00:00"
   },
   {
    "job_id": "greenhouse:8239171",
@@ -2331,7 +2346,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8239171",
-   "crawled_at": "2026-11-03T14:58:36.605373+00:00"
+   "crawled_at": "2026-11-04T15:19:08.755449+00:00"
   },
   {
    "job_id": "greenhouse:8247246",
@@ -2346,7 +2361,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8247246",
-   "crawled_at": "2026-11-03T14:58:36.605287+00:00"
+   "crawled_at": "2026-11-04T15:19:08.755307+00:00"
   },
   {
    "job_id": "greenhouse:7718015",
@@ -2361,7 +2376,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7718015",
-   "crawled_at": "2026-11-03T14:58:36.604387+00:00"
+   "crawled_at": "2026-11-04T15:19:08.753826+00:00"
   },
   {
    "job_id": "greenhouse:8152750",
@@ -2376,7 +2391,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8152750",
-   "crawled_at": "2026-11-03T14:58:36.604054+00:00"
+   "crawled_at": "2026-11-04T15:19:08.753274+00:00"
   },
   {
    "job_id": "greenhouse:8319764",
@@ -2391,7 +2406,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8319764",
-   "crawled_at": "2026-11-03T14:58:36.603104+00:00"
+   "crawled_at": "2026-11-04T15:19:08.751787+00:00"
   },
   {
    "job_id": "greenhouse:6207950004",
@@ -2406,7 +2421,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/figma/jobs/6207950004?gh_jid=6207950004",
-   "crawled_at": "2026-11-03T14:58:36.599662+00:00"
+   "crawled_at": "2026-11-04T15:19:08.746284+00:00"
   },
   {
    "job_id": "greenhouse:8324482",
@@ -2421,7 +2436,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324482",
-   "crawled_at": "2026-11-03T14:58:36.584645+00:00"
+   "crawled_at": "2026-11-04T15:19:08.721940+00:00"
   },
   {
    "job_id": "greenhouse:8239656",
@@ -2436,7 +2451,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8239656",
-   "crawled_at": "2026-11-03T14:58:36.584626+00:00"
+   "crawled_at": "2026-11-04T15:19:08.721910+00:00"
   },
   {
    "job_id": "greenhouse:8324476",
@@ -2451,7 +2466,37 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324476",
-   "crawled_at": "2026-11-03T14:58:36.584602+00:00"
+   "crawled_at": "2026-11-04T15:19:08.721864+00:00"
+  },
+  {
+   "job_id": "arbeitnow:staff-data-analyst-marketing-188996",
+   "title": "Staff Data Analyst, Marketing",
+   "company": "Quince",
+   "region": "(unspecified)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/quince/staff-data-analyst-marketing-188996",
+   "crawled_at": "2026-11-04T15:19:08.686979+00:00"
+  },
+  {
+   "job_id": "arbeitnow:ai-growth-marketing-manager-ai-automation-seo-geo-b2b-digital-growth-immenhausen-15257",
+   "title": "AI & GROWTH MARKETING MANAGER (M/F/D) - AI Automation · SEO & GEO · B2B Digital Growth",
+   "company": "sera Gruppe",
+   "region": "Immenhausen",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "seo",
+   "ai_skill_kw": "ai",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/sera-gruppe/ai-growth-marketing-manager-ai-automation-seo-geo-b2b-digital-growth-immenhausen-15257",
+   "crawled_at": "2026-11-04T15:19:08.678812+00:00"
   },
   {
    "job_id": "arbeitnow:senior-digital-content-consultant-adobe-412945",
@@ -3936,7 +3981,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/Vanta/0fab2072-8863-42ec-b00d-de367b90d937",
-   "crawled_at": "2026-11-03T14:58:36.673231+00:00"
+   "crawled_at": "2026-11-04T15:19:08.865373+00:00"
   },
   {
    "job_id": "jobicy:158189",
