@@ -1295,6 +1295,26 @@
    "first_seen": "2026-10-27"
   },
   {
+   "title": "[HN] Fullstack Developer",
+   "company": "",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/hn-fullstack-developer-4486562379",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 3,
+   "needs_english": true,
+   "fit": true,
+   "first_seen": "2026-11-05"
+  },
+  {
    "title": "[HN] Fullstack Developer_English Proficiency_Night Shift_Upto 60M gross + Night Shift Allowance",
    "company": "VMO",
    "location": "Quận Cầu Giấy, Hanoi, Vietnam",
@@ -3022,7 +3042,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 3,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-26"
@@ -4952,26 +4972,6 @@
    "min_years": 5,
    "needs_english": false,
    "fit": true
-  },
-  {
-   "title": "Full Stack Engineer",
-   "company": "VINFAST",
-   "location": "Hanoi Capital Region",
-   "url": "https://vn.linkedin.com/jobs/view/full-stack-engineer-at-vinfast-4467512311",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 5,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-09-17"
   }
  ]
 }
