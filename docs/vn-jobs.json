@@ -3042,7 +3042,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 5,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-22"
@@ -4058,7 +4058,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
+   "min_years": 12,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-21"
