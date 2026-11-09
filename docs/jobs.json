@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-08T14:13:13.355011+00:00",
- "count": 314,
+ "updated": "2026-11-09T17:22:16.922435+00:00",
+ "count": 318,
  "salaried": 23,
- "low_english": 237,
+ "low_english": 239,
  "fit": 104,
  "jobs": [
   {
@@ -18,7 +18,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
-   "crawled_at": "2026-11-08T14:13:13.119268+00:00"
+   "crawled_at": "2026-11-09T17:22:16.678810+00:00"
   },
   {
    "job_id": "remotive:2091166",
@@ -33,7 +33,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091166",
-   "crawled_at": "2026-11-08T14:13:13.118899+00:00"
+   "crawled_at": "2026-11-09T17:22:16.678383+00:00"
   },
   {
    "job_id": "remotive:1185979",
@@ -48,7 +48,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
-   "crawled_at": "2026-11-08T14:13:13.118251+00:00"
+   "crawled_at": "2026-11-09T17:22:16.677644+00:00"
   },
   {
    "job_id": "remoteok:1137686",
@@ -63,7 +63,7 @@
    "senior": false,
    "source": "remoteok",
    "url": "https://remoteOK.com/remote-jobs/remote-ai-content-reviewer-video-annotation-imerit-1137686",
-   "crawled_at": "2026-11-08T14:13:13.114773+00:00"
+   "crawled_at": "2026-11-09T17:22:16.674597+00:00"
   },
   {
    "job_id": "remoteok:1137428",
@@ -168,7 +168,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/cata-kor-graphic-designer",
-   "crawled_at": "2026-11-08T14:13:13.355011+00:00"
+   "crawled_at": "2026-11-09T17:22:16.922435+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/keeper-security-creative-localization-specialist",
@@ -183,7 +183,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/keeper-security-creative-localization-specialist",
-   "crawled_at": "2026-11-08T14:13:13.354622+00:00"
+   "crawled_at": "2026-11-09T17:22:16.922016+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/pritchard-industries-proposal-writer",
@@ -198,7 +198,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/pritchard-industries-proposal-writer",
-   "crawled_at": "2026-11-08T14:13:13.350566+00:00"
+   "crawled_at": "2026-11-09T17:22:16.919157+00:00"
   },
   {
    "job_id": "greenhouse:8265686",
@@ -213,7 +213,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8265686",
-   "crawled_at": "2026-11-08T14:13:13.291412+00:00"
+   "crawled_at": "2026-11-09T17:22:16.856102+00:00"
   },
   {
    "job_id": "greenhouse:8354566",
@@ -228,7 +228,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8354566",
-   "crawled_at": "2026-11-08T14:13:13.278762+00:00"
+   "crawled_at": "2026-11-09T17:22:16.843009+00:00"
   },
   {
    "job_id": "greenhouse:8008481003",
@@ -243,7 +243,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/8008481003",
-   "crawled_at": "2026-11-08T14:13:13.244476+00:00"
+   "crawled_at": "2026-11-09T17:22:16.807776+00:00"
   },
   {
    "job_id": "greenhouse:8463702002",
@@ -258,7 +258,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://www.brex.com/careers/8463702002?gh_jid=8463702002",
-   "crawled_at": "2026-11-08T14:13:13.234858+00:00"
+   "crawled_at": "2026-11-09T17:22:16.797687+00:00"
   },
   {
    "job_id": "greenhouse:8334884",
@@ -273,7 +273,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8334884",
-   "crawled_at": "2026-11-08T14:13:13.195742+00:00"
+   "crawled_at": "2026-11-09T17:22:16.757585+00:00"
   },
   {
    "job_id": "greenhouse:8139781",
@@ -288,7 +288,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781",
-   "crawled_at": "2026-11-08T14:13:13.194552+00:00"
+   "crawled_at": "2026-11-09T17:22:16.756349+00:00"
   },
   {
    "job_id": "remoteok:1136701",
@@ -303,7 +303,7 @@
    "senior": false,
    "source": "remoteok",
    "url": "https://remoteOK.com/remote-jobs/remote-qa-tester-entry-level-ace-it-careers-1136701",
-   "crawled_at": "2026-11-08T14:13:13.117260+00:00"
+   "crawled_at": "2026-11-09T17:22:16.677055+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/exl-quality-analyst-clinical-validation-auditor-cva-healthcare",
@@ -2256,37 +2256,22 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/descript-lead-editor-product-manager",
-   "crawled_at": "2026-11-08T14:13:13.352295+00:00"
+   "crawled_at": "2026-11-09T17:22:16.919903+00:00"
   },
   {
-   "job_id": "greenhouse:8044163",
-   "title": "Social Media & Content Manager",
-   "company": "Flexport",
-   "region": "San Francisco, California, United States",
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/onthegosystems-content-marketing-lead",
+   "title": "Content Marketing Lead",
+   "company": "OnTheGoSystems",
+   "region": "Anywhere in the World",
    "salary": null,
    "has_salary": false,
    "repl_kw": "content",
    "ai_skill_kw": "",
    "needs_speaking": false,
    "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
-   "crawled_at": "2026-11-08T14:13:13.294640+00:00"
-  },
-  {
-   "job_id": "greenhouse:8054644",
-   "title": "Social Media & Content Manager",
-   "company": "Flexport",
-   "region": "New York City, New York, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
-   "crawled_at": "2026-11-08T14:13:13.294615+00:00"
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/onthegosystems-content-marketing-lead",
+   "crawled_at": "2026-11-09T17:22:16.917209+00:00"
   },
   {
    "job_id": "greenhouse:8054645",
@@ -2301,7 +2286,37 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
-   "crawled_at": "2026-11-08T14:13:13.294588+00:00"
+   "crawled_at": "2026-11-09T17:22:16.859368+00:00"
+  },
+  {
+   "job_id": "greenhouse:8054644",
+   "title": "Social Media & Content Manager",
+   "company": "Flexport",
+   "region": "New York City, New York, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
+   "crawled_at": "2026-11-09T17:22:16.859342+00:00"
+  },
+  {
+   "job_id": "greenhouse:8044163",
+   "title": "Social Media & Content Manager",
+   "company": "Flexport",
+   "region": "San Francisco, California, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
+   "crawled_at": "2026-11-09T17:22:16.859313+00:00"
   },
   {
    "job_id": "greenhouse:8128634",
@@ -2316,7 +2331,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8128634",
-   "crawled_at": "2026-11-08T14:13:13.282235+00:00"
+   "crawled_at": "2026-11-09T17:22:16.846602+00:00"
   },
   {
    "job_id": "greenhouse:8203216",
@@ -2331,7 +2346,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8203216",
-   "crawled_at": "2026-11-08T14:13:13.280312+00:00"
+   "crawled_at": "2026-11-09T17:22:16.844610+00:00"
   },
   {
    "job_id": "greenhouse:8349732",
@@ -2346,7 +2361,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8349732&gh_jid=8349732",
-   "crawled_at": "2026-11-08T14:13:13.258869+00:00"
+   "crawled_at": "2026-11-09T17:22:16.822666+00:00"
   },
   {
    "job_id": "greenhouse:8186927",
@@ -2361,7 +2376,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8186927&gh_jid=8186927",
-   "crawled_at": "2026-11-08T14:13:13.258715+00:00"
+   "crawled_at": "2026-11-09T17:22:16.822522+00:00"
   },
   {
    "job_id": "greenhouse:8879740002",
@@ -2376,7 +2391,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8879740002?gh_jid=8879740002",
-   "crawled_at": "2026-11-08T14:13:13.248825+00:00"
+   "crawled_at": "2026-11-09T17:22:16.812190+00:00"
   },
   {
    "job_id": "greenhouse:8918533002",
@@ -2391,7 +2406,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8918533002?gh_jid=8918533002",
-   "crawled_at": "2026-11-08T14:13:13.248773+00:00"
+   "crawled_at": "2026-11-09T17:22:16.812118+00:00"
   },
   {
    "job_id": "greenhouse:8239171",
@@ -2406,7 +2421,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8239171",
-   "crawled_at": "2026-11-08T14:13:13.198640+00:00"
+   "crawled_at": "2026-11-09T17:22:16.760452+00:00"
   },
   {
    "job_id": "greenhouse:8247246",
@@ -2421,7 +2436,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8247246",
-   "crawled_at": "2026-11-08T14:13:13.198498+00:00"
+   "crawled_at": "2026-11-09T17:22:16.760313+00:00"
   },
   {
    "job_id": "greenhouse:7718015",
@@ -2436,7 +2451,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7718015",
-   "crawled_at": "2026-11-08T14:13:13.197019+00:00"
+   "crawled_at": "2026-11-09T17:22:16.758834+00:00"
   },
   {
    "job_id": "greenhouse:8152750",
@@ -2451,7 +2466,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8152750",
-   "crawled_at": "2026-11-08T14:13:13.196533+00:00"
+   "crawled_at": "2026-11-09T17:22:16.758349+00:00"
   },
   {
    "job_id": "greenhouse:8319764",
@@ -2466,7 +2481,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8319764",
-   "crawled_at": "2026-11-08T14:13:13.195133+00:00"
+   "crawled_at": "2026-11-09T17:22:16.756959+00:00"
   },
   {
    "job_id": "greenhouse:6207950004",
@@ -2481,7 +2496,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/figma/jobs/6207950004?gh_jid=6207950004",
-   "crawled_at": "2026-11-08T14:13:13.189869+00:00"
+   "crawled_at": "2026-11-09T17:22:16.751518+00:00"
   },
   {
    "job_id": "greenhouse:8324482",
@@ -2496,7 +2511,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324482",
-   "crawled_at": "2026-11-08T14:13:13.166204+00:00"
+   "crawled_at": "2026-11-09T17:22:16.727194+00:00"
   },
   {
    "job_id": "greenhouse:8239656",
@@ -2511,7 +2526,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8239656",
-   "crawled_at": "2026-11-08T14:13:13.166175+00:00"
+   "crawled_at": "2026-11-09T17:22:16.727163+00:00"
   },
   {
    "job_id": "greenhouse:8324476",
@@ -2526,7 +2541,22 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324476",
-   "crawled_at": "2026-11-08T14:13:13.166141+00:00"
+   "crawled_at": "2026-11-09T17:22:16.727128+00:00"
+  },
+  {
+   "job_id": "jobicy:159893",
+   "title": "Associate Director, Content Business Analysis",
+   "company": "AlphaSense",
+   "region": "USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/159893-associate-director-content-business-analysis",
+   "crawled_at": "2026-11-09T17:22:16.719871+00:00"
   },
   {
    "job_id": "jobicy:152609",
@@ -4149,19 +4179,19 @@
    "crawled_at": "2026-10-15T12:35:19.079407+00:00"
   },
   {
-   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/ace-stainless-supply-social-media-seo-manager-2",
-   "title": "SOCIAL MEDIA & SEO MANAGER",
-   "company": "Ace Stainless Supply",
-   "region": "Anywhere in the World",
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/advantage-hq-senior-video-editor",
+   "title": "Senior Video Editor",
+   "company": "Advantage HQ",
+   "region": "Latin America Only",
    "salary": null,
    "has_salary": false,
-   "repl_kw": "seo",
+   "repl_kw": "editor",
    "ai_skill_kw": "",
    "needs_speaking": true,
    "senior": true,
    "source": "weworkremotely",
-   "url": "https://weworkremotely.com/remote-jobs/ace-stainless-supply-social-media-seo-manager-2",
-   "crawled_at": "2026-11-08T14:13:13.350941+00:00"
+   "url": "https://weworkremotely.com/remote-jobs/advantage-hq-senior-video-editor",
+   "crawled_at": "2026-11-09T17:22:16.917740+00:00"
   },
   {
    "job_id": "ashby:0fab2072-8863-42ec-b00d-de367b90d937",
@@ -4176,7 +4206,37 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/vanta/0fab2072-8863-42ec-b00d-de367b90d937",
-   "crawled_at": "2026-11-08T14:13:13.303876+00:00"
+   "crawled_at": "2026-11-09T17:22:16.868784+00:00"
+  },
+  {
+   "job_id": "jobicy:160026",
+   "title": "Lead Data Analyst",
+   "company": "Liftoff",
+   "region": "USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/160026-lead-data-analyst",
+   "crawled_at": "2026-11-09T17:22:16.718459+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/ace-stainless-supply-social-media-seo-manager-2",
+   "title": "SOCIAL MEDIA & SEO MANAGER",
+   "company": "Ace Stainless Supply",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "seo",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/ace-stainless-supply-social-media-seo-manager-2",
+   "crawled_at": "2026-11-08T14:13:13.350941+00:00"
   },
   {
    "job_id": "ashby:0fab2072-8863-42ec-b00d-de367b90d937",

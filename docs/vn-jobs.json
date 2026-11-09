@@ -969,7 +969,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": true,
-   "min_years": 0,
+   "min_years": 5,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-01"
@@ -1289,8 +1289,8 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
+   "min_years": 3,
+   "needs_english": true,
    "fit": true,
    "first_seen": "2026-11-05"
   },
@@ -1569,7 +1569,7 @@
    "junior_up": true,
    "relevant": false,
    "min_years": 0,
-   "needs_english": true,
+   "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-19"
   },
@@ -2446,7 +2446,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 5,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-18"
@@ -2550,6 +2550,26 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-11"
+  },
+  {
+   "title": "Back End Developer (AI Infrastructure)",
+   "company": "Alignerr",
+   "location": "Hanoi, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/back-end-developer-ai-infrastructure-at-alignerr-4488818615",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-11-09"
   },
   {
    "title": "Back End Developer (AI Infrastructure)",
@@ -2749,6 +2769,26 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-09-21"
+  },
+  {
+   "title": "Backend Cloud Developer",
+   "company": "Panasonic R&D Center Vietnam",
+   "location": "Hanoi Capital Region",
+   "url": "https://vn.linkedin.com/jobs/view/backend-cloud-developer-at-panasonic-r-d-center-vietnam-4487687329",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 0,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-11-09"
   },
   {
    "title": "Backend Dev",
@@ -4255,7 +4295,7 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 8,
+   "min_years": 0,
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-11-06"
@@ -4414,8 +4454,8 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": false,
-   "min_years": 3,
-   "needs_english": true,
+   "min_years": 0,
+   "needs_english": false,
    "fit": true,
    "first_seen": "2026-10-21"
   },
@@ -4933,46 +4973,6 @@
    "needs_english": false,
    "fit": true,
    "first_seen": "2026-11-01"
-  },
-  {
-   "title": "Front End Developer - Web (Vietnam)",
-   "company": "Thakral One",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/front-end-developer-web-vietnam-at-thakral-one-4469095625",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 5,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-10-18"
-  },
-  {
-   "title": "Frontier AI Deployment Engineer (Intern/ Junior)",
-   "company": "Datapot",
-   "location": "Hanoi, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/frontier-ai-deployment-engineer-intern-junior-at-datapot-4467851230",
-   "source": "linkedin",
-   "level": "fresher",
-   "senior": false,
-   "remote": false,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": false,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-09-18"
   }
  ]
 }
