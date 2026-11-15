@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-14T14:03:05.363774+00:00",
- "count": 337,
+ "updated": "2026-11-15T14:39:21.892158+00:00",
+ "count": 342,
  "salaried": 23,
- "low_english": 249,
- "fit": 108,
+ "low_english": 252,
+ "fit": 109,
  "jobs": [
   {
    "job_id": "remotive:1749306",
@@ -18,7 +18,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
-   "crawled_at": "2026-11-14T14:03:05.207671+00:00"
+   "crawled_at": "2026-11-15T14:39:21.716058+00:00"
   },
   {
    "job_id": "remotive:2091166",
@@ -33,7 +33,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091166",
-   "crawled_at": "2026-11-14T14:03:05.207438+00:00"
+   "crawled_at": "2026-11-15T14:39:21.715786+00:00"
   },
   {
    "job_id": "remotive:1185979",
@@ -48,7 +48,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
-   "crawled_at": "2026-11-14T14:03:05.207024+00:00"
+   "crawled_at": "2026-11-15T14:39:21.715281+00:00"
   },
   {
    "job_id": "remoteok:1137686",
@@ -63,7 +63,7 @@
    "senior": false,
    "source": "remoteok",
    "url": "https://remoteOK.com/remote-jobs/remote-ai-content-reviewer-video-annotation-imerit-1137686",
-   "crawled_at": "2026-11-14T14:03:05.205384+00:00"
+   "crawled_at": "2026-11-15T14:39:21.713368+00:00"
   },
   {
    "job_id": "remoteok:1137428",
@@ -168,7 +168,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/cata-kor-graphic-designer",
-   "crawled_at": "2026-11-14T14:03:05.363774+00:00"
+   "crawled_at": "2026-11-15T14:39:21.892158+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/keeper-security-creative-localization-specialist",
@@ -183,7 +183,127 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/keeper-security-creative-localization-specialist",
-   "crawled_at": "2026-11-14T14:03:05.363535+00:00"
+   "crawled_at": "2026-11-15T14:39:21.891892+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/dln-consulting-group-remote-data-entry-specialist-typist",
+   "title": "Remote Data Entry Specialist (Typist)",
+   "company": "DLN Consulting Group",
+   "region": "USA Only",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data entry",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/dln-consulting-group-remote-data-entry-specialist-typist",
+   "crawled_at": "2026-11-15T14:39:21.888547+00:00"
+  },
+  {
+   "job_id": "greenhouse:8265686",
+   "title": "Writer, Content Marketing",
+   "company": "Stripe",
+   "region": "US Hybrid",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content,writer",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://stripe.com/jobs/search?gh_jid=8265686",
+   "crawled_at": "2026-11-15T14:39:21.844791+00:00"
+  },
+  {
+   "job_id": "greenhouse:5601881",
+   "title": "Data Analyst",
+   "company": "Stripe",
+   "region": "US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://stripe.com/jobs/search?gh_jid=5601881",
+   "crawled_at": "2026-11-15T14:39:21.836271+00:00"
+  },
+  {
+   "job_id": "greenhouse:8354566",
+   "title": "AMER Data Analyst - Sales Strategy and Operations",
+   "company": "Stripe",
+   "region": "Chicago, US Remote, SF, NYC, Seattle",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://stripe.com/jobs/search?gh_jid=8354566",
+   "crawled_at": "2026-11-15T14:39:21.835458+00:00"
+  },
+  {
+   "job_id": "greenhouse:8008481003",
+   "title": "Content Designer II",
+   "company": "Affirm",
+   "region": "Remote UK",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/8008481003",
+   "crawled_at": "2026-11-15T14:39:21.811552+00:00"
+  },
+  {
+   "job_id": "greenhouse:8304832",
+   "title": "Social Content Producer",
+   "company": "Instacart",
+   "region": "United States - Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://instacart.careers/job/?gh_jid=8304832",
+   "crawled_at": "2026-11-15T14:39:21.811231+00:00"
+  },
+  {
+   "job_id": "greenhouse:8334884",
+   "title": "Content Enablement Intern 2027 (USA)",
+   "company": "Pinterest",
+   "region": "San Francisco, CA, US; Remote, US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8334884",
+   "crawled_at": "2026-11-15T14:39:21.776441+00:00"
+  },
+  {
+   "job_id": "greenhouse:8139781",
+   "title": "Software Engineer, Content Platform",
+   "company": "Reddit",
+   "region": "Remote - United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781",
+   "crawled_at": "2026-11-15T14:39:21.775657+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/welocalize-brazilian-portuguese-audio-transcription-adjudicator",
@@ -214,111 +334,6 @@
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/welocalize-brazilian-portuguese-audio-transcription-rater",
    "crawled_at": "2026-11-14T14:03:05.361187+00:00"
-  },
-  {
-   "job_id": "greenhouse:8265686",
-   "title": "Writer, Content Marketing",
-   "company": "Stripe",
-   "region": "US Hybrid",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content,writer",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://stripe.com/jobs/search?gh_jid=8265686",
-   "crawled_at": "2026-11-14T14:03:05.322249+00:00"
-  },
-  {
-   "job_id": "greenhouse:5601881",
-   "title": "Data Analyst",
-   "company": "Stripe",
-   "region": "US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "data analyst",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://stripe.com/jobs/search?gh_jid=5601881",
-   "crawled_at": "2026-11-14T14:03:05.314566+00:00"
-  },
-  {
-   "job_id": "greenhouse:8354566",
-   "title": "AMER Data Analyst - Sales Strategy and Operations",
-   "company": "Stripe",
-   "region": "Chicago, US Remote, SF, NYC, Seattle",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "data analyst",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://stripe.com/jobs/search?gh_jid=8354566",
-   "crawled_at": "2026-11-14T14:03:05.313829+00:00"
-  },
-  {
-   "job_id": "greenhouse:8008481003",
-   "title": "Content Designer II",
-   "company": "Affirm",
-   "region": "Remote UK",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/8008481003",
-   "crawled_at": "2026-11-14T14:03:05.292590+00:00"
-  },
-  {
-   "job_id": "greenhouse:8304832",
-   "title": "Social Content Producer",
-   "company": "Instacart",
-   "region": "United States - Remote",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://instacart.careers/job/?gh_jid=8304832",
-   "crawled_at": "2026-11-14T14:03:05.292317+00:00"
-  },
-  {
-   "job_id": "greenhouse:8334884",
-   "title": "Content Enablement Intern 2027 (USA)",
-   "company": "Pinterest",
-   "region": "San Francisco, CA, US; Remote, US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8334884",
-   "crawled_at": "2026-11-14T14:03:05.261275+00:00"
-  },
-  {
-   "job_id": "greenhouse:8139781",
-   "title": "Software Engineer, Content Platform",
-   "company": "Reddit",
-   "region": "Remote - United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": false,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781",
-   "crawled_at": "2026-11-14T14:03:05.260571+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/kinelo-marketing-content-intern-part-time",
@@ -1689,21 +1704,6 @@
    "crawled_at": "2026-09-12T11:34:24.129192+00:00"
   },
   {
-   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/crazy-maple-studio-ai-assisted-story-writer-1099-contract",
-   "title": "AI-Assisted Story Writer (1099 Contract)",
-   "company": "Crazy Maple Studio",
-   "region": "USA Only",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "writer",
-   "ai_skill_kw": "ai",
-   "needs_speaking": true,
-   "senior": false,
-   "source": "weworkremotely",
-   "url": "https://weworkremotely.com/remote-jobs/crazy-maple-studio-ai-assisted-story-writer-1099-contract",
-   "crawled_at": "2026-11-14T14:03:05.360951+00:00"
-  },
-  {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/pavago-seo-digital-marketing-specialist",
    "title": "SEO & Digital Marketing Specialist",
    "company": "Pavago",
@@ -1716,7 +1716,22 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/pavago-seo-digital-marketing-specialist",
-   "crawled_at": "2026-11-14T14:03:05.360170+00:00"
+   "crawled_at": "2026-11-15T14:39:21.889360+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/dln-consulting-group-data-analyst-part-time",
+   "title": "Data Analyst-Part Time",
+   "company": "DLN Consulting Group",
+   "region": "USA Only",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": false,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/dln-consulting-group-data-analyst-part-time",
+   "crawled_at": "2026-11-15T14:39:21.888256+00:00"
   },
   {
    "job_id": "arbeitnow:remote-seo-specialist-zurich-448819",
@@ -1731,7 +1746,7 @@
    "senior": false,
    "source": "arbeitnow",
    "url": "https://www.arbeitnow.ch/jobs/companies/transperfect/remote-seo-specialist-zurich-448819",
-   "crawled_at": "2026-11-14T14:03:05.226052+00:00"
+   "crawled_at": "2026-11-15T14:39:21.739218+00:00"
   },
   {
    "job_id": "arbeitnow:remote-seo-specialist-zurich-115790",
@@ -1746,7 +1761,22 @@
    "senior": false,
    "source": "arbeitnow",
    "url": "https://www.arbeitnow.ch/jobs/companies/transperfect/remote-seo-specialist-zurich-115790",
-   "crawled_at": "2026-11-14T14:03:05.225952+00:00"
+   "crawled_at": "2026-11-15T14:39:21.739100+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/crazy-maple-studio-ai-assisted-story-writer-1099-contract",
+   "title": "AI-Assisted Story Writer (1099 Contract)",
+   "company": "Crazy Maple Studio",
+   "region": "USA Only",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "writer",
+   "ai_skill_kw": "ai",
+   "needs_speaking": true,
+   "senior": false,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/crazy-maple-studio-ai-assisted-story-writer-1099-contract",
+   "crawled_at": "2026-11-14T14:03:05.360951+00:00"
   },
   {
    "job_id": "arbeitnow:remote-seo-specialist-paris-217879",
@@ -2406,7 +2436,7 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/descript-lead-editor-product-manager",
-   "crawled_at": "2026-11-14T14:03:05.362366+00:00"
+   "crawled_at": "2026-11-15T14:39:21.890514+00:00"
   },
   {
    "job_id": "ashby:36135ef8-0064-4445-88aa-6ab31ac03a33",
@@ -2421,7 +2451,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/cohere/36135ef8-0064-4445-88aa-6ab31ac03a33",
-   "crawled_at": "2026-11-14T14:03:05.349262+00:00"
+   "crawled_at": "2026-11-15T14:39:21.876063+00:00"
   },
   {
    "job_id": "ashby:58c1bb1d-2a19-42af-84e2-e6d276591ef6",
@@ -2436,7 +2466,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/cohere/58c1bb1d-2a19-42af-84e2-e6d276591ef6",
-   "crawled_at": "2026-11-14T14:03:05.348903+00:00"
+   "crawled_at": "2026-11-15T14:39:21.875641+00:00"
   },
   {
    "job_id": "ashby:31bfc2b4-472f-4921-86b1-010daa2da1e8",
@@ -2451,7 +2481,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/cohere/31bfc2b4-472f-4921-86b1-010daa2da1e8",
-   "crawled_at": "2026-11-14T14:03:05.348617+00:00"
+   "crawled_at": "2026-11-15T14:39:21.875300+00:00"
   },
   {
    "job_id": "greenhouse:8054645",
@@ -2466,7 +2496,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
-   "crawled_at": "2026-11-14T14:03:05.324421+00:00"
+   "crawled_at": "2026-11-15T14:39:21.847274+00:00"
   },
   {
    "job_id": "greenhouse:8044163",
@@ -2481,7 +2511,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
-   "crawled_at": "2026-11-14T14:03:05.324405+00:00"
+   "crawled_at": "2026-11-15T14:39:21.847255+00:00"
   },
   {
    "job_id": "greenhouse:8054644",
@@ -2496,7 +2526,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
-   "crawled_at": "2026-11-14T14:03:05.324387+00:00"
+   "crawled_at": "2026-11-15T14:39:21.847236+00:00"
   },
   {
    "job_id": "greenhouse:8128634",
@@ -2511,7 +2541,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8128634",
-   "crawled_at": "2026-11-14T14:03:05.316165+00:00"
+   "crawled_at": "2026-11-15T14:39:21.838046+00:00"
   },
   {
    "job_id": "greenhouse:8203216",
@@ -2526,7 +2556,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8203216",
-   "crawled_at": "2026-11-14T14:03:05.314835+00:00"
+   "crawled_at": "2026-11-15T14:39:21.836566+00:00"
   },
   {
    "job_id": "greenhouse:8349732",
@@ -2541,7 +2571,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8349732&gh_jid=8349732",
-   "crawled_at": "2026-11-14T14:03:05.301529+00:00"
+   "crawled_at": "2026-11-15T14:39:21.821603+00:00"
   },
   {
    "job_id": "greenhouse:8879740002",
@@ -2556,7 +2586,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8879740002?gh_jid=8879740002",
-   "crawled_at": "2026-11-14T14:03:05.295329+00:00"
+   "crawled_at": "2026-11-15T14:39:21.814647+00:00"
   },
   {
    "job_id": "greenhouse:8918533002",
@@ -2571,7 +2601,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8918533002?gh_jid=8918533002",
-   "crawled_at": "2026-11-14T14:03:05.295257+00:00"
+   "crawled_at": "2026-11-15T14:39:21.814566+00:00"
   },
   {
    "job_id": "greenhouse:8239171",
@@ -2586,7 +2616,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8239171",
-   "crawled_at": "2026-11-14T14:03:05.263065+00:00"
+   "crawled_at": "2026-11-15T14:39:21.778416+00:00"
   },
   {
    "job_id": "greenhouse:8247246",
@@ -2601,7 +2631,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8247246",
-   "crawled_at": "2026-11-14T14:03:05.262966+00:00"
+   "crawled_at": "2026-11-15T14:39:21.778308+00:00"
   },
   {
    "job_id": "greenhouse:7718015",
@@ -2616,7 +2646,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7718015",
-   "crawled_at": "2026-11-14T14:03:05.262025+00:00"
+   "crawled_at": "2026-11-15T14:39:21.777280+00:00"
   },
   {
    "job_id": "greenhouse:8152750",
@@ -2631,7 +2661,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8152750",
-   "crawled_at": "2026-11-14T14:03:05.261717+00:00"
+   "crawled_at": "2026-11-15T14:39:21.776937+00:00"
   },
   {
    "job_id": "greenhouse:8319764",
@@ -2646,7 +2676,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8319764",
-   "crawled_at": "2026-11-14T14:03:05.260928+00:00"
+   "crawled_at": "2026-11-15T14:39:21.776051+00:00"
   },
   {
    "job_id": "greenhouse:6207950004",
@@ -2661,7 +2691,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/figma/jobs/6207950004?gh_jid=6207950004",
-   "crawled_at": "2026-11-14T14:03:05.257680+00:00"
+   "crawled_at": "2026-11-15T14:39:21.772521+00:00"
   },
   {
    "job_id": "greenhouse:8324482",
@@ -2676,7 +2706,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324482",
-   "crawled_at": "2026-11-14T14:03:05.242230+00:00"
+   "crawled_at": "2026-11-15T14:39:21.755189+00:00"
   },
   {
    "job_id": "greenhouse:8324476",
@@ -2691,7 +2721,37 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324476",
-   "crawled_at": "2026-11-14T14:03:05.242205+00:00"
+   "crawled_at": "2026-11-15T14:39:21.755163+00:00"
+  },
+  {
+   "job_id": "jobicy:162301",
+   "title": "Senior Copywriter",
+   "company": "Reedsy",
+   "region": "Canada,  UK,  USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "copywrit,writer",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/162301-senior-copywriter-2",
+   "crawled_at": "2026-11-15T14:39:21.749912+00:00"
+  },
+  {
+   "job_id": "jobicy:162307",
+   "title": "Senior Technical SEO Specialist",
+   "company": "Reedsy",
+   "region": "Canada,  France,  Italy,  Netherlands,  Portugal,  Spain,  Sweden,  UK,  USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "seo",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/162307-senior-technical-seo-specialist",
+   "crawled_at": "2026-11-15T14:39:21.749650+00:00"
   },
   {
    "job_id": "arbeitnow:senior-data-analyst-271917",
@@ -2706,7 +2766,7 @@
    "senior": true,
    "source": "arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/sparetech/senior-data-analyst-271917",
-   "crawled_at": "2026-11-14T14:03:05.209653+00:00"
+   "crawled_at": "2026-11-15T14:39:21.725827+00:00"
   },
   {
    "job_id": "jobicy:161537",
@@ -4431,7 +4491,7 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/metics-media-content-creator-youtube",
-   "crawled_at": "2026-11-14T14:03:05.361546+00:00"
+   "crawled_at": "2026-11-15T14:39:21.889750+00:00"
   },
   {
    "job_id": "ashby:0fab2072-8863-42ec-b00d-de367b90d937",
@@ -4446,7 +4506,22 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/vanta/0fab2072-8863-42ec-b00d-de367b90d937",
-   "crawled_at": "2026-11-14T14:03:05.330564+00:00"
+   "crawled_at": "2026-11-15T14:39:21.854237+00:00"
+  },
+  {
+   "job_id": "arbeitnow:senior-data-analyst-berlin-443903",
+   "title": "Senior Data Analyst",
+   "company": "Cosuno",
+   "region": "Berlin/Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/cosuno/senior-data-analyst-berlin-443903",
+   "crawled_at": "2026-11-15T14:39:21.717004+00:00"
   },
   {
    "job_id": "arbeitnow:senior-ux-writer-272103",
