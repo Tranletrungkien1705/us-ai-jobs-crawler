@@ -1,28 +1,8 @@
 {
  "count": 250,
  "fit": 250,
- "remote": 64,
+ "remote": 63,
  "jobs": [
-  {
-   "title": "[Hanoi] Associate QA cum Customer Support",
-   "company": "Rakuna",
-   "location": "Phường Việt Hưng, Hanoi, Vietnam",
-   "url": "https://vn.linkedin.com/jobs/view/hanoi-associate-qa-cum-customer-support-at-rakuna-4489613642",
-   "source": "linkedin",
-   "level": "unspecified",
-   "senior": false,
-   "remote": true,
-   "part_time": false,
-   "vietnamese_only": false,
-   "night": false,
-   "hanoi": true,
-   "junior_up": true,
-   "relevant": false,
-   "min_years": 0,
-   "needs_english": false,
-   "fit": true,
-   "first_seen": "2026-11-11"
-  },
   {
    "title": "[Hanoi] Associate QA cum Customer Support",
    "company": "Rakuna",
@@ -1529,8 +1509,8 @@
    "hanoi": true,
    "junior_up": true,
    "relevant": true,
-   "min_years": 15,
-   "needs_english": true,
+   "min_years": 0,
+   "needs_english": false,
    "fit": true,
    "first_seen": "2026-11-12"
   },
@@ -1853,6 +1833,26 @@
    "needs_english": true,
    "fit": true,
    "first_seen": "2026-10-02"
+  },
+  {
+   "title": "[Hanoi] Associate QA cum Customer Support",
+   "company": "Rakuna",
+   "location": "Phường Việt Hưng, Hanoi, Vietnam",
+   "url": "https://vn.linkedin.com/jobs/view/hanoi-associate-qa-cum-customer-support-at-rakuna-4489613642",
+   "source": "linkedin",
+   "level": "unspecified",
+   "senior": false,
+   "remote": false,
+   "part_time": false,
+   "vietnamese_only": false,
+   "night": false,
+   "hanoi": true,
+   "junior_up": true,
+   "relevant": false,
+   "min_years": 2,
+   "needs_english": false,
+   "fit": true,
+   "first_seen": "2026-11-11"
   },
   {
    "title": "[Hanoi] Associate QA cum Customer Support",
