@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-20T16:01:02.319824+00:00",
- "count": 358,
- "salaried": 24,
- "low_english": 262,
- "fit": 114,
+ "updated": "2026-11-21T15:15:01.466795+00:00",
+ "count": 362,
+ "salaried": 25,
+ "low_english": 265,
+ "fit": 116,
  "jobs": [
   {
    "job_id": "remotive:1749306",
@@ -18,7 +18,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
-   "crawled_at": "2026-11-20T16:01:02.151187+00:00"
+   "crawled_at": "2026-11-21T15:15:01.295741+00:00"
   },
   {
    "job_id": "remotive:2091166",
@@ -33,7 +33,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091166",
-   "crawled_at": "2026-11-20T16:01:02.150899+00:00"
+   "crawled_at": "2026-11-21T15:15:01.295472+00:00"
   },
   {
    "job_id": "remotive:1185979",
@@ -48,7 +48,22 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
-   "crawled_at": "2026-11-20T16:01:02.150389+00:00"
+   "crawled_at": "2026-11-21T15:15:01.294984+00:00"
+  },
+  {
+   "job_id": "remotive:2091177",
+   "title": "Content Reviewer - United States",
+   "company": "TELUS Digital",
+   "region": "USA",
+   "salary": "$14/hour",
+   "has_salary": true,
+   "repl_kw": "content",
+   "ai_skill_kw": "ai,ml",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "remotive",
+   "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091177",
+   "crawled_at": "2026-11-21T15:15:01.294376+00:00"
   },
   {
    "job_id": "remoteok:1137686",
@@ -168,7 +183,22 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/cata-kor-graphic-designer",
-   "crawled_at": "2026-11-20T16:01:02.319824+00:00"
+   "crawled_at": "2026-11-21T15:15:01.466795+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/pinterest-content-enablement-intern-2027-usa",
+   "title": "Content Enablement Intern 2027 (USA)",
+   "company": "Pinterest",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/pinterest-content-enablement-intern-2027-usa",
+   "crawled_at": "2026-11-21T15:15:01.464534+00:00"
   },
   {
    "job_id": "greenhouse:8265686",
@@ -183,7 +213,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8265686",
-   "crawled_at": "2026-11-20T16:01:02.274550+00:00"
+   "crawled_at": "2026-11-21T15:15:01.420627+00:00"
   },
   {
    "job_id": "greenhouse:5601881",
@@ -198,7 +228,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=5601881",
-   "crawled_at": "2026-11-20T16:01:02.266236+00:00"
+   "crawled_at": "2026-11-21T15:15:01.412167+00:00"
   },
   {
    "job_id": "greenhouse:8354566",
@@ -213,7 +243,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8354566",
-   "crawled_at": "2026-11-20T16:01:02.265435+00:00"
+   "crawled_at": "2026-11-21T15:15:01.411360+00:00"
   },
   {
    "job_id": "greenhouse:8360665",
@@ -228,7 +258,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8360665&gh_jid=8360665",
-   "crawled_at": "2026-11-20T16:01:02.248792+00:00"
+   "crawled_at": "2026-11-21T15:15:01.394212+00:00"
   },
   {
    "job_id": "greenhouse:8008481003",
@@ -243,7 +273,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/8008481003",
-   "crawled_at": "2026-11-20T16:01:02.241540+00:00"
+   "crawled_at": "2026-11-21T15:15:01.386739+00:00"
   },
   {
    "job_id": "greenhouse:8334884",
@@ -258,7 +288,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8334884",
-   "crawled_at": "2026-11-20T16:01:02.207564+00:00"
+   "crawled_at": "2026-11-21T15:15:01.351996+00:00"
   },
   {
    "job_id": "greenhouse:8139781",
@@ -273,7 +303,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781",
-   "crawled_at": "2026-11-20T16:01:02.206905+00:00"
+   "crawled_at": "2026-11-21T15:15:01.351313+00:00"
   },
   {
    "job_id": "jobicy:163495",
@@ -1791,7 +1821,7 @@
    "senior": false,
    "source": "remoteok",
    "url": "https://remoteOK.com/remote-jobs/remote-seo-full-stack-engineer-treatwell-1137805",
-   "crawled_at": "2026-11-20T16:01:02.148112+00:00"
+   "crawled_at": "2026-11-21T15:15:01.293857+00:00"
   },
   {
    "job_id": "arbeitnow:reporting-data-analyst-6-month-ftc-143600",
@@ -2541,7 +2571,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/cohere/36135ef8-0064-4445-88aa-6ab31ac03a33",
-   "crawled_at": "2026-11-20T16:01:02.306259+00:00"
+   "crawled_at": "2026-11-21T15:15:01.451956+00:00"
   },
   {
    "job_id": "ashby:58c1bb1d-2a19-42af-84e2-e6d276591ef6",
@@ -2556,7 +2586,247 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/cohere/58c1bb1d-2a19-42af-84e2-e6d276591ef6",
-   "crawled_at": "2026-11-20T16:01:02.305846+00:00"
+   "crawled_at": "2026-11-21T15:15:01.451542+00:00"
+  },
+  {
+   "job_id": "greenhouse:8054645",
+   "title": "Social Media & Content Manager",
+   "company": "Flexport",
+   "region": "Chicago, Illinois, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
+   "crawled_at": "2026-11-21T15:15:01.423228+00:00"
+  },
+  {
+   "job_id": "greenhouse:8044163",
+   "title": "Social Media & Content Manager",
+   "company": "Flexport",
+   "region": "San Francisco, California, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
+   "crawled_at": "2026-11-21T15:15:01.423209+00:00"
+  },
+  {
+   "job_id": "greenhouse:8054644",
+   "title": "Social Media & Content Manager",
+   "company": "Flexport",
+   "region": "New York City, New York, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
+   "crawled_at": "2026-11-21T15:15:01.423189+00:00"
+  },
+  {
+   "job_id": "greenhouse:8203216",
+   "title": "Editorial Director, Brand & Creative Partnerships",
+   "company": "Stripe",
+   "region": "US: SF, NYC, Seattle and Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "editor",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://stripe.com/jobs/search?gh_jid=8203216",
+   "crawled_at": "2026-11-21T15:15:01.412480+00:00"
+  },
+  {
+   "job_id": "greenhouse:8376773",
+   "title": "Briefing Content Strategist",
+   "company": "Stripe",
+   "region": "Remote in the US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://stripe.com/jobs/search?gh_jid=8376773",
+   "crawled_at": "2026-11-21T15:15:01.411660+00:00"
+  },
+  {
+   "job_id": "greenhouse:8349732",
+   "title": "Regional Content Strategist, Global Public Sector",
+   "company": "Elastic",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8349732&gh_jid=8349732",
+   "crawled_at": "2026-11-21T15:15:01.396912+00:00"
+  },
+  {
+   "job_id": "greenhouse:8359528",
+   "title": "Event Content Strategist",
+   "company": "Elastic",
+   "region": "United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8359528&gh_jid=8359528",
+   "crawled_at": "2026-11-21T15:15:01.394819+00:00"
+  },
+  {
+   "job_id": "greenhouse:8879740002",
+   "title": "Director of Communications & Content, Chime Enterprise",
+   "company": "Chime",
+   "region": "New York, NY, USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://boards.greenhouse.io/chime/jobs/8879740002?gh_jid=8879740002",
+   "crawled_at": "2026-11-21T15:15:01.389933+00:00"
+  },
+  {
+   "job_id": "greenhouse:8247246",
+   "title": "Staff Machine Learning Engineer, Content Visual AI",
+   "company": "Pinterest",
+   "region": "San Francisco, CA, US; New York, NY, US; Seattle, WA, US; Remote, US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "ai,machine learning",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8247246",
+   "crawled_at": "2026-11-21T15:15:01.354114+00:00"
+  },
+  {
+   "job_id": "greenhouse:7718015",
+   "title": "Senior Product Manager, Deceptive Content",
+   "company": "Pinterest",
+   "region": "San Francisco, CA, US; Seattle, WA, US; Remote, CA, US",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7718015",
+   "crawled_at": "2026-11-21T15:15:01.352890+00:00"
+  },
+  {
+   "job_id": "greenhouse:8319764",
+   "title": "Staff Program Manager, Human & LLM Data Annotation Operations",
+   "company": "Reddit",
+   "region": "Remote - United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data annotat",
+   "ai_skill_kw": "llm",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8319764",
+   "crawled_at": "2026-11-21T15:15:01.351703+00:00"
+  },
+  {
+   "job_id": "greenhouse:6207950004",
+   "title": "Content Strategist, Product",
+   "company": "Figma",
+   "region": "San Francisco, CA • New York, NY • United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://boards.greenhouse.io/figma/jobs/6207950004?gh_jid=6207950004",
+   "crawled_at": "2026-11-21T15:15:01.347994+00:00"
+  },
+  {
+   "job_id": "greenhouse:8324482",
+   "title": "Contract Sr Data Analyst (SQL,Telemetry,Browser Engine)",
+   "company": "Mozilla",
+   "region": "Remote Germany",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324482",
+   "crawled_at": "2026-11-21T15:15:01.330317+00:00"
+  },
+  {
+   "job_id": "greenhouse:8324476",
+   "title": "Contract Senior Data Analyst (SQL,Telemetry,Browser Engine)",
+   "company": "Mozilla",
+   "region": "Remote UK",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324476",
+   "crawled_at": "2026-11-21T15:15:01.330293+00:00"
+  },
+  {
+   "job_id": "greenhouse:8922693002",
+   "title": "Staff Technical Writer",
+   "company": "GitLab",
+   "region": "Remote, Canada; Remote, Poland; Remote, United Kingdom; Remote, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "technical writer,writer",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922693002",
+   "crawled_at": "2026-11-21T15:15:01.329959+00:00"
+  },
+  {
+   "job_id": "arbeitnow:senior-data-analyst-acquisition-paris-461960",
+   "title": "Senior Data Analyst - Acquisition",
+   "company": "Pennylane SAS",
+   "region": "All France (remote)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "data analyst",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.fr/jobs/companies/pennylane-sas/senior-data-analyst-acquisition-paris-461960",
+   "crawled_at": "2026-11-21T15:15:01.313838+00:00"
   },
   {
    "job_id": "ashby:31bfc2b4-472f-4921-86b1-010daa2da1e8",
@@ -2574,51 +2844,6 @@
    "crawled_at": "2026-11-20T16:01:02.305519+00:00"
   },
   {
-   "job_id": "greenhouse:8054645",
-   "title": "Social Media & Content Manager",
-   "company": "Flexport",
-   "region": "Chicago, Illinois, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
-   "crawled_at": "2026-11-20T16:01:02.277147+00:00"
-  },
-  {
-   "job_id": "greenhouse:8044163",
-   "title": "Social Media & Content Manager",
-   "company": "Flexport",
-   "region": "San Francisco, California, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
-   "crawled_at": "2026-11-20T16:01:02.277129+00:00"
-  },
-  {
-   "job_id": "greenhouse:8054644",
-   "title": "Social Media & Content Manager",
-   "company": "Flexport",
-   "region": "New York City, New York, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
-   "crawled_at": "2026-11-20T16:01:02.277108+00:00"
-  },
-  {
    "job_id": "greenhouse:8128634",
    "title": "Head of AEO & SEO",
    "company": "Stripe",
@@ -2632,186 +2857,6 @@
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8128634",
    "crawled_at": "2026-11-20T16:01:02.268008+00:00"
-  },
-  {
-   "job_id": "greenhouse:8203216",
-   "title": "Editorial Director, Brand & Creative Partnerships",
-   "company": "Stripe",
-   "region": "US: SF, NYC, Seattle and Remote",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "editor",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://stripe.com/jobs/search?gh_jid=8203216",
-   "crawled_at": "2026-11-20T16:01:02.266556+00:00"
-  },
-  {
-   "job_id": "greenhouse:8376773",
-   "title": "Briefing Content Strategist",
-   "company": "Stripe",
-   "region": "Remote in the US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://stripe.com/jobs/search?gh_jid=8376773",
-   "crawled_at": "2026-11-20T16:01:02.265736+00:00"
-  },
-  {
-   "job_id": "greenhouse:8349732",
-   "title": "Regional Content Strategist, Global Public Sector",
-   "company": "Elastic",
-   "region": "United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://jobs.elastic.co/jobs?gh_jid=8349732&gh_jid=8349732",
-   "crawled_at": "2026-11-20T16:01:02.251440+00:00"
-  },
-  {
-   "job_id": "greenhouse:8359528",
-   "title": "Event Content Strategist",
-   "company": "Elastic",
-   "region": "United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://jobs.elastic.co/jobs?gh_jid=8359528&gh_jid=8359528",
-   "crawled_at": "2026-11-20T16:01:02.249402+00:00"
-  },
-  {
-   "job_id": "greenhouse:8879740002",
-   "title": "Director of Communications & Content, Chime Enterprise",
-   "company": "Chime",
-   "region": "New York, NY, USA",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://boards.greenhouse.io/chime/jobs/8879740002?gh_jid=8879740002",
-   "crawled_at": "2026-11-20T16:01:02.244619+00:00"
-  },
-  {
-   "job_id": "greenhouse:8247246",
-   "title": "Staff Machine Learning Engineer, Content Visual AI",
-   "company": "Pinterest",
-   "region": "San Francisco, CA, US; New York, NY, US; Seattle, WA, US; Remote, US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "ai,machine learning",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8247246",
-   "crawled_at": "2026-11-20T16:01:02.209612+00:00"
-  },
-  {
-   "job_id": "greenhouse:7718015",
-   "title": "Senior Product Manager, Deceptive Content",
-   "company": "Pinterest",
-   "region": "San Francisco, CA, US; Seattle, WA, US; Remote, CA, US",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7718015",
-   "crawled_at": "2026-11-20T16:01:02.208427+00:00"
-  },
-  {
-   "job_id": "greenhouse:8319764",
-   "title": "Staff Program Manager, Human & LLM Data Annotation Operations",
-   "company": "Reddit",
-   "region": "Remote - United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "data annotat",
-   "ai_skill_kw": "llm",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8319764",
-   "crawled_at": "2026-11-20T16:01:02.207285+00:00"
-  },
-  {
-   "job_id": "greenhouse:6207950004",
-   "title": "Content Strategist, Product",
-   "company": "Figma",
-   "region": "San Francisco, CA • New York, NY • United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://boards.greenhouse.io/figma/jobs/6207950004?gh_jid=6207950004",
-   "crawled_at": "2026-11-20T16:01:02.203638+00:00"
-  },
-  {
-   "job_id": "greenhouse:8324482",
-   "title": "Contract Sr Data Analyst (SQL,Telemetry,Browser Engine)",
-   "company": "Mozilla",
-   "region": "Remote Germany",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "data analyst",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324482",
-   "crawled_at": "2026-11-20T16:01:02.186208+00:00"
-  },
-  {
-   "job_id": "greenhouse:8324476",
-   "title": "Contract Senior Data Analyst (SQL,Telemetry,Browser Engine)",
-   "company": "Mozilla",
-   "region": "Remote UK",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "data analyst",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324476",
-   "crawled_at": "2026-11-20T16:01:02.186183+00:00"
-  },
-  {
-   "job_id": "greenhouse:8922693002",
-   "title": "Staff Technical Writer",
-   "company": "GitLab",
-   "region": "Remote, Canada; Remote, Poland; Remote, United Kingdom; Remote, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "technical writer,writer",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922693002",
-   "crawled_at": "2026-11-20T16:01:02.185836+00:00"
   },
   {
    "job_id": "greenhouse:8918533002",
@@ -4656,7 +4701,7 @@
    "senior": true,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/marketing/content-creator-youtube-2091173",
-   "crawled_at": "2026-11-20T16:01:02.149992+00:00"
+   "crawled_at": "2026-11-21T15:15:01.294577+00:00"
   },
   {
    "job_id": "himalayas:https://himalayas.app/companies/cisco/jobs/lead-technical-writer-isovalent",
@@ -4686,7 +4731,37 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/vanta/0fab2072-8863-42ec-b00d-de367b90d937",
-   "crawled_at": "2026-11-20T16:01:02.283986+00:00"
+   "crawled_at": "2026-11-21T15:15:01.430203+00:00"
+  },
+  {
+   "job_id": "himalayas:https://himalayas.app/companies/welo-global/jobs/english-to-belarusian-review-lead-for-ui-marketing-product-content",
+   "title": "English to Belarusian Review Lead for UI, Marketing & Product Content",
+   "company": "Welo Global",
+   "region": "Argentina, Australia, Austria, Belgium, Brazil, Bulgaria, Canada, Chile, China, Colombia, Costa Rica, Croatia, Czechia, Denmark, Egypt, El Salvador, Finland, France, Germany, Ghana, Greece, Guatemala,",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/welo-global/jobs/english-to-belarusian-review-lead-for-ui-marketing-product-content?utm_source=api",
+   "crawled_at": "2026-11-21T15:15:01.324220+00:00"
+  },
+  {
+   "job_id": "remoteok:1137812",
+   "title": "Briefing Content Strategist",
+   "company": "Stripe",
+   "region": "US Only",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "remoteok",
+   "url": "https://remoteOK.com/remote-jobs/remote-briefing-content-strategist-stripe-1137812",
+   "crawled_at": "2026-11-21T15:15:01.293411+00:00"
   },
   {
    "job_id": "arbeitnow:senior-seo-manager-content-aeo-403691",
@@ -4702,21 +4777,6 @@
    "source": "arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/autoscout24/senior-seo-manager-content-aeo-403691",
    "crawled_at": "2026-11-20T16:01:02.174462+00:00"
-  },
-  {
-   "job_id": "remoteok:1137812",
-   "title": "Briefing Content Strategist",
-   "company": "Stripe",
-   "region": "US Only",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": true,
-   "senior": true,
-   "source": "remoteok",
-   "url": "https://remoteOK.com/remote-jobs/remote-briefing-content-strategist-stripe-1137812",
-   "crawled_at": "2026-11-20T16:01:02.147653+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/hometap-underwriter",
