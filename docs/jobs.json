@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-23T19:10:30.542042+00:00",
- "count": 366,
+ "updated": "2026-11-24T18:48:12.580520+00:00",
+ "count": 369,
  "salaried": 25,
- "low_english": 267,
- "fit": 117,
+ "low_english": 269,
+ "fit": 119,
  "jobs": [
   {
    "job_id": "remotive:1749306",
@@ -18,7 +18,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
-   "crawled_at": "2026-11-23T19:10:30.290443+00:00"
+   "crawled_at": "2026-11-24T18:48:12.389530+00:00"
   },
   {
    "job_id": "remotive:2091166",
@@ -33,7 +33,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091166",
-   "crawled_at": "2026-11-23T19:10:30.290029+00:00"
+   "crawled_at": "2026-11-24T18:48:12.389221+00:00"
   },
   {
    "job_id": "remotive:1185979",
@@ -48,7 +48,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
-   "crawled_at": "2026-11-23T19:10:30.289280+00:00"
+   "crawled_at": "2026-11-24T18:48:12.388704+00:00"
   },
   {
    "job_id": "remotive:2091177",
@@ -63,7 +63,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091177",
-   "crawled_at": "2026-11-23T19:10:30.288341+00:00"
+   "crawled_at": "2026-11-24T18:48:12.388020+00:00"
   },
   {
    "job_id": "remoteok:1137686",
@@ -183,7 +183,7 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/cata-kor-graphic-designer",
-   "crawled_at": "2026-11-23T19:10:30.542042+00:00"
+   "crawled_at": "2026-11-24T18:48:12.580249+00:00"
   },
   {
    "job_id": "greenhouse:8265686",
@@ -198,7 +198,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8265686",
-   "crawled_at": "2026-11-23T19:10:30.477446+00:00"
+   "crawled_at": "2026-11-24T18:48:12.528114+00:00"
   },
   {
    "job_id": "greenhouse:5601881",
@@ -213,7 +213,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=5601881",
-   "crawled_at": "2026-11-23T19:10:30.465180+00:00"
+   "crawled_at": "2026-11-24T18:48:12.518915+00:00"
   },
   {
    "job_id": "greenhouse:8354566",
@@ -228,7 +228,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8354566",
-   "crawled_at": "2026-11-23T19:10:30.464067+00:00"
+   "crawled_at": "2026-11-24T18:48:12.518071+00:00"
   },
   {
    "job_id": "greenhouse:8360665",
@@ -243,7 +243,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8360665&gh_jid=8360665",
-   "crawled_at": "2026-11-23T19:10:30.438810+00:00"
+   "crawled_at": "2026-11-24T18:48:12.499614+00:00"
   },
   {
    "job_id": "greenhouse:8008481003",
@@ -258,7 +258,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/8008481003",
-   "crawled_at": "2026-11-23T19:10:30.427972+00:00"
+   "crawled_at": "2026-11-24T18:48:12.491649+00:00"
   },
   {
    "job_id": "greenhouse:8334884",
@@ -273,7 +273,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8334884",
-   "crawled_at": "2026-11-23T19:10:30.378287+00:00"
+   "crawled_at": "2026-11-24T18:48:12.454509+00:00"
   },
   {
    "job_id": "greenhouse:8139781",
@@ -288,7 +288,22 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781",
-   "crawled_at": "2026-11-23T19:10:30.377308+00:00"
+   "crawled_at": "2026-11-24T18:48:12.453766+00:00"
+  },
+  {
+   "job_id": "himalayas:https://himalayas.app/companies/xperteez-technology/jobs/graphic-and-editorial-design-expert-remote",
+   "title": "Graphic and Editorial Design Expert, Remote",
+   "company": "Xperteez Technology",
+   "region": "(unspecified)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "editor",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/xperteez-technology/jobs/graphic-and-editorial-design-expert-remote?utm_source=api",
+   "crawled_at": "2026-11-24T18:48:12.422366+00:00"
   },
   {
    "job_id": "arbeitnow:werkstudent-social-media-content-creation-mensch-dusseldorf-45954",
@@ -303,7 +318,22 @@
    "senior": false,
    "source": "arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/wppmedia/werkstudent-social-media-content-creation-mensch-dusseldorf-45954",
-   "crawled_at": "2026-11-23T19:10:30.291258+00:00"
+   "crawled_at": "2026-11-24T18:48:12.414755+00:00"
+  },
+  {
+   "job_id": "arbeitnow:remote-content-editor-274931",
+   "title": "Content Editor",
+   "company": "Higgsfield",
+   "region": "Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content,editor",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/higgsfield/remote-content-editor-274931",
+   "crawled_at": "2026-11-24T18:48:12.407567+00:00"
   },
   {
    "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/pinterest-content-enablement-intern-2027-usa",
@@ -2586,7 +2616,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/cohere/36135ef8-0064-4445-88aa-6ab31ac03a33",
-   "crawled_at": "2026-11-23T19:10:30.522610+00:00"
+   "crawled_at": "2026-11-24T18:48:12.562840+00:00"
   },
   {
    "job_id": "ashby:58c1bb1d-2a19-42af-84e2-e6d276591ef6",
@@ -2601,7 +2631,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/cohere/58c1bb1d-2a19-42af-84e2-e6d276591ef6",
-   "crawled_at": "2026-11-23T19:10:30.521963+00:00"
+   "crawled_at": "2026-11-24T18:48:12.562022+00:00"
   },
   {
    "job_id": "greenhouse:8054644",
@@ -2616,22 +2646,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
-   "crawled_at": "2026-11-23T19:10:30.481170+00:00"
-  },
-  {
-   "job_id": "greenhouse:8054645",
-   "title": "Social Media & Content Manager",
-   "company": "Flexport",
-   "region": "Chicago, Illinois, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
-   "crawled_at": "2026-11-23T19:10:30.481144+00:00"
+   "crawled_at": "2026-11-24T18:48:12.530879+00:00"
   },
   {
    "job_id": "greenhouse:8044163",
@@ -2646,7 +2661,22 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
-   "crawled_at": "2026-11-23T19:10:30.481116+00:00"
+   "crawled_at": "2026-11-24T18:48:12.530859+00:00"
+  },
+  {
+   "job_id": "greenhouse:8054645",
+   "title": "Social Media & Content Manager",
+   "company": "Flexport",
+   "region": "Chicago, Illinois, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
+   "crawled_at": "2026-11-24T18:48:12.530839+00:00"
   },
   {
    "job_id": "greenhouse:8203216",
@@ -2661,7 +2691,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8203216",
-   "crawled_at": "2026-11-23T19:10:30.465615+00:00"
+   "crawled_at": "2026-11-24T18:48:12.519195+00:00"
   },
   {
    "job_id": "greenhouse:8376773",
@@ -2676,7 +2706,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8376773",
-   "crawled_at": "2026-11-23T19:10:30.464505+00:00"
+   "crawled_at": "2026-11-24T18:48:12.518420+00:00"
   },
   {
    "job_id": "greenhouse:8349732",
@@ -2691,7 +2721,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8349732&gh_jid=8349732",
-   "crawled_at": "2026-11-23T19:10:30.442623+00:00"
+   "crawled_at": "2026-11-24T18:48:12.502445+00:00"
   },
   {
    "job_id": "greenhouse:8359528",
@@ -2706,7 +2736,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8359528&gh_jid=8359528",
-   "crawled_at": "2026-11-23T19:10:30.439744+00:00"
+   "crawled_at": "2026-11-24T18:48:12.500240+00:00"
   },
   {
    "job_id": "greenhouse:8879740002",
@@ -2721,7 +2751,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8879740002?gh_jid=8879740002",
-   "crawled_at": "2026-11-23T19:10:30.432504+00:00"
+   "crawled_at": "2026-11-24T18:48:12.494937+00:00"
   },
   {
    "job_id": "greenhouse:8247246",
@@ -2736,7 +2766,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8247246",
-   "crawled_at": "2026-11-23T19:10:30.381214+00:00"
+   "crawled_at": "2026-11-24T18:48:12.456646+00:00"
   },
   {
    "job_id": "greenhouse:7718015",
@@ -2751,7 +2781,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7718015",
-   "crawled_at": "2026-11-23T19:10:30.379491+00:00"
+   "crawled_at": "2026-11-24T18:48:12.455414+00:00"
   },
   {
    "job_id": "greenhouse:8319764",
@@ -2766,7 +2796,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8319764",
-   "crawled_at": "2026-11-23T19:10:30.377884+00:00"
+   "crawled_at": "2026-11-24T18:48:12.454195+00:00"
   },
   {
    "job_id": "greenhouse:6207950004",
@@ -2781,7 +2811,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/figma/jobs/6207950004?gh_jid=6207950004",
-   "crawled_at": "2026-11-23T19:10:30.372417+00:00"
+   "crawled_at": "2026-11-24T18:48:12.450125+00:00"
   },
   {
    "job_id": "greenhouse:8324482",
@@ -2796,7 +2826,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324482",
-   "crawled_at": "2026-11-23T19:10:30.346767+00:00"
+   "crawled_at": "2026-11-24T18:48:12.429398+00:00"
   },
   {
    "job_id": "greenhouse:8324476",
@@ -2811,7 +2841,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324476",
-   "crawled_at": "2026-11-23T19:10:30.346731+00:00"
+   "crawled_at": "2026-11-24T18:48:12.429373+00:00"
   },
   {
    "job_id": "greenhouse:8922693002",
@@ -2826,7 +2856,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922693002",
-   "crawled_at": "2026-11-23T19:10:30.346249+00:00"
+   "crawled_at": "2026-11-24T18:48:12.428994+00:00"
   },
   {
    "job_id": "jobicy:163938",
@@ -4731,7 +4761,7 @@
    "senior": true,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/marketing/content-creator-youtube-2091173",
-   "crawled_at": "2026-11-23T19:10:30.288666+00:00"
+   "crawled_at": "2026-11-24T18:48:12.388274+00:00"
   },
   {
    "job_id": "himalayas:https://himalayas.app/companies/cisco/jobs/lead-technical-writer-isovalent",
@@ -4749,6 +4779,21 @@
    "crawled_at": "2026-10-15T12:35:19.079407+00:00"
   },
   {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/stripe-briefing-content-strategist",
+   "title": "Briefing Content Strategist",
+   "company": "Stripe",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": true,
+   "senior": true,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/stripe-briefing-content-strategist",
+   "crawled_at": "2026-11-24T18:48:12.580520+00:00"
+  },
+  {
    "job_id": "arbeitnow:senior-content-producer-mensch-fur-unseren-kunden-google-berlin-dusseldorf-hamburg-466804",
    "title": "(Senior) Content Producer (Mensch) für unseren Kunden Google",
    "company": "wppmedia",
@@ -4761,7 +4806,7 @@
    "senior": true,
    "source": "arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/wppmedia/senior-content-producer-mensch-fur-unseren-kunden-google-berlin-dusseldorf-hamburg-466804",
-   "crawled_at": "2026-11-23T19:10:30.291743+00:00"
+   "crawled_at": "2026-11-24T18:48:12.415082+00:00"
   },
   {
    "job_id": "ashby:0fab2072-8863-42ec-b00d-de367b90d937",
