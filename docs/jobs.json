@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-26T17:39:30.119083+00:00",
- "count": 377,
- "salaried": 27,
- "low_english": 274,
- "fit": 120,
+ "updated": "2026-11-27T17:23:04.671387+00:00",
+ "count": 384,
+ "salaried": 28,
+ "low_english": 281,
+ "fit": 124,
  "jobs": [
   {
    "job_id": "remotive:1749306",
@@ -18,7 +18,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
-   "crawled_at": "2026-11-26T17:39:29.971153+00:00"
+   "crawled_at": "2026-11-27T17:23:04.431015+00:00"
   },
   {
    "job_id": "remotive:2091166",
@@ -33,7 +33,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091166",
-   "crawled_at": "2026-11-26T17:39:29.970925+00:00"
+   "crawled_at": "2026-11-27T17:23:04.430639+00:00"
   },
   {
    "job_id": "remotive:1185979",
@@ -48,7 +48,7 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
-   "crawled_at": "2026-11-26T17:39:29.970520+00:00"
+   "crawled_at": "2026-11-27T17:23:04.429953+00:00"
   },
   {
    "job_id": "remotive:2091177",
@@ -63,7 +63,22 @@
    "senior": false,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091177",
-   "crawled_at": "2026-11-26T17:39:29.970012+00:00"
+   "crawled_at": "2026-11-27T17:23:04.429109+00:00"
+  },
+  {
+   "job_id": "remoteok:1138185",
+   "title": "Content Engineer, Developer Documentation",
+   "company": "LiveKit",
+   "region": "US Only",
+   "salary": "170000",
+   "has_salary": true,
+   "repl_kw": "content,documentation",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "remoteok",
+   "url": "https://remoteOK.com/remote-jobs/remote-content-engineer-developer-documentation-livekit-1138185",
+   "crawled_at": "2026-11-27T17:23:04.425741+00:00"
   },
   {
    "job_id": "remoteok:1137686",
@@ -183,7 +198,22 @@
    "senior": false,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/cata-kor-graphic-designer",
-   "crawled_at": "2026-11-26T17:39:30.118677+00:00"
+   "crawled_at": "2026-11-27T17:23:04.670690+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/affirm-content-designer-ii",
+   "title": "Content Designer II",
+   "company": "Affirm",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/affirm-content-designer-ii",
+   "crawled_at": "2026-11-27T17:23:04.669329+00:00"
   },
   {
    "job_id": "greenhouse:8265686",
@@ -198,7 +228,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8265686",
-   "crawled_at": "2026-11-26T17:39:30.078882+00:00"
+   "crawled_at": "2026-11-27T17:23:04.606670+00:00"
   },
   {
    "job_id": "greenhouse:5601881",
@@ -213,7 +243,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=5601881",
-   "crawled_at": "2026-11-26T17:39:30.071387+00:00"
+   "crawled_at": "2026-11-27T17:23:04.595153+00:00"
   },
   {
    "job_id": "greenhouse:8354566",
@@ -228,7 +258,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8354566",
-   "crawled_at": "2026-11-26T17:39:30.070719+00:00"
+   "crawled_at": "2026-11-27T17:23:04.594128+00:00"
   },
   {
    "job_id": "greenhouse:8360665",
@@ -243,7 +273,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8360665&gh_jid=8360665",
-   "crawled_at": "2026-11-26T17:39:30.056194+00:00"
+   "crawled_at": "2026-11-27T17:23:04.570834+00:00"
   },
   {
    "job_id": "greenhouse:8008481003",
@@ -258,7 +288,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/8008481003",
-   "crawled_at": "2026-11-26T17:39:30.050029+00:00"
+   "crawled_at": "2026-11-27T17:23:04.560745+00:00"
   },
   {
    "job_id": "greenhouse:8334884",
@@ -273,7 +303,7 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8334884",
-   "crawled_at": "2026-11-26T17:39:30.021000+00:00"
+   "crawled_at": "2026-11-27T17:23:04.513518+00:00"
   },
   {
    "job_id": "greenhouse:8139781",
@@ -288,7 +318,37 @@
    "senior": false,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781",
-   "crawled_at": "2026-11-26T17:39:30.020394+00:00"
+   "crawled_at": "2026-11-27T17:23:04.512575+00:00"
+  },
+  {
+   "job_id": "jobicy:164551",
+   "title": "Associate GEO and SEO Specialist",
+   "company": "MaintainX",
+   "region": "USA",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "seo",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/164551-associate-geo-and-seo-specialist",
+   "crawled_at": "2026-11-27T17:23:04.474947+00:00"
+  },
+  {
+   "job_id": "arbeitnow:video-editor-at-aios-remote-1500-2000-month-contract-blackburn-354752",
+   "title": "Video Editor at AIOS — Remote, $1,500-$2,000/month (contract)",
+   "company": "AIOS (YC W20/S21)",
+   "region": "Remote (UK hours)",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "editor",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": false,
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/aios-yc-w20s21/video-editor-at-aios-remote-1500-2000-month-contract-blackburn-354752",
+   "crawled_at": "2026-11-27T17:23:04.455912+00:00"
   },
   {
    "job_id": "jobicy:164284",
@@ -2631,7 +2691,22 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/silverback-strategies-senior-motion-graphic-designer-remote",
-   "crawled_at": "2026-11-26T17:39:30.117985+00:00"
+   "crawled_at": "2026-11-27T17:23:04.669867+00:00"
+  },
+  {
+   "job_id": "weworkremotely:https://weworkremotely.com/remote-jobs/pinterest-senior-product-manager-deceptive-content",
+   "title": "Senior Product Manager, Deceptive Content",
+   "company": "Pinterest",
+   "region": "Anywhere in the World",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "weworkremotely",
+   "url": "https://weworkremotely.com/remote-jobs/pinterest-senior-product-manager-deceptive-content",
+   "crawled_at": "2026-11-27T17:23:04.666487+00:00"
   },
   {
    "job_id": "ashby:36135ef8-0064-4445-88aa-6ab31ac03a33",
@@ -2646,7 +2721,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/cohere/36135ef8-0064-4445-88aa-6ab31ac03a33",
-   "crawled_at": "2026-11-26T17:39:30.105660+00:00"
+   "crawled_at": "2026-11-27T17:23:04.649081+00:00"
   },
   {
    "job_id": "ashby:58c1bb1d-2a19-42af-84e2-e6d276591ef6",
@@ -2661,22 +2736,7 @@
    "senior": true,
    "source": "ashby",
    "url": "https://jobs.ashbyhq.com/cohere/58c1bb1d-2a19-42af-84e2-e6d276591ef6",
-   "crawled_at": "2026-11-26T17:39:30.105301+00:00"
-  },
-  {
-   "job_id": "greenhouse:8044163",
-   "title": "Social Media & Content Manager",
-   "company": "Flexport",
-   "region": "San Francisco, California, United States",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "content",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "greenhouse",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
-   "crawled_at": "2026-11-26T17:39:30.081191+00:00"
+   "crawled_at": "2026-11-27T17:23:04.648544+00:00"
   },
   {
    "job_id": "greenhouse:8054645",
@@ -2691,7 +2751,22 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
-   "crawled_at": "2026-11-26T17:39:30.081175+00:00"
+   "crawled_at": "2026-11-27T17:23:04.610172+00:00"
+  },
+  {
+   "job_id": "greenhouse:8044163",
+   "title": "Social Media & Content Manager",
+   "company": "Flexport",
+   "region": "San Francisco, California, United States",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
+   "crawled_at": "2026-11-27T17:23:04.610147+00:00"
   },
   {
    "job_id": "greenhouse:8054644",
@@ -2706,7 +2781,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
-   "crawled_at": "2026-11-26T17:39:30.081158+00:00"
+   "crawled_at": "2026-11-27T17:23:04.610119+00:00"
   },
   {
    "job_id": "greenhouse:8203216",
@@ -2721,7 +2796,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8203216",
-   "crawled_at": "2026-11-26T17:39:30.071607+00:00"
+   "crawled_at": "2026-11-27T17:23:04.595531+00:00"
   },
   {
    "job_id": "greenhouse:8376773",
@@ -2736,7 +2811,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://stripe.com/jobs/search?gh_jid=8376773",
-   "crawled_at": "2026-11-26T17:39:30.070983+00:00"
+   "crawled_at": "2026-11-27T17:23:04.594555+00:00"
   },
   {
    "job_id": "greenhouse:8349732",
@@ -2751,7 +2826,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8349732&gh_jid=8349732",
-   "crawled_at": "2026-11-26T17:39:30.058379+00:00"
+   "crawled_at": "2026-11-27T17:23:04.574388+00:00"
   },
   {
    "job_id": "greenhouse:8359528",
@@ -2766,7 +2841,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8359528&gh_jid=8359528",
-   "crawled_at": "2026-11-26T17:39:30.056685+00:00"
+   "crawled_at": "2026-11-27T17:23:04.571591+00:00"
   },
   {
    "job_id": "greenhouse:8879740002",
@@ -2781,7 +2856,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/chime/jobs/8879740002?gh_jid=8879740002",
-   "crawled_at": "2026-11-26T17:39:30.052574+00:00"
+   "crawled_at": "2026-11-27T17:23:04.564957+00:00"
   },
   {
    "job_id": "greenhouse:8247246",
@@ -2796,7 +2871,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8247246",
-   "crawled_at": "2026-11-26T17:39:30.022666+00:00"
+   "crawled_at": "2026-11-27T17:23:04.516119+00:00"
   },
   {
    "job_id": "greenhouse:7718015",
@@ -2811,7 +2886,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7718015",
-   "crawled_at": "2026-11-26T17:39:30.021703+00:00"
+   "crawled_at": "2026-11-27T17:23:04.514604+00:00"
   },
   {
    "job_id": "greenhouse:8319764",
@@ -2826,7 +2901,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8319764",
-   "crawled_at": "2026-11-26T17:39:30.020744+00:00"
+   "crawled_at": "2026-11-27T17:23:04.513112+00:00"
   },
   {
    "job_id": "greenhouse:6207950004",
@@ -2841,7 +2916,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://boards.greenhouse.io/figma/jobs/6207950004?gh_jid=6207950004",
-   "crawled_at": "2026-11-26T17:39:30.017558+00:00"
+   "crawled_at": "2026-11-27T17:23:04.507797+00:00"
   },
   {
    "job_id": "greenhouse:8412438",
@@ -2856,7 +2931,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/khanacademy/jobs/8412438",
-   "crawled_at": "2026-11-26T17:39:30.017178+00:00"
+   "crawled_at": "2026-11-27T17:23:04.507187+00:00"
   },
   {
    "job_id": "greenhouse:8324482",
@@ -2871,7 +2946,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324482",
-   "crawled_at": "2026-11-26T17:39:30.002152+00:00"
+   "crawled_at": "2026-11-27T17:23:04.482709+00:00"
   },
   {
    "job_id": "greenhouse:8324476",
@@ -2886,7 +2961,7 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8324476",
-   "crawled_at": "2026-11-26T17:39:30.002135+00:00"
+   "crawled_at": "2026-11-27T17:23:04.482682+00:00"
   },
   {
    "job_id": "greenhouse:8922693002",
@@ -2901,7 +2976,52 @@
    "senior": true,
    "source": "greenhouse",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922693002",
-   "crawled_at": "2026-11-26T17:39:30.001765+00:00"
+   "crawled_at": "2026-11-27T17:23:04.482081+00:00"
+  },
+  {
+   "job_id": "himalayas:https://himalayas.app/companies/snipki/jobs/content-lead-m-w-d-4610618128",
+   "title": "Content Lead (m/w/d)",
+   "company": "snipKI",
+   "region": "Austria, Germany, Switzerland",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/snipki/jobs/content-lead-m-w-d-4610618128?utm_source=api",
+   "crawled_at": "2026-11-27T17:23:04.473778+00:00"
+  },
+  {
+   "job_id": "arbeitnow:organic-growth-content-manager-berlin-382785",
+   "title": "Organic Growth & Content Manager",
+   "company": "Cosuno",
+   "region": "Berlin/Remote",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "content",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/cosuno/organic-growth-content-manager-berlin-382785",
+   "crawled_at": "2026-11-27T17:23:04.433572+00:00"
+  },
+  {
+   "job_id": "remoteok:1138148",
+   "title": "SEO - Manager",
+   "company": "Bounteous",
+   "region": "US Only",
+   "salary": null,
+   "has_salary": false,
+   "repl_kw": "seo",
+   "ai_skill_kw": "",
+   "needs_speaking": false,
+   "senior": true,
+   "source": "remoteok",
+   "url": "https://remoteOK.com/remote-jobs/remote-seo-manager-bounteous-1138148",
+   "crawled_at": "2026-11-27T17:23:04.426816+00:00"
   },
   {
    "job_id": "arbeitnow:organic-growth-manager-seo-ai-search-berlin-108729",
@@ -2917,21 +3037,6 @@
    "source": "arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/cosuno/organic-growth-manager-seo-ai-search-berlin-108729",
    "crawled_at": "2026-11-26T17:39:29.990710+00:00"
-  },
-  {
-   "job_id": "remoteok:1138148",
-   "title": "SEO - Manager",
-   "company": "Bounteous",
-   "region": "US Only",
-   "salary": null,
-   "has_salary": false,
-   "repl_kw": "seo",
-   "ai_skill_kw": "",
-   "needs_speaking": false,
-   "senior": true,
-   "source": "remoteok",
-   "url": "https://remoteOK.com/remote-jobs/remote-seo-manager-bounteous-1138148",
-   "crawled_at": "2026-11-26T17:39:29.967930+00:00"
   },
   {
    "job_id": "jobicy:163938",
@@ -4836,7 +4941,7 @@
    "senior": true,
    "source": "remotive",
    "url": "https://remotive.com/remote-jobs/marketing/content-creator-youtube-2091173",
-   "crawled_at": "2026-11-26T17:39:29.970184+00:00"
+   "crawled_at": "2026-11-27T17:23:04.429395+00:00"
   },
   {
    "job_id": "remoteok:1138129",
@@ -4851,7 +4956,7 @@
    "senior": true,
    "source": "remoteok",
    "url": "https://remoteOK.com/remote-jobs/remote-senior-seo-manager-remote-silverback-strategies-1138129",
-   "crawled_at": "2026-11-26T17:39:29.968521+00:00"
+   "crawled_at": "2026-11-27T17:23:04.427671+00:00"
   },
   {
    "job_id": "remoteok:1138130",
@@ -4866,7 +4971,7 @@
    "senior": true,
    "source": "remoteok",
    "url": "https://remoteOK.com/remote-jobs/remote-seo-manager-remote-silverback-strategies-1138130",
-   "crawled_at": "2026-11-26T17:39:29.968384+00:00"
+   "crawled_at": "2026-11-27T17:23:04.427475+00:00"
   },
   {
    "job_id": "himalayas:https://himalayas.app/companies/cisco/jobs/lead-technical-writer-isovalent",
@@ -4896,7 +5001,7 @@
    "senior": true,
    "source": "weworkremotely",
    "url": "https://weworkremotely.com/remote-jobs/stripe-briefing-content-strategist",
-   "crawled_at": "2026-11-26T17:39:30.119083+00:00"
+   "crawled_at": "2026-11-27T17:23:04.671387+00:00"
   },
   {
    "job_id": "arbeitnow:remote-senior-regulatory-labeling-artwork-consultant-anywhere-in-uk-165479",
